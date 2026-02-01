@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+  margin:0;
+  background:#222;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  font-family:Georgia, serif;
+} 
+
+.book{
+  width:96%;
+  height:90%;
+  background:#efe1b6;
+  border:8px solid #5a4632;
+  display:flex;
+}
+
+.page{
+  width:50%;
+  padding:28px;
+  box-sizing:border-box;
+}
+
+.page-indicator {
+  width: 120px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  color: #eee;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.page-indicator.active {
+  color: #fff;
+  text-shadow: 0 0 6px rgba(255,255,255,0.8);
+}
+
+.page-indicator:focus {
+  text-decoration: underline;
+}
+
+.left{
+  border-right:4px solid #5a4632;
+}
+
+.box{
+  border:3px solid #5a4632;
+  padding:14px;
+  margin-bottom:18px;
+}
+
+.name{
+  font-size:34px;
+  font-weight:bold;
+  text-align:center;
+}
+
+/* Apply pixel font to bookmark labels */
+.bookmark .label,
+.bookmark .num{
+  font-family: 'Press Start 2P', 'Courier New', monospace;
+  letter-spacing: 0.8px;
+  font-size:12px;
+}
+
+/* Level badge + name row */
+.name-row{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+}
+
+.level-badge{
+  width:44px;
+  height:36px;
+  border-radius:6px;
+  border:2px solid rgba(0,0,0,0.08);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:bold;
+  color:#fff;
+  font-size:14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  font-family: 'Press Start 2P', 'Courier New', monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* color variants */
+.level-badge.l1{ background:#d94b4b; }
+.level-badge.l2{ background:#3b82f6; }
+
+.grade{
+  text-align:center;
+  font-style:italic;
+  margin-bottom:20px;
+}
+
+.image-box{
+  width:260px;
+  height:320px;
+  margin:0 auto 24px auto;
+  perspective:1000px;
+}
+
+.flip-card{
+  width:100%;
+  height:100%;
+  background:#cdbf9a;
+  border:3px solid #5a4632;
+  position:relative;
+  cursor:pointer;
+  overflow: visible; /* allow scaled images to extend beyond card */
+} 
+
+.flip-inner{
+  position:relative;
+  width:100%;
+  height:100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-inner{
+  transform: rotateY(180deg);
+}
+
+.flip-front, .flip-back{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  backface-visibility:hidden;
+}
+
+.flip-back{
+  transform: rotateY(180deg);
+}
+
+.flip-front img, .flip-back img{
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  /* Prefer nearest-neighbor / pixelated scaling for pixel-art PNGs */
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor; /* IE */
+  /* Use a CSS variable so individual mobs can request a different base scale */
+  transform: scale(var(--img-scale, 1.05));
+  transform-origin: center center;
+  transition: transform 200ms ease;
+} 
+
+.flip-card:hover .flip-front img,
+.flip-card:hover .flip-back img{
+  /* hover slightly increases the base scale */
+  transform: scale(calc(var(--img-scale, 1.05) * 1.07));
+}
+
+.flip-card[aria-pressed="true"]{
+  outline: 3px solid rgba(255,255,255,0.12);
+}
+
+/* Bookmarks (left side tabs) */
+.bookmarks{
+  position:absolute;
+  left:-28px; /* sit outside the book border so it doesn't touch inner boxes */
+  top:40px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  z-index:45;
+}
+
+.bookmark{
+  width:44px;
+  height:40px;
+  border-radius:6px;
+  border:2px solid rgba(0,0,0,0.08);
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  cursor:pointer;
+  font-weight:bold;
+  box-shadow:0 2px 6px rgba(0,0,0,0.12);
+  padding-left:8px;
+  overflow:hidden;
+  transition: width 220ms ease, transform 220ms ease;
+}
+
+.bookmark:focus{ outline:3px solid rgba(90,70,50,0.12); }
+
+.bm1{ background: #d94b4b; color: #fff; }
+.bm2{ background: #3b82f6; color: #fff; }
+.bm3{ background: #3b82f6; color: #fff; }
+.bm4{ background: #5b21a8; color: #fff; }
+.bm5{ background: #000000; color: #fff; }
+.bm6{ background: #ffffff; color: #000000; }
+
+/* numeric pill and hidden label */
+.bookmark .num{
+  width:22px;
+  display:inline-block;
+  text-align:center;
+  color:inherit;
+}
+
+.bookmark .label{
+  margin-left:8px;
+  opacity:0;
+  color:inherit; /* inherit text color from bookmark for correct contrast */
+  white-space:nowrap;
+  transition: opacity 180ms ease, transform 180ms ease;
+  transform: translateX(-6px);
+  font-size:14px;
+}
+
+/* Slide-in behavior: translate container so it becomes visible but won't overlap inner boxes */
+.bookmark:hover{
+  transform: translateX(28px);
+  width:160px;
+}
+
+.bookmark:hover .label{
+  opacity:1;
+  transform: translateX(0);
+}
+
+/* Ensure bookmarks don't overlap the interior content on small heights */
+@media (max-height:640px){
+  .bookmarks{ top:20px; gap:8px; }
+  .bookmark{ width:38px; height:34px; }
+}
+
+.description{
+  font-size:16px;
+}
+
+h3{
+  margin-top:0;
+}
+
+ul{
+  padding-left:20px;
+}
+
+.nav{
+  margin-top:8px;
+  color:#eee;
+}
+
+button{
+  background:#5a4632;
+  color:white;
+  border:none;
+  padding:6px 14px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+/* Drop image (inline next to "Drops:") */
+.drop-img{
+  width:44px;              /* set desired size */
+  height:auto;
+  vertical-align:middle;  /* align with text */
+  margin-left:8px;
+  border:2px solid #5a4632;
+  display:inline-block;
+  cursor:pointer;
+  /* Keep drop icons crisp when scaled */
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor; /* IE */
+}
+
+/* Drop tooltip styled with pixel font */
+.drop-tooltip{
+  position: fixed;
+  z-index: 9999;
+  display: none; /* shown by JS */
+  pointer-events: none; /* allow clicks through */
+  background: rgba(0,0,0,0.92);
+  color: #fff;
+  border: 2px solid #5a4632;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-family: 'Press Start 2P', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.drop-tooltip[aria-hidden="false"]{ display:block; }
+
+/* Search UI */
+.search-btn{
+  position:absolute;
+  right:18px;
+  top:12px;
+  width:44px;
+  height:44px;
+  border-radius:8px;
+  background:#5a4632;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:20px;
+  z-index:40;
+}
+
+.search-popup{
+  position:absolute;
+  right:12px;
+  top:62px;
+  width:380px;
+  max-height:420px;
+  background:#efe1b6;
+  border:3px solid #5a4632;
+  box-shadow:0 6px 18px rgba(0,0,0,0.3);
+  padding:12px;
+  box-sizing:border-box;
+  z-index:40;
+  display:none;
+  flex-direction:column;
+}
+
+.search-popup[aria-hidden="false"]{
+  display:flex;
+}
+
+.search-header{
+  display:flex;
+  gap:8px;
+}
+
+.search-input{
+  flex:1;
+  padding:10px 12px;
+  border:2px solid #5a4632;
+  font-size:15px;
+  border-radius:6px;
+}
+
+.search-close{
+  width:36px;
+  padding:6px;
+}
+
+.search-results{
+  margin:10px 0 0 0;
+  padding:0;
+  list-style:none;
+  overflow:auto;
+  max-height:320px;
+}
+
+.search-results li{
+  padding:10px 12px;
+  border-bottom:1px solid rgba(90,70,50,0.08);
+  cursor:pointer;
+  font-size:15px;
+}
+
+.search-results li:hover{
+  background:rgba(90,70,50,0.06);
+}

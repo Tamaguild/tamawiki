@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Book UI</title>
+<link rel="stylesheet" href="front.css">
+</head>
+
+<body>
+
+<div class="book">
+  <!-- Search button (top-right corner) -->
+  <button id="searchBtn" class="search-btn" title="Search Mob">🔍</button>
+
+  <!-- Search popup -->
+  <div id="searchPopup" class="search-popup" aria-hidden="true">
+    <div class="search-header">
+      <input id="searchInput" class="search-input" placeholder="Type relic name..." aria-label="Search relic by name" />
+      <button id="searchClose" class="search-close" title="Close">✖</button>
+    </div>
+    <ul id="searchResults" class="search-results" role="listbox" aria-label="Search results"></ul>
+  </div>
+  <!-- LEFT PAGE -->
+  <!-- Bookmarks (left side) -->
+  <div class="bookmarks" aria-hidden="false">
+    <button class="bookmark bm1" data-page="1" title="Go to page 1"><span class="num">1</span><span class="label">Layer 1</span></button>
+    <button class="bookmark bm2" data-page="16" title="Go to page 16"><span class="num">2</span><span class="label">Layer 2</span></button>
+    <button class="bookmark bm3" data-page="20" title="Go to page 20"><span class="num">3</span><span class="label">L2 (IT)</span></button>
+    <button class="bookmark bm4" data-page="26" title="Go to page 26"><span class="num">4</span><span class="label">Layer 3</span></button>
+    <button class="bookmark bm5" data-page="34" title="Go to page 34"><span class="num">5</span><span class="label">Layer 4</span></button>
+    <button class="bookmark bm6" data-page="44" title="Go to page 44"><span class="num">6</span><span class="label">Layer 5</span></button>
+  </div> 
+
+  <div class="page left">
+    <div class="box name-row">
+      <div class="level-badge" id="levelBadge" aria-hidden="true"></div>
+      <div class="name" id="div1"></div>
+    </div>
+    <div class="grade" id="div4"></div>
+
+    <!-- IMAGE PLACEHOLDER (giữ layout, không dùng data) -->
+    <div class="image-box">
+      <div id="flipCard" class="flip-card" role="button" tabindex="0" aria-pressed="false" title="Click to flip">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <img id="imgA" src="" alt="Relic image A">
+          </div>
+          <div class="flip-back">
+            <img id="imgB" src="" alt="Relic image B">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box description" id="div3"></div>
+  </div>
+
+  <!-- RIGHT PAGE -->
+  <div class="page right">
+    <div class="box">
+      <h3>Details</h3>
+      <ul id="div5"></ul>
+    </div>
+
+    <div class="box">
+      <h3>Extra</h3>
+      <div id="div6"></div>
+    </div>
+  </div>
+</div>
+
+<div class="nav">
+  <button onclick="prev()">◀</button>
+  <input id="page" class="page-indicator" />
+  <button onclick="next()">▶</button>
+</div>
+
+<!-- ⚠️ DÒNG QUAN TRỌNG -->
+<script type="module" src="back.js"></script>
+
+</body>
+</html>
