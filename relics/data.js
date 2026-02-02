@@ -7,7 +7,7 @@ export const DATA = [
     details: "- Passive: Grant speed boost randomly",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> /*change the Avatar in the avatar box, to add more tips, copy the prompt from line 9 to line 14*/
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
         <div class="tip-box">
           tuh.
         </div>
@@ -20,6 +20,7 @@ export const DATA = [
         </div>
       </div>
     `
+    /*change the Avatar in the avatar box, to add more tips, copy the prompt from line 9 to line 14*/
   },
   {
     name: "Nil Spout",
