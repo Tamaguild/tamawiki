@@ -5,7 +5,21 @@ export const DATA = [
     description: "Stories have been passed around about a Cave Raider who used this Relic to keep himself constantly awake through his expeditions.<br><br>Layer 1 & 2",
     grade: "Grade 4",
     details: "- Passive: Grant speed boost randomly",
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> /*change the Avatar in the avatar box, to add more tips, copy the prompt from line 9 to line 14*/
+        <div class="tip-box">
+          tuh.
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/block_oc.png" alt="Tip avatar">
+        <div class="tip-box">
+          Im a frog.
+        </div>
+      </div>
+    `
   },
   {
     name: "Nil Spout",
