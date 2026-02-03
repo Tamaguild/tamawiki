@@ -200,7 +200,14 @@ export const DATA = [
     description: "Derived from technology recovered from Interference Units, this mask bends light around its wearer, but inexplicably not itself.<br><br>Layer 3",
     grade: "Grade 3",
     details: "- Passive: Grants invisibility<br>- User emits white particle aura while invisible",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Extremely good when you're naked, wink wink.
+        </div>
+      </div>
+       `
   },
   {
     name: "Mermaid Burp",
