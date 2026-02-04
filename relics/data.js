@@ -7,7 +7,7 @@ export const DATA = [
     details: "- Passive: Grant speed boost randomly",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Pretty good for traveling. I use this one a lot before Relic 2.0
         </div>
@@ -29,7 +29,14 @@ export const DATA = [
     description: "Some collectors consider this Relic lesser than its peers for producing ‘Too much water.’<br><br>Layer 1",
     grade: "Grade 4",
     details: "- On right click, turn a dirt block to mud<br>- Fill 1 level of water in cauldron",
-    extra: "Tip2"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Unlimited wata !?
+        </div>
+      </div>
+    `
   },
   {
     name: "Rock Top",
@@ -38,7 +45,14 @@ export const DATA = [
     description: "Fanatics posture that even if the world itself were to stop spinning, Rock Top would not.<br><br>Layer 1",
     grade: "Grade 4",
     details: "- On right click, do a funny dance",
-    extra: "Tip3"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I cant find a reason to use this one.
+        </div>
+      </div>
+    `
   },
   {
     name: "Cradle of Fertility",
@@ -47,7 +61,14 @@ export const DATA = [
     description: "The mysterious humming sound this orb produces is cited as a cause of its apparent worship in ancient societies.<br><br>Layer 1 & 2",
     grade: "Grade 4",
     details: "- On right click, increase growing stage on all crops or saplings in an area",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          You can use this one for tree farming, by place a lot saplings near ya, it can speed up the process and save you a lot bone meal
+        </div>
+      </div>
+    `
   },
   {
     name: "Damage Sphere",
@@ -56,7 +77,14 @@ export const DATA = [
     description: "It is an egg-shaped relic with white and grey patterns on its surface. It has a smooth texture and produces cracking noises when pressure is applied.<br><br>Layer 1",
     grade: "Grade 4",
     details: "- On right click, throw and deal 20 damage",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Decent dmg for early game, thats all i guess?
+        </div>
+      </div>
+    `
   },
   {
     name: "Spread Sphere",
@@ -65,7 +93,14 @@ export const DATA = [
     description: "It is an egg-shaped relic with grey patterns on its surface. It has a rigid texture and produces cracking noises when pressure is applied.<br><br>Layer 2",
     grade: "Grade 4",
     details: "- Shoots multiple projectiles after being thrown",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Can use to counter some mobs like inbyos or stinger.
+        </div>
+      </div>
+    `
   },
   {
     name: "Shirbiri Maku",
@@ -74,7 +109,14 @@ export const DATA = [
     description: "It is not recommended to attach this implement to any other part of one’s body than the arm or hand.<br><br>Layer 3",
     grade: "Grade 4",
     details: "- Passive: Grants a short damage modifier at random intervals (1.2x)",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Best relic sur, 20% dmg is a lot.
+        </div>
+      </div>
+    `
   },
   {
     name: "Magnet Sphere",
@@ -83,7 +125,14 @@ export const DATA = [
     description: "It is an egg-shaped relic with strange green patterns on its surface. It has a smooth texture and produces cracking noises when pressure is applied.<br><br>Layer 3",
     grade: "Grade 4",
     details: "- Capable of pulling creatures towards you",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+           I never saw it pull creature :tuh:
+        </div>
+      </div>
+    `
   },
   {
     name: "AOE Sphere",
@@ -92,7 +141,14 @@ export const DATA = [
     description: "It is an egg-shaped relic with black patterns on its surface. It has a smooth texture and produces cracking noises when pressure is applied.<br><br>Layer 4",
     grade: "Grade 4",
     details: "- On right click, throw and deal AOE damage",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This one, i didnt found any special use on it 
+        </div>
+      </div>
+    `
   },
   {
     name: "Morinaut Shell",
@@ -101,16 +157,14 @@ export const DATA = [
     description: "Cave Raiders have long tried and failed to use this Relic to swim through the Sea of Corpses. Will you be the first?<br><br>Layer 4",
     grade: "Grade 4",
     details: "- On right click, grant Dolphin Grace",
-    extra: "Tip4"
-  },
-  {
-    name: "Lure Sphere",
-    imga: "img/lure_sphere.png",
-    imgb: "Placeholder4.1",
-    description: "The device emits an irresistible signal that draws creatures toward its point of impact.<br><br>Layer 4",
-    grade: "Grade 4",
-    details: "- On use, attracts nearby creatures to the thrown location",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Was even better in the past :thinking:. Got nerfed, still good but i mean not that good :shrug:
+        </div>
+      </div>
+    `
   },
   {
     name: "Dew-Cress Knots",
@@ -119,7 +173,14 @@ export const DATA = [
     description: "This Relic is regarded as an illicit substance in the city of Orth, but laws tend to be overlooked in the Abyss.<br><br>Layer 5",
     grade: "Grade 4",
     details: "- On right click, grant Strength, Speed, and Jump Boost<br>- Causes constant health drain while active",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          You can use it to show your cool relic name by use it and /kms right after
+        </div>
+      </div>
+    `
   },
     {
     name: "Nerve-Tuned Fiber",
@@ -128,7 +189,14 @@ export const DATA = [
     description: "Bearers of this organic armor describe wearing it as disgusting, though some insist it makes them feel less alone in the vast Abyss.<br><br>Layer 5",
     grade: "Grade 4",
     details: "- Passive: Grants permanent Haste I while equipped<br>- Causes random jumps and camera flickering",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This one is annoying 
+        </div>
+      </div>
+    `
   },
   {
     name: "Sun Sphere",
@@ -137,7 +205,14 @@ export const DATA = [
     description: "It is an egg-shaped relic with golden patterns on its surface. It has a complicated texture and produces cracking noises under pressure.<br><br>Layer 5",
     grade: "Grade 4",
     details: "- On right click, throw and stun enemies for a short time",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Can be use to stop some combo instantly
+        </div>
+      </div>
+    `
   },
   {
     name: "Petrifying Stone",
@@ -146,7 +221,14 @@ export const DATA = [
     description: "A foreign composer once introduced this Relic into his orchestra. Shortly after, several of his woodwinds quit.<br><br>Layer 1",
     grade: "Grade 3",
     details: "- On right click, apply Slowness II to all players including user<br>- After a short time, increases to Slowness IV",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I have some idea with it, like combine it with ball lightning or weight of the world, but never try.
+        </div>
+      </div>
+    `
   },
   {
     name: "Wanabushi",
@@ -155,7 +237,14 @@ export const DATA = [
     description: "Researchers speculate that this automated sentry was a precursor to the larger, more imposing Interference Unit.<br><br>Layer 1 & 2",
     grade: "Grade 3",
     details: "- On right click, summons a vine-shooter inspired automata",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          You can use it to charge ur Yūkonokage.
+        </div>
+      </div>
+    `
   },
   {
     name: "Ray-healing Plate",
@@ -164,7 +253,14 @@ export const DATA = [
     description: "Holders of this Relic report that it feels warm and comfortable to the touch, even in cold climates.<br><br>Layer 1",
     grade: "Grade 3",
     details: "- Passive: Heals based on light level<br>- Restores 0.5 heart per second in bright areas",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Decent healing, you can use it while traveling without food. 
+        </div>
+      </div>
+    `
   },
   {
     name: "Tactile Roots",
@@ -173,7 +269,14 @@ export const DATA = [
     description: "The perfect cave raiding boots for those with a green thumb… or toe?<br><br>Layer 2",
     grade: "Grade 3",
     details: "- Passive slot ability<br>- Grants movement bonuses depending on the block the user is standing on",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Uhh, i never found it but i guess it would be really good in some place in l5 and l4 right? 
+        </div>
+      </div>
+    `
   },
   {
     name: "Trebel Winds",
@@ -182,7 +285,14 @@ export const DATA = [
     description: "Researchers speculate that this Relic’s purpose was never to send oneself flying, but that never stopped anyone from using it that way.<br><br>Layer 3",
     grade: "Grade 3",
     details: "- Right click: fling the user vertically<br>- Left click: dash forward",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Combine it with weight of the world or just buy you another dash. 
+        </div>
+      </div>
+    `
   },
   {
     name: "Princess Bosom",
@@ -191,7 +301,14 @@ export const DATA = [
     description: "After decades of speculation, the Princess Bosom’s purpose has finally been found!<br><br>Layer 2",
     grade: "Grade 3",
     details: "- On right click, grants Absorption to the user<br>- Applies Confusion to nearby entities",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Good relic, i recommend you guy to find it in early game since 2 heart is a lot. 
+        </div>
+      </div>
+    `
   },
   {
     name: "Frayed Murmur",
@@ -207,6 +324,12 @@ export const DATA = [
           Extremely good when you're naked, wink wink.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This one is best for assasin sur. I swear i got trauma every time i saw end rod particale
+        </div>
+      </div>
        `
   },
   {
@@ -216,7 +339,14 @@ export const DATA = [
     description: "The air produced by this Relic has a notably fishy smell.<br><br>Layer 3",
     grade: "Grade 3",
     details: "- Passive: Grants permanent Water Breathing",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Wata Breathing withno downside?, take my money!
+        </div>
+      </div>
+    `
   },
   {
     name: "Symbiotic Water-Shrooms",
@@ -225,7 +355,14 @@ export const DATA = [
     description: "Doctors have failed to reach an agreement on the safety of fungi like these as medicine. Their efficacy, however, is beyond doubt.<br><br>Layer 4",
     grade: "Grade 3",
     details: "- On right click, heals in an AOE<br>- Healing allies is more effective than healing yourself",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Use it while travel with your friend i guess?
+        </div>
+      </div>
+    `
   },
   {
     name: "Tidal Spout",
@@ -234,7 +371,14 @@ export const DATA = [
     description: "This Relic has found use outside of the Abyss among sea captains wishing to speed up their boats.<br><br>Layer 4",
     grade: "Grade 3",
     details: "- On right click, consume XP to shoot a huge tidal wave<br>- Knocks back all entities in its path<br>- Pushes the user backward slightly",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          SUPER GOOD. It dont have any downside. Knock you back?, use them to retreat. The wave, flung ur opp 1 trillion block and let curse do the job. Have no wind up make it even better. Truly relic of the year sur.
+        </div>
+      </div>
+    `
   },
   {
     name: "Undying Wisp",
@@ -243,7 +387,14 @@ export const DATA = [
     description: "The sound produced by this seemingly-primitive rattle is enough to send chills down the spine of any who hear it.<br><br>Layer 5",
     grade: "Grade 3",
     details: "- On right click, wind up and shoot a projectile<br>- Stuns enemies hit for a short time",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Its alright, you can combine them with stun locked relic. Extra stun :yippe:
+        </div>
+      </div>
+    `
   },
   {
     name: "Gold-mending Wedge",
@@ -252,7 +403,14 @@ export const DATA = [
     description: "Outside of the Abyss, this Relic fetches a high price for its uses in chronic pain treatment.<br><br>Layer 1 & 2",
     grade: "Grade 2",
     details: "- Passive: When health drops below 3 hearts<br>- Grants Regeneration III for 10 seconds",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          What can i say, best passive healing relic of all time!
+        </div>
+      </div>
+    `
   },
   {
     name: "After Image",
@@ -261,7 +419,14 @@ export const DATA = [
     description: "The hard-light copies of projectiles produced by this Relic still hurt as though they were real.<br><br>Layer 2",
     grade: "Grade 2",
     details: "- Passive slot ability<br>- Bows and crossbows fire an additional damaging projectile",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I dont know if dev fix this one. But the arrow from this relic is quite faster than the original arrow itself. That make when you combine with "Breeze Pierce", it deal like 1/3 tru dmg cus the i-frame!
+        </div>
+      </div>
+    `
   },
   {
     name: "Gust Shot",
@@ -270,7 +435,14 @@ export const DATA = [
     description: "A key example of nature inspiring innovation, this handmade Relic one-ups even the creature it was inspired by.<br><br>Layer 3",
     grade: "Grade 2",
     details: "- On right click, wind up and fire a wind projectile<br>- Projectile explodes on impact, dealing damage and knockback",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Decent one. Dealing good dmg and knockback. Wind up make it quite slow to pull out.
+        </div>
+      </div>
+    `
   },
   {
     name: "Ball Lightning",
@@ -279,7 +451,14 @@ export const DATA = [
     description: "Only the battery powering this weapon is considered a Relic. The rest was added for unknown and certainly dangerous purposes.<br><br>Layer 4",
     grade: "Grade 2",
     details: "- On right click, wind up and fire a lightning ball<br>- Deals continuous shock damage on contact",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          May be can combine with slow or stun relic
+        </div>
+      </div>
+    `
   },
   {
     name: "Weight of the World",
@@ -288,7 +467,14 @@ export const DATA = [
     description: "The metal making up this weapon requires wielders to build up massive amounts of kinetic energy. It bears a high risk of personal injury in use.<br><br>Layer 4",
     grade: "Grade 2",
     details: "- Damage scales with falling distance<br>- Higher falls result in greater damage",
-    extra: "Tip4"
+    extra:  `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I dont think this one really good. The dmg is huge but really hard to pull this out.
+        </div>
+      </div>
+    `
   },
   {
   name: "Buddstone Tap",
@@ -297,7 +483,14 @@ export const DATA = [
   description: "The crystals produced by this Relic, though visually appealing, are remarkably fragile.<br><br>Layer 5",
   grade: "Grade 2",
   details: "On right click, take a wind up, shoot 5 ray that deal decent dmg",
-  extra: "Tip4"
+  extra:  `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Good one. Deal a lot dmg.
+        </div>
+      </div>
+    `
   },
   {
     name: "Detector Type I",
@@ -306,7 +499,14 @@ export const DATA = [
     description: "The perfect companion for the haughtiest of hunters, this mask makes sure to point out creatures it deems less valuable than the wearer.<br><br>Layer 5",
     grade: "Grade 2",
     details: "Passive: applies damage modifier (2 dmg) and glow effect to any mob the wearer is looking at",
-    extra: "Tip4"
+    extra:  `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Combine with Shribi Maru and walla, super ultimate mob farm relic set
+        </div>
+      </div>
+    `
   },
   {
     name: "Soul-Aiming Light",
@@ -315,7 +515,14 @@ export const DATA = [
     description: "A prototype device once wielded by the Sovereign of Dawn, discarded for unknown reasons.<br><br>Layer 5",
     grade: "Grade 2",
     details: "On right click, you got blind and glowing, then shoot some homing projectile, give slowness and glowing to the enemy got hit",
-    extra: "Tip4"
+    extra:  `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I dont have it. But from my perspective, this one is not that good.
+        </div>
+      </div>
+    `
   },
   {
     name: "Shifting Pike",
@@ -324,7 +531,14 @@ export const DATA = [
     description: "This Relic commonly finds its use supporting wielders of more offensively-focused relics, but is perfectly capable on its own as well.<br><br>Layer 1 & 2",
     grade: "Grade 1",
     details: "Right click 2 time to change mode:<br>Mode 1: Grant you strength 2 and speed 2<br>Mode 2: Grant 4 Absorption Heart in few secs and Regen 3 AOE<br>Mode 3: Plant a AOE Buff Zone, give you 4 health boost heart, regen 2, haste 3, strength 2, speed 2",
-    extra: "Tip4"
+    extra:`
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          My first g1. Pretty good and best healing relic in da game.
+        </div>
+      </div>
+    `
   },
   {
     name: "Capillary Pike",
@@ -333,7 +547,14 @@ export const DATA = [
     description: "Rather unceremoniously cobbled together from the remains of an Interference Unit, this sword carries on its user's mysterious directives.<br><br>Layer 1",
     grade: "Grade 1",
     details: "Right click after 10 hits to draw hp from surrounding enemies, granting user health boost, 2 hearts",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I dont have it. But i fought with this relic user a few time. Didnt tickle me.
+        </div>
+      </div>
+    `
   },
   {
     name: "Necrometallic Blade",
@@ -342,7 +563,14 @@ export const DATA = [
     description: "Researchers of the bacteria that inhabit this Relic advise wielders not to touch its blade under any circumstances.<br><br>Layer 2",
     grade: "Grade 1",
     details: "Builds poison stacks on target on left click. Creates poison cloud on right click.",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I dont have it. But i fought with this relic user a few tiem sur. It deal massive of poison dmg but yk, poison mean i-frame :tuh:
+        </div>
+      </div>
+    `
   },
   {
     name: "Breeze Piercer",
@@ -351,7 +579,14 @@ export const DATA = [
     description: "The air-storing implements along the shaft of this bow are capable of propelling an arrow surprisingly long distances.<br><br>Layer 2",
     grade: "Grade 1",
     details: "Builds poison stacks on target on left click. Creates poison cloud on right click.",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+           I try that before. Deal massive amount of dmg IF you hit 
+        </div>
+      </div>
+    `
   },
   {
     name: "Atlas Dignitas",
@@ -360,7 +595,14 @@ export const DATA = [
     description: "Silk Touch<br>Efficiency VI<br>The Relic has found success in the mining, construction and physical therapy industries, strangely enough.<br><br>Layer 3",
     grade: "Grade 1",
     details: "On right click, start consume your hunger in exchange of Haste 5",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I borrow it before. Best digging relic in the game. Must-have item for builder.
+        </div>
+      </div>
+    `
   },
   {
     name: "Cresent Hatchet",
