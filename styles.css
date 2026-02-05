@@ -4,6 +4,10 @@ body {
   font-family:Georgia, serif;
 }
 
+::-webkit-scrollbar { /* global scrollbar , the one on the right*/
+  width: 12px;
+}
+
 .wrapper {
   width: 1600px;
   margin: 0 auto;
@@ -95,12 +99,21 @@ body {
   border: 2px solid var(--border-brown);
   width: 1000px;
   height: 250px;
-  margin: 0 auto;
+  margin-top: 30px;
   padding: 20px;
   font-size: 20px;
-  color: #f6edd2;
+  color: #ffe596;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.changeLog::-webkit-scrollbar {
+  width: 12px;
+}
+
+.changeLog::-webkit-scrollbar-thumb {
+  background-color: #6b4e2d;
+  border-radius: 0;
 }
 
 .info {
