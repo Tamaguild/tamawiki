@@ -434,3 +434,16 @@ button{
 .emote {
   vertical-align: middle;
 }
+
+.go_back {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.go_back img {
+  width: 100px;
+  vertical-align: middle;
+
+}
