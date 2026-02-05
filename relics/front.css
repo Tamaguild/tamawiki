@@ -354,15 +354,16 @@ button{
   vertical-align: middle;
 }
 
-.go_back {
+#go_back {
   position: fixed;
   bottom: 70px;
   right: 20px;
   z-index: 1000;
+  transition: transform 0.2s ease;
 }
 
-.go_back img {
-  width: 100px;
+#go_back img {
+  width: 120px;
   vertical-align: middle;
 
 }
