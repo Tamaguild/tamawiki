@@ -123,7 +123,7 @@ export const DATA = [
     name: "Spiralsquid",
     imga: "mob_png/spiralsquid2d.png",
     imgb: "mob_gif/spiralsquid.gif",
-    description: " The Spiralsquid is a squid with a unique safe. Their meat is safe to eat. <br> <br> Found in Layer 1",
+    description: " The Spiralsquid is a squid with a unique shape. Their meat is safe to eat. <br> <br> Found in Layer 1",
     grade: "",
     details: "Drops:",
     drops: [
