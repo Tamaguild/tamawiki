@@ -1,6 +1,5 @@
 # tamawiki
-we luv Tama and wiki
-we sure do :D
-![Gem Emote](emotes/gem.png)
+![Gem Emote](main_img/abyss_img_test.jpg)
 
-<img src="emotes/gem.png" width="50" />
+![Gem Emote](emotes/gem.png)
+we luv Tama and wiki we sure do :D
