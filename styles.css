@@ -1,5 +1,7 @@
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   background: #efe1b6;            /*#efe1b6 */
   font-family:Georgia, serif;
 }
@@ -9,7 +11,7 @@ body {
 }
 
 .wrapper {
-  height: 3000px; /*test height to try the on scroll animations */
+  height: 500px; /*test height to try the on scroll animations */
   width: 1600px;
   margin: 0 auto;
 }
@@ -85,14 +87,19 @@ body {
 }
 
 .abyss {
-  background: var(--box-bg);
-  border: 2px solid var(--border-brown);
-  width: 370px;
-  height: 850px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 32px;
+    width: 100vw; 
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #000; 
+}
+
+.abyss img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .changeLog {
