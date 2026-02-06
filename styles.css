@@ -95,6 +95,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 }
 
 .abyss {
+  margin-top: 50px;
   width: 100vw; 
   position: relative;
   left: 50%;
@@ -108,6 +109,10 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
   width: 100%;
   height: auto;
   display: block;
+}
+
+.abyss img:hover {
+  filter: drop-shadow(0 0 15px rgba(211, 197, 7, 0.8));
 }
 
 .changeLog {
