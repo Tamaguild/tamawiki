@@ -346,4 +346,5 @@ goingbck.addEventListener("mouseout", unhover);
 function unhover(){
   goingbck.style.transform = "scale(1.0)";
   goingbck
-}
+} 
+//Duong I cant understand vietnamese comments :sob:
