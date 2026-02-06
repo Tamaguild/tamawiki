@@ -231,7 +231,7 @@ const goingbck = document.getElementById('go_back');
 
 goingbck.addEventListener("mouseover", hover);
 function hover(){
-  goingbck.style.transform = "scale(1.2)"; 
+  goingbck.style.transform = "scale(1.12)"; 
 }
 goingbck.addEventListener("mouseout", unhover);
 function unhover(){

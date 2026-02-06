@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #efe1b6;
+  background: #efe1b6;            /*#efe1b6 */
   font-family:Georgia, serif;
 }
 
@@ -15,8 +15,8 @@ body {
 }
 
 :root {
-  --border-brown: #8b6a3e;
-  --box-bg: #f6edd2;
+  --border-brown: #8b6a3e;    /*#8b6a3e*/
+  --box-bg: #f6edd2;    /*#f6edd2 */
 }
 
 .logo {
@@ -50,7 +50,7 @@ body {
 .btn {
   width: 150px;
   height: 45px;
-  background: #ffdd64;
+  background: #ffdd64;    /* #ffdd64*/
   border: 2px solid var(--border-brown);
   display: flex;
   justify-content: center;
@@ -62,7 +62,7 @@ body {
 }
 
 .btn:hover {
-  background: #fff797;
+  background: #fff797;    /* #fff797*/
   transform: scale(1.1);
 }
 
@@ -96,14 +96,14 @@ body {
 }
 
 .changeLog {
-  background: #3a2b1a;
+  background: #3a2b1a;    /* #3a2b1a*/
   border: 2px solid var(--border-brown);
   width: 1000px;
   height: 250px;
   margin-top: 30px;
   padding: 20px;
   font-size: 20px;
-  color: #ffe596;
+  color: #ffe596;   /* #ffe596*/
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -113,7 +113,7 @@ body {
 }
 
 .changeLog::-webkit-scrollbar-thumb {
-  background-color: #6b4e2d;
+  background-color: #6b4e2d;    /* #6b4e2d*/
   border-radius: 0;
 }
 
