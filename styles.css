@@ -1,4 +1,5 @@
 html, body {
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -6,13 +7,20 @@ html, body {
   font-family:Georgia, serif;
 }
 
+/* hide page scrollbar */
+html { scrollbar-width: none; } /* Firefox */
+body { -ms-overflow-style: none; } /* IE and Edge */
+body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Chrome */
+/* end hide page scrollbar */
+
 ::-webkit-scrollbar { /* global scrollbar , the one on the right*/
   width: 12px;
 }
 
 .wrapper {
-  height: 500px; /*test height to try the on scroll animations */
-  width: 1600px;
+ /*test height to try the on scroll animations */
+  width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -87,13 +95,13 @@ html, body {
 }
 
 .abyss {
-    width: 100vw; 
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    background: #000; 
+  width: 100vw; 
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: #000; 
 }
 
 .abyss img {
