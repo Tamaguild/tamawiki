@@ -444,7 +444,8 @@ button{
 
 #go_back {
   position: fixed;
-  bottom: 60px;
+  scale: 0.5;
+  bottom: 30px;
   right: 35px;
   z-index: 1000;
   transition: transform 0.2s ease;
