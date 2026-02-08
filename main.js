@@ -7,7 +7,7 @@ const layers = [
 ];
 
 function hover(event) {
-    const target = event.target; 
+    const target = event.target;
     target.style.transform = "scale(1.1)";
     target.style.transition = "transform 0.4s ease";
     target.style.zIndex = "100";
