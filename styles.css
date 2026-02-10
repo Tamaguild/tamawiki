@@ -1,16 +1,26 @@
-body {
+html, body {
+  width: 100%;
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   background: #efe1b6;            /*#efe1b6 */
   font-family:Georgia, serif;
 }
+
+/* hide page scrollbar */
+html { scrollbar-width: none; } /* Firefox */
+body { -ms-overflow-style: none; } /* IE and Edge */
+body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Chrome */
+/* end hide page scrollbar */
 
 ::-webkit-scrollbar { /* global scrollbar , the one on the right*/
   width: 12px;
 }
 
 .wrapper {
-  height: 3000px; /*test height to try the on scroll animations */
-  width: 1600px;
+ /*test height to try the on scroll animations */
+  width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -85,14 +95,32 @@ body {
 }
 
 .abyss {
-  background: var(--box-bg);
-  border: 2px solid var(--border-brown);
-  width: 370px;
-  height: 850px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 32px;
+  margin-top: 50px;
+  width: 100vw; 
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: #000; 
+}
+
+.abyss img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.abyss a img {
+  transition:
+    transform 0.4s ease,
+    opacity 0.2s ease;
+}
+
+.abyss img:hover {
+  filter: drop-shadow(0 0 15px rgba(211, 197, 7, 0.8));
+  -webkit-mask-image: radial-gradient(circle at center, black 80%, transparent 100%); 
+  /* Shadow test , might get deleted since its broken*/
 }
 
 .changeLog {
@@ -127,4 +155,48 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 24px;
+}
+
+.abyss a {
+  position: relative;
+}
+
+.abyss a img.hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.abyss a:hover img.normal {
+  opacity: 0;
+}
+
+.abyss a:hover img.hover {
+  opacity: 1;
+}
+
+@font-face {
+  font-family: 'abyssfont';
+  src: url('fonts/playhouse-medium.woff') format('woff');
+}
+
+.layer-title {
+  font-family: 'abyssfont';
+  position: absolute;
+  top: 10px;         
+  left: 50%;
+  z-index: 5; 
+  transform: translateX(-50%);
+  font-size: 36px;
+  color: #000;
+  text-shadow: 0 0 6px rgba(0,0,0,0.8);
+  pointer-events: none;    
+  white-space: nowrap;
+}
+
+.abyss a:hover .layer-title {
+  color: #fff7a8;
+  text-shadow: 0 0 10px rgba(255, 240, 120, 0.9);
 }
