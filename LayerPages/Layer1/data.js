@@ -18,7 +18,7 @@ export const DATA = {
     {
       id: 1,
       title: "Tip 1: Running :tuh:",
-      content: "Always try to avoid any fight at first, you can easily one-tap by some random birb :mogicrazy:."
+      content: "Always try to avoid any fight at first, you can easily be one-tap by some random bird :mogicrazy:."
     }
   ]
 };

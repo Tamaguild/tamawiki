@@ -1,7 +1,11 @@
 import { DATA } from "./data.js";
-import { emote } from "../../emoji.js";
+import { emote } from "/emoji.js";
 
-const DATA_VERSION = 2;
+/* ===== DEV MODE ===== */
+const DEV_MODE = true; 
+// khi deploy web thật -> đổi thành false
+
+const DATA_VERSION = 3;
 
 const basicHeader = document.getElementById("basicHeader");
 const basicContent = document.getElementById("basicContent");
@@ -15,20 +19,33 @@ const tipContent = document.getElementById("tipContent");
 let mustVisit;
 let tips;
 
-const savedVersion = localStorage.getItem("data_version");
+/* ===== LOAD DATA ===== */
 
-if (savedVersion != DATA_VERSION) {
+if (DEV_MODE) {
+    // luôn dùng data.js mới
     mustVisit = DATA.mustVisit;
     tips = DATA.tips;
 
-    localStorage.setItem("must_visit", JSON.stringify(mustVisit));
-    localStorage.setItem("tips", JSON.stringify(tips));
-    localStorage.setItem("data_version", DATA_VERSION);
 } else {
-    mustVisit = JSON.parse(localStorage.getItem("must_visit")) || DATA.mustVisit;
-    tips = JSON.parse(localStorage.getItem("tips")) || DATA.tips;
+    // dùng cache production
+    const savedVersion = localStorage.getItem("data_version");
+
+    if (savedVersion != DATA_VERSION) {
+        mustVisit = DATA.mustVisit;
+        tips = DATA.tips;
+
+        localStorage.setItem("must_visit", JSON.stringify(mustVisit));
+        localStorage.setItem("tips", JSON.stringify(tips));
+        localStorage.setItem("data_version", DATA_VERSION);
+    } else {
+        mustVisit =
+            JSON.parse(localStorage.getItem("must_visit")) || DATA.mustVisit;
+        tips =
+            JSON.parse(localStorage.getItem("tips")) || DATA.tips;
+    }
 }
 
+/* ===== TOGGLE ===== */
 function toggle(section) {
     section.style.display =
         section.style.display === "none" ? "block" : "none";
@@ -58,7 +75,9 @@ function renderPlaces() {
         placeContent.appendChild(div);
     });
 
-    localStorage.setItem("must_visit", JSON.stringify(mustVisit));
+    if (!DEV_MODE) {
+        localStorage.setItem("must_visit", JSON.stringify(mustVisit));
+    }
 }
 
 /* ===== TIPS ===== */
@@ -78,12 +97,16 @@ function renderTips() {
         tipContent.appendChild(div);
     });
 
-    localStorage.setItem("tips", JSON.stringify(tips));
+    if (!DEV_MODE) {
+        localStorage.setItem("tips", JSON.stringify(tips));
+    }
 }
 
+/* ===== EVENTS ===== */
 basicHeader.addEventListener("click", () => toggle(basicContent));
 placeHeader.addEventListener("click", () => toggle(placeContent));
 tipHeader.addEventListener("click", () => toggle(tipContent));
 
+/* ===== RENDER ===== */
 renderPlaces();
 renderTips();
