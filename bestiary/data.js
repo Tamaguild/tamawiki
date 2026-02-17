@@ -4,7 +4,7 @@ export const DATA = [
     name: "Beniguma",
     imga: "mob_png/beniguma2d.png",
     imgb: "mob_gif/beniguma.gif",
-    description: "A fluffy fox that love berries<br><br>Found in Layer 1",
+    description: "Fox-like creatures, they're both fluffy and irresistibly drawn to berries.<br><br>Found in Layer 1",
     grade: "",
     details: "Drops:",
     drops: [
@@ -24,7 +24,7 @@ export const DATA = [
     name: "Cyatoria",
     imga: "mob_png/cyatoria2d.png",
     imgb: "mob_gif/cyatoria.gif",
-    description: "A giant bird with blue wings, look a lot like Sawatari. It is said to live in the deepest parts of the Abyss, and can cross through the ascension strains that cause death. <br> <br> Found in Layer 1 & 2",
+    description: "Terrifying avian creatures, rumored to come from the 7th Layer - Final Maelstrom long ago, they are known to prey upon Hammerbeaks of the earlier layers. <br> <br> Found in Layer 1 & 2",
     grade: "★★★",
     details: "Drops:",
     drops: [
@@ -44,7 +44,7 @@ export const DATA = [
     name: "Fuwagi",
     imga: "mob_png/fuwagi2d.png",
     imgb: "mob_gif/fuwagi.gif",
-    description: "A harmless bunny. There is a myth that their foot can make an elixir grants the user the ability to leap much higher<br> <br> Found in Layer 1 & 2",
+    description: "Harmless bunny-like creatures. People claimed they can jump higher using an elixer made using it's foot.<br> <br> Found in Layer 1 & 2",
     grade: "",
     details: "Drops:",
     drops: [
@@ -65,7 +65,7 @@ export const DATA = [
     name: "Small Hammerbeak",
     imga: "mob_png/hammerbeak2d.png",
     imgb: "mob_gif/hammerbeak.gif",
-    description: "An avian species whose habitat extends from the surface down to the 4th Layer of The Abyss.[1] They are quite numerous and commonly seen in the most shallow areas of The Abyss<br> <br> Found in Layer 1 & 2 & 4",
+    description: "An avian sub-species whose habitat extends from the surface down to the 4th Layer of The Abyss. They are quite numerous and commonly seen in the earlier layers of The Abyss.<br> <br> Found in Layer 1 & 2 & 4",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -88,7 +88,7 @@ export const DATA = [
     imgaScale: 1.5,
     imgb: "mob_gif/hammerbeak.gif",
     imgbScale: 1.6,
-    description: "Adult variant of hammerbeak, it's beak is much larger and may cause confusion to the delver got hit<br> <br> Found in Layer 1 & 2 & 4",
+    description: "Another variant of hammerbeak, their beaks are much larger and may cause confusion to the delver got hit, commonly found in deeper layers.<br> <br> Found in Layer 1 & 2 & 4",
     grade: "★★★",
     details: "Drops:",
     drops: [
@@ -110,7 +110,7 @@ export const DATA = [
     name: "Man-toyer",
     imga: "mob_png/mantoyer2d.png",
     imgb: "mob_gif/mantoyer.gif",
-    description: "Man-toyers look like a weasel, they have spikes on their head, back, and hips. They have fluffy tails as thick and long as their bodies. <br> <br> Found in Layer 1",
+    description: "Weasel-like little menaces, their head, backs, and hips are covered with spikes. They have fluffy tails as thick and long as their bodies, which they often use as a distraction when attacked to prevent damage to their bodies.<br> <br> Found in Layer 1",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -131,7 +131,7 @@ export const DATA = [
     name: "Okibo",
     imga: "mob_png/okibo2d.png",
     imgb: "mob_gif/okibo.gif",
-    description: "Big, fluffy and very cute creature, this trusty guy can be a great companion. On top of that, their meat is very nutritious and delicious. <br> <br> Found in Layer Orth & 1",
+    description: "Big, fluffy and very cute creatures, these trusty guys can be great companions. On top of that, their meat is very nutritious and delicious. <br> <br> Found in Layer Orth & 1",
     grade: "",
     details: "Drops:",
     drops: [
@@ -151,7 +151,7 @@ export const DATA = [
     name: "Silkfang",
     imga: "mob_png/silkfang2d.png",
     imgb: "mob_gif/silkfang.gif",
-    description: " The Silkfang is a large insect that is occasionally seen within the 1st Layer of The Abyss. <br> <br> Found in Layer 1",
+    description: "Large insects occasionally seen within the first layer of the Abyss. They can spit and sting, causing a paralysis effect. Extremely territorial, they rarely leave their territory, so avoiding them is easy if you are cautious.<br> <br> Found in Layer 1",
     grade: "★★",
     details: "Drops:",
     drops: [
