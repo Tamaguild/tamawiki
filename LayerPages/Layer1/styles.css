@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../layer_img/layer1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@font-face {
+  font-family: 'abyssfont';
+  src: url('../../fonts/playhouse-medium.woff') format('woff');
+}
+
+.note {
+    width: 1000px;
+    max-width: 95%;
+    background: #f5e6c8;
+    padding: 50px;
+    box-shadow: 0 0 60px rgba(0,0,0,0.6);
+    border-radius: 8px;
+    color: #3e2f1c;
+}
+
+.mainTitle {
+    text-align: center;
+    font-family: 'abyssfont';
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.divider {
+    height: 2px;
+    background: #8b5a2b;
+    margin: 20px 0;
+}
+
+.sectionTitle {
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sectionTitle:hover {
+    opacity: 0.7;
+}
+
+.collapsible {
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.place {
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.place h3 {
+    margin: 5px 0;
+}
+
+.addBtn {
+    margin-top: 15px;
+    background: #8b5a2b;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+}
+
+.addBtn:hover {
+    opacity: 0.8;
+}
