@@ -847,4 +847,654 @@ export const DATA = [
     ],
     extra: "Tip1"
   },
+  {
+    name: "Neritantan",
+    imga: "mob_png/neritantan2d.png",
+    imgb: "mob_gif/neritantan.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Rinsipede",
+    imga: "mob_png/rinsipede2d.png",
+    imgb: "mob_gif/rinsipede.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Rockwalker",
+    imga: "mob_png/rockwalker2d.png",
+    imgb: "mob_gif/rockwalker.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Sakuranbo",
+    imga: "mob_png/sakuranbo2d.png",
+    imgb: "mob_gif/sakuranbo.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Splitjaw",
+    imga: "mob_png/splitjaw2d.png",
+    imgb: "mob_gif/splitjaw.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Squidfly",
+    imga: "mob_png/squidfly2d.png",
+    imgb: "mob_gif/squidfly.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Yomotsubi",
+    imga: "mob_png/yomotsubi.png",
+    imgb: "mob_gif/yomotsubi.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Hagamizukin",
+    imga: "mob_png/hagamizukin2d.png",
+    imgb: "mob_gif/hagamizukin.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Giant Hammerbeak",
+    imga: "mob_png/hammerbeak2d.png",
+    imgb: "mob_gif/hammerbeak.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Hashofu",
+    imga: "mob_png/hashofu2d.png",
+    imgb: "mob_gif/hashofu.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Horncrier",
+    imga: "mob_png/horncrier2d.png",
+    imgb: "mob_gif/horncrier.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Ikenosuke",
+    imga: "mob_png/ikenosuke2d.png",
+    imgb: "mob_gif/ikenosuke.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Kazura",
+    imga: "mob_png/kazura2d.png",
+    imgb: "mob_gif/kazura.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Kuongatari",
+    imga: "mob_png/kuongatari2d.png",
+    imgb: "mob_gif/kuongatari.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Makihige",
+    imga: "mob_png/makihige2d.png",
+    imgb: "mob_gif/makihige.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Onitsuchi",
+    imga: "mob_png/onitsuchi2d.png",
+    imgb: "mob_gif/onitsuchi.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Orb Piercer",
+    imga: "mob_png/orb_piercer2d.png",
+    imgb: "mob_gif/orbpiercer.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Rohana",
+    imga: "mob_png/rohana2d.png",
+    imgb: "mob_gif/rohana.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Shroombear",
+    imga: "mob_png/shroombear2d.png",
+    imgb: "mob_gif/shroombear.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Spiralsquid",
+    imga: "mob_png/spiralsquid2d.png",
+    imgb: "mob_gif/spiralsquid.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Spittleshrub",
+    imga: "mob_png/spittleshrub2d.png",
+    imgb: "mob_gif/spittleshrub.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Stinger",
+    imga: "mob_png/stinger2d.png",
+    imgb: "mob_gif/stinger.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Swarmshocker",
+    imga: "mob_png/swarmshocker2d.png",
+    imgb: "mob_gif/swarmshocker.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Tachikatana",
+    imga: "mob_png/tachikatana2d.png",
+    imgb: "mob_gif/tachikatana.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Uibuta",
+    imga: "mob_png/uibuta2d.png",
+    imgb: "mob_gif/uibuta.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Abyssal Snail",
+    imga: "mob_png/abyssal_snail2d.png",
+    imgb: "mob_gif/abyssal_snail.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Ashimite",
+    imga: "mob_png/ashimite2d.png",
+    imgb: "mob_gif/ashimite.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Chikyuoebi",
+    imga: "mob_png/chikyuoebi2d.png",
+    imgb: "mob_gif/chikyuoebi.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Demonfish",
+    imga: "mob_png/demonfish2d.png",
+    imgb: "mob_gif/demonfish.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Edusan",
+    imga: "mob_png/edusan2d.png",
+    imgb: "mob_gif/edusan.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Hagamizukin",
+    imga: "mob_png/hagamizukin2d.png",
+    imgb: "mob_gif/hagamizukin.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Hashofu",
+    imga: "mob_png/hashofu2d.png",
+    imgb: "mob_gif/hashofu.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Hisomukuro",
+    imga: "mob_png/hisomukuro2d.png",
+    imgb: "mob_gif/hisomukuro.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Horncrier",
+    imga: "mob_png/horncrier2d.png",
+    imgb: "mob_gif/horncrier.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Ikonia",
+    imga: "mob_png/ikonia2d.png",
+    imgb: "mob_gif/ikonia.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Kagi-Tachikiri",
+    imga: "mob_png/kagi_tachikiri2d.png",
+    imgb: "mob_gif/kagi_tachikiri.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Kuongatari",
+    imga: "mob_png/kuongatari2d.png",
+    imgb: "mob_gif/kuongatari.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Makihige",
+    imga: "mob_png/makihige2d.png",
+    imgb: "mob_gif/makihige.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Octoliar",
+    imga: "mob_png/octoliar2d.png",
+    imgb: "mob_gif/octoliar.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Onitsuchi",
+    imga: "mob_png/onitsuchi2d.png",
+    imgb: "mob_gif/onitsuchi.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Shiratsubi",
+    imga: "mob_png/shiratsubi2d.png",
+    imgb: "mob_gif/shiratsubi.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Spikewalker",
+    imga: "mob_png/spikewalker2d.png",
+    imgb: "mob_gif/spikewalker.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Stinger",
+    imga: "mob_png/stinger2d.png",
+    imgb: "mob_gif/stinger.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Stingerhead",
+    imga: "mob_png/stingerhead2d.png",
+    imgb: "mob_gif/stingerhead.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Swarmhoarder",
+    imga: "mob_png/swarmhoarder2d.png",
+    imgb: "mob_gif/swarmhoarder.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Swarmshocker",
+    imga: "mob_png/swarmshocker2d.png",
+    imgb: "mob_gif/swarmshocker.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Tachikatana",
+    imga: "mob_png/tachikatana2d.png",
+    imgb: "mob_gif/tachikatana.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Titanjaw",
+    imga: "mob_png/titanjaw2d.png",
+    imgb: "mob_gif/titanjaw.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Uibuta",
+    imga: "mob_png/uibuta2d.png",
+    imgb: "mob_gif/uibuta.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
+    name: "Virinsipede",
+    imga: "mob_png/virinsipede2d.png",
+    imgb: "mob_gif/virinsipede.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
 ];
