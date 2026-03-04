@@ -204,6 +204,7 @@ body{
 
 .bookmark:focus{ outline:3px solid rgba(90,70,50,0.12); }
 
+.bm0{ background: #fdac3b; color: #fff; }
 .bm1{ background: #d94b4b; color: #fff; }
 .bm2{ background: #3b82f6; color: #fff; }
 .bm3{ background: #3b82f6; color: #fff; }
