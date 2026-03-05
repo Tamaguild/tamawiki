@@ -1,5 +1,18 @@
 export const DATA = [
   {
+    name: "Okibo",
+    imga: "mob_png/okibo2d.png",
+    imgb: "mob_gif/okibo.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
     /*LAYER 1*/
     name: "Beniguma",
     imga: "mob_png/beniguma2d.png",
