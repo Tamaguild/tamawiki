@@ -1,5 +1,18 @@
 export const DATA = [
   {
+    name: "Okibo",
+    imga: "mob_png/okibo2d.png",
+    imgb: "mob_gif/okibo.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    ],
+    extra: "Tip1"
+  },
+  {
     /*LAYER 1*/
     name: "Beniguma",
     imga: "mob_png/beniguma2d.png",
@@ -285,7 +298,7 @@ export const DATA = [
   {
     name: "Woodcrier",
     imga: "mob_png/woodcrier2d.png",
-    imgb: "mob_gif/woodcrier.png",
+    imgb: "mob_gif/woodcrier.gif",
     description: " The Woodcrier is a deer-like creature. It quite hostile, use their speed and resin antler to attack. Even though their fur is really soft and can be use for decoration <br> <br> Found in Layer 1 & 2",
     grade: "★★★",
     details: "Drops:",
@@ -598,7 +611,7 @@ export const DATA = [
   {
     name: "Woodcrier",
     imga: "mob_png/woodcrier2d.png",
-    imgb: "mob_gif/woodcrier.png",
+    imgb: "mob_gif/woodcrier.gif",
     description: " The Woodcrier is a deer-like creature. It quite hostile, use their speed and resin antler to attack. Even though their fur is really soft and can be use for decoration <br> <br> Found in Layer 1 & 2",
     grade: "★★★",
     details: "Drops:",
@@ -650,7 +663,7 @@ export const DATA = [
   },
   {
     name: "Inbyo",
-    imga: "mob_png/inbyoe2d.png",
+    imga: "mob_png/inbyo2d.png",
     imgb: "mob_gif/inbyo.gif",
     description: " The Inbyo is primate creature. Their skillful hand let them climb, throw with their sharp claws make them actual dangerous threat in Layer 2 <br> <br> Found in Layer 2 (Inverted Tree)",
     grade: "★",
@@ -731,7 +744,7 @@ export const DATA = [
   {
     name: "Buroguro",
     imga: "mob_png/buroguro2d.png",
-    imgb: "mob_gif/burogoro.gif",
+    imgb: "mob_gif/buroguro.gif",
     description: " The Buroguro is a firefly-like creature, which produce light in layer 3 caves. Be careful, their stinger contains various of dangerous poison<br> <br> Found in Layer 3",
     grade: "",
     details: "Drops:",
