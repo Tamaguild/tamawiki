@@ -456,3 +456,7 @@ button{
   vertical-align: middle;
 
 }
+
+#div5, #div5 * {
+    text-decoration: none;
+}
