@@ -4,7 +4,7 @@ export const DATA = [
     imga: "mob_png/okibo2d.png",
     imgb: "mob_gif/okibo.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -18,7 +18,7 @@ export const DATA = [
     imga: "mob_png/beniguma2d.png",
     imgb: "mob_gif/beniguma.gif",
     description: "Fox-like creatures, they're both fluffy and irresistibly drawn to berries.<br><br>Found in Layer 1",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/beniguma_fur.png", href: "../relic.html?item=beniguma_fur", alt: "Beniguma Fur" },
@@ -58,7 +58,7 @@ export const DATA = [
     imga: "mob_png/fuwagi2d.png",
     imgb: "mob_gif/fuwagi.gif",
     description: "Harmless bunny-like creatures. People claimed they can jump higher using an elixer made using it's foot.<br> <br> Found in Layer 1 & 2",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_fuwagi_meat.png", href: "../relic.html?item=fuwagi_meat", alt: "Fuwagi Meat" },
@@ -145,7 +145,7 @@ export const DATA = [
     imga: "mob_png/okibo2d.png",
     imgb: "mob_gif/okibo.gif",
     description: "Big, fluffy and very cute creatures, these trusty guys can be great companions. On top of that, their meat is very nutritious and delicious. <br> <br> Found in Layer Orth & 1",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/okibo_fur.png", href: "../relic.html?item=okibo_fur", alt: "Okibo Fur" },
@@ -186,7 +186,7 @@ export const DATA = [
     imga: "mob_png/spiralsquid2d.png",
     imgb: "mob_gif/spiralsquid.gif",
     description: " The Spiralsquid is a squid with a unique shape. Their meat is safe to eat. <br> <br> Found in Layer 1",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_spiralsquid.png", href: "../relic.html?item=spiralsquid_meat", alt: "Raw Spiralsquid" },
@@ -321,7 +321,7 @@ export const DATA = [
     imga: "mob_png/billabonk2d.png",
     imgb: "mob_gif/billabonk.gif",
     description: " The Billabonk is a small, frog-like creature lives in rainforest in the edge of l2 . <br> <br> Found in Layer 2",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
@@ -341,7 +341,7 @@ export const DATA = [
     imga: "mob_png/chimokami2d.png",
     imgb: "mob_gif/chimokami.gif",
     description: " The Chimokami is a small, fox-like creature that lives in the 2rd Layer of The Abyss. It have 3 tails which is really soft. Their fang is quite sharp so be careful. <br> <br> Found in Layer 2",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/chimokami_fang.png", href: "../relic.html?item=chimokami_fang", alt: "Chimokami Fang" },
@@ -416,7 +416,7 @@ export const DATA = [
     imga: "mob_png/fuwagi2d.png",
     imgb: "mob_gif/fuwagi.gif",
     description: "A harmless bunny. There is a myth that their foot can make an elixir grants the user the ability to leap much higher<br> <br> Found in Layer 1 & 2",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_fuwagi_meat.png", href: "../relic.html?item=fuwagi_meat", alt: "Fuwagi Meat" },
@@ -461,7 +461,7 @@ export const DATA = [
     imga: "mob_png/ikenosuke2d.png",
     imgb: "mob_gif/ikenosuke.gif",
     description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2 & 3",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -500,7 +500,7 @@ export const DATA = [
     imga: "mob_png/rohana2d.png",
     imgb: "mob_gif/rohana.gif",
     description: " The Rohana is a bug live in clean water area in Layer 2 and 4. These guys powder and tail can be use to make an elixir which is increase the user strength<br> <br> Found in Layer 2",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
@@ -557,7 +557,7 @@ export const DATA = [
     imga: "mob_png/tesuchi2d.png",
     imgb: "mob_gif/tesuchi.gif",
     description: " The Tesuchi is a reptile creature live in dark forests. Their scales and tail are edible ( kinda weird :D). Their scales can be use as an important ingredient for ancient template for forging<br> <br> Found in Layer 3",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/tesuchi_scales.png", href: "../relic.html?item=tesuchi_scales", alt: "Tesuchi Scales" },
@@ -627,7 +627,7 @@ export const DATA = [
     imga: "mob_png/billabonk2d.png",
     imgb: "mob_gif/billabonk.gif",
     description: " The Billabonk is a small, frog-like creature lives in rainforest in the edge of l2 . <br> <br> Found in Layer 2 ",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
@@ -653,7 +653,7 @@ export const DATA = [
     imga: "mob_png/ikenosuke2d.png",
     imgb: "mob_gif/ikenosuke.gif",
     description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -686,7 +686,7 @@ export const DATA = [
     imga: "mob_png/neritantan2d.png",
     imgb: "mob_gif/neritantan.gif",
     description: " The Neritantan is a creature live around Inverted Forest and Layer 3 grass area. Their primary diet consists of Baracocha fruits. Presumably because of this, their meat is described as very delicious, which makes them suitable for a wide range of dishes. <br> <br> Found in Layer 2 (Inverted Tree) & 3",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -712,7 +712,7 @@ export const DATA = [
     imga: "mob_png/rohana2d.png",
     imgb: "mob_gif/rohana.gif",
     description: " The Rohana is a bug live in clean water area in Layer 2 and 4. These guys powder and tail can be use to make an elixir which is increase the user strength<br> <br> Found in Layer 2",
-    grade: "",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
@@ -819,7 +819,7 @@ export const DATA = [
     imga: "mob_png/ikenosuke2d.png",
     imgb: "mob_gif/ikenosuke.gif",
     description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2 & 3",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -832,7 +832,7 @@ export const DATA = [
     imga: "mob_png/kakatsumuri2d.png",
     imgb: "mob_gif/kakatsumuri.gif",
     description: " The Kakatsumuri is a snail-like creature. They are super small and hard to find out. Their tip also is a really important to craft the ghostseeker<br> <br> Found in Layer 3",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -865,7 +865,7 @@ export const DATA = [
     imga: "mob_png/neritantan2d.png",
     imgb: "mob_gif/neritantan.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -904,7 +904,7 @@ export const DATA = [
     imga: "mob_png/sakuranbo2d.png",
     imgb: "mob_gif/sakuranbo.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -982,7 +982,7 @@ export const DATA = [
     imga: "mob_png/hashofu2d.png",
     imgb: "mob_gif/hashofu.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1008,7 +1008,7 @@ export const DATA = [
     imga: "mob_png/ikenosuke2d.png",
     imgb: "mob_gif/ikenosuke.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1021,7 +1021,7 @@ export const DATA = [
     imga: "mob_png/kazura2d.png",
     imgb: "mob_gif/kazura.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1047,7 +1047,7 @@ export const DATA = [
     imga: "mob_png/makihige2d.png",
     imgb: "mob_gif/makihige.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1086,7 +1086,7 @@ export const DATA = [
     imga: "mob_png/rohana2d.png",
     imgb: "mob_gif/rohana.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1099,7 +1099,7 @@ export const DATA = [
     imga: "mob_png/shroombear2d.png",
     imgb: "mob_gif/shroombear.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1112,7 +1112,7 @@ export const DATA = [
     imga: "mob_png/spiralsquid2d.png",
     imgb: "mob_gif/spiralsquid.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1190,7 +1190,7 @@ export const DATA = [
     imga: "mob_png/abyssal_snail2d.png",
     imgb: "mob_gif/abyssal_snail.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1203,7 +1203,7 @@ export const DATA = [
     imga: "mob_png/ashimite2d.png",
     imgb: "mob_gif/ashimite.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1242,7 +1242,7 @@ export const DATA = [
     imga: "mob_png/edusan2d.png",
     imgb: "mob_gif/edusan.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1268,7 +1268,7 @@ export const DATA = [
     imga: "mob_png/hashofu2d.png",
     imgb: "mob_gif/hashofu.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1307,7 +1307,7 @@ export const DATA = [
     imga: "mob_png/ikonia2d.png",
     imgb: "mob_gif/ikonia.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1346,7 +1346,7 @@ export const DATA = [
     imga: "mob_png/makihige2d.png",
     imgb: "mob_gif/makihige.gif",
     description: "Pluh",
-    grade: "★",
+    grade: "harmless",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
