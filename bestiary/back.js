@@ -188,7 +188,7 @@ function render() {
       levelBadge.classList.add('l2');
 
     } else if (pnum >= 36 && pnum <= 43) {
-      levelBadge.textContent = 'IT';
+      levelBadge.textContent = 'I.F';
       levelBadge.classList.add('l2');
 
     } else if (pnum >= 43 && pnum <= 58) {
