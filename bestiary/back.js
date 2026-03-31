@@ -169,22 +169,42 @@ function render() {
   updatePageText();
 
   if (levelBadge) {
-    const pnum = index + 1;
-    if (pnum >= 1 && pnum <= 15) {
+  const pnum = index + 1;
+
+  // reset class
+  levelBadge.classList.remove('l1','l2','l3','l4','l5','o');
+
+  // ORTH (ví dụ: page 0 hoặc bạn tự chỉnh điều kiện)
+  if (pnum === 1) {
+      levelBadge.textContent = 'O';
+      levelBadge.classList.add('o');
+
+    } else if (pnum >= 2 && pnum <= 16) {
       levelBadge.textContent = 'L1';
       levelBadge.classList.add('l1');
-      levelBadge.classList.remove('l2');
-      levelBadge.style.display = 'flex';
-    } else if (pnum >= 16 && pnum <= 34) {
+
+    } else if (pnum >= 17 && pnum <= 35) {
       levelBadge.textContent = 'L2';
       levelBadge.classList.add('l2');
-      levelBadge.classList.remove('l1');
-      levelBadge.style.display = 'flex';
+
+    } else if (pnum >= 36 && pnum <= 43) {
+      levelBadge.textContent = 'IT';
+      levelBadge.classList.add('l2');
+
+    } else if (pnum >= 43 && pnum <= 58) {
+      levelBadge.textContent = 'L3';
+      levelBadge.classList.add('l3');
+
+    } else if (pnum >= 59 && pnum <= 76) {
+      levelBadge.textContent = 'L4';
+      levelBadge.classList.add('l4');
+
     } else {
-      levelBadge.textContent = '';
-      levelBadge.classList.remove('l1', 'l2');
-      levelBadge.style.display = 'none';
+      levelBadge.textContent = 'L5';
+      levelBadge.classList.add('l5');
     }
+
+    levelBadge.style.display = 'flex';
   }
 }
 /* SEARCH UI */
@@ -348,3 +368,4 @@ function unhover(){
   goingbck
 } 
 //Duong I cant understand vietnamese comments :sob:
+//Sorry sir :patootie:

@@ -69,9 +69,16 @@ body{
 
 /* L2 badge */
 .layer {
-  width: 50px;
-  height: 30px;
+  /*width: 50px;*/
+  height: auto;
   border: none;                /* remove black box border */
+  display: grid;
+  gap: 4px;              
+  align-items: center;
+
+  grid-auto-flow: column;        
+  grid-auto-columns: max-content;
+
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,19 +87,26 @@ body{
   image-rendering: crisp-edges;
 
   color: transparent !important;
-  text-indent: -9999px;     /* hide any text */
-  overflow: hidden;
+  text-indent: -9999px;     /* hide any text */ 
+  /*overflow: hidden;*/
   white-space: nowrap;
+  height: 30px;
+  background: none;
+
 }
 
 .layer .badge {
-  width: 30px;        /* same as the slot box */
-  height: 30px;       /* same as the slot box */
+  width: 32px;        /* same as the slot box */
+  height: 32px;       /* same as the slot box */
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+
   image-rendering: pixelated;
   image-rendering: crisp-edges;
+
+  flex-shrink: 0; 
 }
 
 /* phần - Tesuchi */

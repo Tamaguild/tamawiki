@@ -7,7 +7,7 @@ const PATH = {
 const DATA = [
 {
   name: "Tesuchi Scales",
-  layer: "l2", // multiple badges
+  layer: "l0 l1 l2 l3 l4 l5", // multiple badges
   mob: "Tesuchi",
 
   image: PATH.mobdrop + "tesuchi_scales.png",

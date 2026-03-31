@@ -7,22 +7,20 @@ function render() {
   document.querySelector(".mob").innerText = "- " + item.mob;
 
   const layerElement = document.querySelector(".layer");
-  const layerValue = (item.layer || "l1").toLowerCase(); // e.g. "l2"
-  layerElement.innerText = layerValue.toUpperCase();      // optional label
-  layerElement.style.backgroundImage = `url("../assets/${layerValue}_badge.png")`;
-  layerElement.style.color = "#fff"; // if you want visible text over badge
-  // (or keep color transparent to hide text)
+
+  // clear badge cũ
+  layerElement.innerHTML = "";
 
   const rawLayer = (item.layer || "").toString().trim().toLowerCase();
   const layerList = rawLayer === "" ? ["orth"] : rawLayer.split(/\s+/);
 
-  layerList.forEach(layerValue => {
-    const clean = layerValue === "" ? "orth" : layerValue;
-    const imgName = `${clean}_badge.png`;
-    const badge = document.createElement("span");
+  layerList.forEach(lv => {
+    const clean = lv === "" ? "orth" : lv;
+  
+    const badge = document.createElement("img");
     badge.className = "badge";
-    badge.title = clean.toUpperCase();
-    badge.style.backgroundImage = `url("../assets/${imgName}")`;
+    badge.src = `../assets/${clean}_badge.png`;
+
     layerElement.appendChild(badge);
   });
 

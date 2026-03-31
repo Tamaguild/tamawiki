@@ -97,8 +97,12 @@ body{
 }
 
 /* color variants */
+.level-badge.o{ background:#FFD700; }
 .level-badge.l1{ background:#d94b4b; }
 .level-badge.l2{ background:#3b82f6; }
+.level-badge.l3{ background:#B54C90; }
+.level-badge.l4{ background:#5CA63F; }
+.level-badge.l5{ background:#437ACC; }
 
 .grade{
   text-align:center;
@@ -211,7 +215,7 @@ body{
 .bm4{ background: #5b21a8; color: #fff; }
 .bm5{ background: #000000; color: #fff; }
 .bm6{ background: #ffffff; color: #000000; }
-
+.bm7{ background: #5CA63F; color: #fff; }
 /* numeric pill and hidden label */
 .bookmark .num{
   width:22px;
