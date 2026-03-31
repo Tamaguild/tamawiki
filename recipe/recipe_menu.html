@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mob Drop Menu</title>
+<link rel="icon" type="image/x-icon" href="../general/textures/icons\orby.png">
+<link rel="stylesheet" href="style.css"> <!-- Did a separate file for the css for some cleanliness :D -->
+<link rel="icon" href="../general/textures/icons/orby.png">
+</head>
+<body>
+<div class="wrapper">
+  <div class="logo">
+    <img src="../logo.png" alt="TAMAWIKI LOGO">
+  </div>
+
+
+  <div class="buttonArea">
+    <div class="btn" onclick="window.location.href='./relics/relic.html';">RELIC</div>
+    <div class="btn" onclick="window.location.href='./bestiary/bestiary.html';">BESTIARY</div>
+    <div class="btn" onclick="window.location.href='./guide/guide.html';">GUIDE</div>
+  </div>
+  
+  <div class="toc-box">
+
+    <input type="text" id="searchInput" placeholder="Search item...">
+
+    <div id="tocList" class="toc-list"></div>
+
+  </div>
+</div>
+
+<div class="info">CONTACT INFO</div>
+
+</body>
+
+<script src="data.js"></script>
+<script src="script.js" defer></script>
+
+</html>

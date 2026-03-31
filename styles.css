@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-  height: 3000px; /*test height to try the on scroll animations */
+  height: 1300px; /*test height to try the on scroll animations */
   width: 1600px;
   margin: 0 auto;
 }
