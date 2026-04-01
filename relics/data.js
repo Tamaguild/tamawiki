@@ -702,7 +702,7 @@ export const DATA = [
     imgb: "Placeholder4.1",
     description: "The air-storing implements along the shaft of this bow are capable of propelling an arrow surprisingly long distances.<br><br>Layer 2",
     grade: "Grade 1",
-    details: "Builds poison stacks on target on left click. Creates poison cloud on right click.",
+    details: "Push you back for evasive and shoot a barrage of arrows when left clicked.",
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
@@ -783,7 +783,15 @@ export const DATA = [
     description: "The innate abilities carried by this dagger might make its use look effortless, but it's actually taxing on the wielder.<br><br>Layer 4",
     grade: "Grade 1",
     details: "Generate charges on-hit, increased damage at 7, right click to consume 10 charges and stun surrounding enemies",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/cry_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I hate this relic sir, Stun + High Dmg sword. ( Im just jealous atp )
+        </div>
+      </div>
+    `
+  },
   },
   {
     name: "Tranquil Pierce",
@@ -808,7 +816,15 @@ export const DATA = [
     description: "A spear-shaped object carved out of the core from a Goblet of Giants containing netherworld runes.<br><br>Layer 5",
     grade: "Grade 1",
     details: "Each swing with its jagged blade rends not just flesh—but the soul itself. When right-clicked and crouching, unleashes stored souls in a violent burst of spectral energy",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Tip for this one: Always count to 9 since 10 make the soul overload and gonna use all your souls. Another tip for who got chased by this relic user, most of time you gonna die anyways but try to bait the ammo, those are finite :mogicrazy:.
+        </div>
+      </div>
+    `
+  },
   },
   {
     name: "Subtle Pull",
@@ -817,7 +833,15 @@ export const DATA = [
     description: "The draw of the Abyss upon those who gaze into it is inescapable. This Relic makes that feeling palpable.<br><br>Layer 5",
     grade: "Grade 1",
     details: "On left click: Shoot 3 orbs that pull everything<br>CD: 25s<br>On right click: Shoot an orb that pulls everything then explodes<br>CD: 50s",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/clown_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          My favorite relic even tho its already out meta. Massive dmg but high wind up, meh you can still hide in the black holde it generate to heal, charge your weapon or just to finish your dinner while your opp waiting outside.
+        </div>
+      </div>
+    `
+  },
   },
   {
     name: "Shiver Mist",
@@ -826,7 +850,15 @@ export const DATA = [
     description: "The chemicals produced by this Relic maintain a cold enough temperature to freeze one solid, even in the hottest of climates.<br><br>Layer 5",
     grade: "Grade 1",
     details: "On right click: shoot an icy projectile that plants an ice trap, dealing damage and applying slowness<br>CD: 30s<br>On left click: shoot 3 waves of icy projectiles dealing heavy damage<br>CD: 40s",
-    extra: "Tip4"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/cry_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Plz Dev, I need this, this relic is trash of trash among the grade 1, tickle dmg, stun ( slowness is not a good stun ) and aoe dmg?, i prefer my trusty netherite sword. AND TO BE EVEN WORSE, it used ur xp :red_angry:
+        </div>
+      </div>
+    `
+  },
   }
 
 ];
