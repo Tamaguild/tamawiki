@@ -792,7 +792,6 @@ export const DATA = [
       </div>
     `
   },
-  },
   {
     name: "Tranquil Pierce",
     imga: "gif/tranquil_pierce.gif",
@@ -825,7 +824,6 @@ export const DATA = [
       </div>
     `
   },
-  },
   {
     name: "Subtle Pull",
     imga: "gif/subtle_pull.gif",
@@ -841,7 +839,6 @@ export const DATA = [
         </div>
       </div>
     `
-  },
   },
   {
     name: "Shiver Mist",
@@ -859,6 +856,5 @@ export const DATA = [
       </div>
     `
   },
-  }
 
 ];
