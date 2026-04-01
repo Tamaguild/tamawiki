@@ -665,7 +665,7 @@ export const DATA = [
     `
   },
   {
-    name: "Capillary Pike",
+    name: "Capillary Growth",
     imga: "gif/capillary_blade.gif",
     imgb: "Placeholder4.1",
     description: "Rather unceremoniously cobbled together from the remains of an Interference Unit, this sword carries on its user's mysterious directives.<br><br>Layer 1",
@@ -812,7 +812,7 @@ export const DATA = [
     name: "Yūkonokage",
     imga: "gif/yukonokage.gif",
     imgb: "Placeholder4.1",
-    description: "A spear-shaped object carved out of the core from a Goblet of Giants containing netherworld runes.<br><br>Layer 5",
+    description: "Discovered and named by a foreign Cave Raider, this scythe carries a long history of ruin. Will you carry on its legacy?<br><br>Layer 5",
     grade: "Grade 1",
     details: "Each swing with its jagged blade rends not just flesh—but the soul itself. When right-clicked and crouching, unleashes stored souls in a violent burst of spectral energy",
     extra: `
@@ -835,7 +835,7 @@ export const DATA = [
       <div class="tip">
         <img class="tip-avatar" src="avatar/clown_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
-          My favorite relic even tho its already out meta. Massive dmg but high wind up, meh you can still hide in the black holde it generate to heal, charge your weapon or just to finish your dinner while your opp waiting outside.
+          My favorite relic even tho its already out meta. Massive dmg but high wind up time, meh you can still hide in the black holde it generate to heal, charge your weapon or just to finish your dinner while your opp waiting outside.
         </div>
       </div>
     `
