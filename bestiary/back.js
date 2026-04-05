@@ -82,24 +82,47 @@ function render() {
   div3.innerHTML = emote(d.description || "");
   // Render drops (structured list) so images/links are easy to edit via data.js
   div5.innerHTML = '';
-  if (Array.isArray(d.drops) && d.drops.length) {
-    const li = document.createElement('li');
-    li.innerHTML = (
-      emote(d.details || '') + ' ' +
-      d.drops.map(dp =>
-        `<a href="${dp.href || '#'}" data-tooltip="${dp.alt || ''}">
-          <img src="${dp.src}" alt="${dp.alt || ''}" class="drop-img">
-        </a>`
-      ).join(' ')
-    ).trim();
-    div5.appendChild(li);
-    attachDropTooltips(li);
-  } else if (d.details) {
-    const li = document.createElement('li');
-    li.innerHTML = emote(d.details);
-    div5.appendChild(li);
-  }
 
+  if (Array.isArray(d.drops) && d.drops.length) {
+    const table = document.createElement('table');
+    table.className = 'drop-table';
+
+    table.innerHTML = `
+      <tr>
+        <th>Drop</th>
+        <th>Chance</th>
+        <th>Amount</th>
+      </tr>
+    `;
+
+    d.drops.forEach(dp => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>
+          <a href="${dp.href || '#'}" data-tooltip="${dp.alt || ''}">
+            <img src="${dp.src}" alt="${dp.alt || ''}">
+          </a>
+        </td>
+        <td>${dp.chance || "-"}</td>
+        <td>${dp.amount || "-"}</td>
+      `;
+      table.appendChild(tr);
+    });
+
+    div5.appendChild(table);
+    attachDropTooltips(table);
+  }
+  if (d.stats) {
+    const statsDiv = document.createElement('div');
+    statsDiv.className = 'mob-stats';
+
+    statsDiv.innerHTML = `
+      <div><b>HP:</b> ${d.stats.hp ?? "-"}</div>
+      <div><b>Type:</b> ${d.stats.type ?? "-"}</div>
+    `;
+
+    div5.appendChild(statsDiv);
+  }
   div6.innerHTML = emote(d.extra || "");
 
   function setImg(el, src, altSuffix) {

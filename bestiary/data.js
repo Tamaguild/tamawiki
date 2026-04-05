@@ -3,14 +3,37 @@ export const DATA = [
     name: "Okibo",
     imga: "mob_png/okibo2d.png",
     imgb: "mob_gif/okibo.gif",
-    description: "Pluh",
+    description: "Big, fluffy and very cute creatures, these trusty guys can be great companions. On top of that, their meat is very nutritious and delicious. <br> <br> Found in Layer Orth & 1",
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
-    ],
-    extra: "Tip1"
+      { 
+        src: "icondrop/okibo_fur.png",
+        href: "../recipe/item_list/okibo_fur/okibo_fur.html",
+        alt: "Okibo Fur",
+        chance: "60%",
+        amount: "1-2"
+      },
+      { 
+        src: "icondrop/raw_okibo_meat.png",
+        href: "../recipe/item_list/okibo_meat/okibo_meat.html",
+        alt: "Raw Okibo Meat",
+        chance: "70%",
+        amount: "1-2"
+      }
+     ],
+     stats: {
+       hp: 20,
+       type: "Passive"
+    },
+      extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Cutieeeeeee
+        </div>
+      </div>
+    `
   },
   {
     /*LAYER 1*/
@@ -20,10 +43,26 @@ export const DATA = [
     description: "Fox-like creatures, they're both fluffy and irresistibly drawn to berries.<br><br>Found in Layer 1",
     grade: "harmless",
     details: "Drops:",
-    drops: [
-      { src: "icondrop/beniguma_fur.png", href: "../relic.html?item=beniguma_fur", alt: "Beniguma Fur" },
-      { src: "icondrop/sweet_berries.png", alt: "Sweet Berries" }   
-    ],
+drops: [
+      { 
+        src: "icondrop/beniguma_fur.png",
+        href: "../recipe/item_list/beniguma_fur/beniguma_fur.html",
+        alt: "Beniguma Fur",
+        chance: "60%",
+        amount: "1-2"
+      },
+      { 
+        src: "icondrop/sweet_berries.png",
+        href: "../recipe/item_list/sweet_berries/sweet_berries.html",
+        alt: "Sweet Berries",
+        chance: "60%",
+        amount: "1-3"
+      }
+     ],
+     stats: {
+       hp: 8,
+       type: "Neutral"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
@@ -41,9 +80,25 @@ export const DATA = [
     grade: "★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_cyatoria_drumstick.png", href: "../relic.html?item=cyatoria_drumstick", alt: "Cyatoria Drumstick" },
-      { src: "icondrop/cyatoria_feather.png", href: "../relic.html?item=cyatoria_feather", alt: "Cyatoria Feather" }
-    ],
+      { 
+        src: "icondrop/raw_cyatoria_drumstick.png",
+        href: "../recipe/item_list/cyatoria_drumstick/cyatoria_drumstick.html",
+        alt: "Raw Cyatoria Drumstick",
+        chance: "100%",
+        amount: "1-2"
+      },
+      { 
+        src: "icondrop/cyatoria_feather.png",
+        href: "../recipe/item_list/cyatoria_feather/cyatoria_feather.html",
+        alt: "Cyatoria Feather",
+        chance: "70%",
+        amount: "1-4"
+      }
+     ],
+     stats: {
+       hp: 12.5,
+       type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -61,10 +116,32 @@ export const DATA = [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_fuwagi_meat.png", href: "../relic.html?item=fuwagi_meat", alt: "Fuwagi Meat" },
-      { src: "icondrop/fuwagi_foot.png", href: "../relic.html?item=fuwagi_foot", alt: "Fuwagi Foot" },
-      { src: "icondrop/fuwagi_hide.png", href: "../relic.html?item=fuwagi_hide", alt: "Fuwagi Hide" }
-    ],
+      { 
+        src: "icondrop/raw_fuwagi_meat.png",
+        href: "../recipe/item_list/raw_fuwagi_meat/raw_fuwagi_meat.html",
+        alt: "Raw Fuwagi Meat",
+        chance: "60%",
+        amount: "1-2"
+      },
+      { 
+        src: "icondrop/fuwagi_foot.png",
+        href: "../recipe/item_list/fuwagi_foot/fuwagi_foot.html",
+        alt: "Fuwagi Foot",
+        chance: "30%",
+        amount: "1-2"
+      },
+      { 
+        src: "icondrop/fuwagi_hide.png",
+        href: "../recipe/item_list/fuwagi_hide/fuwagi_hide.html",
+        alt: "Fuwagi Hide",
+        chance: "70%",
+        amount: "1"
+      },
+     ],
+     stats: {
+       hp: 5,
+       type: "Passive"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -82,10 +159,32 @@ export const DATA = [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/hammerbeak_feather.png", href: "../relic.html?item=hammerbeak_feather", alt: "Hammerbeak Feather" },
-      { src: "icondrop/hammerbeak_beak.png", href: "../relic.html?item=hammerbeak_beak", alt: "Hammerbeak Beak" },
-      { src: "icondrop/raw_hammerbeak_wing.png", href: "../relic.html?item=hammerbeak_wing", alt: "Hammerbeak Wing" }
+    { 
+      src: "icondrop/hammerbeak_feather.png",
+      href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
+      alt: "Hammerbeak Feather",
+      chance: "100%",
+      amount: "1-2"
+    },
+    { 
+      src: "icondrop/hammerbeak_beak.png",
+      href: "../recipe/item_list/hammerbeak_beak/hammerbeak_beak.html",
+      alt: "Hammerbeak Beak",
+      chance: "60%",
+      amount: "1"
+    },
+    { 
+      src: "icondrop/raw_hammerbeak_wing.png",
+      href: "../recipe/item_list/raw_hammerbeak_wing/raw_hammerbeak_wing.html",
+      alt: "Raw Hammerbeak Wing",
+      chance: "50%",
+      amount: "1-2"
+    },
     ],
+    stats: {
+     hp: 9,
+     type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -107,9 +206,42 @@ export const DATA = [
     drops: [
       { src: "icondrop/hammerbeak_feather.png", href: "../relic.html?item=hammerbeak_feather", alt: "Hammerbeak Feather" },
       { src: "icondrop/hammerbeak_beak.png", href: "../relic.html?item=hammerbeak_beak", alt: "Hammerbeak Beak" },
-      { src: "icondrop/hammerbeak_egg.png", href: "../relic.html?item=hammerbeak_egg", alt: "Hammerbeak Egg" },
       { src: "icondrop/raw_hammerbeak_wing.png", href: "../relic.html?item=hammerbeak_wing", alt: "Hammerbeak Wing" }
     ],
+      drops: [
+      { 
+        src: "icondrop/hammerbeak_feather.png",
+        href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
+        alt: "Hammerbeak Feather",
+        chance: "100%",
+        amount: "1-2"
+      },
+      { 
+        src: "icondrop/hammerbeak_beak.png",
+        href: "../recipe/item_list/hammerbeak_beak/hammerbeak_beak.html",
+        alt: "Hammerbeak Beak",
+        chance: "60%",
+        amount: "1"
+      },
+      { 
+        src: "icondrop/raw_hammerbeak_wing.png",
+        href: "../recipe/item_list/raw_hammerbeak_wing/raw_hammerbeak_wing.html",
+        alt: "Raw Hammerbeak Wing",
+        chance: "50%",
+        amount: "1-2"
+      },
+      { 
+        src: "icondrop/hammerbeak_egg.png",
+        href: "../recipe/item_list/hammerbeak_egg/hammerbeak_egg.html",
+        alt: "Hammerbeak Egg",
+        chance: "50%",
+        amount: "1-2"
+      },
+     ],
+     stats: {
+       hp: 20,
+       type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -129,8 +261,27 @@ export const DATA = [
     drops: [
       { src: "icondrop/mantoyer_fur.png", href: "../relic.html?item=mantoyer_fur", alt: "Man-toyer Fur" },
       { src: "icondrop/mantoyer_horn.png", href: "../relic.html?item=mantoyer_horn", alt: "Man-toyer Horn" },
-      { src: "icondrop/sweet_berries.png", alt: "Sweet Berries" }
     ],
+        drops: [
+    { 
+      src: "icondrop/mantoyer_fur.png",
+      href: "../recipe/item_list/mantoyer_fur/mantoyer_fur.html",
+      alt: "Man-toyer Fur",
+      chance: "60%",
+      amount: "1-2"
+    },
+    { 
+      src: "icondrop/mantoyer_horn.png",
+      href: "../recipe/item_list/mantoyer_horn/mantoyer_horn.html",
+      alt: "Man-toyer Horn",
+      chance: "60%",
+      amount: "1-2"
+    },
+    ],
+    stats: {
+     hp: 7.5,
+     type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -148,10 +299,26 @@ export const DATA = [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/okibo_fur.png", href: "../relic.html?item=okibo_fur", alt: "Okibo Fur" },
-      { src: "icondrop/raw_okibo_meat.png", href: "../relic.html?item=okibo_meat", alt: "Okibo Meat" }
-    ],
-    extra: `
+      { 
+        src: "icondrop/okibo_fur.png",
+        href: "../recipe/item_list/okibo_fur/okibo_fur.html",
+        alt: "Okibo Fur",
+        chance: "60%",
+        amount: "1-2"
+      },
+      { 
+        src: "icondrop/raw_okibo_meat.png",
+        href: "../recipe/item_list/okibo_meat/okibo_meat.html",
+        alt: "Raw Okibo Meat",
+        chance: "70%",
+        amount: "1-2"
+      }
+     ],
+     stats: {
+       hp: 20,
+       type: "Passive"
+    },
+      extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
@@ -168,10 +335,32 @@ export const DATA = [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/silkfang_silk.png", href: "../relic.html?item=silkfang_silk", alt: "Silkfang Silk" },
-      { src: "icondrop/silkfang_eye.png", href: "../relic.html?item=silkfang_eye", alt: "Silkfang Eye" },
-      { src: "icondrop/bundle_silkfang_silk.png", href: "../relic.html?item=silkfang_bundle", alt: "Bundle of silkfang silk" }
+    { 
+      src: "icondrop/silkfang_silk.png",
+      href: "../recipe/item_list/silkfang_silk/silkfang_silk.html",
+      alt: "Silkfang Silk",
+      chance: "60%",
+      amount: "1-2"
+    },
+    { 
+      src: "icondrop/silkfang_eye.png",
+      href: "../recipe/item_list/silkfang_eye/silkfang_eye.html",
+      alt: "Silkfang Eye",
+      chance: "60%",
+      amount: "1-2"
+    },
+    { 
+      src: "icondrop/bundle_silkfang_silk.png",
+      href: "../recipe/item_list/bundle_silkfang_silk/bundle_silkfang_silk.html",
+      alt: "Bundle of Silkfang Silk",
+      chance: "20%",
+      amount: "1"
+    },
     ],
+    stats: {
+     hp: 11,
+     type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -189,9 +378,25 @@ export const DATA = [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_spiralsquid.png", href: "../relic.html?item=spiralsquid_meat", alt: "Raw Spiralsquid" },
-      { src: "icondrop/ink_sac.png", alt: "Ink Sac" },
+    { 
+      src: "icondrop/raw_spiralsquid.png",
+      href: "../recipe/item_list/raw_spiralsquid/raw_spiralsquid.html",
+      alt: "Raw Spiralsquid",
+      chance: "100%",
+      amount: "1-2"
+    },
+    { 
+      src: "icondrop/ink_sac.png",
+      href: "../recipe/item_list/ink_sac/ink_sac.html",
+      alt: "Ink Sac",
+      chance: "",
+      amount: ""
+    },
     ],
+    stats: {
+     hp: 4,
+     type: "Passive"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -209,10 +414,32 @@ export const DATA = [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
-      { src: "icondrop/spittleshrub_root.png", href: "../relic.html?item=spittleshrub_root", alt: "Spittleshrub Root" },
-      { src: "icondrop/glow_berries.png", alt: "Glow Berries" },
+    { 
+      src: "icondrop/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "60%",
+      amount: "1-3"
+    },
+    { 
+      src: "icondrop/spittleshrub_root.png",
+      href: "../recipe/item_list/spittleshrub_root/spittleshrub_root.html",
+      alt: "Spittleshrub Root",
+      chance: "20%",
+      amount: "1"
+    },
+    { 
+      src: "icondrop/glow_berries.png",
+      href: "../recipe/item_list/glow_berries/glow_berries.html",
+      alt: "Glow Berries",
+      chance: "",
+      amount: ""
+    },
     ],
+    stats: {
+     hp: 10,
+     type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -230,12 +457,46 @@ export const DATA = [
     grade: "★★★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/splitjaw_gunk.png", href: "../relic.html?item=splitjaw_gunk", alt: "Splitjaw Gunk" },
-      { src: "icondrop/splitjaw_scales.png", href: "../relic.html?item=splitjaw_scales", alt: "Splitjaw Scales" },
-      { src: "icondrop/diamond.png", alt: "Diamond" },
-      { src: "icondrop/emerald.png", alt: "Emerald" },
-      { src: "icondrop/gold_ingot.png", alt: "Gold Ingot" },
+    { 
+      src: "icondrop/splitjaw_gunk.png",
+      href: "../recipe/item_list/splitjaw_gunk/splitjaw_gunk.html",
+      alt: "Splitjaw Gunk",
+      chance: "70%",
+      amount: "1-3"
+    },
+    { 
+      src: "icondrop/splitjaw_scales.png",
+      href: "../recipe/item_list/splitjaw_scales/splitjaw_scales.html",
+      alt: "Splitjaw Scales",
+      chance: "70%",
+      amount: "2"
+    },
+    { 
+      src: "icondrop/diamond.png",
+      href: "../recipe/item_list/diamond/diamond.html",
+      alt: "Diamond",
+      chance: "10%",
+      amount: "1"
+    },
+    { 
+      src: "icondrop/emerald.png",
+      href: "../recipe/item_list/emerald/emerald.html",
+      alt: "Emerald",
+      chance: "15%",
+      amount: "1"
+    },
+    { 
+      src: "icondrop/gold_ingot.png",
+      href: "../recipe/item_list/gold_ingot/gold_ingot.html",
+      alt: "Gold Ingot",
+      chance: "10%",
+      amount: "1"
+    },
     ],
+    stats: {
+     hp: 45,
+     type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -253,8 +514,18 @@ export const DATA = [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
+    { 
+      src: "icondrop/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "100%",
+      amount: "1-2"
+    },
     ],
+    stats: {
+     hp: 10,
+     type: "Hostile"
+    },
     extra: "Tip1"
   },
   {
@@ -265,8 +536,18 @@ export const DATA = [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
+    { 
+      src: "icondrop/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "100%",
+      amount: "1-2"
+    },
     ],
+    stats: {
+     hp: 8,
+     type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -284,8 +565,18 @@ export const DATA = [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
+    { 
+      src: "icondrop/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "100%",
+      amount: "1-2"
+    },
     ],
+    stats: {
+     hp: 10,
+     type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -306,6 +597,26 @@ export const DATA = [
       { src: "icondrop/woodcrier_horn.png", href: "../relic.html?item=woodcrier_horn", alt: "Woodcrier Horn" },
       {src: "icondrop/brown_wool.png", alt: "Brown Wool" },
     ],
+    drops: [
+    { 
+      src: "icondrop/woodcrier_horn.png",
+      href: "../recipe/item_list/woodcrier_horn/woodcrier_horn.html",
+      alt: "Woodcrier Horn",
+      chance: "60%",
+      amount: "1-2"
+    },
+    { 
+      src: "icondrop/brown_wool.png",
+      href: "../recipe/item_list/brown_wool/brown_wool.html",
+      alt: "Brown Wool",
+      chance: "60%",
+      amount: "1-3"
+    },
+    ],
+    stats: {
+     hp: 15,
+     type: "Hostile"
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -463,9 +774,8 @@ export const DATA = [
     description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2 & 3",
     grade: "harmless",
     details: "Drops:",
-    drops: [
+    drops: [  
       { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
     ],
     extra: `
       <div class="tip">
@@ -656,7 +966,7 @@ export const DATA = [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat | 60% | 1-2" },
       {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
     ],
     extra: "Tip1"
@@ -665,7 +975,7 @@ export const DATA = [
     name: "Inbyo",
     imga: "mob_png/inbyo2d.png",
     imgb: "mob_gif/inbyo.gif",
-    description: " The Inbyo is primate creature. Their skillful hand let them climb, throw with their sharp claws make them actual dangerous threat in Layer 2 <br> <br> Found in Layer 2 (Inverted Tree)",
+    description: " The Inbyo is primate creature. Their skillful hand let them climb, throw with their sharp claws make them actual dangerous threat in Layer 2 <br> <br> Found in Layer 2 (Inverted Forest)",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -685,7 +995,7 @@ export const DATA = [
     name: "Neritantan",
     imga: "mob_png/neritantan2d.png",
     imgb: "mob_gif/neritantan.gif",
-    description: " The Neritantan is a creature live around Inverted Forest and Layer 3 grass area. Their primary diet consists of Baracocha fruits. Presumably because of this, their meat is described as very delicious, which makes them suitable for a wide range of dishes. <br> <br> Found in Layer 2 (Inverted Tree) & 3",
+    description: " The Neritantan is a creature live around Inverted Forest and Layer 3 grass area. Their primary diet consists of Baracocha fruits. Presumably because of this, their meat is described as very delicious, which makes them suitable for a wide range of dishes. <br> <br> Found in Layer 2 (Inverted Forest) & 3",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -698,7 +1008,7 @@ export const DATA = [
     name: "Rockwalker",
     imga: "mob_png/rockwalker2d.png",
     imgb: "mob_gif/rockwalker.gif",
-    description: " The Rockwalker is an bug live around Inverted Forest and Layer 3 caves. Their shell evolve that even harder than rock to protect themselve from other threat <br> <br> Found in Layer 2 (Inverted Tree) & 3",
+    description: " The Rockwalker is an bug live around Inverted Forest and Layer 3 caves. Their shell evolve that even harder than rock to protect themselve from other threat <br> <br> Found in Layer 2 (Inverted Forest) & 3",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -711,7 +1021,7 @@ export const DATA = [
     name: "Rohana",
     imga: "mob_png/rohana2d.png",
     imgb: "mob_gif/rohana.gif",
-    description: " The Rohana is a bug live in clean water area in Layer 2 and 4. These guys powder and tail can be use to make an elixir which is increase the user strength<br> <br> Found in Layer 2",
+    description: " The Rohana is a bug live in clean water area in Layer 2 and 4. These guys powder and tail can be use to make an elixir which is increase the user strength<br> <br> Found in Layer 2(Inverted Forest) & 4",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -864,7 +1174,7 @@ export const DATA = [
     name: "Neritantan",
     imga: "mob_png/neritantan2d.png",
     imgb: "mob_gif/neritantan.gif",
-    description: "Pluh",
+    description: "The Neritantan is a creature live around Inverted Forest and Layer 3 grass area. Their primary diet consists of Baracocha fruits. Presumably because of this, their meat is described as very delicious, which makes them suitable for a wide range of dishes. <br> <br> Found in Layer 2 (Inverted Forest) & 3",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -877,7 +1187,7 @@ export const DATA = [
     name: "Rinsipede",
     imga: "mob_png/rinsipede2d.png",
     imgb: "mob_gif/rinsipede.gif",
-    description: "Pluh",
+    description: "A hostile centipede mob, their segments can be a pretty good source of bonemeal. They can be found in caves in Layer 3 and around Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -890,7 +1200,7 @@ export const DATA = [
     name: "Rockwalker",
     imga: "mob_png/rockwalker2d.png",
     imgb: "mob_gif/rockwalker.gif",
-    description: "Pluh",
+    description: "The Rockwalker is an bug live around Inverted Forest and Layer 3 caves. Their shell evolve that even harder than rock to protect themselve from other threat <br> <br> Found in Layer 2 (Inverted Forest) & 3",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -903,7 +1213,7 @@ export const DATA = [
     name: "Sakuranbo",
     imga: "mob_png/sakuranbo2d.png",
     imgb: "mob_gif/sakuranbo.gif",
-    description: "Pluh",
+    description: "A lizard mob which spawn in grass area in Layer 3. They are pretty chill and their powder can be use as explosive material and for brewing. <br> <br> Found in Layer 3",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -916,7 +1226,7 @@ export const DATA = [
     name: "Splitjaw",
     imga: "mob_png/splitjaw2d.png",
     imgb: "mob_gif/splitjaw.gif",
-    description: "Pluh",
+    description: "The Crimson Splitjaw is a giant scarlet red reptile with a serpentine body that primarily lives in the steep cliffs of the 3rd Layer of The Abyss. <br> <br> Found in Layer 1 & 2 & 3",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -929,7 +1239,7 @@ export const DATA = [
     name: "Squidfly",
     imga: "mob_png/squidfly2d.png",
     imgb: "mob_gif/squidfly.gif",
-    description: "Pluh",
+    description: "A flying insect, their disgusting brain suprisingly can boost the user mining speed when used as an ingredient for elixir. <br> <br> Found in Layer 3",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -942,7 +1252,7 @@ export const DATA = [
     name: "Yomotsubi",
     imga: "mob_png/yomotsubi.png",
     imgb: "mob_gif/yomotsubi.gif",
-    description: "Pluh",
+    description: "A bettle mob, they are hostile and their shooting attack can cause a huge shockwave which might lead to severe fall damage and cursed. <br> <br> Found in Layer 3",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -951,11 +1261,12 @@ export const DATA = [
     ],
     extra: "Tip1"
   },
+// LAYER 4
   {
     name: "Hagamizukin",
     imga: "mob_png/hagamizukin2d.png",
     imgb: "mob_gif/hagamizukin.gif",
-    description: "Pluh",
+    description: "A Fishy Mob, their ugly face represent their personality lol, bite really hurt but their meat is quite delicious. <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -968,7 +1279,7 @@ export const DATA = [
     name: "Giant Hammerbeak",
     imga: "mob_png/hammerbeak2d.png",
     imgb: "mob_gif/hammerbeak.gif",
-    description: "Pluh",
+    description: "Another variant of hammerbeak, their beaks are much larger and may cause confusion to the delver got hit, commonly found in deeper layers.<br> <br> Found in Layer 1 & 2 & 4",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -981,7 +1292,7 @@ export const DATA = [
     name: "Hashofu",
     imga: "mob_png/hashofu2d.png",
     imgb: "mob_gif/hashofu.gif",
-    description: "Pluh",
+    description: "A avian creature, I heard legends said they are some kind of phoenix and their body basically burning ash. Their eyes can be use for some ancient forging template. <br> <br> Found in Layer 4 & 5",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -994,8 +1305,8 @@ export const DATA = [
     name: "Horncrier",
     imga: "mob_png/horncrier2d.png",
     imgb: "mob_gif/horncrier.gif",
-    description: "Pluh",
-    grade: "★",
+    description: "A varient of Woodcrier, their horn is much harder and they are much faster. Pretty deadly. <br> <br> Found in Layer 4 & 5 ",
+    grade: "★★★★",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1007,7 +1318,7 @@ export const DATA = [
     name: "Ikenosuke",
     imga: "mob_png/ikenosuke2d.png",
     imgb: "mob_gif/ikenosuke.gif",
-    description: "Pluh",
+    description: "The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2 & 3 & 4",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1020,7 +1331,7 @@ export const DATA = [
     name: "Kazura",
     imga: "mob_png/kazura2d.png",
     imgb: "mob_gif/kazura.gif",
-    description: "Pluh",
+    description: "Small squid, their white ink sac isnt actually white :D. <br> <br> Found in Layer 4",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1033,8 +1344,8 @@ export const DATA = [
     name: "Kuongatari",
     imga: "mob_png/kuongatari2d.png",
     imgb: "mob_gif/kuongatari.gif",
-    description: "Pluh",
-    grade: "★",
+    description: "An insect mob, once it reach your body, they will lay their disgusting eggs inside you, and once those insects hatch, they will eat you from the inside out <br> <br> Found in Layer 4 & 5",
+    grade: "★★★★★",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1046,7 +1357,7 @@ export const DATA = [
     name: "Makihige",
     imga: "mob_png/makihige2d.png",
     imgb: "mob_gif/makihige.gif",
-    description: "Pluh",
+    description: "A giant octopus-like creature, their shell evolved to be able to withstand the pressure in deeper layer, therefor their shell is necessary for some ancient forging technique. And their tentacle and ink sac can be used in useful things. <br> <br> Found in Layer 4 & 5",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1059,7 +1370,7 @@ export const DATA = [
     name: "Onitsuchi",
     imga: "mob_png/onitsuchi2d.png",
     imgb: "mob_gif/onitsuchi.gif",
-    description: "Pluh",
+    description: "A avian creature, Their peak is even harder than the hammerbeak beak, you might able to use them for a substitute for flint lol :D <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1072,7 +1383,7 @@ export const DATA = [
     name: "Orb Piercer",
     imga: "mob_png/orb_piercer2d.png",
     imgb: "mob_gif/orbpiercer.gif",
-    description: "Pluh",
+    description: "A hedgehog-like creature, delvers consider it as ultimate despair, the worst nightmare of any delver in L4. Crazy damage and poison. Insane amount of spike and HP with tons of negative effect is what i can tell you. Even though their mask is used for backpacks. <br> <br> Found in Layer 4",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1085,7 +1396,7 @@ export const DATA = [
     name: "Rohana",
     imga: "mob_png/rohana2d.png",
     imgb: "mob_gif/rohana.gif",
-    description: "Pluh",
+    description: "he Rohana is a bug live in clean water area in Layer 2 and 4. These guys powder and tail can be use to make an elixir which is increase the user strength<br> <br> Found in Layer 2(Inverted Forest) & 4",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1098,7 +1409,7 @@ export const DATA = [
     name: "Shroombear",
     imga: "mob_png/shroombear2d.png",
     imgb: "mob_gif/shroombear.gif",
-    description: "Pluh",
+    description: "A silly pig, the parasite mushroom that co-exist with them is actually really useful if using the right way. Some ancient delver used them for healing serious wounds <br> <br> Found in Layer 4",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1111,7 +1422,7 @@ export const DATA = [
     name: "Spiralsquid",
     imga: "mob_png/spiralsquid2d.png",
     imgb: "mob_gif/spiralsquid.gif",
-    description: "Pluh",
+    description: "The Spiralsquid is a squid with a unique shape. Their meat is safe to eat. <br> <br> Found in Layer 1",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1124,8 +1435,8 @@ export const DATA = [
     name: "Spittleshrub",
     imga: "mob_png/spittleshrub2d.png",
     imgb: "mob_gif/spittleshrub.gif",
-    description: "Pluh",
-    grade: "★",
+    description: "Spittleshrub is a creature disguise as a bush. Their bite really hurt but the berries on their head are ediable <br> <br> Found in Layer 1 & 2 & 4",
+    grade: "★★",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1137,7 +1448,7 @@ export const DATA = [
     name: "Stinger",
     imga: "mob_png/stinger2d.png",
     imgb: "mob_gif/stinger.gif",
-    description: "Pluh",
+    description: "The Stinger is a common bug, live around L2 to L5. Their stings are poisonous <br> <br> Found in Layer 2 & 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1150,7 +1461,7 @@ export const DATA = [
     name: "Swarmshocker",
     imga: "mob_png/swarmshocker2d.png",
     imgb: "mob_gif/swarmshocker.gif",
-    description: "Pluh",
+    description: "Considered as the less dangerous variant of the swarmshocker, their shock still deadly enough to shock someone to death <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1163,7 +1474,7 @@ export const DATA = [
     name: "Tachikatana",
     imga: "mob_png/tachikatana2d.png",
     imgb: "mob_gif/tachikatana.gif",
-    description: "Pluh",
+    description: "A giant lobster-like creature. Their claws can produce a huge shockwave, blow eveything out of its way. Their claw also considered as a precious material, can handle the pressure of the deep sea. Their meat taste pretty good not gonna lie. <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1176,7 +1487,7 @@ export const DATA = [
     name: "Uibuta",
     imga: "mob_png/uibuta2d.png",
     imgb: "mob_gif/uibuta.gif",
-    description: "Pluh",
+    description: "A hippo alike mob, their fang is hard as hell and their bite hurt so bad. Even though their tough skin, their meat taste really good. <br> <br> Found in Layer 4",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1189,7 +1500,7 @@ export const DATA = [
     name: "Abyssal Snail",
     imga: "mob_png/abyssal_snail2d.png",
     imgb: "mob_gif/abyssal_snail.gif",
-    description: "Pluh",
+    description: "A snail-like creature, their shell is pretty useful for some jewelry and their gunks can be used for a kind of addictive substance. (DO NOT CONSUME). <br> <br> Found in Layer 5",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1202,7 +1513,7 @@ export const DATA = [
     name: "Ashimite",
     imga: "mob_png/ashimite2d.png",
     imgb: "mob_gif/ashimite.gif",
-    description: "Pluh",
+    description: "A deer mob, their legs evolve for running in snow biome. Their meat is pretty good and their fur is good source of wools. <br> <br> Found in Layer 5",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1215,7 +1526,7 @@ export const DATA = [
     name: "Chikyuoebi",
     imga: "mob_png/chikyuoebi2d.png",
     imgb: "mob_gif/chikyuoebi.gif",
-    description: "Pluh",
+    description: "A lobster-like creature, they bury themself into the ground, waiting for unfortunate delver to step on them then spike them with its claw, crushing entire body of the victims. <br> <br> Found in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1228,7 +1539,7 @@ export const DATA = [
     name: "Demonfish",
     imga: "mob_png/demonfish2d.png",
     imgb: "mob_gif/demonfish.gif",
-    description: "Pluh",
+    description: "A fish mob, they quite agressive ( grrrrr ). <br> <br> Found in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1241,7 +1552,7 @@ export const DATA = [
     name: "Edusan",
     imga: "mob_png/edusan2d.png",
     imgb: "mob_gif/edusan.gif",
-    description: "Pluh",
+    description: "A big fish, their face look quite scary but they are passive. Their scales can be used for some magic thing. <br> <br> Found in Layer 5",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1254,7 +1565,7 @@ export const DATA = [
     name: "Hagamizukin",
     imga: "mob_png/hagamizukin2d.png",
     imgb: "mob_gif/hagamizukin.gif",
-    description: "Pluh",
+    description: "A Fishy Mob, their ugly face represent their personality lol, bite really hurt but their meat is quite delicious. <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1267,7 +1578,7 @@ export const DATA = [
     name: "Hashofu",
     imga: "mob_png/hashofu2d.png",
     imgb: "mob_gif/hashofu.gif",
-    description: "Pluh",
+    description: "A avian creature, I heard legends said they are some kind of phoenix and their body basically burning ash. Their eyes can be use for some ancient forging template. <br> <br> Found in Layer 4 & 5",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1280,7 +1591,7 @@ export const DATA = [
     name: "Hisomukuro",
     imga: "mob_png/hisomukuro2d.png",
     imgb: "mob_gif/hisomukuro.gif",
-    description: "Pluh",
+    description: "A giant fish, their body is not cover in flesh but some kind of bones instead. They can tune their bone to shoot a shockwave that cause some brain damage, lead to temporary blindness and slowness. <br> <br> Found in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1293,7 +1604,7 @@ export const DATA = [
     name: "Horncrier",
     imga: "mob_png/horncrier2d.png",
     imgb: "mob_gif/horncrier.gif",
-    description: "Pluh",
+    description: "A varient of Woodcrier, their horn is much harder and they are much faster. Pretty deadly. <br> <br> Found in Layer 4 & 5 ",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1306,7 +1617,7 @@ export const DATA = [
     name: "Ikonia",
     imga: "mob_png/ikonia2d.png",
     imgb: "mob_gif/ikonia.gif",
-    description: "Pluh",
+    description: "A big camel creature, Their plate on their back is made by some mysterious material with steel. Legends said their plate can used for variou heat weapon such as flamethrower. <br> <br> Found in Layer 5",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1319,7 +1630,7 @@ export const DATA = [
     name: "Kagi-Tachikiri",
     imga: "mob_png/kagi_tachikiri2d.png",
     imgb: "mob_gif/kagi_tachikiri.gif",
-    description: "Pluh",
+    description: "A flying insect with sharp sting. Their sting affect right into nervous system, cause severe pain, but if used correctly, it can be used for high level fof mining elixir. <br> <br> Found in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1332,7 +1643,7 @@ export const DATA = [
     name: "Kuongatari",
     imga: "mob_png/kuongatari2d.png",
     imgb: "mob_gif/kuongatari.gif",
-    description: "Pluh",
+    description: "An insect mob, once it reach your body, they will lay their disgusting eggs inside you, and once those insects hatch, they will eat you from the inside out <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1345,7 +1656,7 @@ export const DATA = [
     name: "Makihige",
     imga: "mob_png/makihige2d.png",
     imgb: "mob_gif/makihige.gif",
-    description: "Pluh",
+    description: "A giant octopus-like creature, their shell evolved to be able to withstand the pressure in deeper layer, therefor their shell is necessary for some ancient forging technique. And their tentacle and ink sac can be used in useful things. <br> <br> Found in Layer 4 & 5",
     grade: "harmless",
     details: "Drops:",
     drops: [
@@ -1358,7 +1669,7 @@ export const DATA = [
     name: "Octoliar",
     imga: "mob_png/octoliar2d.png",
     imgb: "mob_gif/octoliar.gif",
-    description: "Pluh",
+    description: "A hybrid of squid and spider, they can shoot projectiles that cause blindness, nause and bleeding with poison. <br> <br> Found in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1371,7 +1682,7 @@ export const DATA = [
     name: "Onitsuchi",
     imga: "mob_png/onitsuchi2d.png",
     imgb: "mob_gif/onitsuchi.gif",
-    description: "Pluh",
+    description: "A avian creature, Their peak is even harder than the hammerbeak beak, you might able to use them for a substitute for flint lol :D <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1384,7 +1695,7 @@ export const DATA = [
     name: "Shiratsubi",
     imga: "mob_png/shiratsubi2d.png",
     imgb: "mob_gif/shiratsubi.gif",
-    description: "Pluh",
+    description: "Another varient of Yomotsubi, the shiver of Layer 5 combine with their wind attack make their attack deliver a chilling effect, which can cause slowness and other negative effect. <br> <br> Found in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1397,7 +1708,7 @@ export const DATA = [
     name: "Spikewalker",
     imga: "mob_png/spikewalker2d.png",
     imgb: "mob_gif/spikewalker.gif",
-    description: "Pluh",
+    description: "A hedgehog-like creature, their body is covered in sharp spikes and will curl up when threatened. <br> <br> Found in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1410,7 +1721,7 @@ export const DATA = [
     name: "Stinger",
     imga: "mob_png/stinger2d.png",
     imgb: "mob_gif/stinger.gif",
-    description: "Pluh",
+    description: "The Stinger is a common bug, live around L2 to L5. Their stings are poisonous <br> <br> Found in Layer 2 & 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1423,7 +1734,7 @@ export const DATA = [
     name: "Stingerhead",
     imga: "mob_png/stingerhead2d.png",
     imgb: "mob_gif/stingerhead.gif",
-    description: "Pluh",
+    description: "A big scorpion creature but have 7 tails instead. They are considered the worst thing can happen to a delver, worse than the orb piercer somehow. Their hard shell can be used for some ancient forging material for more durability. Their eyes also contains a critical material for the template. Legends said that you need to cover yourself in burnt dried vomit in order to avoid these creature. <br> <br> Found in the nest in some specific location in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1436,8 +1747,8 @@ export const DATA = [
     name: "Swarmhoarder",
     imga: "mob_png/swarmhoarder2d.png",
     imgb: "mob_gif/swarmhoarder.gif",
-    description: "Pluh",
-    grade: "★",
+    description: "A big jelly fish, this guy is dangerous not just with shocking power but also the ability to duplicate itself to 2 swarmshocker when they are dead <br> <br> Found in Layer 5",
+    grade: "★★★★",
     details: "Drops:",
     drops: [
       { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
@@ -1449,7 +1760,7 @@ export const DATA = [
     name: "Swarmshocker",
     imga: "mob_png/swarmshocker2d.png",
     imgb: "mob_gif/swarmshocker.gif",
-    description: "Pluh",
+    description: "Considered as the less dangerous variant of the swarmshocker, their shock still deadly enough to shock someone to death <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1462,7 +1773,7 @@ export const DATA = [
     name: "Tachikatana",
     imga: "mob_png/tachikatana2d.png",
     imgb: "mob_gif/tachikatana.gif",
-    description: "Pluh",
+    description: "A giant lobster-like creature. Their claws can produce a huge shockwave, blow eveything out of its way. Their claw also considered as a precious material, can handle the pressure of the deep sea. <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1475,20 +1786,7 @@ export const DATA = [
     name: "Titanjaw",
     imga: "mob_png/titanjaw2d.png",
     imgb: "mob_gif/titanjaw.gif",
-    description: "Pluh",
-    grade: "★",
-    details: "Drops:",
-    drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
-    ],
-    extra: "Tip1"
-  },
-  {
-    name: "Uibuta",
-    imga: "mob_png/uibuta2d.png",
-    imgb: "mob_gif/uibuta.gif",
-    description: "Pluh",
+    description: "A giant mob ( i cant identify what is it look like ), stay in high pressure sea make their shell freaking hard and somehow able to grant the user water breathing through those shell. Their cover with some mysterious explosive pearls too, but never saw them using those for pratical attack. <br> <br> Found in Layer 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -1501,7 +1799,7 @@ export const DATA = [
     name: "Virinsipede",
     imga: "mob_png/virinsipede2d.png",
     imgb: "mob_gif/virinsipede.gif",
-    description: "Pluh",
+    description: "Consider as a better version of Rinsipede, Their bite is poisonous and cause a lot of dmg. Stay in a cold biome make their body evolvef to stay warm, especially their legs <br> <br> Found in Layer 5 ",
     grade: "★",
     details: "Drops:",
     drops: [

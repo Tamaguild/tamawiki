@@ -465,3 +465,34 @@ button{
 #div5, #div5 * {
     text-decoration: none;
 }
+
+.drop-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.drop-table th,
+.drop-table td {
+  border: 2px solid #5a4632;
+  padding: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.drop-table th {
+  background: #cdbf9a;
+}
+
+.drop-table img {
+  width: 36px;
+  image-rendering: pixelated;
+}
+
+/* Stats box */
+.mob-stats {
+  margin-top: 12px;
+  border-top: 2px solid #5a4632;
+  padding-top: 8px;
+  font-size: 15px;
+}
