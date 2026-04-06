@@ -1,18 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>Tama Survivors Guide</title>
-<link rel="icon" type="image/x-icon" href="../general/textures/icons/orby.png">
+<title>Guide Section</title>
+<link rel="icon" type="image/x-icon" href="general/textures/icons/orby.png">
 <link rel="stylesheet" href="guideStyles.css">
 </head>
 
 <body>
-    <div class="book>?">  <!--Hey duong was going to do the book style but im thinking maybe instead of doing 3 pages with the same-->
-                    <!--template , maybe we shoudld see if we can do idk something else , like crafting table or some other look to it :D-->
+<div class="wrapper">
+  <div class="logo">
+    <img src="../logo.png" alt="TAMAWIKI LOGO">
+  </div>
+
+  <div class="buttonArea" id="buttonbox">
+    <div class="btn" onclick="window.location.href='./relics/relic.html';">RELIC</div>
+    <div class="btn" onclick="window.location.href='./bestiary/bestiary.html';">BESTIARY</div>
+    <div class="btn" onclick="window.location.href='./recipe/recipe_menu.html';">MOB DROP</div>
+    <div class="btn" onclick="window.location.href='./guide/guide.html';">GUIDE</div>
+  </div>
+
+  <!-- guide stuff here -->
+  <div class="guide-sections">
+
+    <div class="guide-box beginner" onclick="window.location.href='./beginner/beginner.html'">
+      <h2>BEGINNER</h2>
+      <p>Basic tips to get started. Learn core mechanics, survival, and early progression.</p>
     </div>
 
-    <h1>TAMA GUILD OFFICIAL SURVIVOR'S GUIDE</h1> 
+    <div class="guide-box intermediate" onclick="window.location.href='./intermediate/intermediate.html'">
+      <h2>INTERMEDIARY</h2>
+      <p>Improve your gameplay. Farming routes, public farms, and efficient strategies.</p>
+    </div>
 
+    <div class="guide-box expert" onclick="window.location.href='./expert/expert.html'">
+      <h2>EXPERT</h2>
+      <p>Advanced knowledge. Optimization, rare mechanics, and endgame mastery.</p>
+    </div>
+
+  </div>
+</div>
+
+<div class="info">CONTACT INFO</div>
+
+<script type="module" src="script.js"></script>
 </body>
 </html>

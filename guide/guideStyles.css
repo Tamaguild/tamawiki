@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+
+  background-image: url("../general/textures/backgrounds/orphanage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+:root {
+  --border-brown: #8b6a3e;
+  --box-bg: #f6edd2;
+}
+
+/* LOGO */
+.logo {
+  height: 220px;
+  width: 600px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 260px;
+}
+
+/* NAV BAR */
+.buttonArea {
+  position: relative;
+
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+
+  height: 105px;
+  margin-top: 30px;
+
+  background: url("../general/textures/info_boxes/frame.png");
+  background-position: center -40px;
+  background-repeat: repeat-x;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.btn {
+  width: 250px;
+  height: 100px;
+
+  background: url("../general/textures/info_boxes/5.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 22px;
+
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
+/* GUIDE SECTIONS */
+.guide-sections {
+  width: 1400px;
+  margin: 50px auto;
+  display: flex;
+  gap: 30px;
+}
+
+.guide-box {
+  flex: 1;
+  height: 520px;
+
+  border: 4px solid var(--border-brown);
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  cursor: pointer;
+  transition: 0.3s;
+
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+}
+
+/* dark overlay */
+.guide-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+/* text */
+.guide-box h2,
+.guide-box p {
+  position: relative;
+  z-index: 1;
+  color: #ffe596;
+}
+
+.guide-box h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.guide-box p {
+  font-size: 18px;
+}
+
+/* hover */
+.guide-box:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* LEVEL BACKGROUNDS */
+.beginner {
+  background-image: url("../general/textures/backgrounds/forest.png");
+}
+
+.intermediate {
+  background-image: url("../general/textures/backgrounds/dungeon.png");
+}
+
+.expert {
+  background-image: url("../general/textures/backgrounds/abyss.png");
+}
+
+/* glow effect */
+.beginner:hover {
+  box-shadow: 0 0 20px rgba(0,255,0,0.4);
+}
+
+.intermediate:hover {
+  box-shadow: 0 0 20px rgba(255,165,0,0.4);
+}
+
+.expert:hover {
+  box-shadow: 0 0 20px rgba(255,0,0,0.4);
+}
+
+/* FOOTER */
+.info {
+  background: var(--box-bg);
+  border-top: 2px solid var(--border-brown);
+  width: 100%;
+  height: 140px;
+  margin-top: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .guide-sections {
+    flex-direction: column;
+    width: 90%;
+  }
+}
