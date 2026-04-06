@@ -120,6 +120,11 @@ html {
 .mob-img {
   width: 20%;
 }
+
+.screenshot{
+  width: 80%;
+}
+
 .color { 
     color: yellow
 }
