@@ -520,8 +520,15 @@ export const DATA = [
           I heard someone tried selling 30 of these at the last auction.
         </div>
       </div>
+
+     <div class="tip">
+        <img class="tip-avatar" src="avatar/Cat.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I use this for deep jumps  
+        </div>
+      </div> 
     `
-  },
+    
   {
     name: "After Image",
     imga: "img/after_image_arrow.png",
