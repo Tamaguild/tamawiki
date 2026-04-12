@@ -528,7 +528,7 @@ export const DATA = [
         </div>
       </div> 
     `
-  }
+  },
   {
     name: "After Image",
     imga: "img/after_image_arrow.png",
