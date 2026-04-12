@@ -442,6 +442,13 @@ export const DATA = [
           You're a fihh.
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/cat.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          does not help you from dying in a elevator 
+        </div>
+      </div>
     `
   },
   {
