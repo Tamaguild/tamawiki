@@ -25,6 +25,13 @@ export const DATA = [
           (This is the best Relic in the game)
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          I'm so scared when using this, what if it pinches my dih, oh my gawd.
+        </div>
+      </div>
     `
     /*change the Avatar in the avatar box, to add more tips, copy the prompt from line 9 to line 14*/
   },
@@ -40,6 +47,13 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/erm_pigeon2.png" alt="Tip avatar"> 
         <div class="tip-box">
           Unlimited wata !?
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Right here, officer, this is what is causing the sea level to rise, global warming is such a hoax.
         </div>
       </div>
     `
@@ -623,6 +637,13 @@ export const DATA = [
           Combine with Shribi Maru and walla, super ultimate mob farm relic set
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Target accquired, kill kill kill
+        </div>
+      </div>
     `
   },
   {
@@ -662,6 +683,13 @@ export const DATA = [
           My first g1. Pretty good and best healing relic in da game.
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Scary spear up your rear
+        </div>
+      </div>
     `
   },
   {
@@ -692,6 +720,13 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           I dont have it. But i fought with this relic user a few tiem sur. It deal massive of poison dmg but yk, poison mean i-frame :tuh:
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Vomits in your face, vomits in everyone's faces!
         </div>
       </div>
     `
@@ -756,6 +791,13 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Here's a trick, use the hammer and left click once, then quick swap to other tool you want to use, the poison damage will lingers for many seconds.
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Also, this has Ebola and H5N1 living on it, so be careful
         </div>
       </div>
     `
@@ -836,6 +878,13 @@ export const DATA = [
         <img class="tip-avatar" src="avatar/clown_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           My favorite relic even tho its already out meta. Massive dmg but high wind up time, meh you can still hide in the black holde it generate to heal, charge your weapon or just to finish your dinner while your opp waiting outside.
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          You will not last facing it, scary oh my gawd
         </div>
       </div>
     `
