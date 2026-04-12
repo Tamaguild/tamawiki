@@ -444,7 +444,7 @@ export const DATA = [
       </div>
 
       <div class="tip">
-        <img class="tip-avatar" src="avatar/cat.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="avatar/Cat.png" alt="Tip avatar"> 
         <div class="tip-box">
           does not help you from dying in a elevator 
         </div>
