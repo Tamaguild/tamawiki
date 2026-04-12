@@ -524,7 +524,7 @@ export const DATA = [
      <div class="tip">
         <img class="tip-avatar" src="avatar/Cat.png" alt="Tip avatar"> 
         <div class="tip-box">
-          I use this for deep jumps :mogicrazy:  
+          I use this for deep jumps :mogicrazy:
         </div>
       </div> 
     `
