@@ -11,14 +11,14 @@ export const DATA = [
         src: "icondrop/okibo_fur.png",
         href: "../recipe/item_list/okibo_fur/okibo_fur.html",
         alt: "Okibo Fur",
-        chance: "60%",
+        chance: "70%",
         amount: "1-2"
       },
       { 
         src: "icondrop/raw_okibo_meat.png",
         href: "../recipe/item_list/okibo_meat/okibo_meat.html",
         alt: "Raw Okibo Meat",
-        chance: "70%",
+        chance: "60%",
         amount: "1-2"
       }
      ],
@@ -163,7 +163,7 @@ drops: [
       src: "icondrop/hammerbeak_feather.png",
       href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
       alt: "Hammerbeak Feather",
-      chance: "100%",
+      chance: "50%",
       amount: "1-2"
     },
     { 
@@ -177,7 +177,7 @@ drops: [
       src: "icondrop/raw_hammerbeak_wing.png",
       href: "../recipe/item_list/raw_hammerbeak_wing/raw_hammerbeak_wing.html",
       alt: "Raw Hammerbeak Wing",
-      chance: "50%",
+      chance: "100%",
       amount: "1-2"
     },
     ],
@@ -213,8 +213,8 @@ drops: [
         src: "icondrop/hammerbeak_feather.png",
         href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
         alt: "Hammerbeak Feather",
-        chance: "100%",
-        amount: "1-2"
+        chance: "70%",
+        amount: "1-3"
       },
       { 
         src: "icondrop/hammerbeak_beak.png",
@@ -227,8 +227,8 @@ drops: [
         src: "icondrop/raw_hammerbeak_wing.png",
         href: "../recipe/item_list/raw_hammerbeak_wing/raw_hammerbeak_wing.html",
         alt: "Raw Hammerbeak Wing",
-        chance: "50%",
-        amount: "1-2"
+        chance: "100%",
+        amount: "1-3"
       },
       { 
         src: "icondrop/hammerbeak_egg.png",
@@ -263,6 +263,13 @@ drops: [
       { src: "icondrop/mantoyer_horn.png", href: "../relic.html?item=mantoyer_horn", alt: "Man-toyer Horn" },
     ],
         drops: [
+    { 
+      src: "icondrop/sweet_berries.png",
+      href: "../recipe/item_list/sweet_berries/sweet_berries.html",
+      alt: "Sweet Berries",
+      chance: "60%",
+      amount: "1-3"
+    },
     { 
       src: "icondrop/mantoyer_fur.png",
       href: "../recipe/item_list/mantoyer_fur/mantoyer_fur.html",
@@ -303,14 +310,14 @@ drops: [
         src: "icondrop/okibo_fur.png",
         href: "../recipe/item_list/okibo_fur/okibo_fur.html",
         alt: "Okibo Fur",
-        chance: "60%",
+        chance: "70%",
         amount: "1-2"
       },
       { 
         src: "icondrop/raw_okibo_meat.png",
         href: "../recipe/item_list/okibo_meat/okibo_meat.html",
         alt: "Raw Okibo Meat",
-        chance: "70%",
+        chance: "60%",
         amount: "1-2"
       }
      ],
@@ -382,15 +389,15 @@ drops: [
       src: "icondrop/raw_spiralsquid.png",
       href: "../recipe/item_list/raw_spiralsquid/raw_spiralsquid.html",
       alt: "Raw Spiralsquid",
-      chance: "100%",
+      chance: "60%",
       amount: "1-2"
     },
     { 
       src: "icondrop/ink_sac.png",
       href: "../recipe/item_list/ink_sac/ink_sac.html",
       alt: "Ink Sac",
-      chance: "",
-      amount: ""
+      chance: "100%",
+      amount: "1-2"
     },
     ],
     stats: {
@@ -432,8 +439,8 @@ drops: [
       src: "icondrop/glow_berries.png",
       href: "../recipe/item_list/glow_berries/glow_berries.html",
       alt: "Glow Berries",
-      chance: "",
-      amount: ""
+      chance: "60%",
+      amount: "1-2"
     },
     ],
     stats: {
@@ -462,14 +469,14 @@ drops: [
       href: "../recipe/item_list/splitjaw_gunk/splitjaw_gunk.html",
       alt: "Splitjaw Gunk",
       chance: "70%",
-      amount: "1-3"
+      amount: "2"
     },
     { 
       src: "icondrop/splitjaw_scales.png",
       href: "../recipe/item_list/splitjaw_scales/splitjaw_scales.html",
       alt: "Splitjaw Scales",
       chance: "70%",
-      amount: "2"
+      amount: "1-3"
     },
     { 
       src: "icondrop/diamond.png",
@@ -482,14 +489,14 @@ drops: [
       src: "icondrop/emerald.png",
       href: "../recipe/item_list/emerald/emerald.html",
       alt: "Emerald",
-      chance: "15%",
+      chance: "10%",
       amount: "1"
     },
     { 
       src: "icondrop/gold_ingot.png",
       href: "../recipe/item_list/gold_ingot/gold_ingot.html",
       alt: "Gold Ingot",
-      chance: "10%",
+      chance: "15%",
       amount: "1"
     },
     ],
@@ -518,7 +525,7 @@ drops: [
       src: "icondrop/plant_matter.png",
       href: "../recipe/item_list/plant_matter/plant_matter.html",
       alt: "Plant Matter",
-      chance: "100%",
+      chance: "60%",
       amount: "1-2"
     },
     ],
@@ -540,7 +547,7 @@ drops: [
       src: "icondrop/plant_matter.png",
       href: "../recipe/item_list/plant_matter/plant_matter.html",
       alt: "Plant Matter",
-      chance: "100%",
+      chance: "60%",
       amount: "1-2"
     },
     ],
@@ -569,7 +576,7 @@ drops: [
       src: "icondrop/plant_matter.png",
       href: "../recipe/item_list/plant_matter/plant_matter.html",
       alt: "Plant Matter",
-      chance: "100%",
+      chance: "60%",
       amount: "1-2"
     },
     ],
