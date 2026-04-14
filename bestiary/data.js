@@ -642,8 +642,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
-      {src: "icondrop/lily_pad.png", alt: "Lily Pad" },
+    {
+      src: "../items/mob_drops/images/billabonk_leg_raw.png",
+      href: "../recipe/item_list/billabonk_leg_raw/billabonk_leg_raw.html",
+      alt: "Raw Billabonk Leg",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/lily_pad.png",
+      href: "../recipe/item_list/lily_pad/lily_pad.html",
+      alt: "Lily Pad",
+      chance: "40%",
+      amount: "1-2"
+    },
     ],
     extra: `
       <div class="tip">
@@ -662,8 +674,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/chimokami_fang.png", href: "../relic.html?item=chimokami_fang", alt: "Chimokami Fang" },
-      {src: "icondrop/chimokami_tail.png",  href: "../relic.html?item=chimokami_tail", alt: "Chimokami Tail" },
+    {
+      src: "../items/mob_drops/images/chimokami_tail.png",
+      href: "../recipe/item_list/chimokami_tail/chimokami_tail.html",
+      alt: "Chimokami Tail",
+      chance: "80%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/chimokami_fang.png",
+      href: "../recipe/item_list/chimokami_fang/chimokami_fang.html",
+      alt: "Chimokami Fang",
+      chance: "70%",
+      amount: "1-2"
+    },
     ],
     extra: `
       <div class="tip">
@@ -682,9 +706,27 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_corpse_weeper_meat.png", href: "../relic.html?item=corpse_weeper_meat", alt: "Corpse-Weeper Meat" },
-      { src: "icondrop/corpse_weeper_eye.png", href: "../relic.html?item=corpse_weeper_eye", alt: "Corpse-Weeper Eye" },
-      { src: "icondrop/corpse_weeper_feather.png", href: "../relic.html?item=corpse_weeper_feather", alt: "Corpse-Weeper Feather" },
+    {
+      src: "../items/mob_drops/images/corpse_weeper_meat_raw.png",
+      href: "../recipe/item_list/corpse_weeper_meat_raw/corpse_weeper_meat_raw.html",
+      alt: "Raw Corpse Weeper Meat",
+      chance: "100%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/corpse_weeper_eye.png",
+      href: "../recipe/item_list/corpse_weeper_eye/corpse_weeper_eye.html",
+      alt: "Corpse Weeper Eye",
+      chance: "30%",
+      amount: "2"
+    },
+    {
+      src: "../items/mob_drops/images/corpse_weeper_feather.png",
+      href: "../recipe/item_list/corpse_weeper_feather/corpse_weeper_feather.html",
+      alt: "Corpse Weeper Feather",
+      chance: "90%",
+      amount: "1-3"
+    },
     ],
     extra: `
       <div class="tip">
@@ -703,8 +745,20 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_cyatoria_drumstick.png", href: "../relic.html?item=cyatoria_drumstick", alt: "Cyatoria Drumstick" },
-      { src: "icondrop/cyatoria_feather.png", href: "../relic.html?item=cyatoria_feather", alt: "Cyatoria Feather" }
+    {
+      src: "../items/mob_drops/images/cyatoria_drumstick_raw.png",
+      href: "../recipe/item_list/cyatoria_drumstick_raw/cyatoria_drumstick_raw.html",
+      alt: "Raw Cyatoria Drumstick",
+      chance: "100%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/cyatoria_feather.png",
+      href: "../recipe/item_list/cyatoria_feather/cyatoria_feather.html",
+      alt: "Cyatoria Feather",
+      chance: "70%",
+      amount: "1-4"
+    },
     ],
     extra: "Tip1"
   },
@@ -716,9 +770,27 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_dosetori_meat.png", href: "../relic.html?item=dosetori_meat", alt: "Dosetori Meat" },
-      { src: "icondrop/dosetori_wing.png", href: "../relic.html?item=dosetori_wing", alt: "Dosetori Wing" },
-      { src: "icondrop/dosetori_bone.png", href: "../relic.html?item=dosetori_bone", alt: "Dosetori Bone" },
+    {
+      src: "../items/mob_drops/images/dosetori_meat_raw.png",
+      href: "../recipe/item_list/dosetori_meat_raw/dosetori_meat_raw.html",
+      alt: "Raw Dosetori Meat",
+      chance: "100%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/dosetori_wing.png",
+      href: "../recipe/item_list/dosetori_wing/dosetori_wing.html",
+      alt: "Dosetori Wing",
+      chance: "70%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/dosetori_bone.png",
+      href: "../recipe/item_list/dosetori_bone/dosetori_bone.html",
+      alt: "Dosetori Bone",
+      chance: "80%",
+      amount: "1-3"
+    },
     ],
     extra: `
       <div class="tip">
@@ -737,9 +809,27 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_fuwagi_meat.png", href: "../relic.html?item=fuwagi_meat", alt: "Fuwagi Meat" },
-      { src: "icondrop/fuwagi_foot.png", href: "../relic.html?item=fuwagi_foot", alt: "Fuwagi Foot" },
-      { src: "icondrop/fuwagi_hide.png", href: "../relic.html?item=fuwagi_hide", alt: "Fuwagi Hide" }
+    {
+      src: "../items/mob_drops/images/fuwagi_meat_raw.png",
+      href: "../recipe/item_list/fuwagi_meat_raw/fuwagi_meat_raw.html",
+      alt: "Raw Fuwagi Meat",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/fuwagi_foot.png",
+      href: "../recipe/item_list/fuwagi_foot/fuwagi_foot.html",
+      alt: "Fuwagi Foot",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/fuwagi_hide.png",
+      href: "../recipe/item_list/fuwagi_hide/fuwagi_hide.html",
+      alt: "Fuwagi Hide",
+      chance: "70%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -751,9 +841,27 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/hammerbeak_feather.png", href: "../relic.html?item=hammerbeak_feather", alt: "Hammerbeak Feather" },
-      { src: "icondrop/hammerbeak_beak.png", href: "../relic.html?item=hammerbeak_beak", alt: "Hammerbeak Beak" },
-      { src: "icondrop/raw_hammerbeak_wing.png", href: "../relic.html?item=hammerbeak_wing", alt: "Hammerbeak Wing" }
+    {
+      src: "../items/mob_drops/images/hammerbeak_wing_raw.png",
+      href: "../recipe/item_list/hammerbeak_wing_raw/hammerbeak_wing_raw.html",
+      alt: "Raw Hammerbeak Wing",
+      chance: "100%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/hammerbeak_beak.png",
+      href: "../recipe/item_list/hammerbeak_beak/hammerbeak_beak.html",
+      alt: "Hammerbeak Beak",
+      chance: "60%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/hammerbeak_feather.png",
+      href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
+      alt: "Hammerbeak Feather",
+      chance: "50%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -767,10 +875,34 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/hammerbeak_feather.png", href: "../relic.html?item=hammerbeak_feather", alt: "Hammerbeak Feather" },
-      { src: "icondrop/hammerbeak_beak.png", href: "../relic.html?item=hammerbeak_beak", alt: "Hammerbeak Beak" },
-      { src: "icondrop/hammerbeak_egg.png", href: "../relic.html?item=hammerbeak_egg", alt: "Hammerbeak Egg" },
-      { src: "icondrop/raw_hammerbeak_wing.png", href: "../relic.html?item=hammerbeak_wing", alt: "Hammerbeak Wing" }
+    {
+      src: "../items/mob_drops/images/hammerbeak_wing_raw.png",
+      href: "../recipe/item_list/hammerbeak_wing_raw/hammerbeak_wing_raw.html",
+      alt: "Raw Hammerbeak Wing",
+      chance: "100%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/hammerbeak_beak.png",
+      href: "../recipe/item_list/hammerbeak_beak/hammerbeak_beak.html",
+      alt: "Hammerbeak Beak",
+      chance: "60%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/hammerbeak_feather.png",
+      href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
+      alt: "Hammerbeak Feather",
+      chance: "70%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/hammerbeak_egg.png",
+      href: "../recipe/item_list/hammerbeak_egg/hammerbeak_egg.html",
+      alt: "Hammerbeak Egg",
+      chance: "50%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -781,8 +913,21 @@ drops: [
     description: " The Ikenosuke is fish that can be found in small lake in l2. Instead of scales, it has tough, white skin. The taste of its meat has a slight, sweet flavor.<br> <br> Found in Layer 2 & 3",
     grade: "harmless",
     details: "Drops:",
-    drops: [  
-      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
+    drops: [
+    {
+      src: "../items/mob_drops/images/ikenosuke_raw.png",
+      href: "../recipe/item_list/ikenosuke_raw/ikenosuke_raw.html",
+      alt: "Raw Ikenosuke",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/prismarine_crystals.png",
+      href: "../recipe/item_list/prismarine_crystals/prismarine_crystals.html",
+      alt: "Prismarine Crystals",
+      chance: "90%",
+      amount: "1-8"
+    },
     ],
     extra: `
       <div class="tip">
@@ -801,7 +946,13 @@ drops: [
     grade: "★★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_ottobas_meat.png", href: "../relic.html?item=ottobas_meat", alt: "Ottobas Meat" },
+    {
+      src: "../items/mob_drops/images/ottobas_meat_raw.png",
+      href: "../recipe/item_list/ottobas_meat_raw/ottobas_meat_raw.html",
+      alt: "Raw Ottobas Meat",
+      chance: "100%",
+      amount: "4-15"
+    },
     ],
     extra: `
       <div class="tip">
@@ -820,8 +971,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
-      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    {
+      src: "../items/mob_drops/images/rohana_powder.png",
+      href: "../recipe/item_list/rohana_powder/rohana_powder.html",
+      alt: "Rohana Powder",
+      chance: "80%",
+      amount: "2"
+    },
+    {
+      src: "../items/mob_drops/images/rohana_tail.png",
+      href: "../recipe/item_list/rohana_tail/rohana_tail.html",
+      alt: "Rohana Tail",
+      chance: "40%",
+      amount: "2"
+    },
     ],
     extra: "Tip1"
   },
@@ -833,9 +996,27 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/silkfang_silk.png", href: "../relic.html?item=silkfang_silk", alt: "Silkfang Silk" },
-      { src: "icondrop/silkfang_eye.png", href: "../relic.html?item=silkfang_eye", alt: "Silkfang Eye" },
-      { src: "icondrop/bundle_silkfang_silk.png", href: "../relic.html?item=silkfang_bundle", alt: "Bundle of silkfang silk" }
+    {
+      src: "../items/mob_drops/images/silkfang_eye.png",
+      href: "../recipe/item_list/silkfang_eye/silkfang_eye.html",
+      alt: "Silkfang Eye",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/silkfang_silk.png",
+      href: "../recipe/item_list/silkfang_silk/silkfang_silk.html",
+      alt: "Silkfang Silk",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/bundle_of_silkfang_silk.png",
+      href: "../recipe/item_list/bundle_of_silkfang_silk/bundle_of_silkfang_silk.html",
+      alt: "Bundle Of Silkfang Silk",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -847,9 +1028,27 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
-      { src: "icondrop/spittleshrub_root.png", href: "../relic.html?item=spittleshrub_root", alt: "Spittleshrub Root" },
-      { src: "icondrop/glow_berries.png", alt: "Glow Berries" },
+    {
+      src: "../items/vanilla/images/glow_berries.png",
+      href: "../recipe/item_list/glow_berries/glow_berries.html",
+      alt: "Glow Berries",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "60%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/spittleshrub_root.png",
+      href: "../recipe/item_list/spittleshrub_root/spittleshrub_root.html",
+      alt: "Spittleshrub Root",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -861,11 +1060,41 @@ drops: [
     grade: "★★★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/splitjaw_gunk.png", href: "../relic.html?item=splitjaw_gunk", alt: "Splitjaw Gunk" },
-      { src: "icondrop/splitjaw_scales.png", href: "../relic.html?item=splitjaw_scales", alt: "Splitjaw Scales" },
-      { src: "icondrop/diamond.png", alt: "Diamond" },
-      { src: "icondrop/emerald.png", alt: "Emerald" },
-      { src: "icondrop/gold_ingot.png", alt: "Gold Ingot" },
+    {
+      src: "../items/mob_drops/images/splitjaw_scales.png",
+      href: "../recipe/item_list/splitjaw_scales/splitjaw_scales.html",
+      alt: "Splitjaw Scales",
+      chance: "70%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/splitjaw_gunk.png",
+      href: "../recipe/item_list/splitjaw_gunk/splitjaw_gunk.html",
+      alt: "Splitjaw Gunk",
+      chance: "70%",
+      amount: "2"
+    },
+    {
+      src: "../items/vanilla/images/diamond.png",
+      href: "../recipe/item_list/diamond/diamond.html",
+      alt: "Diamond",
+      chance: "10%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/gold_ingot.png",
+      href: "../recipe/item_list/gold_ingot/gold_ingot.html",
+      alt: "Gold Ingot",
+      chance: "15%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/emerald.png",
+      href: "../recipe/item_list/emerald/emerald.html",
+      alt: "Emerald",
+      chance: "10%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -877,8 +1106,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/tesuchi_scales.png", href: "../relic.html?item=tesuchi_scales", alt: "Tesuchi Scales" },
-      { src: "icondrop/tesuchi_tail.png", href: "../relic.html?item=tesuchi_tail", alt: "Tesuchi Tail" },
+    {
+      src: "../items/mob_drops/images/tesuchi_tail.png",
+      href: "../recipe/item_list/tesuchi_tail/tesuchi_tail.html",
+      alt: "Tesuchi Tail",
+      chance: "100%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/tesuchi_scales.png",
+      href: "../recipe/item_list/tesuchi_scales/tesuchi_scales.html",
+      alt: "Tesuchi Scales",
+      chance: "80%",
+      amount: "1-3"
+    },
     ],
     extra: `
       <div class="tip">
@@ -897,7 +1138,13 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
+    {
+      src: "../items/mob_drops/images/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -909,7 +1156,13 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
+    {
+      src: "../items/mob_drops/images/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -921,7 +1174,13 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/plant_matter.png", href: "../relic.html?item=plant_matter", alt: "Plant Matter" },
+    {
+      src: "../items/mob_drops/images/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -933,8 +1192,20 @@ drops: [
     grade: "★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/woodcrier_horn.png", href: "../relic.html?item=woodcrier_horn", alt: "Woodcrier Horn" },
-      {src: "icondrop/brown_wool.png", alt: "Brown Wool" },
+    {
+      src: "../items/mob_drops/images/woodcrier_horn.png",
+      href: "../recipe/item_list/woodcrier_horn/woodcrier_horn.html",
+      alt: "Woodcrier Horn",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/brown_wool.png",
+      href: "../recipe/item_list/brown_wool/brown_wool.html",
+      alt: "Brown Wool",
+      chance: "60%",
+      amount: "1-3"
+    },
     ],
     extra: "Tip1"
   },
@@ -947,8 +1218,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
-      {src: "icondrop/lily_pad.png", alt: "Lily Pad" },
+    {
+      src: "../items/mob_drops/images/billabonk_leg_raw.png",
+      href: "../recipe/item_list/billabonk_leg_raw/billabonk_leg_raw.html",
+      alt: "Raw Billabonk Leg",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/lily_pad.png",
+      href: "../recipe/item_list/lily_pad/lily_pad.html",
+      alt: "Lily Pad",
+      chance: "40%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -960,8 +1243,20 @@ drops: [
     grade: "",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
-      {src: "icondrop/lily_pad.png", alt: "Lily Pad" },
+    {
+      src: "../items/mob_drops/images/hisoishi_claw.png",
+      href: "../recipe/item_list/hisoishi_claw/hisoishi_claw.html",
+      alt: "Hisoishi Claw",
+      chance: "80%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/hisoishi_shell.png",
+      href: "../recipe/item_list/hisoishi_shell/hisoishi_shell.html",
+      alt: "Hisoishi Shell",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -973,8 +1268,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat | 60% | 1-2" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/ikenosuke_raw.png",
+      href: "../recipe/item_list/ikenosuke_raw/ikenosuke_raw.html",
+      alt: "Raw Ikenosuke",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/prismarine_crystals.png",
+      href: "../recipe/item_list/prismarine_crystals/prismarine_crystals.html",
+      alt: "Prismarine Crystals",
+      chance: "90%",
+      amount: "1-8"
+    },
     ],
     extra: "Tip1"
   },
@@ -986,8 +1293,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/inbyo_meat_raw.png",
+      href: "../recipe/item_list/inbyo_meat_raw/inbyo_meat_raw.html",
+      alt: "Raw Inbyo Meat",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/inbyo_fur.png",
+      href: "../recipe/item_list/inbyo_fur/inbyo_fur.html",
+      alt: "Inbyo Fur",
+      chance: "60%",
+      amount: "1-3"
+    },
     ],
     extra: `
       <div class="tip">
@@ -1006,8 +1325,41 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/neritantan_meat_raw.png",
+      href: "../recipe/item_list/neritantan_meat_raw/neritantan_meat_raw.html",
+      alt: "Raw Neritantan Meat",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/beetroot_seeds.png",
+      href: "../recipe/item_list/beetroot_seeds/beetroot_seeds.html",
+      alt: "Beetroot Seeds",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/melon_seeds.png",
+      href: "../recipe/item_list/melon_seeds/melon_seeds.html",
+      alt: "Melon Seeds",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/pumpkin_seeds.png",
+      href: "../recipe/item_list/pumpkin_seeds/pumpkin_seeds.html",
+      alt: "Pumpkin Seeds",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/sweet_berries.png",
+      href: "../recipe/item_list/sweet_berries/sweet_berries.html",
+      alt: "Sweet Berries",
+      chance: "30%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1019,8 +1371,13 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/rockwalker_mandible.png",
+      href: "../recipe/item_list/rockwalker_mandible/rockwalker_mandible.html",
+      alt: "Rockwalker Mandible",
+      chance: "80%",
+      amount: "1-4"
+    },
     ],
     extra: "Tip1"
   },
@@ -1032,8 +1389,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
-      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    {
+      src: "../items/mob_drops/images/rohana_powder.png",
+      href: "../recipe/item_list/rohana_powder/rohana_powder.html",
+      alt: "Rohana Powder",
+      chance: "80%",
+      amount: "2"
+    },
+    {
+      src: "../items/mob_drops/images/rohana_tail.png",
+      href: "../recipe/item_list/rohana_tail/rohana_tail.html",
+      alt: "Rohana Tail",
+      chance: "40%",
+      amount: "2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1045,8 +1414,20 @@ drops: [
     grade: "",
     details: "Drops:",
     drops: [
-      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
-      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    {
+      src: "../items/mob_drops/images/stinger_wing.png",
+      href: "../recipe/item_list/stinger_wing/stinger_wing.html",
+      alt: "Stinger Wing",
+      chance: "50%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/stinger_horn.png",
+      href: "../recipe/item_list/stinger_horn/stinger_horn.html",
+      alt: "Stinger Horn",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: `
       <div class="tip">
@@ -1066,8 +1447,20 @@ drops: [
     grade: "",
     details: "Drops:",
     drops: [
-      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
-      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    {
+      src: "../items/mob_drops/images/buroguro_lantern.png",
+      href: "../recipe/item_list/buroguro_lantern/buroguro_lantern.html",
+      alt: "Buroguro Lantern",
+      chance: "30%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/buroguro_stinger.png",
+      href: "../recipe/item_list/buroguro_stinger/buroguro_stinger.html",
+      alt: "Buroguro Stinger",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1079,8 +1472,20 @@ drops: [
     grade: "",
     details: "Drops:",
     drops: [
-      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
-      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    {
+      src: "../items/mob_drops/images/daikonchu_carapace.png",
+      href: "../recipe/item_list/daikonchu_carapace/daikonchu_carapace.html",
+      alt: "Daikonchu Carapace",
+      chance: "40%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/daikonchu_wing.png",
+      href: "../recipe/item_list/daikonchu_wing/daikonchu_wing.html",
+      alt: "Daikonchu Wing",
+      chance: "30%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1092,9 +1497,27 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_dosetori_meat.png", href: "../relic.html?item=dosetori_meat", alt: "Dosetori Meat" },
-      { src: "icondrop/dosetori_wing.png", href: "../relic.html?item=dosetori_wing", alt: "Dosetori Wing" },
-      { src: "icondrop/dosetori_bone.png", href: "../relic.html?item=dosetori_bone", alt: "Dosetori Bone" },
+    {
+      src: "../items/mob_drops/images/dosetori_meat_raw.png",
+      href: "../recipe/item_list/dosetori_meat_raw/dosetori_meat_raw.html",
+      alt: "Raw Dosetori Meat",
+      chance: "100%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/dosetori_wing.png",
+      href: "../recipe/item_list/dosetori_wing/dosetori_wing.html",
+      alt: "Dosetori Wing",
+      chance: "70%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/dosetori_bone.png",
+      href: "../recipe/item_list/dosetori_bone/dosetori_bone.html",
+      alt: "Dosetori Bone",
+      chance: "80%",
+      amount: "1-3"
+    },
     ],
     extra: "Tip1"
   },
@@ -1106,8 +1529,27 @@ drops: [
     grade: "",
     details: "Drops:",
     drops: [
-      { src: "icondrop/rohana_powder.png", href: "../relic.html?item=rohana_powder", alt: "Rohana Powder" },
-      { src: "icondrop/rohana_tail.png", href: "../relic.html?item=rohana_tail", alt: "Rohana Tail" },
+    {
+      src: "../items/vanilla/images/soul_sand.png",
+      href: "../recipe/item_list/soul_sand/soul_sand.html",
+      alt: "Soul Sand",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/magma_block.png",
+      href: "../recipe/item_list/magma_block/magma_block.html",
+      alt: "Magma Block",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/himushi_core.png",
+      href: "../recipe/item_list/himushi_core/himushi_core.html",
+      alt: "Himushi Core",
+      chance: "100%",
+      amount: "1"
+    },
     ],
     extra: `
       <div class="tip">
@@ -1126,8 +1568,20 @@ drops: [
     grade: "",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_billabonk_leg.png", href: "../relic.html?item=billabonk_leg", alt: "Billabonk Leg" },
-      {src: "icondrop/lily_pad.png", alt: "Lily Pad" },
+    {
+      src: "../items/mob_drops/images/hisoishi_claw.png",
+      href: "../recipe/item_list/hisoishi_claw/hisoishi_claw.html",
+      alt: "Hisoishi Claw",
+      chance: "80%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/hisoishi_shell.png",
+      href: "../recipe/item_list/hisoishi_shell/hisoishi_shell.html",
+      alt: "Hisoishi Shell",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1139,8 +1593,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/ikenosuke_raw.png",
+      href: "../recipe/item_list/ikenosuke_raw/ikenosuke_raw.html",
+      alt: "Raw Ikenosuke",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/prismarine_crystals.png",
+      href: "../recipe/item_list/prismarine_crystals/prismarine_crystals.html",
+      alt: "Prismarine Crystals",
+      chance: "90%",
+      amount: "1-8"
+    },
     ],
     extra: "Tip1"
   },
@@ -1152,8 +1618,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw_ikenosuke_meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/kakatsumuri_shell.png",
+      href: "../recipe/item_list/kakatsumuri_shell/kakatsumuri_shell.html",
+      alt: "Kakatsumuri Shell",
+      chance: "80%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kakatsumuri_glowing_tip.png",
+      href: "../recipe/item_list/kakatsumuri_glowing_tip/kakatsumuri_glowing_tip.html",
+      alt: "Kakatsumuri Glowing Tip",
+      chance: "90%",
+      amount: "1"
+    },
     ],
     extra: `
       <div class="tip">
@@ -1172,8 +1650,34 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/madokajack_scales.png",
+      href: "../recipe/item_list/madokajack_scales/madokajack_scales.html",
+      alt: "Madokajack Scales",
+      chance: "70%",
+      amount: "1-4"
+    },
+    {
+      src: "../items/mob_drops/images/madokajack_bone.png",
+      href: "../recipe/item_list/madokajack_bone/madokajack_bone.html",
+      alt: "Madokajack Bone",
+      chance: "80%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/madokajack_eye.png",
+      href: "../recipe/item_list/madokajack_eye/madokajack_eye.html",
+      alt: "Madokajack Eye",
+      chance: "30%",
+      amount: "2"
+    },
+    {
+      src: "../items/mob_drops/images/madokajack_poop.png",
+      href: "../recipe/item_list/madokajack_poop/madokajack_poop.html",
+      alt: "Madokajack Poop",
+      chance: "30%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1185,8 +1689,41 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/neritantan_meat_raw.png",
+      href: "../recipe/item_list/neritantan_meat_raw/neritantan_meat_raw.html",
+      alt: "Raw Neritantan Meat",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/beetroot_seeds.png",
+      href: "../recipe/item_list/beetroot_seeds/beetroot_seeds.html",
+      alt: "Beetroot Seeds",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/melon_seeds.png",
+      href: "../recipe/item_list/melon_seeds/melon_seeds.html",
+      alt: "Melon Seeds",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/pumpkin_seeds.png",
+      href: "../recipe/item_list/pumpkin_seeds/pumpkin_seeds.html",
+      alt: "Pumpkin Seeds",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/sweet_berries.png",
+      href: "../recipe/item_list/sweet_berries/sweet_berries.html",
+      alt: "Sweet Berries",
+      chance: "30%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1198,8 +1735,13 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/rinsipede_segments.png",
+      href: "../recipe/item_list/rinsipede_segments/rinsipede_segments.html",
+      alt: "Rinsipede Segments",
+      chance: "80%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1211,8 +1753,13 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/rockwalker_mandible.png",
+      href: "../recipe/item_list/rockwalker_mandible/rockwalker_mandible.html",
+      alt: "Rockwalker Mandible",
+      chance: "80%",
+      amount: "1-4"
+    },
     ],
     extra: "Tip1"
   },
@@ -1224,8 +1771,13 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/sakuranbo_dust.png",
+      href: "../recipe/item_list/sakuranbo_dust/sakuranbo_dust.html",
+      alt: "Sakuranbo Dust",
+      chance: "90%",
+      amount: "1-3"
+    },
     ],
     extra: "Tip1"
   },
@@ -1237,8 +1789,41 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/splitjaw_scales.png",
+      href: "../recipe/item_list/splitjaw_scales/splitjaw_scales.html",
+      alt: "Splitjaw Scales",
+      chance: "70%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/splitjaw_gunk.png",
+      href: "../recipe/item_list/splitjaw_gunk/splitjaw_gunk.html",
+      alt: "Splitjaw Gunk",
+      chance: "70%",
+      amount: "2"
+    },
+    {
+      src: "../items/vanilla/images/diamond.png",
+      href: "../recipe/item_list/diamond/diamond.html",
+      alt: "Diamond",
+      chance: "10%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/gold_ingot.png",
+      href: "../recipe/item_list/gold_ingot/gold_ingot.html",
+      alt: "Gold Ingot",
+      chance: "15%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/emerald.png",
+      href: "../recipe/item_list/emerald/emerald.html",
+      alt: "Emerald",
+      chance: "10%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1250,8 +1835,13 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/squidfly_brain_raw.png",
+      href: "../recipe/item_list/squidfly_brain_raw/squidfly_brain_raw.html",
+      alt: "Raw Squidfly Brain",
+      chance: "80%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1263,8 +1853,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/yomotsubi_wing.png",
+      href: "../recipe/item_list/yomotsubi_wing/yomotsubi_wing.html",
+      alt: "Yomotsubi Wing",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/yomotsubi_abdomen_raw.png",
+      href: "../recipe/item_list/yomotsubi_abdomen_raw/yomotsubi_abdomen_raw.html",
+      alt: "Raw Yomotsubi Abdomen",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1277,8 +1879,27 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/vanilla/images/dried_kelp.png",
+      href: "../recipe/item_list/dried_kelp/dried_kelp.html",
+      alt: "Dried Kelp",
+      chance: "70%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/hagamizukin_tooth.png",
+      href: "../recipe/item_list/hagamizukin_tooth/hagamizukin_tooth.html",
+      alt: "Hagamizukin Tooth",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/hagamizukin_raw.png",
+      href: "../recipe/item_list/hagamizukin_raw/hagamizukin_raw.html",
+      alt: "Raw Hagamizukin",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1290,8 +1911,34 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/hammerbeak_wing_raw.png",
+      href: "../recipe/item_list/hammerbeak_wing_raw/hammerbeak_wing_raw.html",
+      alt: "Raw Hammerbeak Wing",
+      chance: "100%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/hammerbeak_beak.png",
+      href: "../recipe/item_list/hammerbeak_beak/hammerbeak_beak.html",
+      alt: "Hammerbeak Beak",
+      chance: "60%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/hammerbeak_feather.png",
+      href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
+      alt: "Hammerbeak Feather",
+      chance: "70%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/hammerbeak_egg.png",
+      href: "../recipe/item_list/hammerbeak_egg/hammerbeak_egg.html",
+      alt: "Hammerbeak Egg",
+      chance: "50%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1303,8 +1950,27 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/hashofu_tail_raw.png",
+      href: "../recipe/item_list/hashofu_tail_raw/hashofu_tail_raw.html",
+      alt: "Raw Hashofu Tail",
+      chance: "80%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/hashofu_eye.png",
+      href: "../recipe/item_list/hashofu_eye/hashofu_eye.html",
+      alt: "Hashofu Eye",
+      chance: "65%",
+      amount: "2"
+    },
+    {
+      src: "../items/mob_drops/images/hashofu_body.png",
+      href: "../recipe/item_list/hashofu_body/hashofu_body.html",
+      alt: "Hashofu Body",
+      chance: "100%",
+      amount: "1-3"
+    },
     ],
     extra: "Tip1"
   },
@@ -1316,8 +1982,69 @@ drops: [
     grade: "★★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Ponder)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Sing)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Seek)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Feel)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Admire)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Call)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Yearn)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Dream)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/white_wool.png",
+      href: "../recipe/item_list/white_wool/white_wool.html",
+      alt: "White Wool",
+      chance: "60%",
+      amount: "1-3"
+    },
     ],
     extra: "Tip1"
   },
@@ -1329,8 +2056,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/ikenosuke_raw.png",
+      href: "../recipe/item_list/ikenosuke_raw/ikenosuke_raw.html",
+      alt: "Raw Ikenosuke",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/prismarine_crystals.png",
+      href: "../recipe/item_list/prismarine_crystals/prismarine_crystals.html",
+      alt: "Prismarine Crystals",
+      chance: "90%",
+      amount: "1-8"
+    },
     ],
     extra: "Tip1"
   },
@@ -1342,8 +2081,13 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/kazura_squid_ink_sac.png",
+      href: "../recipe/item_list/kazura_squid_ink_sac/kazura_squid_ink_sac.html",
+      alt: "Kazura Squid Ink Sac",
+      chance: "80%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1355,8 +2099,27 @@ drops: [
     grade: "★★★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/kuongatari_juice.png",
+      href: "../recipe/item_list/kuongatari_juice/kuongatari_juice.html",
+      alt: "Kuongatari Juice",
+      chance: "30%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kuongatari_silk.png",
+      href: "../recipe/item_list/kuongatari_silk/kuongtari_silk.html",
+      alt: "Kuongatari Silk",
+      chance: "30%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kuongatari_abdomen.png",
+      href: "../recipe/item_list/kuongatari_abdomen_raw/kuongatari_abdomen_raw.html",
+      alt: "Raw Kuongatari Abdomen",
+      chance: "35%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1368,8 +2131,27 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/makihige_ink_sac.png",
+      href: "../recipe/item_list/makihige_ink_sac/makihige_ink_sac.html",
+      alt: "Makihige Ink Sac",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/makihige_shell.png",
+      href: "../recipe/item_list/makihige_shell/makihige_shell.html",
+      alt: "Makihige Shell",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/makihige_tentacle.png",
+      href: "../recipe/item_list/makihige_tentacle/makihige_tentacle.html",
+      alt: "Makihige Tentacle",
+      chance: "40%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1381,8 +2163,34 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/onitsuchi_wing_raw.png",
+      href: "../recipe/item_list/onitsuchi_wing_raw/onitsuchi_wing_raw.html",
+      alt: "Raw Onitsuchi Wing",
+      chance: "100%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/onitsuchi_skull.png",
+      href: "../recipe/item_list/onitsuchi_skull/onitsuchi_skull.html",
+      alt: "Onitsuchi Skull",
+      chance: "60%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/onitsuchi_feather.png",
+      href: "../recipe/item_list/onitsuchi_feather/onitsuchi_feather.html",
+      alt: "Onitsuchi Feather",
+      chance: "100%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/onitsuchi_egg.png",
+      href: "../recipe/item_list/onitsuchi_egg/onitsuchi_egg.html",
+      alt: "Onitsuchi Egg",
+      chance: "50%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1394,8 +2202,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/orb_piercer_face_fragments.png",
+      href: "../recipe/item_list/orb_piercer_face_fragments/orb_piercer_face_fragments.html",
+      alt: "Orb Piercer Face Fragments",
+      chance: "100%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/orb_piercer_spike.png",
+      href: "../recipe/item_list/orb_piercer_spike/orb_piercer_spike.html",
+      alt: "Orb Piercer Spike",
+      chance: "100%",
+      amount: "2-6"
+    },
     ],
     extra: "Tip1"
   },
@@ -1407,8 +2227,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/rohana_powder.png",
+      href: "../recipe/item_list/rohana_powder/rohana_powder.html",
+      alt: "Rohana Powder",
+      chance: "80%",
+      amount: "2"
+    },
+    {
+      src: "../items/mob_drops/images/rohana_tail.png",
+      href: "../recipe/item_list/rohana_tail/rohana_tail.html",
+      alt: "Rohana Tail",
+      chance: "40%",
+      amount: "2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1420,8 +2252,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/shroombear_meat_raw.png",
+      href: "../recipe/item_list/shroombear_meat_raw/shroombear_meat_raw.html",
+      alt: "Raw Shroombear Meat",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/parasitic_watershrooms.png",
+      href: "../recipe/item_list/parasitic_watershrooms/parasitic_watershrooms.html",
+      alt: "Parasitic Watershrooms",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1433,8 +2277,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/vanilla/images/ink_sac.png",
+      href: "../recipe/item_list/ink_sac/ink_sac.html",
+      alt: "Ink Sac",
+      chance: "100%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/spiralsquid_raw.png",
+      href: "../recipe/item_list/spiralsquid_raw/spiralsquid_raw.html",
+      alt: "Raw Spiralsquid",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1446,8 +2302,27 @@ drops: [
     grade: "★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/vanilla/images/glow_berries.png",
+      href: "../recipe/item_list/glow_berries/glow_berries.html",
+      alt: "Glow Berries",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/plant_matter.png",
+      href: "../recipe/item_list/plant_matter/plant_matter.html",
+      alt: "Plant Matter",
+      chance: "60%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/spittleshrub_root.png",
+      href: "../recipe/item_list/spittleshrub_root/spittleshrub_root.html",
+      alt: "Spittleshrub Root",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1459,8 +2334,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/stinger_wing.png",
+      href: "../recipe/item_list/stinger_wing/stinger_wing.html",
+      alt: "Stinger Wing",
+      chance: "50%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/stinger_horn.png",
+      href: "../recipe/item_list/stinger_horn/stinger_horn.html",
+      alt: "Stinger Horn",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1472,8 +2359,13 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/swarmshocker_charged_powder.png",
+      href: "../recipe/item_list/swarmshocker_charged_powder/swarmshocker_charged_powder.html",
+      alt: "Swarmshocker Charged Powder",
+      chance: "30%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1485,8 +2377,27 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/tachikatana_leg.png",
+      href: "../recipe/item_list/tachikatana_leg/tachikatana_leg.html",
+      alt: "Tachikatana Leg",
+      chance: "80%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/tachikatana_claw.png",
+      href: "../recipe/item_list/tachikatana_claw/tachikatana_claw.html",
+      alt: "Tachikatana Claw",
+      chance: "80%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/tachikatana_scale.png",
+      href: "../recipe/item_list/tachikatana_scale/tachikatana_scale.html",
+      alt: "Tachikatana Scale",
+      chance: "80%",
+      amount: "2-8"
+    },
     ],
     extra: "Tip1"
   },
@@ -1498,8 +2409,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/uibuta_meat_raw.png",
+      href: "../recipe/item_list/uibuta_meat_raw/uibuta_meat_raw.html",
+      alt: "Raw Uibuta Meat",
+      chance: "100%",
+      amount: "2-5"
+    },
+    {
+      src: "../items/mob_drops/images/uibuta_tooth.png",
+      href: "../recipe/item_list/uibuta_tooth/uibuta_tooth.html",
+      alt: "Uibuta Tooth",
+      chance: "75%",
+      amount: "1-3"
+    },
     ],
     extra: "Tip1"
   },
@@ -1511,8 +2434,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/abyssal_snail_shell.png",
+      href: "../recipe/item_list/abyssal_snail_shell/abyssal_snail_shell.html",
+      alt: "Abyssal Snail Shell",
+      chance: "70%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/abyssal_snail_gunk.png",
+      href: "../recipe/item_list/abyssal_snail_gunk/abyssal_snail_gunk.html",
+      alt: "Abyssal Snail Gunk",
+      chance: "70%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1524,8 +2459,34 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/ashimite_meat_raw.png",
+      href: "../recipe/item_list/ashimite_meat_raw/ashimite_meat_raw.html",
+      alt: "Raw Ashimite Meat",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/ashimite_hoof.png",
+      href: "../recipe/item_list/ashimite_hoof/ashimite_hoof.html",
+      alt: "Ashimite Hoof",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/ashimite_antlers.png",
+      href: "../recipe/item_list/ashimite_antlers/ashimite_antlers.html",
+      alt: "Ashimite Antlers",
+      chance: "30%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/light_blue_wool.png",
+      href: "../recipe/item_list/light_blue_wool/light_blue_wool.html",
+      alt: "Light Blue Wool",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1537,8 +2498,27 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/chikyuoebi_raw.png",
+      href: "../recipe/item_list/chikyuoebi_raw/chikyuoebi_raw.html",
+      alt: "Raw Chikyuoebi",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/soul_sand.png",
+      href: "../recipe/item_list/soul_sand/soul_sand.html",
+      alt: "Soul Sand",
+      chance: "60%",
+      amount: "2-4"
+    },
+    {
+      src: "../items/vanilla/images/diamond.png",
+      href: "../recipe/item_list/diamond/diamond.html",
+      alt: "Diamond",
+      chance: "5%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1550,8 +2530,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/demonfish_raw.png",
+      href: "../recipe/item_list/demonfish_raw/demonfish_raw.html",
+      alt: "Raw Demonfish",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/prismarine_shard.png",
+      href: "../recipe/item_list/prismarine_shard/prismarine_shard.html",
+      alt: "Prismarine Shard",
+      chance: "90%",
+      amount: "1-8"
+    },
     ],
     extra: "Tip1"
   },
@@ -1563,8 +2555,20 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/edusan_scale.png",
+      href: "../recipe/item_list/edusan_scale/edusan_scale.html",
+      alt: "Edusan Scale",
+      chance: "100%",
+      amount: "4-8"
+    },
+    {
+      src: "../items/mob_drops/images/edusan_whisker.png",
+      href: "../recipe/item_list/edusan_whisker/edusan_whisker.html",
+      alt: "Edusan Whisker",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1576,8 +2580,27 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/vanilla/images/dried_kelp.png",
+      href: "../recipe/item_list/dried_kelp/dried_kelp.html",
+      alt: "Dried Kelp",
+      chance: "70%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/hagamizukin_tooth.png",
+      href: "../recipe/item_list/hagamizukin_tooth/hagamizukin_tooth.html",
+      alt: "Hagamizukin Tooth",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/hagamizukin_raw.png",
+      href: "../recipe/item_list/hagamizukin_raw/hagamizukin_raw.html",
+      alt: "Raw Hagamizukin",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1589,8 +2612,27 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/hashofu_tail_raw.png",
+      href: "../recipe/item_list/hashofu_tail_raw/hashofu_tail_raw.html",
+      alt: "Raw Hashofu Tail",
+      chance: "80%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/hashofu_eye.png",
+      href: "../recipe/item_list/hashofu_eye/hashofu_eye.html",
+      alt: "Hashofu Eye",
+      chance: "65%",
+      amount: "2"
+    },
+    {
+      src: "../items/mob_drops/images/hashofu_body.png",
+      href: "../recipe/item_list/hashofu_body/hashofu_body.html",
+      alt: "Hashofu Body",
+      chance: "100%",
+      amount: "1-3"
+    },
     ],
     extra: "Tip1"
   },
@@ -1602,8 +2644,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/vanilla/images/bone.png",
+      href: "../recipe/item_list/bone/bone.html",
+      alt: "Bone",
+      chance: "100%",
+      amount: "0-5"
+    },
+    {
+      src: "../items/mob_drops/images/hisomukuro_rib.png",
+      href: "../recipe/item_list/hisomukuro_rib/hisomukuro_rib.html",
+      alt: "Hisomukuro Rib",
+      chance: "70%",
+      amount: "2-6"
+    },
     ],
     extra: "Tip1"
   },
@@ -1615,8 +2669,69 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Ponder)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Sing)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Seek)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Feel)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Admire)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Call)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Yearn)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/horncrier_horn.png",
+      href: "../recipe/item_list/horncrier_horn/horncrier_horn.html",
+      alt: "Horncrier Horn (Dream)",
+      chance: "0.1%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/white_wool.png",
+      href: "../recipe/item_list/white_wool/white_wool.html",
+      alt: "White Wool",
+      chance: "60%",
+      amount: "1-3"
+    },
     ],
     extra: "Tip1"
   },
@@ -1628,8 +2743,13 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/ikonia_plate.png",
+      href: "../recipe/item_list/ikonia_plate/ikonia_plate.html",
+      alt: "Ikonia Plate",
+      chance: "50%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1641,8 +2761,13 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/kagi_tachikiri_pincer.png",
+      href: "../recipe/item_list/kagi_tachikiri_pincer/kagi_tachikiri_pincer.html",
+      alt: "Kagi Tachikiri Pincer",
+      chance: "70%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1654,8 +2779,27 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/kuongatari_juice.png",
+      href: "../recipe/item_list/kuongatari_juice/kuongatari_juice.html",
+      alt: "Kuongatari Juice",
+      chance: "30%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kuongatari_silk.png",
+      href: "../recipe/item_list/kuongatari_silk/kuongtari_silk.html",
+      alt: "Kuongatari Silk",
+      chance: "30%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kuongatari_abdomen.png",
+      href: "../recipe/item_list/kuongatari_abdomen_raw/kuongatari_abdomen_raw.html",
+      alt: "Raw Kuongatari Abdomen",
+      chance: "35%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1667,8 +2811,27 @@ drops: [
     grade: "harmless",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/makihige_ink_sac.png",
+      href: "../recipe/item_list/makihige_ink_sac/makihige_ink_sac.html",
+      alt: "Makihige Ink Sac",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/makihige_shell.png",
+      href: "../recipe/item_list/makihige_shell/makihige_shell.html",
+      alt: "Makihige Shell",
+      chance: "30%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/makihige_tentacle.png",
+      href: "../recipe/item_list/makihige_tentacle/makihige_tentacle.html",
+      alt: "Makihige Tentacle",
+      chance: "40%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1680,8 +2843,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/octoliar_ink_sac.png",
+      href: "../recipe/item_list/octoliar_ink_sac/octoliar_ink_sac.html",
+      alt: "Octoliar Ink Sac",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/octoliar_tentacle.png",
+      href: "../recipe/item_list/octoliar_tentacle/octoliar_tentacle.html",
+      alt: "Octoliar Tentacle",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1693,8 +2868,34 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/onitsuchi_wing_raw.png",
+      href: "../recipe/item_list/onitsuchi_wing_raw/onitsuchi_wing_raw.html",
+      alt: "Raw Onitsuchi Wing",
+      chance: "100%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/onitsuchi_skull.png",
+      href: "../recipe/item_list/onitsuchi_skull/onitsuchi_skull.html",
+      alt: "Onitsuchi Skull",
+      chance: "60%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/onitsuchi_feather.png",
+      href: "../recipe/item_list/onitsuchi_feather/onitsuchi_feather.html",
+      alt: "Onitsuchi Feather",
+      chance: "100%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/onitsuchi_egg.png",
+      href: "../recipe/item_list/onitsuchi_egg/onitsuchi_egg.html",
+      alt: "Onitsuchi Egg",
+      chance: "50%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1706,8 +2907,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/shiratsubi_wing.png",
+      href: "../recipe/item_list/shiratsubi_wing/shiratsubi_wing.html",
+      alt: "Shiratsubi Wing",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/yomotsubi_abdomen_raw.png",
+      href: "../recipe/item_list/yomotsubi_abdomen_raw/yomotsubi_abdomen_raw.html",
+      alt: "Raw Yomotsubi Abdomen",
+      chance: "70%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1719,8 +2932,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/spikewalker_spike.png",
+      href: "../recipe/item_list/spikewalker_spike/spikewalker_spike.html",
+      alt: "Spikewalker Spike",
+      chance: "80%",
+      amount: "1-3"
+    },
+    {
+      src: "../items/mob_drops/images/spikewalker_meat.png",
+      href: "../recipe/item_list/spikewalker_meat/spikewalker_meat.html",
+      alt: "Spikewalker Meat",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1732,8 +2957,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/stinger_wing.png",
+      href: "../recipe/item_list/stinger_wing/stinger_wing.html",
+      alt: "Stinger Wing",
+      chance: "50%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/stinger_horn.png",
+      href: "../recipe/item_list/stinger_horn/stinger_horn.html",
+      alt: "Stinger Horn",
+      chance: "20%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1745,8 +2982,27 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/stingerhead_scale.png",
+      href: "../recipe/item_list/stingerhead_scale/stingerhead_scale.html",
+      alt: "Stingerhead Scale",
+      chance: "100%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/stingerhead_flesh.png",
+      href: "../recipe/item_list/stingerhead_flesh/stingerhead_flesh.html",
+      alt: "Stingerhead Flesh",
+      chance: "100%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/stingerhead_eye.png",
+      href: "../recipe/item_list/stingerhead_eye/stingerhead_eye.html",
+      alt: "Stingerhead Eye",
+      chance: "40%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1758,8 +3014,27 @@ drops: [
     grade: "★★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/swarmshocker_charged_powder.png",
+      href: "../recipe/item_list/swarmshocker_charged_powder/swarmshocker_charged_powder.html",
+      alt: "Swarmshocker Charged Powder",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/swarmshocker_jelly.png",
+      href: "../recipe/item_list/swarmshocker_jelly/swarmshocker_jelly.html",
+      alt: "Swarmshocker Jelly",
+      chance: "60%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/soul_sand.png",
+      href: "../recipe/item_list/soul_sand/soul_sand.html",
+      alt: "Soul Sand",
+      chance: "100%",
+      amount: "1"
+    },
     ],
     extra: "Tip1"
   },
@@ -1771,8 +3046,13 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/swarmshocker_charged_powder.png",
+      href: "../recipe/item_list/swarmshocker_charged_powder/swarmshocker_charged_powder.html",
+      alt: "Swarmshocker Charged Powder",
+      chance: "30%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1784,8 +3064,27 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/tachikatana_leg.png",
+      href: "../recipe/item_list/tachikatana_leg/tachikatana_leg.html",
+      alt: "Tachikatana Leg",
+      chance: "80%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/tachikatana_claw.png",
+      href: "../recipe/item_list/tachikatana_claw/tachikatana_claw.html",
+      alt: "Tachikatana Claw",
+      chance: "80%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/tachikatana_scale.png",
+      href: "../recipe/item_list/tachikatana_scale/tachikatana_scale.html",
+      alt: "Tachikatana Scale",
+      chance: "80%",
+      amount: "2-8"
+    },
     ],
     extra: "Tip1"
   },
@@ -1797,8 +3096,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/titanjaw_pearl.png",
+      href: "../recipe/item_list/titanjaw_pearl/titanjaw_pearl.html",
+      alt: "Titanjaw Pearl",
+      chance: "20%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/titanjaw_scale.png",
+      href: "../recipe/item_list/titanjaw_scale/titanjaw_scale.html",
+      alt: "Titanjaw Scale",
+      chance: "60%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
@@ -1810,8 +3121,20 @@ drops: [
     grade: "★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/raw__meat.png", href: "../relic.html?item=ikenosuke_meat", alt: "Ikenosuke Meat" },
-      {src: "icondrop/prismarine_crystal.png", alt: "Prismarine Crystal" },
+    {
+      src: "../items/mob_drops/images/virinsipede_segments.png",
+      href: "../recipe/item_list/virinsipede_segments/virinsipede_segments.html",
+      alt: "Virinsipede Segments",
+      chance: "80%",
+      amount: "4-10"
+    },
+    {
+      src: "../items/mob_drops/images/virinsipede_antlers.png",
+      href: "../recipe/item_list/virinsipede_antlers/virinsipede_antlers.html",
+      alt: "Virinsipede Antlers",
+      chance: "30%",
+      amount: "1-2"
+    },
     ],
     extra: "Tip1"
   },
