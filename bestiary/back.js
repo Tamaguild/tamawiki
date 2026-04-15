@@ -117,6 +117,7 @@ function render() {
     statsDiv.className = 'mob-stats';
 
     statsDiv.innerHTML = `
+      <div><b>XP:</b> ${d.stats.xp ?? "-"}</div>
       <div><b>HP:</b> ${d.stats.hp ?? "-"}</div>
       <div><b>Type:</b> ${d.stats.type ?? "-"}</div>
     `;

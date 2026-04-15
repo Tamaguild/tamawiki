@@ -23,6 +23,7 @@ export const DATA = [
       }
      ],
      stats: {
+       xp: "20-25",
        hp: 20,
        type: "Passive"
     },
@@ -60,6 +61,7 @@ drops: [
       }
      ],
      stats: {
+       xp: 5,
        hp: 8,
        type: "Neutral"
     },
@@ -96,6 +98,7 @@ drops: [
       }
      ],
      stats: {
+       xp: "25-45",
        hp: 12.5,
        type: "Hostile"
     },
@@ -139,6 +142,7 @@ drops: [
       },
      ],
      stats: {
+       xp: "3-7",
        hp: 5,
        type: "Passive"
     },
@@ -182,6 +186,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "25-45",
      hp: 9,
      type: "Hostile"
     },
@@ -239,6 +244,7 @@ drops: [
       },
      ],
      stats: {
+       xp: "25-45",
        hp: 20,
        type: "Hostile"
     },
@@ -286,6 +292,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "5-15",
      hp: 7.5,
      type: "Hostile"
     },
@@ -322,6 +329,7 @@ drops: [
       }
      ],
      stats: {
+       xp: "20-25",
        hp: 20,
        type: "Passive"
     },
@@ -365,6 +373,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "10-15",
      hp: 11,
      type: "Hostile"
     },
@@ -401,6 +410,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "5-10",
      hp: 4,
      type: "Passive"
     },
@@ -444,6 +454,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "20-35",
      hp: 10,
      type: "Hostile"
     },
@@ -501,6 +512,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "70-115",
      hp: 45,
      type: "Hostile"
     },
@@ -530,6 +542,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "10-15",
      hp: 10,
      type: "Hostile"
     },
@@ -552,6 +565,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "10-15",
      hp: 8,
      type: "Hostile"
     },
@@ -581,6 +595,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "10-15",
      hp: 10,
      type: "Hostile"
     },
@@ -621,6 +636,7 @@ drops: [
     },
     ],
     stats: {
+     xp: "10-30",
      hp: 15,
      type: "Hostile"
     },
@@ -657,6 +673,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "1-10",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -689,6 +708,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "10-25",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -728,6 +750,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "50-90",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -760,6 +785,9 @@ drops: [
       amount: "1-4"
     },
     ],
+    stats: {
+     xp: "25-45",
+    },
     extra: "Tip1"
   },
   {
@@ -792,6 +820,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "20-40",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -831,6 +862,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "3-7",
+    },
     extra: "Tip1"
   },
   {
@@ -863,6 +897,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "25-45",
+    },
     extra: "Tip1"
   },
   {
@@ -904,6 +941,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "25-45",
+    },
     extra: "Tip1"
   },
   {
@@ -929,6 +969,9 @@ drops: [
       amount: "1-8"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -954,6 +997,9 @@ drops: [
       amount: "4-15"
     },
     ],
+    stats: {
+     xp: "55-90",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -986,6 +1032,9 @@ drops: [
       amount: "2"
     },
     ],
+    stats: {
+     xp: "12-18",
+    },
     extra: "Tip1"
   },
   {
@@ -1018,6 +1067,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "10-15",
+    },
     extra: "Tip1"
   },
   {
@@ -1050,6 +1102,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "20-35",
+    },
     extra: "Tip1"
   },
   {
@@ -1096,6 +1151,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "70-115",
+    },
     extra: "Tip1"
   },
   {
@@ -1121,6 +1179,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "5-10",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -1146,6 +1207,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "10-15",
+    },
     extra: "Tip1"
   },
     {
@@ -1164,6 +1228,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "10-15",
+    },
     extra: "Tip1"
   },
     {
@@ -1182,6 +1249,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "10-15",
+    },
     extra: "Tip1"
   },
   {
@@ -1207,6 +1277,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "10-30",
+    },
     extra: "Tip1"
   },
   /*LAYER 2 (INVERTED FOREST)*/
@@ -1233,6 +1306,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "1-10",
+    },
     extra: "Tip1"
   },
   {
@@ -1258,6 +1334,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "10-20",
+    },
     extra: "Tip1"
   },
   {
@@ -1283,6 +1362,9 @@ drops: [
       amount: "1-8"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -1308,6 +1390,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "35-45",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -1361,6 +1446,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "5-10",
+    },
     extra: "Tip1"
   },
   {
@@ -1379,6 +1467,9 @@ drops: [
       amount: "1-4"
     },
     ],
+    stats: {
+     xp: "10-15",
+    },
     extra: "Tip1"
   },
   {
@@ -1404,6 +1495,9 @@ drops: [
       amount: "2"
     },
     ],
+    stats: {
+     xp: "12-18",
+    },
     extra: "Tip1"
   },
   {
@@ -1429,6 +1523,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -1462,6 +1559,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "50-90",
+    },
     extra: "Tip1"
   },
   {
@@ -1487,6 +1587,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-25",
+    },
     extra: "Tip1"
   },
   {
@@ -1519,6 +1622,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "20-40",
+    },
     extra: "Tip1"
   },
   {
@@ -1551,6 +1657,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "/",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -1583,6 +1692,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "10-20",
+    },
     extra: "Tip1"
   },
   {
@@ -1608,6 +1720,9 @@ drops: [
       amount: "1-8"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -1633,6 +1748,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "3-8",
+    },
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
@@ -1679,6 +1797,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "40-60",
+    },
     extra: "Tip1"
   },
   {
@@ -1725,6 +1846,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "5-10",
+    },
     extra: "Tip1"
   },
   {
@@ -1743,6 +1867,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-25",
+    },
     extra: "Tip1"
   },
   {
@@ -1761,6 +1888,9 @@ drops: [
       amount: "1-4"
     },
     ],
+    stats: {
+     xp: "10-15",
+    },
     extra: "Tip1"
   },
   {
@@ -1779,6 +1909,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "10-20",
+    },
     extra: "Tip1"
   },
   {
@@ -1825,6 +1958,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "70-115",
+    },
     extra: "Tip1"
   },
   {
@@ -1843,6 +1979,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "12-18",
+    },
     extra: "Tip1"
   },
   {
@@ -1868,6 +2007,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "25-35",
+    },
     extra: "Tip1"
   },
 // LAYER 4
@@ -1901,6 +2043,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-20",
+    },
     extra: "Tip1"
   },
   {
@@ -1940,6 +2085,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "25-45",
+    },
     extra: "Tip1"
   },
   {
@@ -1972,6 +2120,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "12-18",
+    },
     extra: "Tip1"
   },
   {
@@ -2046,6 +2197,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "30-60",
+    },
     extra: "Tip1"
   },
   {
@@ -2071,6 +2225,9 @@ drops: [
       amount: "1-8"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -2089,6 +2246,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "10-15",
+    },
     extra: "Tip1"
   },
   {
@@ -2121,6 +2281,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-25",
+    },
     extra: "Tip1"
   },
   {
@@ -2153,6 +2316,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-30",
+    },
     extra: "Tip1"
   },
   {
@@ -2192,6 +2358,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "60-80",
+    },
     extra: "Tip1"
   },
   {
@@ -2217,6 +2386,9 @@ drops: [
       amount: "2-6"
     },
     ],
+    stats: {
+     xp: "100-250",
+    },
     extra: "Tip1"
   },
   {
@@ -2242,6 +2414,9 @@ drops: [
       amount: "2"
     },
     ],
+    stats: {
+     xp: "12-18",
+    },
     extra: "Tip1"
   },
   {
@@ -2267,6 +2442,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "3-7",
+    },
     extra: "Tip1"
   },
   {
@@ -2292,6 +2470,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "5-10",
+    },
     extra: "Tip1"
   },
   {
@@ -2324,6 +2505,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "20-35",
+    },
     extra: "Tip1"
   },
   {
@@ -2349,6 +2533,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -2367,6 +2554,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -2399,6 +2589,9 @@ drops: [
       amount: "2-8"
     },
     ],
+    stats: {
+     xp: "100-250",
+    },
     extra: "Tip1"
   },
   {
@@ -2424,6 +2617,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "65-95",
+    },
     extra: "Tip1"
   },
   {
@@ -2449,6 +2645,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "25-40",
+    },
     extra: "Tip1"
   },
   {
@@ -2488,6 +2687,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "5-10",
+    },
     extra: "Tip1"
   },
   {
@@ -2520,6 +2722,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "70-115",
+    },
     extra: "Tip1"
   },
   {
@@ -2545,6 +2750,9 @@ drops: [
       amount: "1-8"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -2570,6 +2778,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "35-50",
+    },
     extra: "Tip1"
   },
   {
@@ -2602,6 +2813,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-20",
+    },
     extra: "Tip1"
   },
   {
@@ -2634,6 +2848,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "12-18",
+    },
     extra: "Tip1"
   },
   {
@@ -2659,6 +2876,9 @@ drops: [
       amount: "2-6"
     },
     ],
+    stats: {
+     xp: "20-30",
+    },
     extra: "Tip1"
   },
   {
@@ -2733,6 +2953,9 @@ drops: [
       amount: "1-3"
     },
     ],
+    stats: {
+     xp: "30-60",
+    },
     extra: "Tip1"
   },
   {
@@ -2751,6 +2974,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "20-25",
+    },
     extra: "Tip1"
   },
   {
@@ -2769,6 +2995,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "20-40",
+    },
     extra: "Tip1"
   },
   {
@@ -2801,6 +3030,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-25",
+    },
     extra: "Tip1"
   },
   {
@@ -2833,6 +3065,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-30",
+    },
     extra: "Tip1"
   },
   {
@@ -2858,6 +3093,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -2897,6 +3135,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "60-80",
+    },
     extra: "Tip1"
   },
   {
@@ -2922,6 +3163,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "25-35",
+    },
     extra: "Tip1"
   },
   {
@@ -2947,6 +3191,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "20-25",
+    },
     extra: "Tip1"
   },
   {
@@ -2972,6 +3219,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -3004,6 +3254,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "100-250",
+    },
     extra: "Tip1"
   },
   {
@@ -3036,6 +3289,9 @@ drops: [
       amount: "1"
     },
     ],
+    stats: {
+     xp: "20-35",
+    },
     extra: "Tip1"
   },
   {
@@ -3054,6 +3310,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "5-15",
+    },
     extra: "Tip1"
   },
   {
@@ -3086,6 +3345,9 @@ drops: [
       amount: "2-8"
     },
     ],
+    stats: {
+     xp: "100-250",
+    },
     extra: "Tip1"
   },
   {
@@ -3111,6 +3373,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "20-25",
+    },
     extra: "Tip1"
   },
   {
@@ -3136,6 +3401,9 @@ drops: [
       amount: "1-2"
     },
     ],
+    stats: {
+     xp: "15-25",
+    },
     extra: "Tip1"
   },
 ];
