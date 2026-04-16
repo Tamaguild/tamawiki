@@ -452,6 +452,41 @@ drops: [
       chance: "60%",
       amount: "1-2"
     },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
     ],
     stats: {
      xp: "20-35",
@@ -540,6 +575,41 @@ drops: [
       chance: "60%",
       amount: "1-2"
     },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
     ],
     stats: {
      xp: "10-15",
@@ -562,6 +632,41 @@ drops: [
       alt: "Plant Matter",
       chance: "60%",
       amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
     },
     ],
     stats: {
@@ -592,6 +697,41 @@ drops: [
       alt: "Plant Matter",
       chance: "60%",
       amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
     },
     ],
     stats: {
@@ -1101,6 +1241,41 @@ drops: [
       chance: "20%",
       amount: "1"
     },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
     ],
     stats: {
      xp: "20-35",
@@ -1178,6 +1353,13 @@ drops: [
       chance: "80%",
       amount: "1-3"
     },
+    {
+      src: "../items/special_drops/images/tosubachi.png",
+      href: "../recipe/item_list/tosubachi/tosubachi.html",
+      alt: "Tosubachi",
+      chance: "100%",
+      amount: "1"
+    },
     ],
     stats: {
      xp: "5-10",
@@ -1206,6 +1388,41 @@ drops: [
       chance: "60%",
       amount: "1-2"
     },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
     ],
     stats: {
      xp: "10-15",
@@ -1227,6 +1444,41 @@ drops: [
       chance: "60%",
       amount: "1-2"
     },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
     ],
     stats: {
      xp: "10-15",
@@ -1247,6 +1499,41 @@ drops: [
       alt: "Plant Matter",
       chance: "60%",
       amount: "1-2"
+    },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
     },
     ],
     stats: {
@@ -2502,6 +2789,41 @@ drops: [
       href: "../recipe/item_list/spittleshrub_root/spittleshrub_root.html",
       alt: "Spittleshrub Root",
       chance: "20%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/oak_sapling.png",
+      href: "../recipe/item_list/oak_sapling/oak_sapling.html",
+      alt: "Oak Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/spruce_sapling.png",
+      href: "../recipe/item_list/spruce_sapling/spruce_sapling.html",
+      alt: "Spruce Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/jungle_sapling.png",
+      href: "../recipe/item_list/jungle_sapling/jungle_sapling.html",
+      alt: "Jungle Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/acacia_sapling.png",
+      href: "../recipe/item_list/acacia_sapling/acacia_sapling.html",
+      alt: "Acacia Sapling",
+      chance: "3.5%",
+      amount: "1"
+    },
+    {
+      src: "../items/vanilla/images/dark_oak_sapling.png",
+      href: "../recipe/item_list/dark_oak_sapling/dark_oak_sapling.html",
+      alt: "Dark Oak Sapling",
+      chance: "3.5%",
       amount: "1"
     },
     ],
