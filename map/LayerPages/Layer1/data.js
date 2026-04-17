@@ -19,6 +19,16 @@ export const DATA = {
       id: 1,
       title: "Tip 1: Running :tuh:",
       content: "Always try to avoid any fight at first, you can easily be one-tap by some random bird :mogicrazy:."
+    },
+    {
+      id: 2,
+      title: "Tip 2: Dont jump down:tuh:",
+      content: "Dont try to jump far heights as fast as you might die very quickly."
+    },
+    {
+      id: 3,
+      title: "Tip 3 collecting material",
+      content: "collect wood and stone as much as you can, you will need it to craft some basic tools and weapons.AND DONT FORGET TO COLLECT SOME FOOD TOO :mogicrazy:."
     }
   ]
 };
