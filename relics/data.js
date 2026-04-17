@@ -917,6 +917,12 @@ export const DATA = [
           Plz Dev, I need this, this relic is trash of trash among the grade 1, tickle dmg, stun ( slowness is not a good stun ) and aoe dmg?, i prefer my trusty netherite sword. AND TO BE EVEN WORSE, it used ur xp :red_angry:
         </div>
       </div>
+       <div class="tip">
+        <img class="tip-avatar" src="avatar/Cat.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          its as cold as cole palmer :mogicrazy:
+        </div>
+      </div>
     `
   },
 
