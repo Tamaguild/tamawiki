@@ -8,14 +8,14 @@ export const DATA = [
     details: "Drops:",
     drops: [
       { 
-        src: "icondrop/okibo_fur.png",
+        src: "../items/mob_drops/images/okibo_fur.png",
         href: "../recipe/item_list/okibo_fur/okibo_fur.html",
         alt: "Okibo Fur",
         chance: "70%",
         amount: "1-2"
       },
       { 
-        src: "icondrop/raw_okibo_meat.png",
+        src: "../items/mob_drops/images/okibo_meat_raw.png",
         href: "../recipe/item_list/okibo_meat/okibo_meat.html",
         alt: "Raw Okibo Meat",
         chance: "60%",
@@ -46,14 +46,14 @@ export const DATA = [
     details: "Drops:",
 drops: [
       { 
-        src: "icondrop/beniguma_fur.png",
+        src: "../items/mob_drops/images/beniguma_fur.png",
         href: "../recipe/item_list/beniguma_fur/beniguma_fur.html",
         alt: "Beniguma Fur",
         chance: "60%",
         amount: "1-2"
       },
       { 
-        src: "icondrop/sweet_berries.png",
+        src: "../items/vanilla/images/sweet_berries.png",
         href: "../recipe/item_list/sweet_berries/sweet_berries.html",
         alt: "Sweet Berries",
         chance: "60%",
@@ -83,14 +83,14 @@ drops: [
     details: "Drops:",
     drops: [
       { 
-        src: "icondrop/raw_cyatoria_drumstick.png",
+        src: "../items/mob_drops/images/cyatoria_drumstick_raw.png",
         href: "../recipe/item_list/cyatoria_drumstick/cyatoria_drumstick.html",
         alt: "Raw Cyatoria Drumstick",
         chance: "100%",
         amount: "1-2"
       },
       { 
-        src: "icondrop/cyatoria_feather.png",
+        src: "../items/mob_drops/images/cyatoria_feather.png",
         href: "../recipe/item_list/cyatoria_feather/cyatoria_feather.html",
         alt: "Cyatoria Feather",
         chance: "70%",
@@ -120,21 +120,21 @@ drops: [
     details: "Drops:",
     drops: [
       { 
-        src: "icondrop/raw_fuwagi_meat.png",
+        src: "../items/mob_drops/images/fuwagi_meat_raw.png",
         href: "../recipe/item_list/raw_fuwagi_meat/raw_fuwagi_meat.html",
         alt: "Raw Fuwagi Meat",
         chance: "60%",
         amount: "1-2"
       },
       { 
-        src: "icondrop/fuwagi_foot.png",
+        src: "../items/mob_drops/images/fuwagi_foot.png",
         href: "../recipe/item_list/fuwagi_foot/fuwagi_foot.html",
         alt: "Fuwagi Foot",
         chance: "30%",
         amount: "1-2"
       },
       { 
-        src: "icondrop/fuwagi_hide.png",
+        src: "../items/mob_drops/images/fuwagi_hide.png",
         href: "../recipe/item_list/fuwagi_hide/fuwagi_hide.html",
         alt: "Fuwagi Hide",
         chance: "70%",
@@ -164,21 +164,21 @@ drops: [
     details: "Drops:",
     drops: [
     { 
-      src: "icondrop/hammerbeak_feather.png",
+      src: "../items/mob_drops/images/hammerbeak_feather.png",
       href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
       alt: "Hammerbeak Feather",
       chance: "50%",
       amount: "1-2"
     },
     { 
-      src: "icondrop/hammerbeak_beak.png",
+      src: "../items/mob_drops/images/hammerbeak_beak.png",
       href: "../recipe/item_list/hammerbeak_beak/hammerbeak_beak.html",
       alt: "Hammerbeak Beak",
       chance: "60%",
       amount: "1"
     },
     { 
-      src: "icondrop/raw_hammerbeak_wing.png",
+      src: "../items/mob_drops/images/hammerbeak_wing_raw.png",
       href: "../recipe/item_list/raw_hammerbeak_wing/raw_hammerbeak_wing.html",
       alt: "Raw Hammerbeak Wing",
       chance: "100%",
@@ -208,35 +208,30 @@ drops: [
     description: "Another variant of hammerbeak, their beaks are much larger and may cause confusion to the delver got hit, commonly found in deeper layers.<br> <br> Found in Layer 1 & 2 & 4",
     grade: "★★★",
     details: "Drops:",
-    drops: [
-      { src: "icondrop/hammerbeak_feather.png", href: "../relic.html?item=hammerbeak_feather", alt: "Hammerbeak Feather" },
-      { src: "icondrop/hammerbeak_beak.png", href: "../relic.html?item=hammerbeak_beak", alt: "Hammerbeak Beak" },
-      { src: "icondrop/raw_hammerbeak_wing.png", href: "../relic.html?item=hammerbeak_wing", alt: "Hammerbeak Wing" }
-    ],
       drops: [
       { 
-        src: "icondrop/hammerbeak_feather.png",
+        src: "../items/mob_drops/images/hammerbeak_feather.png",
         href: "../recipe/item_list/hammerbeak_feather/hammerbeak_feather.html",
         alt: "Hammerbeak Feather",
         chance: "70%",
         amount: "1-3"
       },
       { 
-        src: "icondrop/hammerbeak_beak.png",
+        src: "../items/mob_drops/images/hammerbeak_beak.png",
         href: "../recipe/item_list/hammerbeak_beak/hammerbeak_beak.html",
         alt: "Hammerbeak Beak",
         chance: "60%",
         amount: "1"
       },
       { 
-        src: "icondrop/raw_hammerbeak_wing.png",
+        src: "../items/mob_drops/images/hammerbeak_wing_raw.png",
         href: "../recipe/item_list/raw_hammerbeak_wing/raw_hammerbeak_wing.html",
         alt: "Raw Hammerbeak Wing",
         chance: "100%",
         amount: "1-3"
       },
       { 
-        src: "icondrop/hammerbeak_egg.png",
+        src: "../items/mob_drops/images/hammerbeak_egg.png",
         href: "../recipe/item_list/hammerbeak_egg/hammerbeak_egg.html",
         alt: "Hammerbeak Egg",
         chance: "50%",
@@ -264,27 +259,23 @@ drops: [
     description: "Weasel-like little menaces, their head, backs, and hips are covered with spikes. They have fluffy tails as thick and long as their bodies, which they often use as a distraction when attacked to prevent damage to their bodies.<br> <br> Found in Layer 1",
     grade: "★",
     details: "Drops:",
-    drops: [
-      { src: "icondrop/mantoyer_fur.png", href: "../relic.html?item=mantoyer_fur", alt: "Man-toyer Fur" },
-      { src: "icondrop/mantoyer_horn.png", href: "../relic.html?item=mantoyer_horn", alt: "Man-toyer Horn" },
-    ],
         drops: [
     { 
-      src: "icondrop/sweet_berries.png",
+      src: "../items/vanilla/images/sweet_berries.png",
       href: "../recipe/item_list/sweet_berries/sweet_berries.html",
       alt: "Sweet Berries",
       chance: "60%",
       amount: "1-3"
     },
     { 
-      src: "icondrop/mantoyer_fur.png",
+      src: "../items/mob_drops/images/mantoyer_fur.png",
       href: "../recipe/item_list/mantoyer_fur/mantoyer_fur.html",
       alt: "Man-toyer Fur",
       chance: "60%",
       amount: "1-2"
     },
     { 
-      src: "icondrop/mantoyer_horn.png",
+      src: "../items/mob_drops/images/mantoyer_horns.png",
       href: "../recipe/item_list/mantoyer_horn/mantoyer_horn.html",
       alt: "Man-toyer Horn",
       chance: "60%",
@@ -314,14 +305,14 @@ drops: [
     details: "Drops:",
     drops: [
       { 
-        src: "icondrop/okibo_fur.png",
+        src: "../items/mob_drops/images/okibo_fur.png",
         href: "../recipe/item_list/okibo_fur/okibo_fur.html",
         alt: "Okibo Fur",
         chance: "70%",
         amount: "1-2"
       },
       { 
-        src: "icondrop/raw_okibo_meat.png",
+        src: "../items/mob_drops/images/okibo_meat_raw.png",
         href: "../recipe/item_list/okibo_meat/okibo_meat.html",
         alt: "Raw Okibo Meat",
         chance: "60%",
@@ -351,21 +342,21 @@ drops: [
     details: "Drops:",
     drops: [
     { 
-      src: "icondrop/silkfang_silk.png",
+      src: "../items/mob_drops/images/silkfang_silk.png",
       href: "../recipe/item_list/silkfang_silk/silkfang_silk.html",
       alt: "Silkfang Silk",
       chance: "60%",
       amount: "1-2"
     },
     { 
-      src: "icondrop/silkfang_eye.png",
+      src: "../items/mob_drops/images/silkfang_eye.png",
       href: "../recipe/item_list/silkfang_eye/silkfang_eye.html",
       alt: "Silkfang Eye",
       chance: "60%",
       amount: "1-2"
     },
     { 
-      src: "icondrop/bundle_silkfang_silk.png",
+      src: "../items/mob_drops/images/bundle_of_silkfang_silk.png",
       href: "../recipe/item_list/bundle_silkfang_silk/bundle_silkfang_silk.html",
       alt: "Bundle of Silkfang Silk",
       chance: "20%",
@@ -395,14 +386,14 @@ drops: [
     details: "Drops:",
     drops: [
     { 
-      src: "icondrop/raw_spiralsquid.png",
+      src: "../items/mob_drops/images/spiralsquid_raw.png",
       href: "../recipe/item_list/raw_spiralsquid/raw_spiralsquid.html",
       alt: "Raw Spiralsquid",
       chance: "60%",
       amount: "1-2"
     },
     { 
-      src: "icondrop/ink_sac.png",
+      src: "../items/vanilla/images/ink_sac.png",
       href: "../recipe/item_list/ink_sac/ink_sac.html",
       alt: "Ink Sac",
       chance: "100%",
@@ -432,21 +423,21 @@ drops: [
     details: "Drops:",
     drops: [
     { 
-      src: "icondrop/plant_matter.png",
+      src: "../items/mob_drops/images/plant_matter.png",
       href: "../recipe/item_list/plant_matter/plant_matter.html",
       alt: "Plant Matter",
       chance: "60%",
       amount: "1-3"
     },
     { 
-      src: "icondrop/spittleshrub_root.png",
+      src: "../items/mob_drops/images/spittleshrub_root.png",
       href: "../recipe/item_list/spittleshrub_root/spittleshrub_root.html",
       alt: "Spittleshrub Root",
       chance: "20%",
       amount: "1"
     },
     { 
-      src: "icondrop/glow_berries.png",
+      src: "../items/vanilla/images/glow_berries.png",
       href: "../recipe/item_list/glow_berries/glow_berries.html",
       alt: "Glow Berries",
       chance: "60%",
@@ -511,35 +502,35 @@ drops: [
     details: "Drops:",
     drops: [
     { 
-      src: "icondrop/splitjaw_gunk.png",
+      src: "../items/mob_drops/images/splitjaw_gunk.png",
       href: "../recipe/item_list/splitjaw_gunk/splitjaw_gunk.html",
       alt: "Splitjaw Gunk",
       chance: "70%",
       amount: "2"
     },
     { 
-      src: "icondrop/splitjaw_scales.png",
+      src: "../items/mob_drops/images/splitjaw_scales.png",
       href: "../recipe/item_list/splitjaw_scales/splitjaw_scales.html",
       alt: "Splitjaw Scales",
       chance: "70%",
       amount: "1-3"
     },
     { 
-      src: "icondrop/diamond.png",
+      src: "../items/vanilla/images/diamond.png",
       href: "../recipe/item_list/diamond/diamond.html",
       alt: "Diamond",
       chance: "10%",
       amount: "1"
     },
     { 
-      src: "icondrop/emerald.png",
+      src: "../items/vanilla/images/emerald.png",
       href: "../recipe/item_list/emerald/emerald.html",
       alt: "Emerald",
       chance: "10%",
       amount: "1"
     },
     { 
-      src: "icondrop/gold_ingot.png",
+      src: "../items/vanilla/images/gold_ingot.png",
       href: "../recipe/item_list/gold_ingot/gold_ingot.html",
       alt: "Gold Ingot",
       chance: "15%",
@@ -569,7 +560,7 @@ drops: [
     details: "Drops:",
     drops: [
     { 
-      src: "icondrop/plant_matter.png",
+      src: "../items/mob_drops/images/plant_matter.png",
       href: "../recipe/item_list/plant_matter/plant_matter.html",
       alt: "Plant Matter",
       chance: "60%",
@@ -627,7 +618,7 @@ drops: [
     details: "Drops:",
     drops: [
     { 
-      src: "icondrop/plant_matter.png",
+      src: "../items/mob_drops/images/plant_matter.png",
       href: "../recipe/item_list/plant_matter/plant_matter.html",
       alt: "Plant Matter",
       chance: "60%",
@@ -692,7 +683,7 @@ drops: [
     details: "Drops:",
     drops: [
     { 
-      src: "icondrop/plant_matter.png",
+      src: "../items/mob_drops/images/plant_matter.png",
       href: "../recipe/item_list/plant_matter/plant_matter.html",
       alt: "Plant Matter",
       chance: "60%",
@@ -756,19 +747,15 @@ drops: [
     grade: "★★★",
     details: "Drops:",
     drops: [
-      { src: "icondrop/woodcrier_horn.png", href: "../relic.html?item=woodcrier_horn", alt: "Woodcrier Horn" },
-      {src: "icondrop/brown_wool.png", alt: "Brown Wool" },
-    ],
-    drops: [
     { 
-      src: "icondrop/woodcrier_horn.png",
+      src: "../items/mob_drops/images/woodcrier_horn.png",
       href: "../recipe/item_list/woodcrier_horn/woodcrier_horn.html",
       alt: "Woodcrier Horn",
       chance: "60%",
       amount: "1-2"
     },
     { 
-      src: "icondrop/brown_wool.png",
+      src: "../items/vanilla/images/brown_wool.png",
       href: "../recipe/item_list/brown_wool/brown_wool.html",
       alt: "Brown Wool",
       chance: "60%",
