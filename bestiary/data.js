@@ -802,6 +802,7 @@ drops: [
     ],
     stats: {
      xp: "1-10",
+     hp: 20,
     },
     extra: `
       <div class="tip">
@@ -837,6 +838,7 @@ drops: [
     ],
     stats: {
      xp: "10-25",
+     hp: 30,
     },
     extra: `
       <div class="tip">
@@ -879,6 +881,7 @@ drops: [
     ],
     stats: {
      xp: "50-90",
+     hp: 35,
     },
     extra: `
       <div class="tip">
@@ -914,6 +917,7 @@ drops: [
     ],
     stats: {
      xp: "25-45",
+     hp: 25,
     },
     extra: "Tip1"
   },
@@ -949,6 +953,7 @@ drops: [
     ],
     stats: {
      xp: "20-40",
+     hp: 30,
     },
     extra: `
       <div class="tip">
@@ -991,6 +996,7 @@ drops: [
     ],
     stats: {
      xp: "3-7",
+     hp: 10,
     },
     extra: "Tip1"
   },
@@ -1026,6 +1032,7 @@ drops: [
     ],
     stats: {
      xp: "25-45",
+     hp: 18,
     },
     extra: "Tip1"
   },
@@ -1070,6 +1077,7 @@ drops: [
     ],
     stats: {
      xp: "25-45",
+     hp: 40,
     },
     extra: "Tip1"
   },
@@ -1098,6 +1106,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 12,
     },
     extra: `
       <div class="tip">
@@ -1126,6 +1135,7 @@ drops: [
     ],
     stats: {
      xp: "55-90",
+     hp: 90,
     },
     extra: `
       <div class="tip">
@@ -1161,6 +1171,7 @@ drops: [
     ],
     stats: {
      xp: "12-18",
+     hp: 10,
     },
     extra: "Tip1"
   },
@@ -1196,6 +1207,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
+     hp: 22,
     },
     extra: "Tip1"
   },
@@ -1266,6 +1278,7 @@ drops: [
     ],
     stats: {
      xp: "20-35",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -1315,6 +1328,7 @@ drops: [
     ],
     stats: {
      xp: "70-115",
+     hp: 90,
     },
     extra: "Tip1"
   },
@@ -1350,6 +1364,7 @@ drops: [
     ],
     stats: {
      xp: "5-10",
+     hp: 20,
     },
     extra: `
       <div class="tip">
@@ -1413,6 +1428,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -1469,6 +1485,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
+     hp: 16,
     },
     extra: "Tip1"
   },
@@ -1525,6 +1542,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -1553,6 +1571,7 @@ drops: [
     ],
     stats: {
      xp: "10-30",
+     hp: 30,
     },
     extra: "Tip1"
   },
@@ -1582,6 +1601,7 @@ drops: [
     ],
     stats: {
      xp: "1-10",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -1610,6 +1630,7 @@ drops: [
     ],
     stats: {
      xp: "10-20",
+     hp: 25,
     },
     extra: "Tip1"
   },
@@ -1638,6 +1659,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 12,
     },
     extra: "Tip1"
   },
@@ -1666,6 +1688,7 @@ drops: [
     ],
     stats: {
      xp: "35-45",
+     hp: 25,
     },
     extra: `
       <div class="tip">
@@ -1722,6 +1745,7 @@ drops: [
     ],
     stats: {
      xp: "5-10",
+     hp: 7,
     },
     extra: "Tip1"
   },
@@ -1743,6 +1767,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
+     hp: 25,
     },
     extra: "Tip1"
   },
@@ -1771,6 +1796,7 @@ drops: [
     ],
     stats: {
      xp: "12-18",
+     hp: 10,
     },
     extra: "Tip1"
   },
@@ -1799,6 +1825,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 16,
     },
     extra: `
       <div class="tip">
@@ -1835,6 +1862,7 @@ drops: [
     ],
     stats: {
      xp: "50-90",
+     hp: 32,
     },
     extra: "Tip1"
   },
@@ -1863,6 +1891,7 @@ drops: [
     ],
     stats: {
      xp: "15-25",
+     hp: 80,
     },
     extra: "Tip1"
   },
@@ -1898,6 +1927,7 @@ drops: [
     ],
     stats: {
      xp: "20-40",
+     hp: 30,
     },
     extra: "Tip1"
   },
@@ -1933,6 +1963,7 @@ drops: [
     ],
     stats: {
      xp: "/",
+     hp: 60,
     },
     extra: `
       <div class="tip">
@@ -1968,6 +1999,7 @@ drops: [
     ],
     stats: {
      xp: "10-20",
+     hp: 25,
     },
     extra: "Tip1"
   },
@@ -1996,6 +2028,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 12,
     },
     extra: "Tip1"
   },
@@ -2024,6 +2057,7 @@ drops: [
     ],
     stats: {
      xp: "3-8",
+     hp: 5,
     },
     extra: `
       <div class="tip">
@@ -2073,6 +2107,7 @@ drops: [
     ],
     stats: {
      xp: "40-60",
+     hp: 40,
     },
     extra: "Tip1"
   },
@@ -2122,6 +2157,7 @@ drops: [
     ],
     stats: {
      xp: "5-10",
+     hp: 7,
     },
     extra: "Tip1"
   },
@@ -2143,6 +2179,7 @@ drops: [
     ],
     stats: {
      xp: "15-25",
+     hp: 30,
     },
     extra: "Tip1"
   },
@@ -2164,6 +2201,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
+     hp: 25,
     },
     extra: "Tip1"
   },
@@ -2185,6 +2223,7 @@ drops: [
     ],
     stats: {
      xp: "10-20",
+     hp: 10,
     },
     extra: "Tip1"
   },
@@ -2234,6 +2273,7 @@ drops: [
     ],
     stats: {
      xp: "70-115",
+     hp: 90,
     },
     extra: "Tip1"
   },
@@ -2255,6 +2295,7 @@ drops: [
     ],
     stats: {
      xp: "12-18",
+     hp: 16,
     },
     extra: "Tip1"
   },
@@ -2283,6 +2324,7 @@ drops: [
     ],
     stats: {
      xp: "25-35",
+     hp: 40,
     },
     extra: "Tip1"
   },
@@ -2319,6 +2361,7 @@ drops: [
     ],
     stats: {
      xp: "15-20",
+     hp: 50,
     },
     extra: "Tip1"
   },
@@ -2361,6 +2404,7 @@ drops: [
     ],
     stats: {
      xp: "25-45",
+     hp: 40,
     },
     extra: "Tip1"
   },
@@ -2396,6 +2440,7 @@ drops: [
     ],
     stats: {
      xp: "12-18",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -2473,6 +2518,7 @@ drops: [
     ],
     stats: {
      xp: "30-60",
+     hp: 60,
     },
     extra: "Tip1"
   },
@@ -2501,6 +2547,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 12,
     },
     extra: "Tip1"
   },
@@ -2522,6 +2569,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
+     hp: 5,
     },
     extra: "Tip1"
   },
@@ -2557,6 +2605,7 @@ drops: [
     ],
     stats: {
      xp: "15-25",
+     hp: 30,
     },
     extra: "Tip1"
   },
@@ -2592,6 +2641,7 @@ drops: [
     ],
     stats: {
      xp: "15-30",
+     hp: 60,
     },
     extra: "Tip1"
   },
@@ -2634,6 +2684,7 @@ drops: [
     ],
     stats: {
      xp: "60-80",
+     hp: 50,
     },
     extra: "Tip1"
   },
@@ -2662,6 +2713,7 @@ drops: [
     ],
     stats: {
      xp: "100-250",
+     hp: 180,
     },
     extra: "Tip1"
   },
@@ -2690,6 +2742,7 @@ drops: [
     ],
     stats: {
      xp: "12-18",
+     hp: 10,
     },
     extra: "Tip1"
   },
@@ -2718,6 +2771,7 @@ drops: [
     ],
     stats: {
      xp: "3-7",
+     hp: 25,
     },
     extra: "Tip1"
   },
@@ -2746,6 +2800,7 @@ drops: [
     ],
     stats: {
      xp: "5-10",
+     hp: 8,
     },
     extra: "Tip1"
   },
@@ -2816,6 +2871,7 @@ drops: [
     ],
     stats: {
      xp: "20-35",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -2844,6 +2900,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 16,
     },
     extra: "Tip1"
   },
@@ -2865,6 +2922,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -2900,6 +2958,7 @@ drops: [
     ],
     stats: {
      xp: "100-250",
+     hp: 180,
     },
     extra: "Tip1"
   },
@@ -2928,6 +2987,7 @@ drops: [
     ],
     stats: {
      xp: "65-95",
+     hp: 70,
     },
     extra: "Tip1"
   },
@@ -2956,6 +3016,7 @@ drops: [
     ],
     stats: {
      xp: "25-40",
+     hp: 40,
     },
     extra: "Tip1"
   },
@@ -2998,6 +3059,7 @@ drops: [
     ],
     stats: {
      xp: "5-10",
+     hp: 35,
     },
     extra: "Tip1"
   },
@@ -3033,6 +3095,7 @@ drops: [
     ],
     stats: {
      xp: "70-115",
+     hp: 85,
     },
     extra: "Tip1"
   },
@@ -3061,6 +3124,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 30,
     },
     extra: "Tip1"
   },
@@ -3089,6 +3153,7 @@ drops: [
     ],
     stats: {
      xp: "35-50",
+     hp: 80,
     },
     extra: "Tip1"
   },
@@ -3124,6 +3189,7 @@ drops: [
     ],
     stats: {
      xp: "15-20",
+     hp: 50,
     },
     extra: "Tip1"
   },
@@ -3159,6 +3225,7 @@ drops: [
     ],
     stats: {
      xp: "12-18",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -3187,6 +3254,7 @@ drops: [
     ],
     stats: {
      xp: "20-30",
+     hp: 80,
     },
     extra: "Tip1"
   },
@@ -3264,6 +3332,7 @@ drops: [
     ],
     stats: {
      xp: "30-60",
+     hp: 60,
     },
     extra: "Tip1"
   },
@@ -3285,6 +3354,7 @@ drops: [
     ],
     stats: {
      xp: "20-25",
+     hp: 160,
     },
     extra: "Tip1"
   },
@@ -3306,6 +3376,7 @@ drops: [
     ],
     stats: {
      xp: "20-40",
+     hp: 50,
     },
     extra: "Tip1"
   },
@@ -3341,6 +3412,7 @@ drops: [
     ],
     stats: {
      xp: "15-25",
+     hp: 30,
     },
     extra: "Tip1"
   },
@@ -3376,6 +3448,7 @@ drops: [
     ],
     stats: {
      xp: "15-30",
+     hp: 60,
     },
     extra: "Tip1"
   },
@@ -3404,6 +3477,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 80,
     },
     extra: "Tip1"
   },
@@ -3446,6 +3520,7 @@ drops: [
     ],
     stats: {
      xp: "60-80",
+     hp: 50,
     },
     extra: "Tip1"
   },
@@ -3474,6 +3549,7 @@ drops: [
     ],
     stats: {
      xp: "25-35",
+     hp: 45,
     },
     extra: "Tip1"
   },
@@ -3502,6 +3578,7 @@ drops: [
     ],
     stats: {
      xp: "20-25",
+     hp: 40,
     },
     extra: "Tip1"
   },
@@ -3530,6 +3607,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 16,
     },
     extra: "Tip1"
   },
@@ -3565,6 +3643,7 @@ drops: [
     ],
     stats: {
      xp: "100-250",
+     hp: 260,
     },
     extra: "Tip1"
   },
@@ -3600,6 +3679,7 @@ drops: [
     ],
     stats: {
      xp: "20-35",
+     hp: 70,
     },
     extra: "Tip1"
   },
@@ -3621,6 +3701,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
+     hp: 20,
     },
     extra: "Tip1"
   },
@@ -3656,6 +3737,7 @@ drops: [
     ],
     stats: {
      xp: "100-250",
+     hp: 180,
     },
     extra: "Tip1"
   },
@@ -3684,6 +3766,7 @@ drops: [
     ],
     stats: {
      xp: "20-25",
+     hp: 60,
     },
     extra: "Tip1"
   },
@@ -3712,6 +3795,7 @@ drops: [
     ],
     stats: {
      xp: "15-25",
+     hp: 150,
     },
     extra: "Tip1"
   },
