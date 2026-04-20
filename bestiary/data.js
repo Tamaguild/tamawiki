@@ -24,7 +24,7 @@ export const DATA = [
      ],
      stats: {
        xp: "20-25",
-       hp: 20,
+       hp: 40,
        type: "Passive"
     },
       extra: `
@@ -62,7 +62,7 @@ drops: [
      ],
      stats: {
        xp: 5,
-       hp: 8,
+       hp: 16,
        type: "Neutral"
     },
     extra: `
@@ -99,7 +99,7 @@ drops: [
      ],
      stats: {
        xp: "25-45",
-       hp: 12.5,
+       hp: 25,
        type: "Hostile"
     },
     extra: `
@@ -143,7 +143,7 @@ drops: [
      ],
      stats: {
        xp: "3-7",
-       hp: 5,
+       hp: 10,
        type: "Passive"
     },
     extra: `
@@ -187,7 +187,7 @@ drops: [
     ],
     stats: {
      xp: "25-45",
-     hp: 9,
+     hp: 18,
      type: "Hostile"
     },
     extra: `
@@ -240,7 +240,7 @@ drops: [
      ],
      stats: {
        xp: "25-45",
-       hp: 20,
+       hp: 40,
        type: "Hostile"
     },
     extra: `
@@ -284,7 +284,7 @@ drops: [
     ],
     stats: {
      xp: "5-15",
-     hp: 7.5,
+     hp: 15,
      type: "Hostile"
     },
     extra: `
@@ -321,7 +321,7 @@ drops: [
      ],
      stats: {
        xp: "20-25",
-       hp: 20,
+       hp: 40,
        type: "Passive"
     },
       extra: `
@@ -365,7 +365,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
-     hp: 11,
+     hp: 22,
      type: "Hostile"
     },
     extra: `
@@ -402,7 +402,7 @@ drops: [
     ],
     stats: {
      xp: "5-10",
-     hp: 4,
+     hp: 8,
      type: "Passive"
     },
     extra: `
@@ -481,7 +481,7 @@ drops: [
     ],
     stats: {
      xp: "20-35",
-     hp: 10,
+     hp: 20,
      type: "Hostile"
     },
     extra: `
@@ -539,7 +539,7 @@ drops: [
     ],
     stats: {
      xp: "70-115",
-     hp: 45,
+     hp: 90,
      type: "Hostile"
     },
     extra: `
@@ -604,7 +604,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
-     hp: 10,
+     hp: 20,
      type: "Hostile"
     },
     extra: "Tip1"
@@ -662,7 +662,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
-     hp: 8,
+     hp: 16,
      type: "Hostile"
     },
     extra: `
@@ -727,7 +727,7 @@ drops: [
     ],
     stats: {
      xp: "10-15",
-     hp: 10,
+     hp: 20,
      type: "Hostile"
     },
     extra: `
@@ -764,7 +764,7 @@ drops: [
     ],
     stats: {
      xp: "10-30",
-     hp: 15,
+     hp: 30,
      type: "Hostile"
     },
     extra: `
