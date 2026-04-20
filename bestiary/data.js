@@ -34,6 +34,13 @@ export const DATA = [
           Cutieeeeeee
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/Cat.png"> 
+        <div class="tip-box">
+          very nice creature and it is used to get around in orth 
+        </div>
+      </div>
     `
   },
   {
@@ -70,6 +77,13 @@ drops: [
         <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Fluffy Fox :mogicrazy:.
+        </div>
+      </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="avatar/Cat.png" alt="Tip avatar">
+        <div class="tip-box">
+        fluffy fox that is easy to kill and it drops sweet berries with can be used for food 
         </div>
       </div>
     `

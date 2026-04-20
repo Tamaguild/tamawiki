@@ -29,6 +29,11 @@ export const DATA = {
       id: 3,
       title: "Tip 3 last stop before the starry city",
       content: "pack stuff if your going to stary city place a bonfire maybe or set up camp."
+    },
+    {
+      id: 2,
+      title: "Tip 4 always remeber to bring food if you plan to use a water elevator"
+      content: "alwasys bring extra food to elavatours to insure that you dont die on the assent as you can easily die from the curse of the abyss and bring campfires to set a spawn if you dont want to spend nearly an hour waiting for the curse to go away on its own :mogicrazy:"
     }
   ]
 };
