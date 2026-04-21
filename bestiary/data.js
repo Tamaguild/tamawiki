@@ -2624,6 +2624,42 @@ drops: [
     extra: "Tip1"
   },
   {
+    name: "Baby Kuongatari",
+    imga: "mob_png/kuongatari2d.png",
+    imgb: "mob_gif/kuongatari.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+    {
+      src: "../items/mob_drops/images/kuongatari_juice.png",
+      href: "../recipe/item_list/kuongatari_juice/kuongatari_juice.html",
+      alt: "Kuongatari Juice",
+      chance: "4%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kuongatari_silk.png",
+      href: "../recipe/item_list/kuongatari_silk/kuongtari_silk.html",
+      alt: "Kuongatari Silk",
+      chance: "10%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kuongatari_abdomen.png",
+      href: "../recipe/item_list/kuongatari_abdomen_raw/kuongatari_abdomen_raw.html",
+      alt: "Raw Kuongatari Abdomen",
+      chance: "30%",
+      amount: "1"
+    },
+    ],
+    stats: {
+     xp: "5-15",
+     hp: 30,
+    },
+    extra: "Tip1"
+  },
+  {
     name: "Makihige",
     imga: "mob_png/makihige2d.png",
     imgb: "mob_gif/makihige.gif",
@@ -3431,6 +3467,42 @@ drops: [
     extra: "Tip1"
   },
   {
+    name: "Baby Kuongatari",
+    imga: "mob_png/kuongatari2d.png",
+    imgb: "mob_gif/kuongatari.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+    {
+      src: "../items/mob_drops/images/kuongatari_juice.png",
+      href: "../recipe/item_list/kuongatari_juice/kuongatari_juice.html",
+      alt: "Kuongatari Juice",
+      chance: "4%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kuongatari_silk.png",
+      href: "../recipe/item_list/kuongatari_silk/kuongtari_silk.html",
+      alt: "Kuongatari Silk",
+      chance: "10%",
+      amount: "1"
+    },
+    {
+      src: "../items/mob_drops/images/kuongatari_abdomen.png",
+      href: "../recipe/item_list/kuongatari_abdomen_raw/kuongatari_abdomen_raw.html",
+      alt: "Raw Kuongatari Abdomen",
+      chance: "30%",
+      amount: "1"
+    },
+    ],
+    stats: {
+     xp: "5-15",
+     hp: 30,
+    },
+    extra: "Tip1"
+  },
+  {
     name: "Makihige",
     imga: "mob_png/makihige2d.png",
     imgb: "mob_gif/makihige.gif",
@@ -3593,6 +3665,35 @@ drops: [
     stats: {
      xp: "20-25",
      hp: 40,
+    },
+    extra: "Tip1"
+  },
+  {
+    name: "Spore Manta",
+    imga: "mob_png/sporemanta2d.png",
+    imgb: "mob_gif/sporemanta.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+    {
+      src: "../items/mob_drops/images/sporemanta_wing.png",
+      href: "../recipe/item_list/sporemanta_wing/sporemanta_wing.html",
+      alt: "Spore Manta Wing",
+      chance: "50%",
+      amount: "1-2"
+    },
+    {
+      src: "../items/mob_drops/images/sporemanta_powder.png",
+      href: "../recipe/item_list/sporemanta_powder/sporemanta_powder.html",
+      alt: "Spore Manta Powder",
+      chance: "70%",
+      amount: "1-2"
+    },
+    ],
+    stats: {
+     xp: "5-15",
+     hp: 30,
     },
     extra: "Tip1"
   },
@@ -3781,6 +3882,35 @@ drops: [
     stats: {
      xp: "20-25",
      hp: 60,
+    },
+    extra: "Tip1"
+  },
+  {
+    name: "Uibuta",
+    imga: "mob_png/uibuta2d.png",
+    imgb: "mob_gif/uibuta.gif",
+    description: "Pluh",
+    grade: "★",
+    details: "Drops:",
+    drops: [
+    {
+      src: "../items/mob_drops/images/uibuta_meat_raw.png",
+      href: "../recipe/item_list/uibuta_meat_raw/uibuta_meat_raw.html",
+      alt: "Raw Uibuta Meat",
+      chance: "100%",
+      amount: "2-5"
+    },
+    {
+      src: "../items/mob_drops/images/uibuta_tooth.png",
+      href: "../recipe/item_list/uibuta_tooth/uibuta_tooth.html",
+      alt: "Uibuta Tooth",
+      chance: "75%",
+      amount: "1-3"
+    },
+    ],
+    stats: {
+     xp: "65-95",
+     hp: 70,
     },
     extra: "Tip1"
   },
