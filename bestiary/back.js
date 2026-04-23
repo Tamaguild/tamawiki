@@ -219,7 +219,7 @@ function render() {
       levelBadge.textContent = 'L3';
       levelBadge.classList.add('l3');
 
-    } else if (pnum >= 59 && pnum <= 76) {
+    } else if (pnum >= 59 && pnum <= 77) {
       levelBadge.textContent = 'L4';
       levelBadge.classList.add('l4');
 
