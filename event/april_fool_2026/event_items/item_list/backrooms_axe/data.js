@@ -2,64 +2,64 @@ const PATH = {
   assets: "./assets/",
   mobdrop: "./mobdrop_img/",
   avatar: "./avatar/",
-  list: "./item_list/template/"
+  list: "./item_list/"
 };
 const DATA = [
 {
-  name: "Tesuchi Scales",
-  layer: "l0 l1 l2 l3 l4 l5", // multiple badges
-  mob: "Tesuchi",
+  name: "Backroom Axe",
+  layer: "", // multiple badges
+  mob: "Backrooms Security",
 
-  image: PATH.mobdrop + "tesuchi_scales.png",
+  image: PATH.mobdrop + "backrooms_axe.gif",
   rarity: "",
-  description: "Crispy",
+  description: "",
 
 
 trades: [
 {
-  input1: PATH.mobdrop + "tesuchi_scales.png",
-  input2: PATH.mobdrop + "tesuchi_scales.png",
-  output: PATH.mobdrop + "orth_coin.png",
+  input1: PATH.mobdrop + "mail_balloon_scraps.png",
+  input2: PATH.mobdrop + "",
+  output: PATH.mobdrop + "backrooms_axe.gif",
 
-  name1: "Tesuchi Scale",
-  name2: "Tesuchi Scale",
-  outputName: "Orth Coin",
+  name1: "Mail Ballon Scraps x 15",
+  name2: "",
+  outputName: "Backrooms Axe",
 
-  link1: PATH.list + "tesuchi_scale.html",
-  link2: PATH.list + "tesuchi_scale.html",
-  outputLink: PATH.list + "orth_coin.html"
+  link1: PATH.list + "backrooms_axe/backrooms_axe.html",
+  link2: PATH.list + "",
+  outputLink: PATH.list + "mail_balloon_scraps/mail_balloon_scraps.html"
 }
 ],
 
   tips: [
     {
       avatar: PATH.avatar + "block_oc.png",
-      text: "When eating it gives a saturation of 1.2 and a nutrition of 2 important for getting netherite armor."
+      text: "Netherite Axe that can be obtained through event pretty easily"
     }
   ],
 
   recipes: [
   {
-  grid: [
-    PATH.mobdrop + "tesuchi_scales.png","","",
-    PATH.mobdrop + "","","",
-    PATH.mobdrop + "","",""
-  ],
-  names: [
-    "Tesuchi Scale","","",
-    "","","",
-    "","",""
-  ],
+  // grid: [
+  //   PATH.mobdrop + "","","",
+  //   PATH.mobdrop + "","","",
+  //   PATH.mobdrop + "","",""
+  // ],
+  // names: [
+  //   "Tesuchi Scale","","",
+  //   "","","",
+  //   "","",""
+  // ],
 
-  links: [   
-    PATH.list + "tesuchi_scale.html","","",
-    PATH.list + "","","",
-    PATH.list + "","",""
-  ],
+  // links: [   
+  //   PATH.list + "tesuchi_scale.html","","",
+  //   PATH.list + "","","",
+  //   PATH.list + "","",""
+  // ],
 
-  output: PATH.mobdrop + "orth_coin.png",
-  outputName: "Orth Coin",
-  outputLink: PATH.list + "orth_coin.html"
+  // output: PATH.mobdrop + "orth_coin.png",
+  // outputName: "Orth Coin",
+  // outputLink: PATH.list + "orth_coin.html"
   }
   ]
 },
