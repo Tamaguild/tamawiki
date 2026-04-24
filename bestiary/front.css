@@ -97,12 +97,14 @@ body{
 }
 
 /* color variants */
-.level-badge.o{ background:#FFD700; }
-.level-badge.l1{ background:#d94b4b; }
-.level-badge.l2{ background:#3b82f6; }
-.level-badge.l3{ background:#B54C90; }
-.level-badge.l4{ background:#5CA63F; }
-.level-badge.l5{ background:#437ACC; }
+.level-badge.o{ background:#fdac3b; }
+.level-badge.l1{ background:#c83038; }
+.level-badge.l2{ background:#4c92ab; }
+.level-badge.if{ background:#448a9a; }
+.level-badge.l3{ background:#a95a98; }
+.level-badge.l4{ background:#567252; }
+.level-badge.l5{ background:#434868; }
+.level-badge.l6{ background:#edc690; }
 
 .grade{
   text-align:center;
@@ -209,13 +211,13 @@ body{
 .bookmark:focus{ outline:3px solid rgba(90,70,50,0.12); }
 
 .bm0{ background: #fdac3b; color: #fff; }
-.bm1{ background: #d94b4b; color: #fff; }
-.bm2{ background: #3b82f6; color: #fff; }
-.bm3{ background: #3b82f6; color: #fff; }
-.bm4{ background: #5b21a8; color: #fff; }
-.bm5{ background: #000000; color: #fff; }
-.bm6{ background: #ffffff; color: #000000; }
-.bm7{ background: #5CA63F; color: #fff; }
+.bm1{ background: #c83038; color: #fff; }
+.bm2{ background: #4c92ab; color: #fff; }
+.bm3{ background: #448a9a; color: #fff; }
+.bm4{ background: #a95a98; color: #fff; }
+.bm5{ background: #567252; color: #fff; }
+.bm6{ background: #434868; color: #fff; }
+.bm7{ background: #ecd690; color: #fff; }
 /* numeric pill and hidden label */
 .bookmark .num{
   width:22px;

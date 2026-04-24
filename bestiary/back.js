@@ -213,7 +213,7 @@ function render() {
 
     } else if (pnum >= 36 && pnum <= 43) {
       levelBadge.textContent = 'I.F';
-      levelBadge.classList.add('l2');
+      levelBadge.classList.add('if');
 
     } else if (pnum >= 43 && pnum <= 58) {
       levelBadge.textContent = 'L3';
