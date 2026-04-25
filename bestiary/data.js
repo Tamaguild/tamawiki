@@ -36,7 +36,7 @@ export const DATA = [
       </div>
 
       <div class="tip">
-        <img class="tip-avatar" src="avatar/cat.png"> 
+        <img class="tip-avatar" src="../relics/avatar/cat.png"> 
         <div class="tip-box">
           very nice creature and it is used to get around in orth 
         </div>
@@ -81,7 +81,7 @@ drops: [
       </div>
 
       <div class="tip">
-        <img class="tip-avatar" src="avatar/cat.png" alt="Tip avatar">
+        <img class="tip-avatar" src="../relics/avatar/cat.png" alt="Tip avatar">
         <div class="tip-box">
         fluffy fox that is easy to kill and it drops sweet berries with can be used for food 
         </div>
