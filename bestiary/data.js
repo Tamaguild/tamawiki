@@ -29,14 +29,14 @@ export const DATA = [
     },
       extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Cutieeeeeee
         </div>
       </div>
 
       <div class="tip">
-        <img class="tip-avatar" src="../relics/avatar/Cat.png"> 
+        <img class="tip-avatar" src="../avatar/Cat.png"> 
         <div class="tip-box">
           very nice creature and it is used to get around in orth 
         </div>
@@ -74,14 +74,14 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/question_pigeon.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/question_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Fluffy Fox :mogicrazy:.
         </div>
       </div>
 
       <div class="tip">
-        <img class="tip-avatar" src="../relics/avatar/Cat.png" alt="Tip avatar">
+        <img class="tip-avatar" src="../avatar/Cat.png" alt="Tip avatar">
         <div class="tip-box">
         fluffy fox that is easy to kill and it drops sweet berries with can be used for food 
         </div>
@@ -118,7 +118,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           They were a lot bigger.
         </div>
@@ -162,7 +162,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           They taste like Nanachi.
         </div>
@@ -206,7 +206,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Bird missiles alert alert!!!
         </div>
@@ -259,7 +259,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           On the scale of 1 to 10 based on their annoyance, they can go /kms themselves.
         </div>
@@ -303,7 +303,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           They love to play with your dih. 
         </div>
@@ -340,7 +340,7 @@ drops: [
     },
       extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Cutieeeeeee
         </div>
@@ -384,7 +384,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Ugly spoodo thingy that shoot out sticky string from it's butthole.
         </div>
@@ -421,7 +421,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Don't use them for the sucky sucky. 
         </div>
@@ -500,7 +500,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
            You can use your tridents and poke them through the ground.
         </div>
@@ -558,7 +558,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Just hide in a hole, they're not that smart. 
         </div>
@@ -681,7 +681,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Plants vs zombies.
         </div>
@@ -746,7 +746,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Vineboom!
         </div>
@@ -783,7 +783,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Sneaky sneaky.
         </div>
@@ -820,7 +820,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Don't let a French see them.
         </div>
@@ -856,7 +856,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Literally a Kitsune.
         </div>
@@ -899,7 +899,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Creepy parrots.
         </div>
@@ -971,7 +971,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Abyssal All Might.
         </div>
@@ -1124,7 +1124,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Fih
         </div>
@@ -1153,7 +1153,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           They're delicious.
         </div>
@@ -1382,7 +1382,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           You will need them for the best armors.
         </div>
@@ -1706,7 +1706,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           They would stone you to death.
         </div>
@@ -1843,7 +1843,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Pokey pokey.
         </div>
@@ -1981,7 +1981,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Flamethrower go brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.
         </div>
@@ -2075,7 +2075,7 @@ drops: [
     },
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="avatar/bigeyes.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
         <div class="tip-box">
           Where the fuk are these thing half the time.
         </div>
