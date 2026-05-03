@@ -44,7 +44,7 @@ export const DATA = [
     details: "- On right click, turn a dirt block to mud<br>- Fill 1 level of water in cauldron",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Unlimited wata !?
         </div>
@@ -67,7 +67,7 @@ export const DATA = [
     details: "- On right click, do a funny dance",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           I cant find a reason to use this one.
         </div>
@@ -89,7 +89,7 @@ export const DATA = [
     details: "- On right click, increase growing stage on all crops or saplings in an area",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           You can use this one for tree farming, by place a lot saplings near ya, it can speed up the process and save you a lot bone meal
         </div>
@@ -111,7 +111,7 @@ export const DATA = [
     details: "- On right click, throw and deal 20 damage",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Decent dmg for early game, thats all i guess?
         </div>
@@ -133,7 +133,7 @@ export const DATA = [
     details: "- Shoots multiple projectiles after being thrown",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Can use to counter some mobs like inbyos or stinger.
         </div>
@@ -149,7 +149,7 @@ export const DATA = [
     details: "- Passive: Grants a short damage modifier at random intervals (1.2x)",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Best relic sur, 20% dmg is a lot.
         </div>
@@ -165,7 +165,7 @@ export const DATA = [
     details: "- Capable of pulling creatures towards you",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
            I never saw it pull creature :tuh:
         </div>
@@ -197,7 +197,7 @@ export const DATA = [
     details: "- On right click, grant Dolphin Grace",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Was even better in the past :thinking:. Got nerfed, still good but i mean not that good :shrug:
         </div>
@@ -220,7 +220,7 @@ export const DATA = [
     details: "- On right click, grant Strength, Speed, and Jump Boost<br>- Causes constant health drain while active",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           You can use it to show your cool relic name by use it and /kms right after
         </div>
@@ -243,7 +243,7 @@ export const DATA = [
     details: "- Passive: Grants permanent Haste I while equipped<br>- Causes random jumps and camera flickering",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           This one is annoying 
         </div>
@@ -265,7 +265,7 @@ export const DATA = [
     details: "- On right click, throw and stun enemies for a short time",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Can be use to stop some combo instantly
         </div>
@@ -281,7 +281,7 @@ export const DATA = [
     details: "- On right click, apply Slowness II to all players including user<br>- After a short time, increases to Slowness IV",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           I have some idea with it, like combine it with ball lightning or weight of the world, but never try.
         </div>
@@ -303,7 +303,7 @@ export const DATA = [
     details: "- On right click, summons a vine-shooter inspired automata",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           You can use it to charge ur Yūkonokage.
         </div>
@@ -325,7 +325,7 @@ export const DATA = [
     details: "- Passive: Heals based on light level<br>- Restores 0.5 heart per second in bright areas",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Decent healing, you can use it while traveling without food. 
         </div>
@@ -341,7 +341,7 @@ export const DATA = [
     details: "- Passive slot ability<br>- Grants movement bonuses depending on the block the user is standing on",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Uhh, i never found it but i guess it would be really good in some place in l5 and l4 right? 
         </div>
@@ -364,7 +364,7 @@ export const DATA = [
     details: "- Right click: fling the user vertically<br>- Left click: dash forward",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Combine it with weight of the world or just buy you another dash. 
         </div>
@@ -386,7 +386,7 @@ export const DATA = [
     details: "- On right click, grants Absorption to the user<br>- Applies Confusion to nearby entities",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Good relic, i recommend you guy to find it in early game since 2 heart is a lot. 
         </div>
@@ -508,7 +508,7 @@ export const DATA = [
     details: "- Passive: When health drops below 3 hearts<br>- Grants Regeneration III for 10 seconds",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           What can i say, best passive healing relic of all time!
         </div>
@@ -554,7 +554,7 @@ export const DATA = [
     details: "- On right click, wind up and fire a wind projectile<br>- Projectile explodes on impact, dealing damage and knockback",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Decent one. Dealing good dmg and knockback. Wind up make it quite slow to pull out.
         </div>
@@ -692,7 +692,7 @@ export const DATA = [
     details: "Right click 2 time to change mode:<br>Mode 1: Grant you strength 2 and speed 2<br>Mode 2: Grant 4 Absorption Heart in few secs and Regen 3 AOE<br>Mode 3: Plant a AOE Buff Zone, give you 4 health boost heart, regen 2, haste 3, strength 2, speed 2",
     extra:`
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           My first g1. Pretty good and best healing relic in da game.
         </div>
@@ -754,7 +754,7 @@ export const DATA = [
     details: "Push you back for evasive and shoot a barrage of arrows when left clicked.",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
            I try that before. Deal massive amount of dmg IF you hit 
         </div>
@@ -770,7 +770,7 @@ export const DATA = [
     details: "On right click, start consume your hunger in exchange of Haste 5",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           I borrow it before. Best digging relic in the game. Must-have item for builder.
         </div>
@@ -873,7 +873,7 @@ export const DATA = [
     details: "Each swing with its jagged blade rends not just flesh—but the soul itself. When right-clicked and crouching, unleashes stored souls in a violent burst of spectral energy",
     extra: `
       <div class="tip">
-        <img class="tip-avatar" src="../avatar/erm_pigeon2.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           Tip for this one: Always count to 9 since 10 make the soul overload and gonna use all your souls. Another tip for who got chased by this relic user, most of time you gonna die anyways but try to bait the ammo, those are finite :mogicrazy:.
         </div>
