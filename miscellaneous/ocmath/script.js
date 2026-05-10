@@ -35,12 +35,13 @@ function renderProducts() {
           <td class="text-right">${formatNumber(item.amount)}</td>
           <td>
             <div class="qty-display">${formatQuantity(item.qty)}</div>
-            <div class="qty-controls">
+            <div class="qty-group">
+              <button class="qty-big" type="button" data-action="decrease64">-64</button>
               <button class="qty-btn dec" data-action="decrease" type="button">-</button>
               <input class="qty-input" type="number" min="0" value="${item.qty}" aria-label="Quantity for ${item.name}">
               <button class="qty-btn inc" data-action="increase" type="button">+</button>
+              <button class="qty-big" type="button" data-action="add64">+64</button>
             </div>
-            <button class="qty-big" type="button" data-action="add64">+64</button>
           </td>
           <td class="text-right subtotal">${formatNumber(Math.floor(item.qty / item.amount))}</td>
         </tr>`
@@ -74,6 +75,9 @@ productTable.addEventListener("click", event => {
   }
   if (button.dataset.action === "increase") {
     item.qty = item.qty + 1;
+  }
+  if (button.dataset.action === "decrease64") {
+    item.qty = Math.max(0, item.qty - 64);
   }
   if (button.dataset.action === "add64") {
     item.qty = item.qty + 64;

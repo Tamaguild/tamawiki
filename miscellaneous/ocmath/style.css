@@ -127,10 +127,11 @@ body {
   font-weight: 600;
 }
 
-.qty-controls {
+.qty-group {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .qty-btn,
@@ -140,30 +141,31 @@ body {
   color: white;
   font-weight: 700;
   cursor: pointer;
-  padding: 10px 14px;
+  padding: 8px 10px;
   border-radius: 10px;
 }
 
 .qty-btn {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 
 .qty-input {
-  width: 84px;
-  padding: 10px 12px;
+  width: 68px;
+  padding: 8px 10px;
   border: 2px solid #5a4632;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border-radius: 10px;
 }
 
 .qty-big {
-  margin-top: 10px;
+  min-width: 48px;
+  padding: 8px 10px;
 }
 
 .total-row {
