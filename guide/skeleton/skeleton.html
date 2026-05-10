@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Relic Collection</title>
+<link rel="icon" type="image/x-icon" href="../general/textures/icons/orby.png">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="book">
+  <!-- Search button (top-right corner) -->
+  <button id="searchBtn" class="search-btn" title="Search relic">🔍</button>
+
+  <!-- Search popup -->
+  <div id="searchPopup" class="search-popup" aria-hidden="true">
+    <div class="search-header">
+      <input id="searchInput" class="search-input" placeholder="Type relic name..." aria-label="Search relic by name" />
+      <button id="searchClose" class="search-close" title="Close">✖</button>
+    </div>
+    <ul id="searchResults" class="search-results" role="listbox" aria-label="Search results"></ul>
+  </div>
+  <!-- LEFT PAGE -->
+  <!-- Bookmarks (left side) -->
+  <div class="bookmarks" aria-hidden="false">
+    <button class="bookmark bm1" data-page="1" title="Layer 1"><span class="num">1</span><span class="label">Layer 1</span></button>
+    <button class="bookmark bm2" data-page="2" title="Layer 2"><span class="num">2</span><span class="label">Layer 2</span></button>
+    <button class="bookmark bm3" data-page="3" title="Layer 3"><span class="num">3</span><span class="label">Layer 3</span></button>
+    <button class="bookmark bm4" data-page="4" title="Layer 4"><span class="num">4</span><span class="label">Layer 4</span></button>
+    <button class="bookmark bm5" data-page="5" title="Layer 5"><span class="num">5</span><span class="label">Layer 5</span></button>
+  </div>
+
+  <div class="page left">
+    <div class="panel info-panel">
+      <div class="page-header">
+        <div class="name" id="div1"></div>
+        <div class="grade" id="div4"></div>
+      </div>
+      <div class="description-panel" id="div3"></div>
+    </div>
+  </div>
+
+  <!-- RIGHT PAGE -->
+  <div class="page right">
+    <div class="panel extra-panel">
+      <h3>Tips</h3>
+      <div id="div6"></div>
+    </div>
+    <div id=bkmark>
+      <img src="miscellaneous/bookmark.png" id="mark" alt="Bookmark Background">
+      <a href="/index.html" id="go_back">
+        <img src="miscellaneous/red_cross.png" alt="EXIT"/>
+      </a>   
+    </div>
+  </div>
+</div>
+
+<div class="nav">
+  <button onclick="prev()">◀</button>
+  <input id="page" class="page-indicator" />
+  <button onclick="next()">▶</button>
+</div>
+
+<!-- IMPORTANT -->
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
