@@ -102,7 +102,7 @@ body {
 }
 
 /* ===== IMAGE ===== */
-.item img {
+.item canvas {
   width: 100%;
   display: block;
   border-radius: 6px;

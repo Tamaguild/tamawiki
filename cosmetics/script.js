@@ -139,10 +139,13 @@ function createUI() {
     const div = document.createElement('div');
     div.className = 'item';
 
-    div.innerHTML = `
-      <img src="${item.gif}">
-      <div class="tooltip">${item.name}</div>
-    `;
+    const preview = createModelPreview(item.model, item.scale, item.position, item.rotation);
+    div.appendChild(preview);
+
+    const tooltip = document.createElement('div');
+    tooltip.className = 'tooltip';
+    tooltip.textContent = item.name;
+    div.appendChild(tooltip);
 
     div.onclick = () => {
       const isOn = loadHat(item);
@@ -157,10 +160,13 @@ function createUI() {
     const div = document.createElement('div');
     div.className = 'item';
 
-    div.innerHTML = `
-      <img src="${item.gif}">
-      <div class="tooltip">${item.name}</div>
-    `;
+    const preview = createModelPreview(item.model, item.scale, item.position, item.rotation);
+    div.appendChild(preview);
+
+    const tooltip = document.createElement('div');
+    tooltip.className = 'tooltip';
+    tooltip.textContent = item.name;
+    div.appendChild(tooltip);
 
     div.onclick = () => {
       const isOn = loadBackpack(item);
@@ -256,6 +262,47 @@ function animate() {
   requestAnimationFrame(animate);
   controls.update();
   renderer.render(scene, camera);
+}
+
+// ===== CREATE MODEL PREVIEW =====
+function createModelPreview(modelPath, scale, position, rotation) {
+  const canvas = document.createElement('canvas');
+  canvas.width = 128;
+  canvas.height = 128;
+
+  const miniScene = new THREE.Scene();
+  const miniCamera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
+  miniCamera.position.set(0, 0, 2);
+
+  const miniRenderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true });
+  miniRenderer.setSize(128, 128);
+  miniRenderer.setClearColor(0x000000, 0);
+
+  const light = new THREE.AmbientLight(0xffffff, 1);
+  miniScene.add(light);
+
+  const loader = new GLTFLoader();
+  loader.load(modelPath, (gltf) => {
+    const obj = gltf.scene;
+    fixTexture(obj);
+    miniScene.add(obj);
+
+    obj.scale.set(scale, scale, scale);
+    obj.position.set(position.x, position.y, position.z);
+    obj.rotation.set(rotation.x, rotation.y, rotation.z);
+
+    fitModel(obj);
+
+    // Animate rotation
+    function animatePreview() {
+      obj.rotation.y += 0.01;
+      miniRenderer.render(miniScene, miniCamera);
+      requestAnimationFrame(animatePreview);
+    }
+    animatePreview();
+  });
+
+  return canvas;
 }
 
 // ===== RESIZE =====
