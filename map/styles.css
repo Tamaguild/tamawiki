@@ -70,6 +70,17 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
   gap: 60px;
 }
 
+.logoBtn {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.logoBtn:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
+
 .btn {
   width: 250px;
   height: 100px;

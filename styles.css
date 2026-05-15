@@ -86,6 +86,16 @@ body {
   filter: brightness(0.8);
 }
 
+.logoBtn {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.logoBtn:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
 .row {
   width: 1400px;
   margin: 30px auto 0 auto;
