@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Orth Coins Calculator</title>
+  <link rel="icon" type="image/x-icon" href="../../general/textures/icons/orby.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="page-header">
+      <div>
+        <h1>Orth Coins Calculator</h1>
+        <p>Made by Tama guild. Simple calculator that you can use to calculate Orth coins.</p>
+      </div>
+      <div class="market-badge">Simple Calculator :D</div>
+    </header>
+
+    <main class="market-main">
+      <div class="table-scroll">
+        <table class="shop-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Amount / 1 OC</th>
+              <th>Quantity</th>
+              <th>Coins</th>
+            </tr>
+          </thead>
+          <tbody id="productTable"></tbody>
+        </table>
+      </div>
+
+      <div class="total-row">
+        <span>Total Orth coins:</span>
+        <strong id="totalValue">0</strong>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Beginner Guide - TAMAWIKI</title>
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <!-- BACK BUTTON -->
+  <div class="back-btn" onclick="window.location.href='../../index'">
+    BACK
+  </div>
+
+  <!-- TITLE -->
+  <div class="guide-header">
+    <h1>BEGINNER GUIDE</h1>
+    <p>Start your journey with the essential knowledge.</p>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="guide-container">
+
+    <!-- LEFT NAV -->
+    <div class="guide-nav">
+      <div onclick="scrollToSection('start')">Getting Started</div>
+      <div onclick="scrollToSection('combat')">Basic Mechanic</div>
+      <div onclick="scrollToSection('loot')">Essential Thing</div>
+      <div onclick="scrollToSection('tips')">Early Tips</div>
+      <div onclick="scrollToSection('links')">Essential Links</div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="guide-content">
+
+      <section id="start">
+        <h2>Getting Started</h2>
+        <p>
+            Abyss is challenging at first. You gonna find out everything can one-shot you. Dont worry, thats normal. <br>
+            Focus on upgrade your gear, learn the enemy patterns, and try to explore the world. <br>
+            And keep in mind, running is a strategy too. If you feel overwhelmed, retreat and learn from it, no one can blame you for that. <br>
+
+            To go down: <br>
+            Follow the arrow that lead to the abyss and do the tutorial ( the tutorial spot is on that path). <br>
+            <br> 
+            Path to The Abyss: <br>
+            <img src="img/path.png" alt="Path To Abyss" class="screenshot"> <br>
+            <br>
+            Tutorial Room: <br> 
+            <img src="img/tutorial_room.png" alt="Tutorial Room" class="screenshot"> <br>
+        </p>
+      </section>
+
+      <section id="combat">
+        <h2>Basic Mechanics</h2>
+        <p>
+            Climbing: <br>
+            Climbing is a core mechanic in Abyss. Use it to reach high places, escape danger. Just keep in mind that stamina is limited. <br> 
+            How to climb: Hold the wall, then press right click while moving towards. <br> 
+            Advanced technique: <br> 
+            - Lunge: Left clicking in order to lunge to the spot ( this take around 40% of your stamina, so be careful when using it ) <br>
+            - Roof Hugging: Hugging the roof while climbing give you advantage in some small spot, Keep in mind that take a lot stamina. <br>
+            - Climbing MLG: estimate your fall and climb right before you hit the ground may reduce or even negate the fall damage but can be very risky if you miss the timing. <br>
+            <br>
+            Checkpoint: <br> 
+            You can save your check point by using the bonfire <br>
+            Bonfire can be crafted as follows: <br>
+            <img src="img/bonfire.png" alt="Bonfire"> <br> 
+            To use it, shift + right click into the bonfire, your bonfire can be shared up to 4 players and only the owner able to break it. <br>
+            Bonfire expired after 7 days if no one use it.  <br>
+            When you save your spawnpoint, your bonfire's fire gonna change from red to blue. <br>
+            For flint, you can use those mob beak or horn as the substitute: <br>
+            <img src="img/gianthammerbeak.png" alt="Giant Hammerbeak" class="mob-img"> 
+            <img src="img/mantoyer.png" alt="Mantoyer" class="mob-img"> 
+            <img src="img/smallhammerbeak.png" alt="Small Hammerbeak" class="mob-img"> 
+
+        </p>
+      </section>
+
+      <section id="loot">
+        <h2>Thing that you might need to focus</h2>
+        <p>
+          Focus on upgrading your gear to iron ( well at least iron tool so dive wont be a pain). <br>
+          Stacks at least few stacks of food ( Publics farm can be found everywhere ) <br> 
+          Wood is quite hard source in the early game, so try bamboo as the substitue. <br>
+          Try to gather plant matter, hide and strings for bundles as the really good game storage. <br>
+          Mob that drop Plant Matter: <br> 
+          <img src="img/vinebinder.png" alt="Vinebider" class="mob-img"> 
+          <img src="img/vineblaster.png" alt="Vineblaster" class="mob-img"> 
+          <img src="img/vinepoofer.png" alt="Vinepoofer" class="mob-img"> 
+          <img src="img/spittleshrub.png" alt="Spittleshrub" class="mob-img"> 
+          <br>
+          <br> Mob that drop hide: <br>
+          <img src="img/fuwagi.png" alt="Fuwagi" class="mob-img"> 
+          <br> 
+          <br> Mob that drop strings: <br>
+          <img src="img/silkfang.png" alt="Silkfang" class="mob-img"> 
+        </p>
+      </section>
+
+      <section id="tips">
+        <h2>Early Tips</h2>
+        <ul>
+          <li>Bandage is good, try to craft some for quick healing</li>
+          <li>Upgrade gear gradually, this is exploration server so its not that important to rush to the lower layer ( you might miss a lot of cool stuff )</li>
+          <li>Planning a safe route ( highlight this as a nature route, the staircase are banned and it wont be there for too long so keep in mind that thing )</li>
+        </ul>
+      </section>
+      
+      <section id="links">
+        <h2> Essential Links </h2>
+        <li:> Link to Bestiary: <a href="../../bestiary/bestiary" class="color" >Bestiary</a></li:> <br>
+        <li:> Link to Relic Collection: <a href="../../relics/relic" class="color">Relic Collection</a></li:> <br> 
+        <li:> Link to Mob Drop Section: <a href="../../recipe/recipe_menu" class="color">Mob Drop Menu</a></li:> <br>
+      </section>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="guide.js"></script>
+
+</body>
+</html>

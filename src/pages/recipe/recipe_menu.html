@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mob Drop Menu</title>
+
+  <!-- Icon -->
+  <link rel="icon" href="../general/textures/icons/orby.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <!-- LOGO -->
+  <div class="logo">
+    <img src="../logo.png" alt="TAMAWIKI LOGO">
+  </div>
+
+  <!-- BUTTON NAV -->
+  <div class="buttonArea">
+    <div class="btn" onclick="location.href='../relics/relic'">RELIC</div>
+    <div class="btn" onclick="location.href='../bestiary/bestiary'">BESTIARY</div>
+    <div class="btn" onclick="location.href='../recipe/recipe_menu'">MOB DROP</div>
+    <div class="btn" onclick="location.href='../guide/guide'">GUIDE</div>
+  </div>
+
+  <!-- TOC -->
+  <div class="toc-box">
+    <input type="text" id="searchInput" placeholder="Search item...">
+    <div id="tocList" class="toc-list"></div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="info">CONTACT INFO</div>
+
+<!-- SCRIPT (defer luôn cho chuẩn) -->
+<script src="data.js" defer></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>

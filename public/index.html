@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TAMAWIKI</title>
+<link rel="icon" type="image/x-icon" href="general/textures/icons/orby.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="logo logoBtn" onclick="window.location.href='/index';">
+    <img src="logo.png" alt="TAMAWIKI LOGO">
+  </div>
+
+  <div class="buttonArea" id="buttonbox">
+    <div class="btn" onclick="window.location.href='./relics/relic';">RELIC</div>
+    <div class="btn" onclick="window.location.href='./bestiary/bestiary';">BESTIARY</div>
+    <div class="btn" onclick="window.location.href='./recipe/recipe_menu';">MOB DROP</div>
+    <div class="btn" onclick="window.location.href='./guide/guide';">GUIDE</div>
+    <div class="btn" onclick="window.location.href='./miscellaneous/miscellaneous';">MISCELLANEOUS</div>
+  </div>
+
+  <div class="row">
+    <div>
+      <div class="gallery">GALLERY</div>
+
+      <div class="changeLog">
+        <b>CHANGE LOG:</b><br><br>
+        <div id="changeLogList"></div>
+      </div>
+    </div>
+
+    <a href="map/map" class="abyss">
+      <img src="main_img/abyss_img_test_6KRes.jpg" alt="Abyss Map">
+    </a>
+  </div>
+</div>
+
+<div class="info">CONTACT INFO</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

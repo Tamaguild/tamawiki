@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Map Section</title>
+<link rel="icon" type="image/x-icon" href="../general/textures/icons/orby.png">
+<link rel="stylesheet" href="styles.css"> <!-- Did a separate file for the css for some cleanliness :D -->
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="logo logoBtn" onclick="window.location.href='/index';">
+    <img src="main_img/logo.png" alt="TAMAWIKI LOGO">
+  </div>
+
+
+  <div class="buttonArea" id="buttonbox">
+    <div class="btn" onclick="window.location.href='/relics/relic';">RELIC</div>
+    <div class="btn" onclick="window.location.href='/bestiary/bestiary';">BESTIARY</div>
+    <div class="btn" onclick="window.location.href='/recipe/recipe_menu';">MOB DROP</div>
+    <div class="btn" onclick="window.location.href='/guide/guide';">GUIDE</div>
+    <div class="btn" onclick="window.location.href='/miscellaneous/miscellaneous';">MISCELLANEOUS</div>
+  </div>
+</div>
+
+<div class="abyss">
+    <!--<img src="main_img/abyss_img_test_6KRes.jpg" alt="Map">-->
+  <a href="./LayerPages/Orth/orth" class="orth">
+    <span class="layer-title">LAYER 0: ORTH</span>
+    <img src="main_img/layers/orth.png" class="normal" id="orth">
+    <img src="layer_img/orth.png" class="hover" id="orth">
+  </a>
+
+  <a href="./LayerPages/Layer1/layer1" class="layer1">
+    <span class="layer-title">LAYER 1: EDGE OF THE ABYSS</span>
+    <img src="main_img/layers/l1_v2.png" class="normal" id="l1">
+    <img src="layer_img/layer1.png" class="hover" id="l1">
+  </a>
+
+  <a href="./LayerPages/Layer2/layer2" class="layer2">
+    <span class="layer-title">Layer 2: FOREST OF TEMPTATION</span>
+    <img src="main_img/layers/l2.png" class="normal" id="l2">
+    <img src="layer_img/layer2.png" class="hover" id="l2">
+  </a>
+
+  <a href="./LayerPages/Layer3/layer3" class="layer3">
+    <span class="layer-title">LAYER 3: GREAT FAULT</span>
+    <img src="main_img/layers/l3.png" class="normal" id="l3">
+    <img src="layer_img/layer3.png" class="hover" id="l3">
+  </a>
+
+  <a href="./LayerPages/Layer4/layer4" class="layer4">
+    <span class="layer-title">LAYER 4: THE CUP OF GIANT</span>
+    <img src="main_img/layers/l4.png" class="normal" id="l4">
+    <img src="layer_img/layer4.png" class="hover" id="l4">
+  </a>
+
+  <a href="./LayerPages/Layer5/layer5" class="layer5">
+    <span class="layer-title">LAYER 5: SEA OF CORPSE</span>
+    <img src="main_img/layers/l5.png" class="normal" id="l5">
+    <img src="layer_img/layer5.png" class="hover" id="l5">
+  </a>
+
+</div>
+
+<div class="info">CONTACT INFO</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Georgia, serif;
+
+  /* dùng lại background của bạn */
+  background-image: url("../general/textures/backgrounds/orphanage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ===== KHUNG CHÍNH ===== */
+.container {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+
+  /* sáng hơn */
+  background: rgba(246, 237, 210, 0.95);
+
+  border: 8px solid #8b6a3e;
+  border-radius: 16px;
+
+  box-shadow: 
+    0 0 40px rgba(0,0,0,0.5),
+    inset 0 0 20px rgba(255,255,255,0.3);
+
+  overflow: hidden;
+}
+
+/* ===== VIEWER ===== */
+.viewer {
+  flex: 3;
+
+  /* sáng + nhẹ nhàng hơn */
+  background: radial-gradient(circle at center, #fff3d6, #d6c3a3);
+
+  border-right: 5px solid #8b6a3e;
+
+  position: relative;
+}
+
+/* ===== UI ===== */
+.ui {
+  flex: 1;
+
+  background: rgba(255, 248, 220, 0.95);
+  padding: 15px;
+
+  overflow-y: auto;
+}
+
+/* ===== TITLE ===== */
+.section {
+  margin-bottom: 25px;
+}
+
+.section h2 {
+  color: #5a3e1b;
+  font-size: 20px;
+
+  text-align: center;
+  letter-spacing: 1px;
+
+  border-bottom: 2px solid #caa56a;
+  padding-bottom: 6px;
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+/* ===== ITEM ===== */
+.item {
+  position: relative;
+  cursor: pointer;
+
+  background: #fff3d6;
+
+  border: 2px solid #caa56a;
+  border-radius: 10px;
+
+  padding: 6px;
+
+  transition: 0.2s;
+}
+
+/* hover nhẹ nhàng hơn */
+.item:hover {
+  transform: scale(1.06);
+  box-shadow: 
+    0 0 10px rgba(255, 200, 120, 0.6);
+}
+
+/* ===== IMAGE ===== */
+.item canvas {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+/* ===== TOOLTIP ===== */
+.tooltip {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: #fff3d6;
+  color: #5a3e1b;
+
+  padding: 5px 10px;
+  font-size: 13px;
+
+  border: 1px solid #caa56a;
+  border-radius: 6px;
+
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.item:hover .tooltip {
+  opacity: 1;
+}
+
+/* ===== SELECTED ===== */
+.item.active {
+  border: 2px solid #ffcc66;
+  box-shadow: 
+    0 0 12px #ffcc66;
+}
+
+/* ===== SCROLLBAR ===== */
+.ui::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ui::-webkit-scrollbar-thumb {
+  background: #caa56a;
+  border-radius: 4px;
+}
