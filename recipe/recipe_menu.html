@@ -1,46 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mob Drop Menu</title>
-
-  <!-- Icon -->
-  <link rel="icon" href="../general/textures/icons/orby.png">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Tesuchi Scale</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="../../../general/textures/icons/orby.png">
 </head>
 
 <body>
 
-<div class="wrapper">
+<button id="searchBtn" class="search-btn" title="Search item">🔍</button>
 
-  <!-- LOGO -->
-  <div class="logo">
-    <img src="../logo.png" alt="TAMAWIKI LOGO">
+<div id="searchPopup" class="search-popup" aria-hidden="true">
+  <div class="search-header">
+    <input id="searchInput" class="search-input" placeholder="Type item name..." aria-label="Search item by name">
+    <button id="searchClose" class="search-close" title="Close">✖</button>
+  </div>
+  <ul id="searchResults" class="search-results" role="listbox" aria-label="Search results"></ul>
+</div>
+
+<div class="page">
+
+  <!-- LEFT -->
+  <div class="left">
+
+    <div class="trade-title">Trade</div>
+
+    <div class="trade-container"></div>
+
+    <div class="tips-title">Extra</div>
+
+    <div class="tip-container"></div>
+
   </div>
 
-  <!-- BUTTON NAV -->
-  <div class="buttonArea">
-    <div class="btn" onclick="location.href='../relics/relic.html'">RELIC</div>
-    <div class="btn" onclick="location.href='../bestiary/bestiary.html'">BESTIARY</div>
-    <div class="btn" onclick="location.href='../recipe/recipe_menu.html'">MOB DROP</div>
-    <div class="btn" onclick="location.href='../guide/guide.html'">GUIDE</div>
+
+  <!-- CENTER -->
+  <div class="center">
+
+    <h1 class="title">Tesuchi Scales</h1>
+
+    <div class="sub">
+      <span class="layer">L2</span>
+      <span class="mob">- Tesuchi</span>
+    </div>
+
+    <div class="item-image">
+      <img src="item.png">
+    </div>
+
+    <div class="desc">
+      <div class="rarity">Crispy</div>
+      <div class="text">description</div>
+    </div>
+
   </div>
 
-  <!-- TOC -->
-  <div class="toc-box">
-    <input type="text" id="searchInput" placeholder="Search item...">
-    <div id="tocList" class="toc-list"></div>
+
+  <!-- RIGHT -->
+  <div class="right">
+
+    <div class="recipes-title">Recipes</div>
+
+    <div class="recipes-container"></div>
+
   </div>
 
 </div>
 
-<!-- FOOTER -->
-<div class="info">CONTACT INFO</div>
+<div class="nav">
+  <button id="prevBtn">◀</button>
+  <input id="pageInput" class="page-indicator" readonly>
+  <button id="nextBtn">▶</button>
+</div>
 
-<!-- SCRIPT (defer luôn cho chuẩn) -->
-<script src="data.js" defer></script>
+<script src="data.js"></script>
 <script src="script.js" defer></script>
 
 </body>
