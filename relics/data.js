@@ -212,7 +212,7 @@ export const DATA = [
     `
   },
   {
-    name: "Dew-Cress Knots",
+    name: "Dew-cress Knots",
     imga: "img/dew-cress_knots.png",
     imgb: "Placeholder4.1",
     description: "This Relic is regarded as an illicit substance in the city of Orth, but laws tend to be overlooked in the Abyss.<br><br>Layer 5",
@@ -235,11 +235,11 @@ export const DATA = [
     `
   },
     {
-    name: "Nerve-Tuned Fiber",
+    name: "Nerve-tuned Fibers",
     imga: "img/nerve-tuned_fibers.png",
     imgb: "Placeholder4.1",
     description: "Bearers of this organic armor describe wearing it as disgusting, though some insist it makes them feel less alone in the vast Abyss.<br><br>Layer 5",
-    grade: "Grade 4",
+    grade: "Grade 3",
     details: "- Passive: Grants permanent Haste I while equipped<br>- Causes random jumps and camera flickering",
     extra: `
       <div class="tip">
@@ -356,7 +356,7 @@ export const DATA = [
     `
   },
   {
-    name: "Trebel Winds",
+    name: "Treble Winds",
     imga: "img/treble_winds.png",
     imgb: "Placeholder4.1",
     description: "Researchers speculate that this Relic’s purpose was never to send oneself flying, but that never stopped anyone from using it that way.<br><br>Layer 3",
@@ -452,7 +452,7 @@ export const DATA = [
     `
   },
   {
-    name: "Symbiotic Water-Shrooms",
+    name: "Symbiotic Water-shrooms",
     imga: "img/symbiotic_water-shrooms.png",
     imgb: "Placeholder4.1",
     description: "Doctors have failed to reach an agreement on the safety of fungi like these as medicine. Their efficacy, however, is beyond doubt.<br><br>Layer 4",
@@ -530,7 +530,7 @@ export const DATA = [
     `
   },
   {
-    name: "After Image",
+    name: "Whisper Image",
     imga: "img/after_image_arrow.png",
     imgb: "Placeholder4.1",
     description: "The hard-light copies of projectiles produced by this Relic still hurt as though they were real.<br><br>Layer 2",
@@ -546,7 +546,7 @@ export const DATA = [
     `
   },
   {
-    name: "Gust Shot",
+    name: "Gust-Shot",
     imga: "img/gust-shot.png",
     imgb: "Placeholder4.1",
     description: "A key example of nature inspiring innovation, this handmade Relic one-ups even the creature it was inspired by.<br><br>Layer 3",
@@ -638,7 +638,7 @@ export const DATA = [
     `
   },
   {
-    name: "Detector Type I",
+    name: "Detector type I",
     imga: "img/detector_type_i.png",
     imgb: "Placeholder4.1",
     description: "The perfect companion for the haughtiest of hunters, this mask makes sure to point out creatures it deems less valuable than the wearer.<br><br>Layer 5",
@@ -661,7 +661,7 @@ export const DATA = [
     `
   },
   {
-    name: "Soul-Aiming Light",
+    name: "Soul-aiming Light",
     imga: "img/soul-aiming_light.png",
     imgb: "Placeholder4.1",
     description: "A prototype device once wielded by the Sovereign of Dawn, discarded for unknown reasons.<br><br>Layer 5",
@@ -778,7 +778,7 @@ export const DATA = [
     `
   },
   {
-    name: "Cresent Hatchet",
+    name: "Crescent Hatchet",
     imga: "gif/crescent_blade.gif",
     imgb: "Placeholder4.1",
     description: "This Relic easily and effectively slices through the air, and even the Abyss itself, using its surroundings’ mysterious nature to its advantage.<br><br>Layer 3",
@@ -844,6 +844,12 @@ export const DATA = [
         <img class="tip-avatar" src="../avatar/cry_pigeon.png" alt="Tip avatar"> 
         <div class="tip-box">
           I hate this relic sir, Stun + High Dmg sword. ( Im just jealous atp )
+        </div>
+      </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/block_oc.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          interlinked
         </div>
       </div>
     `

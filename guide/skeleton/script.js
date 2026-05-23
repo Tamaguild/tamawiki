@@ -1,7 +1,8 @@
 import { DATA } from "./data.js";
 import { emote } from "../../emoji.js";
 
-let index = 0;
+const pluh = new URLSearchParams(location.search);
+let index = (Number(pluh.get("page")) || 1) -1;
 
 const div1 = document.getElementById("div1");
 const div4 = document.getElementById("div4");
@@ -23,6 +24,7 @@ function updatePageText() {
 }
 
 function render() {
+  history.replaceState({}, "", `?page=${index + 1}`);
   const d = DATA[index];
 
   div1.textContent = d.name || "";
