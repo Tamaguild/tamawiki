@@ -38,6 +38,16 @@ body {
   align-items: center;
 }
 
+.logoBtn {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.logoBtn:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
 .logo img {
   height: 260px;
   width: auto;
