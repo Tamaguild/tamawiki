@@ -5,6 +5,7 @@ const PATH = {
   list: "../item_list/template/"
 };
 const DATA = [
+/*
 {
   name: "Tesuchi Scales",
   layer: "l0 l1 l2 l3 l4 l5", // multiple badges
@@ -63,28 +64,19 @@ trades: [
   }
   ]
 },
-
+67 haha */
 
 
 /*
 {
-  name: "Example Item",
-  layer: "L1",
-  mob: "bullshit thingy",
-
-  image: "mob.png",
-  rarity: "Basic",
-  description: "example desc",
-
-  trade: "trade.png",
-
-  tips: [
-    {
-      avatar: "frog.png",
-      text: "example tip"
-    }
-  ],
-
+  name: "Pluh Item",
+  layer: "l5",
+  mob: "Pluh Mob",
+  image: "../items/mob_drops/images/pluh.png",
+  rarity: "",
+  description: "pluh",
+  trades: [],
+  tips: [],
   recipes: []
 }
 */
