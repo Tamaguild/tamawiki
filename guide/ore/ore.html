@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ore Guide - TAMAWIKI</title>
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="back-btn" onclick="window.location.href='../../index.html'">BACK</div>
+
+  <div class="guide-header">
+    <h1>ORE GUIDE</h1>
+    <p>Explore how ores appear in the Abyss. Open each section to see the layer-specific ore pool with spawn chance, vein size, and notes.</p>
+  </div>
+
+  <div class="guide-container">
+    <div class="guide-nav">
+      <div onclick="scrollToSection('box1')">Layer 1</div>
+      <div onclick="scrollToSection('box2')">Layer 2</div>
+      <div onclick="scrollToSection('box3')">Layer 3</div>
+      <div onclick="scrollToSection('box4')">Layer 4</div>
+      <div onclick="scrollToSection('box5')">Layer 5</div>
+    </div>
+
+    <div class="guide-content">
+      <div class="ore-intro">
+        <p>Mine in the Abyss works differently from normal worlds. Instead of standard ore veins, blocks can transform into ore as you mine, so each layer has its own spawn pool and conditions.</p>
+      </div>
+
+      <div class="ore-accordion">
+        <details id="box1" open>
+          <summary>Layer 1</summary>
+          <div class="ore-section">
+            <div class="ore-block-info">
+              <span class="ore-block-label">Ore-containing Blocks:</span>
+              <span class="ore-block-value">Stone, Cyan Terracotta, Deepslate, Cobble Deepslate</span>
+            </div>
+            <table class="ore-table">
+              <thead>
+                <tr>
+                  <th>Ore</th>
+                  <th>Spawn Chance</th>
+                  <th>Vein Size</th>
+                  <th>Other Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Coal Ore</td>
+                  <td>1.0%</td>
+                  <td>3-10</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Iron Ore</td>
+                  <td>1.5%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gravel</td>
+                  <td>0.5%</td>
+                  <td>3-12</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+
+        <details id="box2">
+          <summary>Layer 2</summary>
+          <div class="ore-section">
+            <div class="ore-block-info">
+              <span class="ore-block-label">Ore-containing Blocks:</span>
+              <span class="ore-block-value">Stone, Diorite, Calcite, Cyan Terracotta, White Concrete, Deepslate, Cobble Deepslate, Blackstone, Netherrack</span>
+            </div>
+            <table class="ore-table">
+              <thead>
+                <tr>
+                  <th>Ore</th>
+                  <th>Spawn Chance</th>
+                  <th>Vein Size</th>
+                  <th>Other Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Coal Ore</td>
+                  <td>1.0%</td>
+                  <td>3-10</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Iron Ore</td>
+                  <td>1.0%</td>
+                  <td>1-7</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gold Ore</td>
+                  <td>0.1%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Emerald Ore</td>
+                  <td>0.4%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Copper Ore</td>
+                  <td>1.5%</td>
+                  <td>1-6</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gravel</td>
+                  <td>0.5%</td>
+                  <td>3-12</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Sand</td>
+                  <td>0.5%</td>
+                  <td>3-12</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gilded Blackstone</td>
+                  <td>0.1%</td>
+                  <td>1-3</td>
+                  <td>only from Blackstone</td>
+                </tr>
+                <tr>
+                  <td>Nether Gold Ore</td>
+                  <td>0.1%</td>
+                  <td>1-3</td>
+                  <td>only from Netherrack</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+
+        <details id="box3">
+          <summary>Layer 3</summary>
+          <div class="ore-section">
+            <div class="ore-block-info">
+              <span class="ore-block-label">Ore-containing Blocks:</span>
+              <span class="ore-block-value">Stone, Diorite, Calcite, Cyan Terracotta, White Concrete, Deepslate, Cobble Deepslate, Blackstone, Netherrack</span>
+            </div>
+            <table class="ore-table">
+              <tbody>
+                <tr>
+                  <th>Ore</th>
+                  <th>Spawn Chance</th>
+                  <th>Vein Size</th>
+                  <th>Other Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Coal Ore</td>
+                  <td>2.0%</td>
+                  <td>3-10</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Iron Ore</td>
+                  <td>2.0%</td>
+                  <td>1-7</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gold Ore</td>
+                  <td>0.2%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Diamond Ore</td>
+                  <td>0.05%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Lapis Ore</td>
+                  <td>0.6%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Redstone Ore</td>
+                  <td>0.1%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gravel</td>
+                  <td>0.5%</td>
+                  <td>3-12</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Quartz</td>
+                  <td>0.15%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Amethyst Shard</td>
+                  <td>0.5%</td>
+                  <td>2-5</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gilded Blackstone</td>
+                  <td>0.2%</td>
+                  <td>1-3</td>
+                  <td>only from Blackstone</td>
+                </tr>
+                <tr>
+                  <td>Nether Gold Ore</td>
+                  <td>0.2%</td>
+                  <td>1-3</td>
+                  <td>only from Netherrack</td>
+                </tr>
+                <tr>
+                  <td>Quartz</td>
+                  <td>0.15%</td>
+                  <td>1-4</td>
+                  <td>only from Netherrack</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+
+        <details id="box4">
+          <summary>Layer 4</summary>
+          <div class="ore-section">
+            <div class="ore-block-info">
+              <span class="ore-block-label">Ore-containing Blocks:</span>
+              <span class="ore-block-value">Stone, Diorite, Calcite, Cyan Terracotta, White Concrete, Deepslate, Cobble Deepslate, Blackstone, Netherrack</span>
+            </div>
+            <table class="ore-table">
+              <tbody>
+                <tr>
+                  <th>Ore</th>
+                  <th>Spawn Chance</th>
+                  <th>Vein Size</th>
+                  <th>Other Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Coal Ore</td>
+                  <td>2.0%</td>
+                  <td>3-10</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Iron Ore</td>
+                  <td>3.0%</td>
+                  <td>1-7</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gold Ore</td>
+                  <td>0.3%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Diamond Ore</td>
+                  <td>0.15%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Lapis Ore</td>
+                  <td>0.08%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Redstone Ore</td>
+                  <td>0.2%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gravel</td>
+                  <td>0.75%</td>
+                  <td>3-12</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Sand</td>
+                  <td>0.75%</td>
+                  <td>3-12</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Quartz</td>
+                  <td>0.2%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gilded Blackstone</td>
+                  <td>0.3%</td>
+                  <td>1-3</td>
+                  <td>only from Blackstone</td>
+                </tr>
+                <tr>
+                  <td>Nether Gold Ore</td>
+                  <td>0.3%</td>
+                  <td>1-3</td>
+                  <td>only from Netherrack</td>
+                </tr>
+                <tr>
+                  <td>Quartz</td>
+                  <td>0.2%</td>
+                  <td>1-4</td>
+                  <td>only from Netherrack</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+
+        <details id="box5">
+          <summary>Layer 5</summary>
+          <div class="ore-section">
+            <div class="ore-block-info">
+              <span class="ore-block-label">Ore-containing Blocks:</span>
+              <span class="ore-block-value">Stone, Diorite, Calcite, Cyan Terracotta, White Concrete, Deepslate, Cobble Deepslate, Blackstone, Netherrack, Ice, Packed Ice, Blue Ice</span>
+            </div>
+            <table class="ore-table">
+              <thead>
+                <tr>
+                  <th>Ore</th>
+                  <th>Spawn Chance</th>
+                  <th>Vein Size</th>
+                  <th>Other Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                                  <tr>
+                  <th>Ore</th>
+                  <th>Spawn Chance</th>
+                  <th>Vein Size</th>
+                  <th>Other Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Coal Ore</td>
+                  <td>1.5%</td>
+                  <td>3-10</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Iron Ore</td>
+                  <td>2.0%</td>
+                  <td>1-7</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gold Ore</td>
+                  <td>0.15%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Diamond Ore</td>
+                  <td>0.3%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Emerald Ore</td>
+                  <td>0.1%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Lapis Ore</td>
+                  <td>0.4%</td>
+                  <td>1-3</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Redstone Ore</td>
+                  <td>0.3%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Copper Ore</td>
+                  <td>0.25%</td>
+                  <td>1-6</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Gravel</td>
+                  <td>1%</td>
+                  <td>3-12</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Sand</td>
+                  <td>1%</td>
+                  <td>3-12</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Quartz</td>
+                  <td>0.15%</td>
+                  <td>1-4</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Amethyst Shard</td>
+                  <td>0.15%</td>
+                  <td>2-5</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Soul Sand</td>
+                  <td>0.01%</td>
+                  <td>3-6</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Ender Pearl</td>
+                  <td>1%</td>
+                  <td>1</td>
+                  <td>only from Ices</td>
+                </tr>
+                <tr>
+                  <td>Gilded Blackstone</td>
+                  <td>0.15%</td>
+                  <td>1-3</td>
+                  <td>only from Blackstone</td>
+                </tr>
+                <tr>
+                  <td>Nether Gold Ore</td>
+                  <td>0.15%</td>
+                  <td>1-3</td>
+                  <td>only from Netherrack</td>
+                </tr>
+                <tr>
+                  <td>Quartz</td>
+                  <td>0.15%</td>
+                  <td>1-4</td>
+                  <td>only from Netherrack</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function scrollToSection(sectionId) {
+  const el = document.getElementById(sectionId);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+</script>
+</body>
+</html>

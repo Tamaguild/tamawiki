@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+
+  background-image: url("../../general/textures/backgrounds/layer_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  width: 125px;
+  height: 50px;
+  margin: 30px auto;
+  text-align: center;
+
+  background: url("../../general/textures/info_boxes/5.png");
+  background-size: 100% 100%;
+  background-position: center;
+
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+/* HEADER */
+.guide-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffe596;
+}
+
+.guide-header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* MAIN LAYOUT */
+.guide-container {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+/* NAV */
+.guide-nav {
+  width: 250px;
+  background: #3a2b1a;
+  border: 3px solid #8b6a3e;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.guide-nav div {
+  padding: 10px;
+  cursor: pointer;
+  color: #ffe596;
+  transition: 0.2s;
+}
+
+.guide-nav div:hover {
+  background: #6b4e2d;
+}
+
+/* CONTENT BOX */
+.guide-content {
+  flex: 1;
+
+  background: #3a2b1a;
+  border: 3px solid #8b6a3e;
+
+  padding: 25px;
+  color: #ffe596;
+
+  height: 600px;
+  overflow-y: auto;
+}
+
+/* SCROLLBAR */
+.guide-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.guide-content::-webkit-scrollbar-thumb {
+  background: #6b4e2d;
+}
+
+/* SECTIONS */
+.guide-content h2 {
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.guide-content p,
+.guide-content li {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* SMOOTH */
+html {
+  scroll-behavior: smooth;
+}
+
+.mob-img {
+  width: 20%;
+}
+
+.screenshot{
+  width: 80%;
+}
+
+.color { 
+    color: yellow
+}
+
+.ore-intro {
+  background: rgba(0, 0, 0, 0.35);
+  border: 2px solid #8b6a3e;
+  border-radius: 14px;
+  padding: 22px;
+  margin-bottom: 24px;
+}
+
+.ore-intro p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.ore-accordion details {
+  background: rgba(58, 43, 26, 0.92);
+  border: 2px solid #8b6a3e;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+.ore-accordion summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  color: #ffe596;
+}
+
+.ore-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.ore-accordion summary::after {
+  content: '+';
+  font-size: 24px;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::after {
+  content: '−';
+}
+
+.ore-section {
+  padding: 0 22px 22px;
+}
+
+.ore-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ffe596;
+}
+
+.ore-table th,
+.ore-table td {
+  border: 1px solid #8b6a3e;
+  padding: 12px 14px;
+  text-align: center;
+}
+
+.ore-table th {
+  background: rgba(142, 109, 67, 0.9);
+}
+
+.ore-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ore-table td:first-child {
+  text-align: left;
+}
+
+.ore-block-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 14px 18px;
+  border: 1px solid #8b6a3e;
+  border-radius: 12px;
+  background: rgba(107, 78, 45, 0.85);
+}
+
+.ore-block-label {
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ore-block-value {
+  color: #ffe596;
+  font-size: 16px;
+}
+
