@@ -1,0 +1,225 @@
+:root {
+  --border-brown: #8b6a3e;
+  --box-bg: #f6edd2;
+  --main-bg: #3a2b1a;
+  --text-gold: #ffe596;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+
+  background-image: url("../../../general/textures/backgrounds/orphanage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: var(--text-gold);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  width: 125px;
+  height: 50px;
+
+  margin: 30px auto;
+
+  background: url("../../../general/textures/info_boxes/5.png");
+  background-size: 100% 100%;
+  background-position: center;
+
+  padding: 15px;
+
+  color: white;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+/* HEADER */
+.guide-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-gold);
+}
+
+.guide-header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.guide-header p {
+  font-size: 18px;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* MAIN CONTAINER */
+.districts-container {
+  width: 1400px;
+
+  margin: auto;
+
+  background: var(--main-bg);
+
+  border: 3px solid var(--border-brown);
+  border-bottom: none;
+
+  padding: 25px;
+
+  box-sizing: border-box;
+}
+
+/* DISTRICT BOX */
+.district-box {
+  margin-bottom: 18px;
+}
+
+.district-box:last-child {
+  margin-bottom: 0;
+}
+
+.district-details {
+  background: rgba(58, 43, 26, 0.92);
+
+  border: 2px solid var(--border-brown);
+  border-radius: 14px;
+
+  overflow: hidden;
+}
+
+.district-header {
+  list-style: none;
+
+  cursor: pointer;
+
+  padding: 18px 22px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 26px;
+  color: var(--text-gold);
+
+  transition: 0.2s;
+}
+
+.district-header:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.district-header::-webkit-details-marker {
+  display: none;
+}
+
+.district-header::after {
+  content: '+';
+  font-size: 24px;
+}
+
+.district-details[open] .district-header::after {
+  content: '−';
+}
+
+.district-content {
+  padding: 0 22px 22px;
+}
+
+/* TABLE */
+.trading-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  color: var(--text-gold);
+}
+
+.trading-table th,
+.trading-table td {
+  border: 1px solid var(--border-brown);
+
+  padding: 12px 14px;
+
+  text-align: center;
+}
+
+.trading-table th {
+  background: rgba(142, 109, 67, 0.9);
+}
+
+.trading-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.trading-table td:first-child,
+.trading-table td:nth-child(3) {
+  text-align: left;
+}
+
+/* CONTACT BOX */
+.contact-box {
+  width: 100%;
+  height: 140px;
+
+  background: var(--box-bg);
+  border-top: 2px solid var(--border-brown);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  color: #3a2b1a;
+
+  box-sizing: border-box;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1450px) {
+  .districts-container{
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .guide-header h1 {
+    font-size: 36px;
+  }
+
+  .district-header {
+    font-size: 22px;
+  }
+
+  .trading-table th,
+  .trading-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .contact-box {
+    height: 110px;
+    font-size: 20px;
+  }
+}
