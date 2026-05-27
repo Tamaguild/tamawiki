@@ -1,4 +1,4 @@
-/*const CACHE_NAME = "tamawiki-v1";
+const CACHE_NAME = "tamawiki-v1";
 
 const ASSETS = [
   "/",
@@ -30,4 +30,4 @@ if ("serviceWorker" in navigator) {
       .then(() => console.log("SW registered"))
       .catch(err => console.log("SW error:", err));
   });
-}*/
+}
