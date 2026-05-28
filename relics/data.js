@@ -64,7 +64,7 @@ export const DATA = [
     imgb: "Placeholder3.1",
     description: "Fanatics posture that even if the world itself were to stop spinning, Rock Top would not.<br><br>Layer 1",
     grade: "Grade 4",
-    details: "- On right click, do a funny dance",
+    details: "- Passive: do a funny dance ( no joke, funni dance )",
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
