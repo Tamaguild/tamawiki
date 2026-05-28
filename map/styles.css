@@ -176,17 +176,20 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
   background-color: #6b4e2d;    /* #6b4e2d*/
   border-radius: 0;
 }
-
 .info {
   background: var(--box-bg);
   border-top: 2px solid var(--border-brown);
   width: 100%;
   height: 140px;
   margin-top: 120px;
+
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
+  justify-content: flex-start;
+  align-items: flex-start;    
+
+  font-size: 18px;             
+  padding: 10px 15px;          
+  box-sizing: border-box;
 }
 
 .abyss a {

@@ -192,8 +192,10 @@ body {
   margin-top: 120px;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;    
 
-  font-size: 24px;
+  font-size: 18px;             
+  padding: 10px 15px;          
+  box-sizing: border-box;
 }
