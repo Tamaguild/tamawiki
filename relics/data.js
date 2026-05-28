@@ -830,6 +830,12 @@ export const DATA = [
           Really good for mining, but the explosion kinda weak.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/erm_pigeon.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Anvly ( the big eyes avatar ) one isnt da truth, the explosion is depends on how far you are from the explosion, the further you are, the less dmg you take tho. at max it can deal around 5 hearts ( 10 dmg ) piercing the netherite armor.
+        </div>
+      </div>
     `
   },
   {
