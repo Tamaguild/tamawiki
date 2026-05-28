@@ -3014,7 +3014,7 @@ drops: [
       <div class="tip">
         <img class="tip-avatar" src="../avatar/lame.png" alt="Tip avatar"> 
         <div class="tip-box">
-          My loving and caring son who wouldn't hurt a fly. Only attacks bad people.
+          My loving and caring son who wouldn't hurt a fly. Only attacks bad people :really_innocent:.
         </div>
       </div>
     `
@@ -3865,7 +3865,7 @@ drops: [
       <div class="tip">
         <img class="tip-avatar" src="../avatar/lame.png" alt="Tip avatar"> 
         <div class="tip-box">
-          My loving and caring son who wouldn't hurt a fly. Only attacks bad people.
+          My loving and caring son who wouldn't hurt a fly. Only attacks bad people :really_innocent:.
         </div>
       </div>
     `
