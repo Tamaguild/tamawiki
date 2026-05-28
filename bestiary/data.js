@@ -3010,7 +3010,14 @@ drops: [
      xp: "100-250",
      hp: 180,
     },
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/lame.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          My loving and caring son who wouldn't hurt a fly. Only attacks bad people.
+        </div>
+      </div>
+    `
   },
   {
     name: "Uibuta",
@@ -3854,7 +3861,14 @@ drops: [
      xp: "100-250",
      hp: 180,
     },
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/lame.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          My loving and caring son who wouldn't hurt a fly. Only attacks bad people.
+        </div>
+      </div>
+    `
   },
   {
     name: "Titanjaw",
