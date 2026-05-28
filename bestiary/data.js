@@ -264,6 +264,12 @@ drops: [
           On the scale of 1 to 10 based on their annoyance, they can go /kms themselves.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/tsume.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This little creature killed me so many times and made the food I wanted to eat most became roasted birds wings:hunger:.
+        </div>
+      </div>
     `
   },
   {
@@ -1093,7 +1099,20 @@ drops: [
      xp: "25-45",
      hp: 40,
     },
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          On the scale of 1 to 10 based on their annoyance, they can go /kms themselves.
+        </div>
+      </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/tsume.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This little creature killed me so many times and made the food I wanted to eat most became roasted birds wings:hunger:.
+        </div>
+      </div>
+    `
   },
   {
     name: "Ikenosuke",
@@ -2420,7 +2439,20 @@ drops: [
      xp: "25-45",
      hp: 40,
     },
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/bigeyes.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          On the scale of 1 to 10 based on their annoyance, they can go /kms themselves.
+        </div>
+      </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/tsume.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This little creature killed me so many times and made the food I wanted to eat most became roasted birds wings:hunger:.
+        </div>
+      </div>
+    `
   },
   {
     name: "Hashofu",
