@@ -890,6 +890,12 @@ export const DATA = [
           Tip for this one: Always count to 9 since 10 make the soul overload and gonna use all your souls. Another tip for who got chased by this relic user, most of time you gonna die anyways but try to bait the ammo, those are finite :mogicrazy:.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/doro.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Best relic forever.
+        </div>
+      </div>
     `
   },
   {
