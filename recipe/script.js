@@ -36,7 +36,9 @@ function render() {
   history.replaceState({}, "", `?page=${page}`);
 
   document.querySelector(".title").innerText = item.name;
-  document.querySelector(".mob").innerText = "- " + item.mob;
+  const buh = document.querySelector(".mob");
+  if (item.mobLink) {buh.innerHTML = `- <a href="${item.mobLink}">${item.mob}</a>`}
+  else {buh.innerText = `- ${item.mob}`}
 
   const layerElement = document.querySelector(".layer");
   layerElement.innerHTML = "";
