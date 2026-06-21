@@ -81,6 +81,10 @@ body {
   cursor: pointer;
 }
 
+.btn span {
+  transform: translateY(10px);
+}
+
 .btn:hover {
   transform: scale(1.1);
   filter: brightness(0.8);
