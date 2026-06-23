@@ -96,16 +96,14 @@ body {
 /* ===== GUIDE SLIDER ===== */
 
 .guide-wrapper {
-  width: 1200px;
+  width: 1110px;
   margin: 50px auto;
-  overflow: hidden;
-  position: relative;
 }
 
 .guide-sections {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
   gap: 30px;
-  transition: transform 0.6s ease;
 }
 
 /* box */
