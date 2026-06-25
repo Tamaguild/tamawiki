@@ -122,8 +122,8 @@ body{
 .flip-card{
   width:100%;
   height:100%;
-  background:#cdbf9a;
-  border:3px solid #5a4632;
+  background: url(../general/textures/paper/light_paper_square.png);
+  background-size: 100% 100%;
   position:relative;
   cursor:pointer;
   overflow: visible; /* allow scaled images to extend beyond card */
