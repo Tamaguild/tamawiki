@@ -77,6 +77,12 @@ body{
   align-items:center;
   justify-content:center;
   gap:12px;
+  padding: 24px;
+  margin-bottom: 18px;
+  background-image: url(../general/textures/paper/dark_paper_small.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .level-badge{
