@@ -199,7 +199,7 @@ function render() {
   const pnum = index + 1;
 
   // reset class
-  levelBadge.classList.remove('l1','l2','l3','l4','l5','o');
+  levelBadge.classList.remove('l1','l2','if','l3','l4','l5','o');
 
   // ORTH (ví dụ: page 0 hoặc bạn tự chỉnh điều kiện)
   if (pnum === 1) {
