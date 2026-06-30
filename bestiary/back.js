@@ -1,8 +1,28 @@
 import { DATA } from "./data.js";
 import { emote } from "../emoji.js";
 
+function toSlug(value) {
+  return String(value ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "_")
+    .replace(/[^\w-]/g, "");
+}
+
 const pluh = new URLSearchParams(location.search);
-let index = (Number(pluh.get("page")) || 1) -1;
+const nameParam = pluh.get("name");
+const pageParam = pluh.get("page");
+let index = 0;
+
+if (nameParam) {
+  const targetName = toSlug(nameParam);
+  const matchIndex = DATA.findIndex(item => toSlug(item.name) === targetName);
+  if (matchIndex !== -1) index = matchIndex;
+} else if (pageParam) {
+  index = (Number(pageParam) || 1) - 1;
+}
+
+index = Math.max(0, Math.min(DATA.length - 1, index));
 
 const div1 = document.getElementById("div1");
 const div4 = document.getElementById("div4");
@@ -76,8 +96,9 @@ function updatePageText() {
 }
 
 function render() {
-  history.replaceState({}, "", `?page=${index + 1}`);
   const d = DATA[index];
+  const name = toSlug(d?.name || "");
+  history.replaceState({}, "", `?name=${encodeURIComponent(name)}`);
 
   div1.textContent = d.name || "";
   div4.textContent = d.grade || "";
