@@ -48,20 +48,19 @@ export const DATA = [
       Bundle: 1/10 <br>    
       XP-Bottle: 1-2 1/100 <br>
       Charcoal Sand: 1/25 <br>
-      Damage Sphere: 1/10 <br>
 
-      <span class="header">Relic Drops</span>
-      <br>
-      G1 Capillary Growth: 1/500 <br>
-      G1 Shifting Pike (Procoscis): 1/500 <br>
-      G2 Gold-Mending Wedge (Verdau Effax): 1/100 <br>
-      G3 Wanabushi (Ivy Call): 1/50 <br>
-      G3 Ray-Healing Plate: 1/50 <br>
-      G3 Petrifying Stone: 1/50 <br>
-      G4 Cradle of Fertility: 1/40 <br>
-      G4 Rock Top: 1/40 <br>
-      G4 Nil Spout: 1/40 <br>
-      G4 Sudden Pinch (Fright Instinct): 1/40 <br>
+      <span class="header">Relic Drops</span> <br>
+      G1 <a href="../../relics/relic.html?page=34">Capillary Growth</a> 0.2% or 1/500 <br>
+      G1 <a href="../../relics/relic.html?page=33">Shifting Pike</a> 0.2% or 1/500 <br>
+      G2 <a href="../../relics/relic.html?page=25">Gold-mending Wedge</a> 1% or 1/100 <br>
+      G3 <a href="../../relics/relic.html?page=14">Petrifying Stone</a> 2% or 1/50 <br>
+      G3 <a href="../../relics/relic.html?page=16">Ray-healing Plate</a> 2% or 1/50 <br>
+      G3 <a href="../../relics/relic.html?page=15">Wanabushi</a> 2% or 1/50 <br>
+      G4 <a href="../../relics/relic.html?page=4">Cradle of Fertility</a> 2.5% or 1/40 <br>
+      G4 <a href="../../relics/relic.html?page=3">Rock Top</a> 2.5% or 1/40 <br>
+      G4 <a href="../../relics/relic.html?page=2">Nil Spout</a> 2.5% or 1/40 <br>
+      G4 <a href="../../relics/relic.html?page=1">Sudden Pinch</a> 2.5% or 1/40 <br>
+      G4 <a href="../../relics/relic.html?page=5">Damage Sphere</a> 10% or 1/10 <br>
       </p>
     `,
     grade: "Details for praying skeleton",
