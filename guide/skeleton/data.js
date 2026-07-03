@@ -43,12 +43,13 @@ export const DATA = [
 
       <span class="header">LOOT TABLE</span>
       <p>
-      <span class="header">Non Relic Drops</span>
-      <br>
-      Bundle: 1/10 <br>    
-      XP-Bottle: 1-2 1/100 <br>
-      Charcoal Sand: 1/25 <br>
-
+      <span class="header">Non Relic Drops</span> <br>
+      XP: 2-4 <br>
+      Bone: 1 50% or 1/2 <br>
+      <span class="header">Misc</span> <br>
+      Bundle: 1 10% or 1/10 <br>
+      Bottle o' Enchanting: 1-2 1% or 1/100 <br>
+      Raw Charcoal Sand: 1 4% or 1/25 <br>
       <span class="header">Relic Drops</span> <br>
       G1 <a href="../../relics/relic.html?page=34">Capillary Growth</a> 0.2% or 1/500 <br>
       G1 <a href="../../relics/relic.html?page=33">Shifting Pike</a> 0.2% or 1/500 <br>
@@ -77,6 +78,13 @@ export const DATA = [
     name: "Layer 2",
     description: `
       <p>
+      <span class="header">Non Relic Drops</span> <br>
+      XP: 2-4 <br>
+      Bone: 1 50% or 1/2 <br>
+      <span class="header">Misc</span> <br>
+      Bundle: 1 10% or 1/10 <br>
+      Bottle o' Enchanting: 1-2 1.5% or 1/66.67 <br>
+      Raw Charcoal Sand: 1 5% or 1/20 <br>
       <span class="header">Relic Drops</span> <br>
       G1 <a href="../../relics/relic.html?page=35">Necrometallic Blade</a> 0.18% or 1/555.5 <br>
       G1 <a href="../../relics/relic.html?page=33">Shifting Pike</a> 0.05% or 1/2000 <br>
@@ -96,6 +104,13 @@ export const DATA = [
     name: "Layer 3",
     description: `
       <p>
+      <span class="header">Non Relic Drops</span> <br>
+      XP: 5-7 <br>
+      Bone: 2-3 50% or 1/2 <br>
+      <span class="header">Misc</span> <br>
+      Bundle: 1 10% or 1/10 <br>
+      Bottle o' Enchanting: 1-2 1% or 1/100 <br>
+      Raw Charcoal Sand: 1 8% or 1/12.5 <br>
       <span class="header">Relic Drops</span> <br>
       G1 <a href="../../relics/relic.html?page=37">Atlas Dignitas</a> 0.1% or 1/1000 <br>
       G1 <a href="../../relics/relic.html?page=38">Crescent Hatchet</a> 0.1% or 1/1000 <br>
@@ -113,6 +128,13 @@ export const DATA = [
     name: "Layer 4",
     description: `
       <p>
+      <span class="header">Non Relic Drops</span> <br>
+      XP: 10-15 <br>
+      Bone: 1-3 70% or 1/1.42857 <br>
+      <span class="header">Misc</span> <br>
+      Bundle: 1 5% or 1/20 <br>
+      Bottle o' Enchanting: 1-2 10% or 1/10 <br>
+      Raw Charcoal Sand: 1 15% or 1/6.67 <br>
       <span class="header">Relic Drops</span> <br>
       G1 <a href="../../relics/relic.html?page=40">Blaze Reap</a> 0.1% or 1/1000 <br>
       G1 <a href="../../relics/relic.html?page=41">Reverberating Edge</a> 0.2% or 1/500 <br>
@@ -130,6 +152,13 @@ export const DATA = [
     name: "Layer 5",
     description: `
       <p>
+      <span class="header">Non Relic Drops</span> <br>
+      XP: 12-18 <br>
+      Bone: 1-3 70% or 1/1.42857 <br>
+      <span class="header">Misc</span> <br>
+      Bundle: 1 5% or 1/20 <br>
+      Bottle o' Enchanting: 1-2 10% or 1/10 <br>
+      Raw Charcoal Sand: 1 18% or 1/5.55 <br>
       <span class="header">Relic Drops</span> <br>
       G1 <a href="../../relics/relic.html?page=43">Yūkonokage</a> 0.13% or 1/770 <br>
       G1 <a href="../../relics/relic.html?page=44">Subtle Pull</a> 0.13% or 1/770 <br>
