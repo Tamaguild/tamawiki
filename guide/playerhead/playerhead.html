@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Player Heads</title>
+<link rel="icon" type="image/x-icon" href="../../general/textures/icons/orby.png">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js"
+  }
+}
+</script>
+</head>
+
+<body>
+
+<div class="book">
+  <!-- Search button (top-right corner) -->
+  <button id="searchBtn" class="search-btn" title="Search player head">🔍</button>
+
+  <!-- Search popup -->
+  <div id="searchPopup" class="search-popup" aria-hidden="true">
+    <div class="search-header">
+      <input id="searchInput" class="search-input" placeholder="Type player head name..." aria-label="Search player head by name" />
+      <button id="searchClose" class="search-close" title="Close">✖</button>
+    </div>
+    <ul id="searchResults" class="search-results" role="listbox" aria-label="Search results"></ul>
+  </div>
+
+  <!-- LEFT PAGE -->
+  <div class="page left">
+    <div class="name-row">
+      <div class="name" id="div1"></div>
+    </div>
+
+    <!-- IMAGE PLACEHOLDER -->
+    <div class="image-box">
+      <div id="flipCard" class="flip-card" role="button" tabindex="0" aria-pressed="false" title="Click to flip between GIFs">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <img id="imgA" src="" alt="GIF A">
+          </div>
+          <div class="flip-back">
+            <img id="imgB" src="" alt="GIF B">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="box description" id="div3"></div>
+  </div>
+
+  <!-- RIGHT PAGE -->
+  <div class="page right">
+    <div class="box">
+      <h3>Extra</h3>
+      <div id="div6"></div>
+    </div>
+  </div>
+</div>
+
+<div class="nav">
+  <button onclick="prev()">◀</button>
+  <input id="page" class="page-indicator" />
+  <button onclick="next()">▶</button>
+</div>
+
+<img src="../../relics/miscellaneous/bookmark.png" id="mark" alt="Bookmark">
+<a href="/index.html" id="go_back">
+  <img src="../../relics/miscellaneous/red_cross.png" alt="EXIT"/>
+</a>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
