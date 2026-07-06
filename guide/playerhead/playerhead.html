@@ -17,10 +17,8 @@
 <body>
 
 <div class="book">
-  <!-- Search button (top-right corner) -->
   <button id="searchBtn" class="search-btn" title="Search player head">🔍</button>
 
-  <!-- Search popup -->
   <div id="searchPopup" class="search-popup" aria-hidden="true">
     <div class="search-header">
       <input id="searchInput" class="search-input" placeholder="Type player head name..." aria-label="Search player head by name" />
@@ -29,13 +27,22 @@
     <ul id="searchResults" class="search-results" role="listbox" aria-label="Search results"></ul>
   </div>
 
-  <!-- LEFT PAGE -->
+  <!-- Bookmarks -->
+  <div class="bookmarks" aria-hidden="false">
+    <button class="bookmark bm1" data-page="2" title="Go to page 2"><span class="label">Layer 1</span></button>
+    <button class="bookmark bm2" data-page="17" title="Go to page 17"><span class="label">Layer 2</span></button>
+    <button class="bookmark bm3" data-page="36" title="Go to page 36"><span class="label">L2 (IF)</span></button>
+    <button class="bookmark bm4" data-page="44" title="Go to page 44"><span class="label">Layer 3</span></button>
+    <button class="bookmark bm5" data-page="59" title="Go to page 59"><span class="label">Layer 4</span></button>
+    <button class="bookmark bm6" data-page="78" title="Go to page 78"><span class="label">Layer 5</span></button>
+  </div>
+
   <div class="page left">
     <div class="name-row">
       <div class="name" id="div1"></div>
     </div>
+    <div class="grade" id="div4"></div>
 
-    <!-- IMAGE PLACEHOLDER -->
     <div class="image-box">
       <div id="flipCard" class="flip-card" role="button" tabindex="0" aria-pressed="false" title="Click to flip between GIFs">
         <div class="flip-inner">
@@ -52,11 +59,20 @@
     <div class="box description" id="div3"></div>
   </div>
 
-  <!-- RIGHT PAGE -->
   <div class="page right">
+    <div class="box details-box">
+      <h3>Texture</h3>
+      <img src="../../items/playerheads/rect_texture.png" alt="Section texture" class="details-rect" />
+    </div>
     <div class="box">
       <h3>Extra</h3>
       <div id="div6"></div>
+    </div>
+    <div id="bkmark">
+      <img src="../../relics/miscellaneous/bookmark.png" id="mark" alt="Bookmark">
+      <a href="/index.html" id="go_back">
+        <img src="../../relics/miscellaneous/red_cross.png" alt="EXIT"/>
+      </a>
     </div>
   </div>
 </div>

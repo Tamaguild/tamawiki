@@ -6,20 +6,24 @@ let index = (Number(pluh.get("page")) || 1) - 1;
 
 const div1 = document.getElementById("div1");
 const div3 = document.getElementById("div3");
+const div4 = document.getElementById("div4");
 const div6 = document.getElementById("div6");
 const page = document.getElementById("page");
 const imgA = document.getElementById("imgA");
 const imgB = document.getElementById("imgB");
 const flipCard = document.getElementById("flipCard");
+const detailsRect = document.querySelector('.details-rect');
+const detailsBox = document.querySelector('.details-box');
 const searchBtn = document.getElementById('searchBtn');
 const searchPopup = document.getElementById('searchPopup');
 const searchInput = document.getElementById('searchInput');
 const searchResults = document.getElementById('searchResults');
 const searchClose = document.getElementById('searchClose');
 
-// Initialize Three.js
+let isFlipped = false;
+
 function init3D() {
-  // Three.js viewer removed - replaced with GIF display
+  
 }
 
 function updatePageText() {
@@ -31,10 +35,10 @@ function render() {
   const d = DATA[index];
 
   div1.textContent = d.name || "";
+  div4.innerHTML = d.grade || "";
   div3.innerHTML = d.description || "";
   div6.innerHTML = emote(d.extra || "");
 
-  // Load images
   function setImg(el, src, altSuffix) {
     if (!el) return;
     if (!src || String(src).toLowerCase().startsWith("placeholder")) {
@@ -49,11 +53,18 @@ function render() {
 
   setImg(imgA, d.imga, "GIF");
   setImg(imgB, d.imgb, "GIF");
+  setImg(detailsRect, d.texture, "texture");
+  if (detailsBox) {
+    if (d.textureSize) {
+      detailsBox.style.setProperty('--details-width', d.textureSize);
+    } else {
+      detailsBox.style.removeProperty('--details-width');
+    }
+  }
 
   updatePageText();
 }
 
-// Flip card functionality
 flipCard.addEventListener("click", () => {
   isFlipped = !isFlipped;
   flipCard.classList.toggle("flipped", isFlipped);
@@ -67,7 +78,6 @@ flipCard.addEventListener("keydown", (e) => {
   }
 });
 
-// Navigation
 function prev() {
   index = (index - 1 + DATA.length) % DATA.length;
   render();
@@ -85,7 +95,6 @@ function next() {
 window.prev = prev;
 window.next = next;
 
-// Search functionality
 function performSearch(query) {
   searchResults.innerHTML = "";
 

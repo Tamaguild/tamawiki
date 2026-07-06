@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body{
   margin:0;
   background:#222;
@@ -59,6 +61,27 @@ body{
   font-size:34px;
   font-weight:bold;
   text-align:center;
+  letter-spacing: 0.8px;
+}
+
+/* Level badge + name row */
+.name-row{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  padding: 24px;
+  margin-bottom: 18px;
+  background-image: url(../../general/textures/paper/dark_paper_small.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.grade{
+  text-align:center;
+  font-style:italic;
+  margin-bottom:20px;
 }
 
 .name-row {
@@ -84,11 +107,11 @@ body{
 .flip-card{
   width:100%;
   height:100%;
-  background:#cdbf9a;
-  border:3px solid #5a4632;
+  background: url(../../general/textures/paper/light_paper_square.png);
+  background-size: 100% 100%;
   position:relative;
   cursor:pointer;
-  overflow:hidden;
+  overflow: visible; /* allow scaled images to extend beyond card */
 }
 
 .flip-inner{
@@ -128,7 +151,14 @@ body{
   transition: transform 200ms ease;
 }
 
-.flip-card:hover .flip-front img,
+.flip-front img{
+  transform: scale(0.7);
+}
+
+.flip-card:hover .flip-front img{
+  transform: scale(0.756);
+}
+
 .flip-card:hover .flip-back img{
   transform: scale(1.12);
 }
@@ -198,6 +228,121 @@ button{
 
 .search-popup[aria-hidden="false"]{
   display:flex;
+}
+
+/* Bookmarks*/
+.bookmarks{
+  position:absolute;
+  left:-28px;
+  top:40px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  z-index:45;
+}
+
+.bookmark{
+  width:44px;
+  height:40px;
+  border-radius:6px;
+  border:2px solid rgba(0,0,0,0.08);
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  cursor:pointer;
+  font-weight:bold;
+  box-shadow:0 2px 6px rgba(0,0,0,0.12);
+  padding-left:8px;
+  overflow:hidden;
+  transition: width 220ms ease, transform 220ms ease;
+}
+
+.bookmark:focus{ outline:3px solid rgba(90,70,50,0.12); }
+
+.bm0{ background: #fdac3b; color: #fff; }
+.bm1{ background: #c83038; color: #fff; }
+.bm2{ background: #4c92ab; color: #fff; }
+.bm3{ background: #448a9a; color: #fff; }
+.bm4{ background: #a95a98; color: #fff; }
+.bm5{ background: #567252; color: #fff; }
+.bm6{ background: #434868; color: #fff; }
+
+.bookmark .num{
+  width:22px;
+  display:inline-block;
+  text-align:center;
+  color:inherit;
+}
+
+.bookmark .label{
+  margin-left:8px;
+  opacity:0;
+  color:#fff;
+  white-space:nowrap;
+  transition: opacity 180ms ease, transform 180ms ease;
+  transform: translateX(-6px);
+  font-size:14px;
+}
+
+.bookmark .label,
+.bookmark .num{
+  font-family: 'Press Start 2P', 'Courier New', monospace;
+  letter-spacing: 0.8px;
+}
+
+.bookmark:hover{
+  transform: translateX(28px);
+  width:160px;
+}
+
+.bookmark:hover .label{
+  opacity:1;
+  transform: translateX(0);
+}
+
+@media (max-height:640px){
+  .bookmarks{ top:20px; gap:8px; }
+  .bookmark{ width:38px; height:34px; }
+}
+
+#mark{
+  position: fixed;
+  bottom: -115px;
+  right: -70px;
+  scale: 0.42;
+}
+
+#go_back {
+  position: fixed;
+  scale: 0.5;
+  bottom: 30px;
+  right: 35px;
+  z-index: 1000;
+  transition: transform 0.2s ease;
+}
+
+#go_back img {
+  width: 145px;
+  vertical-align: middle;
+}
+
+.details-box{
+  position:relative;
+  margin-bottom:8px;
+}
+.details-box{
+  /* adjustable width */
+  --details-width: 30%;
+}
+.details-box .details-rect{
+  width: var(--details-width);
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin-bottom:8px;
+  image-rendering: pixelated; 
+  -ms-interpolation-mode: nearest-neighbor; 
+  object-fit: contain;
 }
 
 .search-header{
@@ -327,4 +472,11 @@ button{
 #go_back img {
   width: 145px;
   vertical-align: middle;
+}
+
+#bkmark {
+  position: fixed;
+  bottom: -115px;
+  right: -70px;
+  scale: 0.42;
 }

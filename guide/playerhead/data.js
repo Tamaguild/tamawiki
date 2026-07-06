@@ -1,7 +1,9 @@
 export const DATA = [
   {
     name: "Bag of Coins",
-    imga: "../../items/playerheads/gif/bag_of_coins.gif",
+    imga: "../../items/playerheads/img/bag_of_coins.png",
+    imgb: "../../items/playerheads/gif/bag_of_coins.gif",
+    texture: "../../items/playerheads/texture/coinbag.png",
     description: "pluh",
     extra: `
       <div class="tip">
