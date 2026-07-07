@@ -78,6 +78,12 @@ export const DATA = [
           Sell these for newbies, absoblute scamba.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/pan.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Congratulations you can now fly!
+        </div>
+      </div>
     `
   },
   {
