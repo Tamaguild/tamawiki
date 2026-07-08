@@ -3,8 +3,11 @@ import { DATA } from './data.js';
 const container = document.getElementById('bestiaryList');
 
 const mobs = [...DATA]
-  .map((item) => ({ name: item.name }))
-  .sort((a, b) => a.name.localeCompare(b.name));
+  .map((item) => item.name)
+  .filter(Boolean)
+  .sort((a, b) => a.localeCompare(b))
+  .filter((name, index, array) => array.indexOf(name) === index)
+  .map((name) => ({ name }));
 
 const grouped = mobs.reduce((acc, item) => {
   const firstLetter = (item.name || '')[0]?.toUpperCase() || '#';
