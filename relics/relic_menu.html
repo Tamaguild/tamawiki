@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relic Menu</title>
+  <link rel="icon" type="image/x-icon" href="../general/textures/icons/orby.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="relic_menu.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="logo logoBtn" onclick="window.location.href='../index.html';">
+      <img src="../logo.png" alt="TAMAWIKI LOGO">
+    </div>
+
+    <div class="buttonArea" id="buttonbox">
+      <div class="btn" onclick="window.location.href='./relic_book/relic.html';"><span>RELIC</span></div>
+      <div class="btn" onclick="window.location.href='../bestiary/bestiary_menu.html';"><span>BESTIARY</span></div>
+      <div class="btn" onclick="window.location.href='../recipe/recipe_list.html';"><span>MOB DROP</span></div>
+      <div class="btn" onclick="window.location.href='../guide/guide.html';"><span>GUIDE</span></div>
+      <div class="btn" onclick="window.location.href='../miscellaneous/miscellaneous.html';"><span>MISCELLANEOUS</span></div>
+    </div>
+
+    <div class="menu-card">
+      <div class="menu-header">
+        <h1>Relic Menu</h1>
+        <p>Browse relic entries in alphabetical order and open the relevant page in the relic book.</p>
+        <a class="primary-btn" href="./relic_book/relic.html">Open Relic Book</a>
+      </div>
+
+      <div id="relicList" class="relic-grid" aria-label="Relic entries"></div>
+    </div>
+  </div>
+
+    <div class="info">
+    <p><b>DISCLAIMER:</b><br>
+    This wiki is a fan-made project and is not affiliated with the official Mine In Abyss wiki. <br>
+    All information provided here is based on public source and may not be accurate or up-to-date. <br> 
+    Use this wiki at your own risk, and always refer to official sources for the most reliable information. <br>
+    Contact mica0356_96707 in Discord for any questions. <br>
+    </p>
+    </div>
+
+  <script type="module" src="relic_menu.js"></script>
+</body>
+</html>

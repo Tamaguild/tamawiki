@@ -1,5 +1,5 @@
 import { DATA } from "./data.js";
-import { emote } from "../emoji.js";
+import { emote } from "../../emoji.js";
 
 function toSlug(value) {
   return String(value ?? "")

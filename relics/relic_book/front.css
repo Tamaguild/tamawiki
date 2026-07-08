@@ -226,6 +226,23 @@ button{
 }
 
 /* Search UI */
+.menu-btn{
+  position:absolute;
+  right:72px;
+  top:12px;
+  min-width:64px;
+  height:44px;
+  border-radius:8px;
+  background:#5a4632;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:16px;
+  z-index:40;
+  padding:0 12px;
+}
+
 .search-btn{
   position:absolute;
   right:18px;

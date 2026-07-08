@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-image: url("../general/textures/backgrounds/orphanage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: min(1500px, calc(100% - 32px));
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.logo {
+  background: transparent;
+  border: none;
+  height: 220px;
+  width: 600px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 260px;
+  width: auto;
+}
+
+.logoBtn {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.logoBtn:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+
+.buttonArea {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 105px;
+  margin-top: 30px;
+  background: url("../general/textures/info_boxes/frame.png");
+  background-size: auto;
+  background-position: center -40px;
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn {
+  width: 250px;
+  height: 110px;
+  background: url("../general/textures/info_boxes/5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  border-radius: 6px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn span {
+  transform: translateY(10px);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.menu-card {
+  margin: 40px auto 0;
+  background: rgba(246, 237, 210, 0.96);
+  border: 4px solid #8b6a3e;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 28px;
+  box-sizing: border-box;
+  width: min(1400px, calc(100%));
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.menu-header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #4d3418;
+}
+
+.menu-header p {
+  margin: 0;
+  font-size: 18px;
+  color: #4d3418;
+}
+
+.primary-btn {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 10px 16px;
+  background: #5a4632;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  background: #6f5338;
+}
+
+.relic-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.alphabet-section {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.alphabet-letter {
+  min-width: 56px;
+  font-size: 44px;
+  font-weight: bold;
+  color: #5a4632;
+  line-height: 1;
+  padding-top: 2px;
+  letter-spacing: 1px;
+}
+
+.relic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+
+.relic-link {
+  color: #3f2d16;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-size: 17px;
+}
+
+.relic-link:hover {
+  color: #7a4b1f;
+}
+
+.info {
+  background: #f6edd2;
+  border-top: 2px solid #8b6a3e;
+  width: 100%;
+  margin-top: 40px;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  .buttonArea {
+    gap: 20px;
+  }
+
+  .btn {
+    width: 180px;
+    font-size: 16px;
+  }
+}
