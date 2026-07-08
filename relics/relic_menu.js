@@ -1,4 +1,4 @@
-import { DATA } from './relic_book/data.js';
+import { DATA } from './data.js';
 
 const container = document.getElementById('relicList');
 
@@ -20,7 +20,7 @@ const sections = Object.entries(grouped)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([letter, items]) => {
     const links = items.map((item) => `
-      <a class="relic-link" href="./relic_book/relic.html?name=${encodeURIComponent(item.name)}">${item.name}</a>
+      <a class="relic-link" href="./relic.html?name=${encodeURIComponent(item.name)}">${item.name}</a>
     `).join('');
     return `
       <section class="alphabet-section">
