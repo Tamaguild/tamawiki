@@ -945,7 +945,7 @@ drops: [
     name: "Dosetori",
     imga: "mob_png/dosetori2d.png",
     imgb: "mob_gif/dosetori.gif",
-    description: " The Dosetori is a avian creature that live in grass area in Layer 2 and 3. These bad guy have big and sturdy wings. There is a myth that delver use their wings to make leather-like armor. <br> <br> Found in Layer 2",
+    description: " The Dosetori is a avian creature that live in grass area in Layer 2 and 3. These bad guy have big and sturdy wings. There is a myth that delver use their wings to make leather-like armor. <br> <br> Found in Layer 2 & 3",
     grade: "★★",
     details: "Drops:",
     drops: [
@@ -1932,7 +1932,7 @@ drops: [
     name: "Dosetori",
     imga: "mob_png/dosetori2d.png",
     imgb: "mob_gif/dosetori.gif",
-    description: " The Dosetori is a avian creature that live in grass area in Layer 2 and 3. These bad guy have big and sturdy wings. There is a myth that delver use their wings to make leather-like armor. <br> <br> Found in Layer 2",
+    description: " The Dosetori is a avian creature that live in grass area in Layer 2 and 3. These bad guy have big and sturdy wings. There is a myth that delver use their wings to make leather-like armor. <br> <br> Found in Layer 2 & 3",
     grade: "★★",
     details: "Drops:",
     drops: [
