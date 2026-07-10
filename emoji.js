@@ -10,6 +10,7 @@ const EMOTES = {
   tuh: "/emotes/tuh.png",
   really_innocent: "/emotes/really_innocent.png",
   hunger: "/emotes/hunger.png",
+  bondrewd_whoosh: "/emotes/bondrewd_whoosh.png",
 };
 
 /**
