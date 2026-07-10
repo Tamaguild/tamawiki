@@ -864,6 +864,12 @@ export const DATA = [
           interlinked
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../../avatar/ash.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          it's the big bonker, it's doing alota bonking activities.
+        </div>
+      </div>
     `
   },
   {

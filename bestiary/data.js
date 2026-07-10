@@ -2797,7 +2797,14 @@ drops: [
      xp: "100-250",
      hp: 180,
     },
-    extra: "Tip1"
+    extra: `
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/kay_facts.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Orb moment.
+        </div>
+      </div>
+    `
   },
   {
     name: "Rohana",
