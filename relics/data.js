@@ -820,6 +820,13 @@ export const DATA = [
           Also, this has Ebola and H5N1 living on it, so be careful
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="../../avatar/ash.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          it's the big bonker, it's doing alota bonking activities :bondrewd_whoosh:.
+        </div>
+      </div>
     `
   },
   {
@@ -864,10 +871,10 @@ export const DATA = [
           interlinked
         </div>
       </div>
-      <div class="tip">
+            <div class="tip">
         <img class="tip-avatar" src="../../avatar/ash.png" alt="Tip avatar"> 
         <div class="tip-box">
-          it's the big bonker, it's doing alota bonking activities :bondrewd_whoosh:.
+          Violence.
         </div>
       </div>
     `
