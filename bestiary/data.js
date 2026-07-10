@@ -2653,7 +2653,14 @@ drops: [
      xp: "15-25",
      hp: 30,
     },
-    extra: "Tip1"
+    extra:`
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/kay_facts.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Best way to deal with them is to burn it with fire.
+        </div>
+      </div>
+    `
   },
   {
     name: "Baby Kuongatari",
@@ -2689,7 +2696,14 @@ drops: [
      xp: "5-15",
      hp: 30,
     },
-    extra: "Tip1"
+    extra:`
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/kay_facts.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Best way to deal with them is to burn it with fire.
+        </div>
+      </div>
+    `
   },
   {
     name: "Makihige",
@@ -3510,13 +3524,20 @@ drops: [
      xp: "15-25",
      hp: 30,
     },
-    extra: "Tip1"
+    extra:`
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/kay_facts.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Best way to deal with them is to burn it with fire.
+        </div>
+      </div>
+    `
   },
   {
     name: "Baby Kuongatari",
     imga: "mob_png/kuongatari2d.png",
     imgb: "mob_gif/kuongatari.gif",
-    description: "Pluh",
+    description: "Baby varient of kuongatari, even though they are not poisonous, these bugs small and quite fast. <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
@@ -3546,7 +3567,14 @@ drops: [
      xp: "5-15",
      hp: 30,
     },
-    extra: "Tip1"
+    extra:`
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/kay_facts.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Best way to deal with them is to burn it with fire.
+        </div>
+      </div>
+    `
   },
   {
     name: "Makihige",
