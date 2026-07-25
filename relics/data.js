@@ -128,6 +128,12 @@ export const DATA = [
           Holy powerful, you can one shot that ugly spoodo thingy that shoot out sticky string from it's butthole.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../../avatar/yuki_avatar.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          this thing is a weird stone has the cap ability to snipe opponents from a distance of approximately up to 30 blocks when properly angle adjustment best use to kill bird and any flying object
+        </div>
+      </div>
     `
   },
   {

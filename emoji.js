@@ -11,6 +11,7 @@ const EMOTES = {
   really_innocent: "/emotes/really_innocent.png",
   hunger: "/emotes/hunger.png",
   bondrewd_whoosh: "/emotes/bondrewd_whoosh.png",
+  proud: "/emotes/proud.png",
 };
 
 /**

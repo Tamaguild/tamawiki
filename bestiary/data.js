@@ -2501,56 +2501,7 @@ drops: [
     {
       src: "../items/mob_drops/images/horncrier_horn.png",
       href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Ponder)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Sing)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Seek)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Feel)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Admire)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Call)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Yearn)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Dream)",
+      alt: "Horncrier Horn (Ponder), (Dream), (Admire), (Call), (Yearn), (Sing), (Seek), (Feel)",
       chance: "0.1%",
       amount: "1"
     },
@@ -2566,7 +2517,14 @@ drops: [
      xp: "30-60",
      hp: 60,
     },
-    extra: "Tip1"
+    extra:`
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/celucari_avatar.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          They hate everyone and everything for no reason. I love them tho :proud:.
+        </div>
+      </div>
+    `
   },
   {
     name: "Ikenosuke",
@@ -3373,62 +3331,13 @@ drops: [
     imga: "mob_png/horncrier2d.png",
     imgb: "mob_gif/horncrier.gif",
     description: "A varient of Woodcrier, their horn is much harder and they are much faster. Pretty deadly. <br> <br> Found in Layer 4 & 5 ",
-    grade: "★",
+    grade: "★★★★",
     details: "Drops:",
     drops: [
     {
       src: "../items/mob_drops/images/horncrier_horn.png",
       href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Ponder)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Sing)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Seek)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Feel)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Admire)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Call)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Yearn)",
-      chance: "0.1%",
-      amount: "1"
-    },
-    {
-      src: "../items/mob_drops/images/horncrier_horn.png",
-      href: "/recipe/recipe_menu.html?page=horncrier_horn",
-      alt: "Horncrier Horn (Dream)",
+      alt: "Horncrier Horn (Ponder), (Dream), (Admire), (Call), (Yearn), (Sing), (Seek), (Feel)",
       chance: "0.1%",
       amount: "1"
     },
@@ -3444,7 +3353,14 @@ drops: [
      xp: "30-60",
      hp: 60,
     },
-    extra: "Tip1"
+    extra:`
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/celucari_avatar.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          They hate everyone and everything for no reason. I love them tho :proud:.
+        </div>
+      </div>
+    `
   },
   {
     name: "Ikonia",
