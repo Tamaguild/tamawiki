@@ -1369,7 +1369,7 @@ drops: [
     name: "Tesuchi",
     imga: "mob_png/tesuchi2d.png",
     imgb: "mob_gif/tesuchi.gif",
-    description: " The Tesuchi is a reptile creature live in dark forests. Their scales and tail are edible ( kinda weird :D). Their scales can be use as an important ingredient for ancient template for forging<br> <br> Found in Layer 3",
+    description: " The Tesuchi is a reptile creature live in dark forests. Their scales and tail are edible ( kinda weird :D). Their scales can be use as an important ingredient for ancient template for forging<br> <br> Found in Layer 2",
     grade: "harmless",
     details: "Drops:",
     drops: [
