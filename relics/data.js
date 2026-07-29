@@ -803,6 +803,12 @@ export const DATA = [
           Not that great in pvp, but really good when fighting bosses.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../../avatar/nikita_avatar.jpg" alt="Tip avatar"> 
+        <div class="tip-box">
+          It might return you to your Bonfire... at the cost of your life.
+        </div>
+      </div>
     `
   },
   {
