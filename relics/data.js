@@ -732,6 +732,12 @@ export const DATA = [
           I dont have it. But i fought with this relic user a few time. Didnt tickle me.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../../avatar/doodlenator.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This is the BEST relic I tell you, the BEST! It can do anything! Stabbing, knitting, sucking BLOOD... It can even prevent you from mining blocks! Ah Capillary, truly a marvelous relic to behold!
+        </div>
+      </div>
     `
   },
   {
