@@ -724,7 +724,7 @@ export const DATA = [
     imgb: "Placeholder4.1",
     description: "Rather unceremoniously cobbled together from the remains of an Interference Unit, this sword carries on its user's mysterious directives.<br><br>Layer 1",
     grade: "Grade 1",
-    details: "Right click after 10 hits to draw hp from surrounding enemies, granting user health boost, 2 hearts",
+    details: "Right click after 10 hits to draw hp from surrounding enemies, granting user health boost, 2 hearts. <br> Killing with this siphon the blood and heal you.",
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="../../avatar/question_pigeon.png" alt="Tip avatar"> 
