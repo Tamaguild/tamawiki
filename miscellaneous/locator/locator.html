@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Locator</title>
+  <link rel="icon" type="image/x-icon" href="./../../general/textures/icons/orby.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Flavor text preview metadata -->
+  <meta property="og:title" content="Locator" />
+  <meta property="og:description" content="Simple programs caculate chance of each ghost seek ping." />
+  <meta property="og:image" content="https://tamawiki.pages.dev/logo.png" />
+
+  <!-- Optional Twitter card support -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Locator" />
+  <meta name="twitter:description" content="Simple programs caculate chance of each ghost seek ping." />
+  <meta name="twitter:image" content="https://tamawiki.pages.dev/logo.png" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="page-header">
+    <div>
+      <h1>Ghost Seek Locator</h1>
+      <p class="tagline">Triangulates a Praying Skeleton from Ghost Seek sound readings.</p>
+    </div>
+    <a href="../index.html" class="button secondary">Exit</a>
+  </div>
+
+  <div class="notice">
+    Fully standalone - everything runs in this browser tab, nothing is sent anywhere, ever.
+    No install, no server, no account. Closing this tab loses your session unless you click
+    <strong>Save session log</strong> first.
+  </div>
+
+  <details class="guide">
+    <summary>What does each part of this do? (read me first)</summary>
+    <div class="guide-body">
+      <h3>Ghost Seeker</h3>
+      <p>Pick whichever <span class="block">Ghost Seek</span> item you're actually holding - check its
+      name in-game. A better one (Grade I is the best) hears farther and tells you your distance more
+      precisely, so if you've got a good one, pick it here. This changes how the app reads your letters,
+      so getting it right matters.</p>
+      <p><span class="block">Distance metric</span> - just leave this on the default (Euclidean). You
+      basically never need to touch it.</p>
+
+      <h3>Add a reading</h3>
+      <p>Every time you hear the Ghost Seeker make its sound, immediately write down where you're
+      standing and which sound you heard. In Minecraft, press <strong>F3</strong> to see your X, Y, Z
+      coordinates, or press <strong>F3+C</strong> to copy a teleport command - you can paste that whole
+      thing straight into the X, Y or Z box here and it'll fill in all three for you automatically.</p>
+      <p>The letter is just "how far away": <strong>A is always the closest sound</strong>, and each
+      letter after that means farther away. If you heard nothing at all, pick the last letter (or just
+      type <code>none</code>/<code>nothing</code>/<code>silent</code>) - that means the skeleton is
+      farther than your seeker can hear.</p>
+      <p>Click <strong>Add reading</strong> once you've filled it in. Each reading is one clue - the more
+      you add from different spots, the smaller the possible area gets.</p>
+
+      <h3>Estimate</h3>
+      <p>The <span class="block">search space</span> bar is basically a progress meter. 100% means "could
+      be almost anywhere," and the closer it gets to 0%, the smaller and more certain the remaining area
+      is. Once it's small, that's your cue to go walk over there.</p>
+      <p>The <span class="block">region</span> shown is a box of coordinates - as long as everything you
+      typed was correct, the skeleton is guaranteed to be somewhere inside that box.</p>
+      <p>Each reading also gets a <span class="block">confidence</span> percentage - how much your other
+      readings agree with it. If one reading's confidence is low, it's probably a typo, or it was actually
+      describing a different skeleton than the rest.</p>
+
+      <h3>Conflicts &amp; tracks</h3>
+      <p><span class="block">Conflicts</span> means two or more of your readings flatly disagree - almost
+      always a typo in the coordinates or the letter for whichever reading you added most recently. Double
+      check that one first.</p>
+      <p>If the app splits your readings into separate <span class="block">tracks</span>, it thinks there
+      might be two skeletons out there instead of one. That's fine - just pick one track and focus on it,
+      ignore the other set until you're done with the first.</p>
+
+      <h3>Found</h3>
+      <p>Once you actually find and kill the skeleton, click <strong>Found</strong> (you can optionally
+      type where). This clears out the readings that led you there so your list stays clean, but it never
+      deletes anything - you can always look back at it under <span class="block">History</span>.</p>
+
+      <h3>Timer</h3>
+      <p>The seeker's sound repeats on a loop every so often. <strong>starttimer</strong> just counts down
+      to the next one so you're not standing around guessing when to listen.</p>
+    </div>
+  </details>
+
+  <details class="guide">
+    <summary>Tips: how to actually find it fast</summary>
+    <div class="guide-body">
+      <p>You don't need to know any math or find some perfect geometric spot to stand on. Think of it like
+      a warmer/colder game: every reading draws a big invisible bubble around where you were standing, and
+      the skeleton is somewhere on the edge of (or inside) that bubble depending on the letter. More
+      bubbles from more spots = the overlap between them keeps shrinking, until there's only a small area
+      left where they all agree.</p>
+
+      <h3>A pattern that works almost every time</h3>
+      <ol>
+        <li>Take a reading right where you are.</li>
+        <li>Walk roughly in a straight line for 50-100 blocks, then take a second reading.</li>
+        <li>Turn - don't keep going the same direction, turn left or right roughly 90&deg; - walk another
+        50-100 blocks, and take a third reading.</li>
+      </ol>
+      <p>Three readings from three clearly different directions is usually enough to shrink the search
+      space down to something you can just walk to and check by ear.</p>
+
+      <h3>Other things that help</h3>
+      <ul>
+        <li>Watch the search space % after each reading. If it barely moved, that reading probably didn't
+        add anything new - you likely didn't walk far enough, or walked the same direction as before. Go
+        somewhere clearly different next time.</li>
+        <li>Got a conflict message? Don't panic - it's almost always a typo in your most recent reading.
+        Double-check the coordinates and letter.</li>
+        <li>Told there might be two skeletons? Just pick one group of readings and ignore the other until
+        you've found the first one.</li>
+        <li>Once the box in the Estimate panel gets small, walk to it - you'll hear the letters change
+        (getting closer) as you get near.</li>
+        <li>Use <strong>starttimer</strong> so you know exactly when the next sound is coming instead of
+        standing around unsure whether you missed it.</li>
+        <li>Playing with friends? Everyone's readings stay in their own browser tab - this page doesn't
+        share anything between people automatically, so compare notes out loud (or in chat).</li>
+      </ul>
+    </div>
+  </details>
+
+  <div class="panel">
+    <h2>Ghost Seeker <span class="hint">choose what you're holding</span></h2>
+    <div class="row">
+      <div class="field grow">
+        <label for="seekerSelect">Grade</label>
+        <select id="seekerSelect">
+          <option value="giii">Grade III - Makeshift Ghost Seek</option>
+          <option value="gii" selected>Grade II - Repaired Ghost Seek</option>
+          <option value="gi">Grade I - Refined Ghost Seek</option>
+        </select>
+      </div>
+      <div class="field grow">
+        <label for="metricSelect">Distance metric</label>
+        <select id="metricSelect">
+          <option value="euclidean" selected>Euclidean (round rings)</option>
+          <option value="chebyshev">Chebyshev (blocky rings)</option>
+        </select>
+      </div>
+    </div>
+    <div class="band-table" id="bandTable"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Add a reading</h2>
+    <div class="row" id="addReadingRow">
+      <div class="field"><label for="rx">X</label><input id="rx" type="number" step="any"></div>
+      <div class="field"><label for="ry">Y</label><input id="ry" type="number" step="any"></div>
+      <div class="field"><label for="rz">Z</label><input id="rz" type="number" step="any"></div>
+      <div class="field">
+        <label for="rband">Band</label>
+        <select id="rband"></select>
+      </div>
+      <button id="addReadingBtn">Add reading</button>
+    </div>
+    <div id="addReadingMsg"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Estimate <span class="hint" id="resultsHint"></span></h2>
+    <div id="resultsBody"><p class="empty">No active readings yet.</p></div>
+  </div>
+
+  <div class="grid2">
+    <div class="panel">
+      <h2>Active readings</h2>
+      <div id="activeTableWrap"><p class="empty">Nothing yet.</p></div>
+    </div>
+    <div class="panel">
+      <h2>Conflicts</h2>
+      <div id="conflictsBody"><p class="empty">No active readings yet.</p></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Found it</h2>
+    <div class="row">
+      <div class="field"><label for="fx">X</label><input id="fx" type="number" step="any"></div>
+      <div class="field"><label for="fy">Y</label><input id="fy" type="number" step="any"></div>
+      <div class="field"><label for="fz">Z</label><input id="fz" type="number" step="any"></div>
+      <button id="confirmFoundBtn">Confirm found</button>
+      <button id="bareFoundBtn" class="secondary">Mark found (unspecified spot)</button>
+    </div>
+    <div id="foundMsg"></div>
+    <p class="hint" style="margin-top:6px;">Retires the readings that pointed here — never deletes. A
+      near-miss coordinate that matches nothing retires nothing.</p>
+  </div>
+
+  <div class="panel">
+    <h2>History <span class="hint">every kill, and every reading it retired</span></h2>
+    <div id="historyBody"><p class="empty">No kills yet.</p></div>
+  </div>
+
+  <div class="panel">
+    <h2>Session log</h2>
+    <div class="row">
+      <button id="saveLogBtn">Save session log</button>
+      <div class="field grow">
+        <label for="loadLogFile">Load a session log</label>
+        <input id="loadLogFile" type="file" accept=".txt,text/plain">
+      </div>
+    </div>
+    <div id="sessionsWrap" style="margin-top:10px;">
+      <label>Sessions held right now</label>
+      <div class="sessions-list" id="sessionsList"></div>
+      <div class="row" style="margin-top:8px;">
+        <button id="simulateSelectedBtn" class="secondary">Simulate selected</button>
+        <button id="simulateAllBtn" class="secondary">Simulate all imported</button>
+      </div>
+    </div>
+    <div id="logOut" class="log-out" style="display:none;"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Sound timer</h2>
+    <div class="row">
+      <div class="field"><label for="timerSecs">Interval (s)</label><input id="timerSecs" type="number" min="1" max="120" value="20"></div>
+      <button id="startTimerBtn">Start</button>
+      <button id="pingBtn" class="secondary">Ping (heard it)</button>
+      <button id="stopTimerBtn" class="secondary">Stop</button>
+    </div>
+    <div class="timer-bar"><i id="timerBarFill" style="width:0%"></i></div>
+    <div class="timer-status" id="timerStatus">Not running.</div>
+  </div>
+
+  <div class="panel">
+    <h2>Advanced <span class="hint">type any command directly</span></h2>
+    <div class="row">
+      <div class="field grow">
+        <label for="cmdInput">Command</label>
+        <input id="cmdInput" type="text" placeholder="e.g. 120 64 -30 C, found 0 -1319 -300, seeker t3, delete 3">
+      </div>
+      <button id="cmdRunBtn" class="secondary">Run</button>
+    </div>
+    <div id="cmdOut" class="log-out" style="display:none;"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Reset</h2>
+    <div class="row">
+      <button id="resetBtn" class="danger">Wipe everything (readings and history)</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</html>
