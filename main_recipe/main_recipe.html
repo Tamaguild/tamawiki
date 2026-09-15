@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Recipe Tree</title>
+  <link rel="icon" type="image/x-icon" href="../general/textures/icons/orby.png" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="searchBtn" class="search-btn" title="Search recipe" aria-label="Search recipe">&#128269;</button>
+
+  <div id="searchPopup" class="search-popup" aria-hidden="true">
+    <div class="search-header">
+      <input id="searchInput" class="search-input" placeholder="Type recipe name..." aria-label="Search recipe by name" />
+      <button id="searchClose" class="search-close" title="Close" aria-label="Close search">&#10005;</button>
+    </div>
+    <ul id="searchResults" class="search-results" role="listbox" aria-label="Search results"></ul>
+  </div>
+
+  <div class="recipe-page">
+    <aside class="tree-panel" aria-label="Recipe tree">
+      <div id="treeRoot" class="tree-root"></div>
+    </aside>
+
+    <main class="recipe-detail" aria-live="polite">
+      <div class="title-panel">
+        <h1 id="itemTitle" class="item-title">Black Wool</h1>
+      </div>
+
+      <section class="crafting-panel" aria-label="Crafting recipes">
+        <div id="recipePanels" class="recipe-panels"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="bkmark">
+      <img src="./miscellaneous/bookmark.png" id="mark" alt="Bookmark Background">
+      <a href="../index.html" id="go_back">
+        <img src="./miscellaneous/red_cross.png" alt="EXIT"/>
+      </a>   
+  </div>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
