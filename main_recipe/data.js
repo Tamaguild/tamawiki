@@ -37,8 +37,8 @@ const recipeTree = [
                 ],
                 links: [
                   PATH.list + "tesuchi_scales","","",
-                  "","","",        
-                  "","",""
+                  PATH.list + "","","",        
+                  PATH.list + "","",""
                 ],
                 output: "../items/vanilla/images/white_wool.png",
                 outputName: "Black Wool",
