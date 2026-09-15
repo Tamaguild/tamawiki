@@ -161,15 +161,23 @@ body {
 
 /* backgrounds */
 .beginner {
-  background-image: url("../general/textures/backgrounds/forest.png");
+  background-image: url("./banner/tamawikiBanner1.png");
 }
 
 .intermediate {
-  background-image: url("../general/textures/backgrounds/dungeon.png");
+  background-image: none;
 }
 
 .expert {
-  background-image: url("../general/textures/backgrounds/abyss.png");
+  background-image: none;
+}
+
+.skeleton {
+  background-image: none;
+}
+
+.ore {
+  background-image: none;
 }
 
 /* glow */
