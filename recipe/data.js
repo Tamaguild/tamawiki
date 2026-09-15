@@ -2,7 +2,7 @@ const PATH = {
   assets: "./assets/",
   mobdrop: "../items/mob_drops/images/",
   avatar: "../avatar/",
-  list: "../item_list/template/"
+  list: "./recipe/recipe_menu.html?page="
 };
 const DATA = [
 /*
@@ -53,7 +53,7 @@ trades: [
   ],
 
   links: [   
-    PATH.list + "tesuchi_scale.html","","",
+    PATH.list + "tesuchi_scale","","",
     PATH.list + "","","",
     PATH.list + "","",""
   ],

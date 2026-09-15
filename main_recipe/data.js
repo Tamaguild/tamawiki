@@ -1,7 +1,7 @@
 const PATH = {
   items: "../items/",
   blocks: "../general/textures/",
-  list: "../recipe/recipe_list.html?page="
+  list: "../recipe/recipe_menu.html?page="
 };
 
 const recipeTree = [
@@ -36,9 +36,9 @@ const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "1", "", "",
-                  "", "", "",
-                  "", "", ""
+                  PATH.list + "tesuchi_scales","","",
+                  "","","",        
+                  "","",""
                 ],
                 output: "../items/vanilla/images/white_wool.png",
                 outputName: "Black Wool",
