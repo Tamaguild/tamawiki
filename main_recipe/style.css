@@ -169,7 +169,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: calc(var(--depth) * 10px);
   padding: 0 0 0 0;
 }
 
@@ -205,12 +204,6 @@ body {
   padding: 4px 0;
 }
 
-.tree-link:focus,
-.tree-toggle:focus {
-  outline: 2px solid #000;
-  outline-offset: 2px;
-}
-
 .tree-children {
   margin-top: 4px;
   margin-bottom: 10px;
@@ -231,32 +224,24 @@ body {
 
 .tree-node.leaf > .tree-link {
   font-size: clamp(18px, 1.1vw, 25px);
-  margin-left: 2px;
-}
-
-.tree-node.selected > .tree-link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .tree-node.has-children {
-  padding: 3px 7px 3px 0;
+  padding: 3px 14px 3px 7px;
   border: 2px solid #000;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.08);
   min-height: 44px;
-  width: 100%;
+  width: fit-content;
 }
 
 .tree-node.leaf {
   padding: 4px 0 4px 0;
   width: 100%;
-  margin-left: 28px;
 }
 
 .tree-spacer {
   display: inline-block;
-  width: 22px;
   height: 1px;
 }
 
