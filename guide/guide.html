@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Guide Section</title>
 <link rel="icon" type="image/x-icon" href="general/textures/icons/orby.png">
+<link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="guideStyles.css">
 
   <!-- Flavor text preview metadata -->
@@ -20,6 +21,14 @@
 </head>
 
 <body>
+<div class="global-search">
+  <button id="searchButton" class="search-button" type="button" aria-label="Open wiki search" title="Search" aria-expanded="false" aria-controls="searchPanel">🔍</button>
+  <div id="searchPanel" class="search-panel" aria-hidden="true">
+    <label for="globalSearchInput">Search the wiki</label>
+    <input id="globalSearchInput" type="search" placeholder="Search relics, creatures, guides..." autocomplete="off">
+    <div id="searchResults" class="search-results" role="listbox" aria-label="Search results"></div>
+  </div>
+</div>
 <div class="wrapper">
   <div class="logo logoBtn" onclick="window.location.href='/index.html';">
     <img src="../logo.png" alt="TAMAWIKI LOGO">
@@ -73,5 +82,6 @@
 </p>
 
 </body>
+<script type="module" src="../global-search.js"></script>
 </html>
 

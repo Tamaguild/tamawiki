@@ -7,8 +7,26 @@
   <link rel="icon" type="image/x-icon" href="../general/textures/icons/orby.png">
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="relic_menu.css">
+    <!-- Flavor text preview metadata -->
+  <meta property="og:title" content="Tama Wiki" />
+  <meta property="og:description" content="Relic collection for Tama Wiki" />
+  <meta property="og:image" content="https://tamawiki.pages.dev/logo.png" />
+
+  <!-- Optional Twitter card support -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tama Wiki" />
+  <meta name="twitter:description" content="Relic collection for Tama Wiki" />
+  <meta name="twitter:image" content="https://tamawiki.pages.dev/logo.png" />
 </head>
 <body>
+  <div class="global-search">
+    <button id="searchButton" class="search-button" type="button" aria-label="Open wiki search" title="Search" aria-expanded="false" aria-controls="searchPanel">🔍</button>
+    <div id="searchPanel" class="search-panel" aria-hidden="true">
+      <label for="globalSearchInput">Search the wiki</label>
+      <input id="globalSearchInput" type="search" placeholder="Search relics, creatures, guides..." autocomplete="off">
+      <div id="searchResults" class="search-results" role="listbox" aria-label="Search results"></div>
+    </div>
+  </div>
   <div class="wrapper">
     <div class="logo logoBtn" onclick="window.location.href='../index.html';">
       <img src="../logo.png" alt="TAMAWIKI LOGO">
@@ -43,5 +61,6 @@
     </div>
 
   <script type="module" src="relic_menu.js"></script>
+  <script type="module" src="../global-search.js"></script>
 </body>
 </html>

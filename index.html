@@ -18,14 +18,12 @@
   <meta name="twitter:image" content="https://tamawiki.pages.dev/logo.png" />
 </head>
 <body>
-<div class="language-control">
-  <button id="languageButton" class="language-button" type="button" aria-expanded="false" aria-controls="languageMenu">Language</button>
-  <div id="languageMenu" class="language-menu" aria-hidden="true">
-    <label for="languageSelect">Language</label>
-    <select id="languageSelect" aria-label="Select language">
-      <option value="en">English</option>
-      <option value="vi">Tiếng Việt</option>
-    </select>
+<div class="global-search">
+  <button id="searchButton" class="search-button" type="button" aria-label="Open wiki search" title="Search" aria-expanded="false" aria-controls="searchPanel">🔍</button>
+  <div id="searchPanel" class="search-panel" aria-hidden="true">
+    <label for="globalSearchInput">Search the wiki</label>
+    <input id="globalSearchInput" type="search" placeholder="Search relics, creatures, guides..." autocomplete="off">
+    <div id="searchResults" class="search-results" role="listbox" aria-label="Search results"></div>
   </div>
 </div>
 <div class="wrapper">
