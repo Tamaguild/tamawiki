@@ -15,9 +15,89 @@ export const DATA = {
       name: "Cool Hat",
       model: './models/feather_hat_black.glb',
 
-      scale: 1.2,
-      position: { x: 0.7, y: 0.8, z: 1.0 },
+      scale: 1,
+      position: { x: -0.5, y: 1.9, z: -0.45 },
       rotation: { x: 0, y: 0, z: 0 }
+    },
+    {
+      name: "Agile Hat (Black)",
+      model: './models/agile_hat_black.glb',
+
+      scale: 1,
+      position: { x: -0.5, y: 1.9, z: -0.45 },
+      rotation: { x: 0.1, y: 0, z: 0 }
+    },
+    {
+      name: "Agile Hat (Green)",
+      model: './models/agile_hat_green.glb',
+
+      scale: 1,
+      position: { x: -0.5, y: 1.9, z: -0.45 },
+      rotation: { x: 0.1, y: 0, z: 0 }
+    }, 
+    {
+      name: "Artist Hat",
+      model: './models/artist_hat.glb',
+
+      scale: 0.75,
+      position: { x: -0.35, y: 1.9, z: -0.35 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Bondrewd Helmet",
+      model: './models/bondrewd_helmet.glb',
+      
+      scale: 1.4,
+      position: { x: -0.61, y: 1.15, z: -0.94 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Cook Hat",
+      model: './models/cook_hat.glb',
+
+      scale: 0.85,
+      position: { x: -0.38, y: 1.8, z: -0.45 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    { 
+      name: "Detchuagan Hat",
+      model: './models/detchuagan_hat.glb',
+
+      scale: 0.9,
+      position: { x: -0.4, y: 1.7, z: -0.45 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    }, 
+    {
+      name: "Dooby Helmet",
+      model: './models/dooby_helmet.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.8, z: -0.55 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Feather Hat (Blue)",
+      model: './models/feahter_hat_blue.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.9, z: -0.5 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Feather Hat (Black)",
+      model: './models/feather_hat_black.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.9, z: -0.5 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Habo Hat",
+      model: './models/habo_hat.glb',
+
+      scale: 0.8,
+      position: { x: -0.35, y: 1.55, z: -0.55 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
     }
   ],
 
