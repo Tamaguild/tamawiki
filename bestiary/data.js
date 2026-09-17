@@ -2624,7 +2624,7 @@ drops: [
     name: "Baby Kuongatari",
     imga: "mob_png/kuongatari2d.png",
     imgb: "mob_gif/kuongatari.gif",
-    description: "Pluh",
+    description: "Baby varient of kuongatari, even though they are not poisonous, these bugs small and quite fast. <br> <br> Found in Layer 4 & 5",
     grade: "★",
     details: "Drops:",
     drops: [
