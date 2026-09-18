@@ -182,6 +182,35 @@ function updatePagination() {
   document.getElementById("nextBtn").disabled = index >= filteredData.length - 1;
 }
 
+const pageInput = document.getElementById("pageInput");
+
+pageInput.addEventListener("focus", () => {
+  pageInput.classList.add("active");
+  pageInput.value = filteredData.length > 0 ? index + 1 : "";
+  pageInput.select();
+});
+
+pageInput.addEventListener("input", () => {
+  pageInput.value = pageInput.value.replace(/[^0-9]/g, "");
+});
+
+pageInput.addEventListener("keydown", event => {
+  if (event.key !== "Enter") return;
+
+  const pageNumber = parseInt(pageInput.value, 10);
+  if (!Number.isNaN(pageNumber) && pageNumber >= 1 && pageNumber <= filteredData.length) {
+    index = pageNumber - 1;
+  }
+
+  pageInput.blur();
+  render();
+});
+
+pageInput.addEventListener("blur", () => {
+  pageInput.classList.remove("active");
+  updatePagination();
+});
+
 function filterData(term) {
   const query = term.toLowerCase().trim();
   filteredData = query === "" ? [...DATA] : DATA.filter(item =>
@@ -192,39 +221,6 @@ function filterData(term) {
   index = 0;
   updateSearchResults();
   render();
-}
-
-function updateSearchResults() {
-  const results = document.getElementById("searchResults");
-  const query = document.getElementById("searchInput").value.toLowerCase().trim();
-  results.innerHTML = "";
-  if (!query) return;
-  filteredData.slice(0, 10).forEach((item, resultIndex) => {
-    const li = document.createElement("li");
-    li.innerText = item.name;
-    li.onclick = () => {
-      index = resultIndex;
-      closeSearch();
-      render();
-    };
-    results.appendChild(li);
-  });
-}
-
-function toggleSearch() {
-  const popup = document.getElementById("searchPopup");
-  const hidden = popup.getAttribute("aria-hidden") === "true";
-  popup.setAttribute("aria-hidden", hidden ? "false" : "true");
-  if (hidden) {
-    document.getElementById("searchInput").focus();
-  }
-}
-
-function closeSearch() {
-  const popup = document.getElementById("searchPopup");
-  popup.setAttribute("aria-hidden", "true");
-  document.getElementById("searchInput").value = "";
-  filterData("");
 }
 
 function nextItem() {
@@ -242,15 +238,11 @@ function prevItem() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("searchBtn")?.addEventListener("click", toggleSearch);
-  document.getElementById("searchClose")?.addEventListener("click", closeSearch);
-  document.getElementById("searchInput")?.addEventListener("input", (e) => filterData(e.target.value));
   document.getElementById("nextBtn").addEventListener("click", nextItem);
   document.getElementById("prevBtn").addEventListener("click", prevItem);
   document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") nextItem();
     if (e.key === "ArrowLeft") prevItem();
-    if (e.key === "Escape" && document.getElementById("searchPopup")) closeSearch();
   });
   render();
 });
