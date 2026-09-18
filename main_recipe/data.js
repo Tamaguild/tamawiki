@@ -2880,6 +2880,366 @@ const recipeTree = [
         ]
       }
     ]
+  },
+  {
+    id: "tools",
+    label: "Tools",
+    children: [
+      {
+        id: "backpack",
+        label: "Backpack",
+        children: [
+          {
+            id: "backpack buh",
+            label: "Backpack",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/makihige_tentacle.png", "../items/mob_drops/images/titanjaw_scale.png", "../items/mob_drops/images/makihige_tentacle.png",
+                  "../items/mob_drops/images/titanjaw_scale.png", "../items/mob_drops/images/orb_piercer_face_fragments.png", "../items/mob_drops/images/titanjaw_scale.png",
+                  "../items/mob_drops/images/titanjaw_scale.png", "../items/mob_drops/images/titanjaw_scale.png", "../items/mob_drops/images/titanjaw_scale.png"
+                ],
+                names: [
+                  "Makihige Tentacle", "Titanjaw Scale", "Makihige Tentacle",
+                  "Titanjaw Scale", "Orb Piercer Face Fragments", "Titanjaw Scale",
+                  "Titanjaw Scale", "Titanjaw Scale", "Titanjaw Scale"
+                ],
+                links: [
+                  PATH.list + "makihige_tentacle", PATH.list + "titanjaw_scale", PATH.list + "makihige_tentacle",
+                  PATH.list + "titanjaw_scale", PATH.list + "orb_piercer_face_fragments", PATH.list + "titanjaw_scale",
+                  PATH.list + "titanjaw_scale", PATH.list + "titanjaw_scale", PATH.list + "titanjaw_scale"
+                ],
+                output: "../items/custom_items/gray_backpack.png",
+                outputName: "Gray Backpack",
+                outputLink: ""
+              },
+            ],
+          },
+        ]
+      },
+      {
+        id: "ghost seek",
+        label: "Ghost Seek",
+        children: [
+          {
+            id: "makeshift ghost seek",
+            label: "Makeshift Ghost Seek",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/gold_ingot.png", "", "../items/vanilla/images/gold_ingot.png",
+                  "../items/mob_drops/images/kakatsumuri_glowing_tip.png", "../items/vanilla/images/tinted_glass.png", "../items/mob_drops/images/kakatsumuri_glowing_tip.png",
+                  "", "../items/mob_drops/images/hisoishi_shell.png", ""
+                ],
+                names: [
+                  "Gold Ingot", "", "Gold Ingot",
+                  "Kakatsumuri Glowing Tip", "Tinted Glass", "Kakatsumuri Glowing Tip",
+                  "", "Hisoishi Shell", ""
+                ],
+                links: [
+                  "","","",
+                  PATH.list + "kakatsumuri_glowing_tip","", PATH.list + "kakatsumuri_glowing_tip",
+                  "", PATH.list + "hisoishi_shell",""
+                ],
+                output: "../items/custom_items/ghost_seek.png",
+                outputName: "Makeshift Ghost Seek",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "repaired ghost seek",
+            label: "Repaired Ghost Seek",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/diamond.png", "../items/custom_items/hyalos_incipient.png", "../items/vanilla/images/diamond.png",
+                  "../items/mob_drops/images/swarmshocker_jelly.png", "../items/custom_items/ghost_seek.png", "../items/mob_drops/images/swarmshocker_jelly.png",
+                  "../items/mob_drops/images/swarmshocker_charged_powder.png", "../items/vanilla/images/diamond.png", "../items/mob_drops/images/swarmshocker_charged_powder.png"
+                ],
+                names: [
+                  "Diamond", "Hyalos Incipient", "Diamond",
+                  "Swarmhoarder Jelly", "Makeshift Ghost Seek", "Swarmhoarder Jelly",
+                  "Swarmshocker Charged Powder", "Diamond", "Swarmshocker Charged Powder"
+                ],
+                links: [
+                  "","","",
+                  PATH.list + "swarmhoarder_jelly","", PATH.list + "swarmhoarder_jelly",
+                  PATH.list + "swarmshocker_charged_powder","", PATH.list + "swarmshocker_charged_powder"
+                ],
+                output: "../items/custom_items/ghost_seek.png",
+                outputName: "Repaired Ghost Seek",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "refined ghost seek",
+            label: "Refined Ghost Seek",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/hisomukuro_rib.png", "../items/mob_drops/images/buroguro_lantern.png", "../items/mob_drops/images/hisomukuro_rib.png",
+                  "../items/custom_items/hyalos_incipient.png", "../items/custom_items/ghost_seek.png", "../items/custom_items/hyalos_manifest.png",
+                  "../items/mob_drops/images/hisomukuro_rib.png", "../items/mob_drops/images/buroguro_lantern.png", "../items/mob_drops/images/hisomukuro_rib.png"
+                ],
+                names: [
+                  "Hisomukuro Rib", "Buroguro Lantern", "Hisomukuro Rib",
+                  "Hyalos Incipient", "Repaired Ghost Seek", "Hyalos Manifest",
+                  "Hisomukuro Rib", "Buroguro Lantern", "Hisomukuro Rib"
+                ],
+                links: [
+                  PATH.list + "hisomukuro_rib", PATH.list + "buroguro_lantern", PATH.list + "hisomukuro_rib",
+                  "","","",
+                  PATH.list + "hisomukuro_rib", PATH.list + "buroguro_lantern", PATH.list + "hisomukuro_rib"
+                ],
+                output: "../items/custom_items/ghost_seek.png",
+                outputName: "Refined Ghost Seek",
+                outputLink: ""
+              },
+            ],
+          },
+        ]
+      },
+      {
+        id: "night vision goggles",
+        label: "Night Vision Goggles",
+        children: [
+          {
+            id: "night vision goggles buh",
+            label: "Night Vision Goggles",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/buroguro_lantern.png", "../items/mob_drops/images/swarmshocker_jelly.png", "../items/mob_drops/images/buroguro_lantern.png",
+                  "../items/vanilla/images/iron_ingot.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/vanilla/images/iron_ingot.png",
+                  "../items/vanilla/images/iron_ingot.png", "", "../items/vanilla/images/iron_ingot.png"
+                ],
+                names: [
+                  "Buroguro Lantern", "Swarmhoarder Jelly", "Buroguro Lantern",
+                  "Iron Ingot", "Charcoal Sand Ingot", "Iron Ingot",
+                  "Iron Ingot", "", "Iron Ingot"
+                ],
+                links: [
+                  PATH.list + "buroguro_lantern", PATH.list + "swarmshoarder_jelly", PATH.list + "buroguro_lantern",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/custom_items/night_vision_goggles.png",
+                outputName: "Night Vision Goggle",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/buroguro_lantern.png", "../items/mob_drops/images/corpse_weeper_eye.png", "../items/mob_drops/images/buroguro_lantern.png",
+                  "../items/vanilla/images/iron_ingot.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/vanilla/images/iron_ingot.png",
+                  "../items/vanilla/images/iron_ingot.png", "", "../items/vanilla/images/iron_ingot.png"
+                ],
+                names: [
+                  "Buroguro Lantern", "Corpse Weeper Eye", "Buroguro Lantern",
+                  "Iron Ingot", "Charcoal Sand Ingot", "Iron Ingot",
+                  "Iron Ingot", "", "Iron Ingot"
+                ],
+                links: [
+                  PATH.list + "buroguro_lantern", PATH.list + "corpse_weeper_eye", PATH.list + "buroguro_lantern",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/custom_items/night_vision_goggles.png",
+                outputName: "Night Vision Goggle",
+                outputLink: ""
+              },
+            ],
+          },
+        ]
+      },
+      {
+        id: "scaled umbrella",
+        label: "Scaled Umbrella",
+        children: [
+          {
+            id: "scaled umbrella buh",
+            label: "Scaled Umbrella",
+            recipes: [
+              {
+                grid: [
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png",
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/vanilla/images/shield.png", "../items/custom_items/charcoal_sand_ingot.png",
+                  "../items/vanilla/images/iron_ingot.png", "../items/vanilla/images/stick.png", "../items/vanilla/images/iron_ingot.png"
+                ],
+                names: [
+                  "Charcoal Sand Ingot", "Charcoal Sand Ingot", "Charcoal Sand Ingot",
+                  "Charcoal Sand Ingot", "Shield", "Charcoal Sand Ingot",
+                  "Iron Ingot", "Stick", "Iron Ingot"
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/custom_items/scaled_umbrella.png",
+                outputName: "Scaled Umbrella",
+                outputLink: ""
+              },
+            ],
+          },
+        ]
+      },
+      {
+        id: "spined targe",
+        label: "Spined Targe",
+        children: [
+          {
+            id: "spined targe buh",
+            label: "Spined Targe",
+            recipes: [
+              {
+                grid: [
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png",
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/vanilla/images/shield.png", "../items/custom_items/charcoal_sand_ingot.png",
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png"
+                ],
+                names: [
+                  "Charcoal Sand Ingot", "Charcoal Sand Ingot", "Charcoal Sand Ingot",
+                  "Charcoal Sand Ingot", "Shield", "Charcoal Sand Ingot",
+                  "Charcoal Sand Ingot", "Charcoal Sand Ingot", "Charcoal Sand Ingot"
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/custom_items/spined_targe.png",
+                outputName: "Spined Targe",
+                outputLink: ""
+              },
+            ],
+          },
+        ]
+      },
+      {
+        id: "spyglass",
+        label: "Spyglass",
+        children: [
+          {
+            id: "spyglass buh",
+            label: "Spyglass",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/vanilla/images/button.png", "../items/mob_drops/images/corpse_weeper_eye.png",
+                  "", "../items/vanilla/images/iron_ingot.png", "../items/vanilla/images/button.png",
+                  "../items/vanilla/images/cyan_terracotta.png", "", ""
+                ],
+                names: [
+                  "", "Button", "Corpse Weeper Eye",
+                  "", "Iron Ingot", "Button",
+                  "Cyan Terracotta", "", ""
+                ],
+                links: [
+                  "","", PATH.list + "corpse_weeper_eye",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/custom_items/spyglass.png",
+                outputName: "Spyglass",
+                outputLink: ""
+              },
+            ],
+          },
+        ]
+      },
+      {
+        id: "lenses",
+        label: "Lenses",
+        children: [
+          {
+            id: "hyalos incipient",
+            label: "Hyalos Incipient",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/splitjaw_gunk.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/mob_drops/images/splitjaw_gunk.png",
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/vanilla/images/tinted_glass.png", "../items/custom_items/charcoal_sand_ingot.png",
+                  "../items/mob_drops/images/splitjaw_gunk.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/mob_drops/images/splitjaw_gunk.png"
+                ],
+                names: [
+                  "Splitjaw Gunk", "Charcoal Sand Ingot", "Splitjaw Gunk",
+                  "Charcoal Sand Ingot", "Tinted Glass", "Charcoal Sand Ingot",
+                  "Splitjaw Gunk", "Charcoal Sand Ingot", "Splitjaw Gunk"
+                ],
+                links: [
+                  PATH.list + "splitjaw_gunk","", PATH.list + "splitjaw_gunk",
+                  "","","",
+                  PATH.list + "splitjaw_gunk","", PATH.list + "splitjaw_gunk"
+                ],
+                output: "../items/custom_items/hyalos_incipient.png",
+                outputName: "Hyalos Incipient",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "hyalos manifest",
+            label: "Hyalos Manifest",
+            recipes: [
+              {
+                grid: [
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png",
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/hyalos_incipient.png", "../items/custom_items/charcoal_sand_ingot.png",
+                  "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png", "../items/custom_items/charcoal_sand_ingot.png"
+                ],
+                names: [
+                  "Charcoal Sand Ingot", "Charcoal Sand Ingot", "Charcoal Sand Ingot",
+                  "Charcoal Sand Ingot", "Hyalos Incipient", "Charcoal Sand Ingot",
+                  "Charcoal Sand Ingot", "Charcoal Sand Ingot", "Charcoal Sand Ingot"
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/custom_items/hyalos_manifest.png",
+                outputName: "Hyalos Manifest",
+                outputLink: ""
+              },
+            ],
+          },
+        ]
+      },
+      {
+        id: "arrows",
+        label: "Arrows",
+        children: [
+          {
+            id: "arrow of harming",
+            label: "Arrow of Harming",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/arrow.png", "../items/vanilla/images/arrow.png", "../items/vanilla/images/arrow.png",
+                  "../items/vanilla/images/arrow.png", "../items/custom_items/black_flask.png", "../items/vanilla/images/arrow.png",
+                  "../items/vanilla/images/arrow.png", "../items/vanilla/images/arrow.png", "../items/vanilla/images/arrow.png"
+                ],
+                names: [
+                  "Arrow", "Arrow", "Arrow",
+                  "Arrow", "Black Flask", "Arrow",
+                  "Arrow", "Arrow", "Arrow"
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/tipped_arrow_harming.png",
+                outputName: "Arrow of Harming",
+                outputLink: ""
+              },
+            ],
+          },
+        ],
+      },
+    ]
   }
 ];
 
