@@ -1,3 +1,5 @@
+import { DATA } from "./data.js";
+
 const pluh = new URLSearchParams(location.search);
 const pageQuery = pluh.get("page");
 let index = 0;
@@ -240,15 +242,15 @@ function prevItem() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("searchBtn").addEventListener("click", toggleSearch);
-  document.getElementById("searchClose").addEventListener("click", closeSearch);
-  document.getElementById("searchInput").addEventListener("input", (e) => filterData(e.target.value));
+  document.getElementById("searchBtn")?.addEventListener("click", toggleSearch);
+  document.getElementById("searchClose")?.addEventListener("click", closeSearch);
+  document.getElementById("searchInput")?.addEventListener("input", (e) => filterData(e.target.value));
   document.getElementById("nextBtn").addEventListener("click", nextItem);
   document.getElementById("prevBtn").addEventListener("click", prevItem);
   document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") nextItem();
     if (e.key === "ArrowLeft") prevItem();
-    if (e.key === "Escape") closeSearch();
+    if (e.key === "Escape" && document.getElementById("searchPopup")) closeSearch();
   });
   render();
 });
