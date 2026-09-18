@@ -98,7 +98,56 @@ export const DATA = {
       scale: 0.8,
       position: { x: -0.35, y: 1.55, z: -0.55 },
       rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Henya Helmet",
+      model: './models/henya_helmet.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.8, z: -0.5 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Hunter Hat",
+      model: './models/hunter_hat.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.8, z: -0.5 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Ocean Hat",
+      model: './models/ocean_hat.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.8, z: -0.5 },
+      rotation: { x: 0.1, y: -0.1, z: 0 } 
+    }, 
+    {
+      name: "Purple Bucket Hat",
+      model: './models/purple_bucket_hat.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.8, z: -0.5 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Reg Helmet",
+      model: './models/reg_helmet.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.8, z: -0.5 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Traveler Hat 2",
+      model: './models/traveler_hat_2.glb',
+
+      scale: 1,
+      position: { x: -0.45, y: 1.8, z: -0.5 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
     }
+  
   ],
 
   backpacks: [
