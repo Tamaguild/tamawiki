@@ -4,7 +4,7 @@ const PATH = {
   avatar: "../avatar/",
   list: "./recipe/recipe_menu.html?page="
 };
-const DATA = [
+export const DATA = [
 /*
 {
   name: "Tesuchi Scales",

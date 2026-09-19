@@ -1,3 +1,5 @@
+import { DATA } from "./data.js";
+
 const container = document.getElementById('recipeList');
 
 const items = [...DATA]

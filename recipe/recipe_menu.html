@@ -20,16 +20,6 @@
 
 <body>
 
-<button id="searchBtn" class="search-btn" title="Search item">🔍</button>
-
-<div id="searchPopup" class="search-popup" aria-hidden="true">
-  <div class="search-header">
-    <input id="searchInput" class="search-input" placeholder="Type item name..." aria-label="Search item by name">
-    <button id="searchClose" class="search-close" title="Close">✖</button>
-  </div>
-  <ul id="searchResults" class="search-results" role="listbox" aria-label="Search results"></ul>
-</div>
-
 <div class="page">
 
   <!-- LEFT -->
@@ -74,6 +64,12 @@
     <div class="recipes-title">Recipes</div>
 
     <div class="recipes-container"></div>
+    
+    <div id=bkmark>
+      <a href="/index.html" id="go_back">
+        <img src="miscellaneous/red_cross.png" alt="EXIT"/>
+      </a>   
+    </div>
 
   </div>
 
@@ -85,8 +81,7 @@
   <button id="nextBtn">▶</button>
 </div>
 
-<script src="data.js"></script>
-<script src="script.js" defer></script>
+<script type="module" src="./script.js"></script>
 
 </body>
 </html>

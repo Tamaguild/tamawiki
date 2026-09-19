@@ -173,7 +173,7 @@ body {
 }
 
 .skeleton {
-  background-image: none;
+  background-image: url("./banner/skelebanner.png");
 }
 
 .ore {
