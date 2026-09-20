@@ -46,6 +46,41 @@ body {
   position: relative;
 }
 
+/* ===== PRICE COUNTER ===== */
+.price-counter {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+
+  min-width: 130px;
+  padding: 10px 12px;
+
+  background: rgba(255, 248, 220, 0.92);
+  border: 2px solid #caa56a;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+
+  color: #5a3e1b;
+  pointer-events: none;
+}
+
+.price-total {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price-list {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid #caa56a;
+  font-size: 12px;
+}
+
+.price-item + .price-item {
+  margin-top: 3px;
+}
+
 /* ===== UI ===== */
 .ui {
   flex: 1;
@@ -102,8 +137,10 @@ body {
 }
 
 /* ===== IMAGE ===== */
-.item canvas {
+.item img {
   width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
   display: block;
   border-radius: 6px;
 }

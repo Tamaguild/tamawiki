@@ -5,6 +5,10 @@ import { DATA } from './data.js';
 
 let scene, camera, renderer, controls;
 let player, currentHat, currentBackpack;
+const selectedCosmetics = {
+  hat: null,
+  backpack: null
+};
 
 init();
 createUI();
@@ -139,7 +143,9 @@ function createUI() {
     const div = document.createElement('div');
     div.className = 'item';
 
-    const preview = createModelPreview(item.model, item.scale, item.position, item.rotation);
+    const preview = document.createElement('img');
+    preview.src = item.gif;
+    preview.alt = item.name;
     div.appendChild(preview);
 
     const tooltip = document.createElement('div');
@@ -149,8 +155,14 @@ function createUI() {
 
     div.onclick = () => {
       const isOn = loadHat(item);
-      if (isOn) setActive(div, 'hat');
-      else div.classList.remove('active');
+      if (isOn) {
+        setActive(div, 'hat');
+        selectedCosmetics.hat = item;
+      } else {
+        div.classList.remove('active');
+        selectedCosmetics.hat = null;
+      }
+      updatePriceDisplay();
     };
 
     hatList.appendChild(div);
@@ -160,7 +172,9 @@ function createUI() {
     const div = document.createElement('div');
     div.className = 'item';
 
-    const preview = createModelPreview(item.model, item.scale, item.position, item.rotation);
+    const preview = document.createElement('img');
+    preview.src = item.gif;
+    preview.alt = item.name;
     div.appendChild(preview);
 
     const tooltip = document.createElement('div');
@@ -170,8 +184,14 @@ function createUI() {
 
     div.onclick = () => {
       const isOn = loadBackpack(item);
-      if (isOn) setActive(div, 'backpack');
-      else div.classList.remove('active');
+      if (isOn) {
+        setActive(div, 'backpack');
+        selectedCosmetics.backpack = item;
+      } else {
+        div.classList.remove('active');
+        selectedCosmetics.backpack = null;
+      }
+      updatePriceDisplay();
     };
 
     backpackList.appendChild(div);
@@ -188,6 +208,25 @@ function setActive(clicked, type) {
   });
 
   clicked.classList.add('active');
+}
+
+function updatePriceDisplay() {
+  const priceTotal = document.getElementById('priceTotal');
+  const priceList = document.getElementById('priceList');
+  const selectedItems = Object.values(selectedCosmetics).filter(Boolean);
+  const total = selectedItems.reduce((sum, item) => sum + (Number(item.price) || 0), 0);
+
+  priceTotal.textContent = total.toLocaleString();
+  priceList.replaceChildren();
+
+  if (selectedItems.length < 2) return;
+
+  selectedItems.forEach(item => {
+    const priceItem = document.createElement('div');
+    priceItem.className = 'price-item';
+    priceItem.textContent = `${item.name}: ${(Number(item.price) || 0).toLocaleString()} coins`;
+    priceList.appendChild(priceItem);
+  });
 }
 
 // ===== RENDER PNG =====
@@ -262,47 +301,6 @@ function animate() {
   requestAnimationFrame(animate);
   controls.update();
   renderer.render(scene, camera);
-}
-
-// ===== CREATE MODEL PREVIEW =====
-function createModelPreview(modelPath, scale, position, rotation) {
-  const canvas = document.createElement('canvas');
-  canvas.width = 128;
-  canvas.height = 128;
-
-  const miniScene = new THREE.Scene();
-  const miniCamera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
-  miniCamera.position.set(0, 0, 2);
-
-  const miniRenderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true });
-  miniRenderer.setSize(128, 128);
-  miniRenderer.setClearColor(0x000000, 0);
-
-  const light = new THREE.AmbientLight(0xffffff, 1);
-  miniScene.add(light);
-
-  const loader = new GLTFLoader();
-  loader.load(modelPath, (gltf) => {
-    const obj = gltf.scene;
-    fixTexture(obj);
-    miniScene.add(obj);
-
-    obj.scale.set(scale, scale, scale);
-    obj.position.set(position.x, position.y, position.z);
-    obj.rotation.set(rotation.x, rotation.y, rotation.z);
-
-    fitModel(obj);
-
-    // Animate rotation
-    function animatePreview() {
-      obj.rotation.y += 0.01;
-      miniRenderer.render(miniScene, miniCamera);
-      requestAnimationFrame(animatePreview);
-    }
-    animatePreview();
-  });
-
-  return canvas;
 }
 
 // ===== RESIZE =====

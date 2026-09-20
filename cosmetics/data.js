@@ -6,6 +6,8 @@ export const DATA = {
     {
       name: "Tama Hat",
       model: './models/tama_hat.glb',
+      gif: './GIFS/tama_hat.gif',
+      price: 250,
 
       scale: 1.5,
       position: { x: -0.75, y: 1.25, z: -1 },
@@ -154,6 +156,7 @@ export const DATA = {
     {
       name: "Default Backpack",
       model: './models/default_backpack.glb',
+      price: 300,
 
       scale: 1.5,
       position: { x: 0.75, y: 0.75, z: 1.1 },
@@ -162,7 +165,6 @@ export const DATA = {
     {
       name: "Big Bag",
       model: './models/satchel.glb',
-
       scale: 1.8,
       position: { x: 0.7, y: 0.6, z: 1.2 },
       rotation: { x: 0, y: Math.PI, z: 0 }
