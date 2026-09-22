@@ -185,6 +185,52 @@ function renderDetail(node) {
       window.location.href = element.dataset.link;
     });
   });
+
+  const furnaces = node.furnaces || [];
+  recipePanels.insertAdjacentHTML("beforeend", furnaces.map((brew) => `
+    <div class="furnace-card">
+      <div class="furnace-grid">
+        ${(brew.slots || []).map((slot) => `
+          <div class="brew-slot filled-slot"
+            data-name="${slot.name || ""}"
+            style="left: ${slot.x || 0}px; top: ${slot.y || 0}px; background-image: url('${slot.image}')"
+            ${slot.link ? `data-link="${slot.link}"` : ""}></div>
+        `).join("")}
+      </div>
+      <div class="output-mini ${brew.output ? "filled-slot" : "empty-slot"}"
+        ${brew.output ? `data-name="${brew.outputName || ""}" style="background-image: url('${brew.output}')"` : ""}
+        ${brew.outputLink ? `data-link="${brew.outputLink}"` : ""}></div>
+    </div>
+  `).join(""));
+
+  recipePanels.querySelectorAll("[data-link]").forEach((element) => {
+    element.addEventListener("click", () => {
+      window.location.href = element.dataset.link;
+    });
+  });
+
+  const blasts = node.blasts || [];
+  recipePanels.insertAdjacentHTML("beforeend", blasts.map((brew) => `
+    <div class="blast-card">
+      <div class="blast-grid">
+        ${(brew.slots || []).map((slot) => `
+          <div class="brew-slot filled-slot"
+            data-name="${slot.name || ""}"
+            style="left: ${slot.x || 0}px; top: ${slot.y || 0}px; background-image: url('${slot.image}')"
+            ${slot.link ? `data-link="${slot.link}"` : ""}></div>
+        `).join("")}
+      </div>
+      <div class="output-mini ${brew.output ? "filled-slot" : "empty-slot"}"
+        ${brew.output ? `data-name="${brew.outputName || ""}" style="background-image: url('${brew.output}')"` : ""}
+        ${brew.outputLink ? `data-link="${brew.outputLink}"` : ""}></div>
+    </div>
+  `).join(""));
+
+  recipePanels.querySelectorAll("[data-link]").forEach((element) => {
+    element.addEventListener("click", () => {
+      window.location.href = element.dataset.link;
+    });
+  });
 }
 
 function bindTreeInteractions() {

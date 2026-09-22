@@ -347,6 +347,48 @@ body {
   z-index: 1;
 }
 
+.furnace-card {
+  position: relative;
+  width: 500px;
+  height: 245px;
+  max-width: 100%;
+  background: url("./assets/furnace_ui.png") no-repeat center;
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  overflow: visible;
+}
+
+.furnace-grid {
+  position: absolute;
+  left: 83px;
+  top: 50px;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+
+.blast-card {
+  position: relative;
+  width: 500px;
+  height: 245px;
+  max-width: 100%;
+  background: url("./assets/blast_furnace_ui.png") no-repeat center;
+  background-size: 100% 100%;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  overflow: visible;
+}
+
+.blast-grid {
+  position: absolute;
+  left: 83px;
+  top: 50px;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+
 .craft-slot,
 .output-mini {
   position: absolute;

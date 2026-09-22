@@ -47,6 +47,7 @@ const recipeTree = [ #wtfamilookingat
               },
 
             ],
+
             brewings: [
               {
                 slots: [
@@ -58,7 +59,29 @@ const recipeTree = [ #wtfamilookingat
                 ],
               },
 
-            ]
+            ],
+
+            furnaces: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/white_wool.png", name: "1", link: PATH.list + "1", x: 74, y: 0 },
+                  { image: "../items/vanilla/images/white_wool.png", name: "2", link: PATH.list + "1", x: 74, y: 105 },
+                  { image: "../items/vanilla/images/white_wool.png", name: "3", link: PATH.list + "1", x: 244, y: 53 },
+                ],
+              },
+
+            ],
+
+            blasts: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/white_wool.png", name: "1", link: PATH.list + "1", x: 74, y: 0 },
+                  { image: "../items/vanilla/images/white_wool.png", name: "2", link: PATH.list + "1", x: 74, y: 105 },
+                  { image: "../items/vanilla/images/white_wool.png", name: "3", link: PATH.list + "1", x: 244, y: 53 },
+                ],
+              },
+
+            ],
           },
           
         ]
