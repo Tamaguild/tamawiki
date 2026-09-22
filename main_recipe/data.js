@@ -3263,7 +3263,166 @@ const recipeTree = [
         ],
       },
     ]
-  }
+  },
+  {
+    id: "potions",
+    label: "Potions",
+    children: [
+      {
+        id: "haste",
+        label: "Haste",
+        children: [
+          {
+            id: "haste potion",
+            label: "Haste Potion",
+            brewings: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/custom_items/haste_paste.png", name: "Haste Paste", link: "", x: 140, y: 0 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 75, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 205, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 140, y: 118 }
+                ],
+              },
+            ],
+          },
+          {
+            id: "haste potion extended",
+            label: "Haste Potion (extended)",
+            brewings: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/vanilla/images/redstone.png", name: "Redstone", link: "", x: 140, y: 0 },
+                  { image: "../items/custom_items/haste_potion.png", name: "Haste Potion", link: "", x: 75, y: 97 },
+                  { image: "../items/custom_items/haste_potion.png", name: "Haste Potion", link: "", x: 205, y: 97 },
+                  { image: "../items/custom_items/haste_potion.png", name: "Haste Potion", link: "", x: 140, y: 118 }
+                ],
+              },
+            ],
+          },
+          {
+            id: "haste potion upgraded",
+            label: "Haste Potion (upgraded)",
+            brewings: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/vanilla/images/glowstone_dust.png", name: "Glowstone Dust", link: "", x: 140, y: 0 },
+                  { image: "../items/custom_items/haste_potion.png", name: "Haste Potion", link: "", x: 75, y: 97 },
+                  { image: "../items/custom_items/haste_potion.png", name: "Haste Potion", link: "", x: 205, y: 97 },
+                  { image: "../items/custom_items/haste_potion.png", name: "Haste Potion", link: "", x: 140, y: 118 }
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "potion of fire resistance",
+        label: "Potion of Fire Resistance",
+        children: [
+          {
+            id: "potion of fire resistance buh",
+            label: "Potion of Fire Resistance",
+            brewings: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/mob_drops/images/virinsipede_antlers.png", name: "Virinsipede Antlers", link: PATH.list + "virinsipede_antlers", x: 140, y: 0 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 75, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 205, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 140, y: 118 }
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "potion of night vision",
+        label: "Potion of Night Vision",
+        children: [
+          {
+            id: "potion of night vision buh",
+            label: "Potion of Night Vision",
+            brewings: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/mob_drops/images/hashofu_eye.png", name: "Hashofu Eye", link: PATH.list + "hashofu_eye", x: 140, y: 0 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 75, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 205, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 140, y: 118 }
+                ],
+              },
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/mob_drops/images/kakatsumuri_glowing_tip.png", name: "Kakatsumuri Glowing Tip", link: PATH.list + "kakatsumuri_glowing_tip", x: 140, y: 0 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 75, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 205, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 140, y: 118 }
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "potion of regeneration",
+        label: "Potion of Regeneration",
+        children: [
+          {
+            id: "potion of regeneration buh",
+            label: "Potion of Regeneration",
+            brewings: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/mob_drops/images/parasitic_watershrooms.png", name: "Parasitic Watershrooms", link: PATH.list + "parasitic_watershrooms", x: 140, y: 0 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 75, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 205, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 140, y: 118 }
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "potion of slowness",
+        label: "Potion of Slowness",
+        children: [
+          {
+            id: "potion of slowness buh",
+            label: "Potion of Slowness",
+            brewings: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/mob_drops/images/splitjaw_gunk.png", name: "Splitjaw Gunk", link: PATH.list + "splitjaw_gunk", x: 140, y: 0 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 75, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 205, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 140, y: 118 }
+                ],
+              },
+              {
+                slots: [
+                  { image: "../items/vanilla/images/blaze_powder.png", name: "Blaze Powder", link: "", x: -38, y: 0 },
+                  { image: "../items/mob_drops/images/abyssal_snail_gunk.png", name: "Abyssal Snail Gunk", link: PATH.list + "abyssal_snail_gunk", x: 140, y: 0 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 75, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 205, y: 97 },
+                  { image: "../items/vanilla/images/water_bottle.png", name: "Water Bottle", link: "", x: 140, y: 118 }
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 const selectedDefault = "black_wool";
