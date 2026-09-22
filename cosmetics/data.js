@@ -182,7 +182,7 @@ export const DATA = {
     {
       name: "Bone Helmet",
       model: './models/bone_helmet.glb',
-      gif: '',
+      gif: './GIFS/bone_helmet.gif',
       price: 60,
 
       scale: 0.9,
@@ -192,7 +192,7 @@ export const DATA = {
     {
       name: "Faputa Hat",
       model: './models/faputa_hat.glb',
-      gif: '',
+      gif: './GIFS/faputa_hat.gif',
       price: "2 Mitty",
 
       scale: 1.7,
@@ -202,7 +202,7 @@ export const DATA = {
     {
       name: "Ghost Seek",
       model: './models/ghost_seek_cosmetic.glb',
-      gif: '',
+      gif: './GIFS/ghost_seek_cosmetic.gif',
       price: 1,
 
       scale: 0.45,
@@ -212,7 +212,7 @@ export const DATA = {
     {
       name: "Lyza Hat",
       model: './models/lyza_hat.glb',
-      gif: '',
+      gif: './GIFS/lyza_hat.gif',
       price: "1 Mitty",
 
       scale: 1,
@@ -222,7 +222,7 @@ export const DATA = {
     {
       name: "Marulk Hat",
       model: './models/marulk_hat.glb',
-      gif: '',
+      gif: './GIFS/marulk_hat.gif',
       price: 150,
 
       scale: 1,
@@ -232,7 +232,7 @@ export const DATA = {
     {
       name: "Ozen Hat",
       model: './models/ozen_hat.glb',
-      gif: '',
+      gif: './GIFS/ozen_hat.gif',
       price: "1 Mitty",
 
       scale: 1.2,
@@ -242,7 +242,7 @@ export const DATA = {
     {
       name: "Patchwork Hat",
       model: './models/patchwork_hat.glb',
-      gif: '',
+      gif: './GIFS/patchwork_hat.gif',
       price: 35,
 
       scale: 0.75,
@@ -305,7 +305,7 @@ export const DATA = {
     {
       name: "Okibo Backpack",
       model: './models/okibo_wuv_backpack.glb',
-      gif: './',
+      gif: './GIFS/okibo_backpack.gif',
       price: 0,
 
       scale: 1.2,
