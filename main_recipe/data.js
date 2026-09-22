@@ -1557,7 +1557,366 @@ const recipeTree = [
             ],
           },
         ]
-      }
+      },
+      {
+        id: "other blocks",
+        label: "Other",
+        children: [
+          {
+            id: "brewing stand",
+            label: "Brewing Stand",
+            recipes: [
+              {
+                grid: [
+                  "", "", "",
+                  "", "../items/mob_drops/images/rohana_tail.png", "",
+                  "../items/mob_drops/images/hisoishi_shell.png", "../items/mob_drops/images/hisoishi_shell.png", "../items/mob_drops/images/hisoishi_shell.png"
+                ],
+                names: [
+                  "", "", "",
+                  "", "Rohana Tail", "",
+                  "Hisoishi Shell", "Hisoishi Shell", "Hisoishi Shell"
+                ],
+                links: [
+                  "","","",
+                  "", PATH.list + "rohana_tail","",
+                  PATH.list + "hisoishi_shell", PATH.list + "hisoishi_shell", PATH.list + "hisoishi_shell"
+                ],
+                output: "../items/vanilla/images/brewing_stand.png",
+                outputName: "Brewing Stand",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "", "", "",
+                  "", "../items/mob_drops/images/rohana_tail.png", "",
+                  "../items/mob_drops/images/hagamizukin_tooth.png", "../items/mob_drops/images/hagamizukin_tooth.png", "../items/mob_drops/images/hagamizukin_tooth.png"
+                ],
+                names: [
+                  "", "", "",
+                  "", "Rohana Tail", "",
+                  "Hagamizukin Tooth", "Hagamizukin Tooth", "Hagamizukin Tooth"
+                ],
+                links: [
+                  "","","",
+                  "", PATH.list + "rohana_tail","",
+                  PATH.list + "hagamizukin_tooth", PATH.list + "hagamizukin_tooth", PATH.list + "hagamizukin_tooth"
+                ],
+                output: "../items/vanilla/images/brewing_stand.png",
+                outputName: "Brewing Stand",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "budding amethysts",
+            label: "Budding Amethyst",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/mob_drops/images/hisoishi_claw.png", "",
+                  "../items/mob_drops/images/hisoishi_claw.png", "../items/mob_drops/images/hisoishi_shell.png", "../items/mob_drops/images/hisoishi_claw.png",
+                  "", "../items/mob_drops/images/madokajack_poop.png", ""
+                ],
+                names: [
+                  "", "Hisoishi Claw", "",
+                  "Hisoishi Claw", "Hisoishi Shell", "Hisoishi Claw",
+                  "", "Madokajack Poop", ""
+                ],
+                links: [
+                  "", PATH.list + "hisoishi_claw","",
+                  PATH.list + "hisoishi_claw", PATH.list + "hisoishi_shell", PATH.list + "hisoishi_claw",
+                  "", PATH.list + "madokajack_poop",""
+                ],
+                output: "../items/vanilla/images/budding_amethyst.png",
+                outputName: "Budding Amethyst",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "enchanting table",
+            label: "Enchanting Table",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/vanilla/images/book.png", "",
+                  "../items/vanilla/images/diamond.png", "../items/mob_drops/images/makihige_shell.png", "../items/vanilla/images/diamond.png",
+                  "../items/mob_drops/images/makihige_shell.png", "../items/mob_drops/images/makihige_shell.png", "../items/mob_drops/images/makihige_shell.png"
+                ],
+                names: [
+                  "", "Book", "",
+                  "Diamond", "Makihige Shell", "Diamond",
+                  "Makihige Shell", "Makihige Shell", "Makihige Shell"
+                ],
+                links: [
+                  "","","",
+                  "", PATH.list + "makihige_shell","",
+                  PATH.list + "makihige_shell", PATH.list + "makihige_shell", PATH.list + "makihige_shell"
+                ],
+                output: "../items/vanilla/images/enchanting_table.png",
+                outputName: "Enchanting Table",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "ender chest",
+            label: "Ender Chest",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/mob_drops/images/edusan_scale.png", "",
+                  "../items/mob_drops/images/tachikatana_scale.png", "../items/mob_drops/images/corpse_weeper_eye.png", "../items/mob_drops/images/tachikatana_scale.png",
+                  "", "../items/mob_drops/images/edusan_scale.png", ""
+                ],
+                names: [
+                  "", "Edusan Scale", "",
+                  "Tachikatana Scale", "Corpse Weeper Eye", "Tachikatana Scale",
+                  "", "Edusan Scale", ""
+                ],
+                links: [
+                  "", PATH.list + "edusan_scale","",
+                  PATH.list + "tachikatana_scale", PATH.list + "corpse_weeper_eye", PATH.list + "tachikatana_scale",
+                  "", PATH.list + "edusan_scale",""
+                ],
+                output: "../items/vanilla/images/ender_chest.png",
+                outputName: "Ender Chest",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/daikonchu_carapace.png", "../items/mob_drops/images/himushi_core.png", "../items/mob_drops/images/daikonchu_carapace.png",
+                  "../items/mob_drops/images/daikonchu_carapace.png", "../items/mob_drops/images/corpse_weeper_eye.png", "../items/mob_drops/images/daikonchu_carapace.png",
+                  "../items/mob_drops/images/daikonchu_carapace.png", "../items/mob_drops/images/daikonchu_carapace.png", "../items/mob_drops/images/daikonchu_carapace.png"
+                ],
+                names: [
+                  "Daikonchu Carapace", "Himushi Core", "Daikonchu Carapace",
+                  "Daikonchu Carapace", "Corpse Weeper Eye", "Daikonchu Carapace",
+                  "Daikonchu Carapace", "Daikonchu Carapace", "Daikonchu Carapace"
+                ],
+                links: [
+                  PATH.list + "daikonchu_carapace", PATH.list + "himushi_core", PATH.list + "daikonchu_carapace",
+                  PATH.list + "daikonchu_carapace", PATH.list + "corpse_weeper_eye", PATH.list + "daikonchu_carapace",
+                  PATH.list + "daikonchu_carapace", PATH.list + "daikonchu_carapace", PATH.list + "daikonchu_carapace"
+                ],
+                output: "../items/vanilla/images/ender_chest.png",
+                outputName: "Ender Chest",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "netherrack",
+            label: "Netherrack",
+            blasts: [
+              {
+                slots: [
+                  { image: "../items/vanilla/images/dirt.png", name: "Dirt", link: "", x: 74, y: 0 },
+                  { image: "../items/vanilla/images/coal.png", name: "Coal", link: "", x: 74, y: 105 },
+                  { image: "../items/vanilla/images/netherrack.png", name: "Netherrack", link: "", x: 244, y: 53 },
+                ],
+              },
+            ],
+          },
+          {
+            id: "red sand",
+            label: "Red Sand",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/sand.png", "../items/vanilla/images/sand.png", "../items/vanilla/images/sand.png",
+                  "../items/vanilla/images/sand.png", "../items/vanilla/images/red_dye.png", "../items/vanilla/images/sand.png",
+                  "../items/vanilla/images/sand.png", "../items/vanilla/images/sand.png", "../items/vanilla/images/sand.png"
+                ],
+                names: [
+                  "Sand", "Sand", "Sand",
+                  "Sand", "Red Dye", "Sand",
+                  "Sand", "Sand", "Sand"
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/red_sand.png",
+                outputName: "Red Sand (8)",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "block of resin",
+            label: "Block of Resin",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/yomotsubi_abdomen_cooked.png", "../items/mob_drops/images/yomotsubi_abdomen_cooked.png", "../items/mob_drops/images/yomotsubi_abdomen_cooked.png",
+                  "../items/mob_drops/images/yomotsubi_abdomen_cooked.png", "../items/mob_drops/images/yomotsubi_abdomen_cooked.png", "../items/mob_drops/images/yomotsubi_abdomen_cooked.png",
+                  "../items/mob_drops/images/yomotsubi_abdomen_cooked.png", "../items/mob_drops/images/yomotsubi_abdomen_cooked.png", "../items/mob_drops/images/yomotsubi_abdomen_cooked.png"
+                ],
+                names: [
+                  "Cooked Yomotsubi Abdomen", "Cooked Yomotsubi Abdomen", "Cooked Yomotsubi Abdomen",
+                  "Cooked Yomotsubi Abdomen", "Cooked Yomotsubi Abdomen", "Cooked Yomotsubi Abdomen",
+                  "Cooked Yomotsubi Abdomen", "Cooked Yomotsubi Abdomen", "Cooked Yomotsubi Abdomen"
+                ],
+                links: [
+                  PATH.list + "cooked_yomotsubi_abdomen", PATH.list + "cooked_yomotsubi_abdomen", PATH.list + "cooked_yomotsubi_abdomen",
+                  PATH.list + "cooked_yomotsubi_abdomen", PATH.list + "cooked_yomotsubi_abdomen", PATH.list + "cooked_yomotsubi_abdomen",
+                  PATH.list + "cooked_yomotsubi_abdomen", PATH.list + "cooked_yomotsubi_abdomen", PATH.list + "cooked_yomotsubi_abdomen"
+                ],
+                output: "../items/vanilla/images/block_of_resin.png",
+                outputName: "Block of Resin (2)",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/yomotsubi_abdomen_raw.png", "../items/mob_drops/images/yomotsubi_abdomen_raw.png", "../items/mob_drops/images/yomotsubi_abdomen_raw.png",
+                  "../items/mob_drops/images/yomotsubi_abdomen_raw.png", "../items/mob_drops/images/yomotsubi_abdomen_raw.png", "../items/mob_drops/images/yomotsubi_abdomen_raw.png",
+                  "../items/mob_drops/images/yomotsubi_abdomen_raw.png", "../items/mob_drops/images/yomotsubi_abdomen_raw.png", "../items/mob_drops/images/yomotsubi_abdomen_raw.png"
+                ],
+                names: [
+                  "Raw Yomotsubi Abdomen", "Raw Yomotsubi Abdomen", "Raw Yomotsubi Abdomen",
+                  "Raw Yomotsubi Abdomen", "Raw Yomotsubi Abdomen", "Raw Yomotsubi Abdomen",
+                  "Raw Yomotsubi Abdomen", "Raw Yomotsubi Abdomen", "Raw Yomotsubi Abdomen"
+                ],
+                links: [
+                  PATH.list + "raw_yomotsubi_abdomen", PATH.list + "raw_yomotsubi_abdomen", PATH.list + "raw_yomotsubi_abdomen",
+                  PATH.list + "raw_yomotsubi_abdomen", PATH.list + "raw_yomotsubi_abdomen", PATH.list + "raw_yomotsubi_abdomen",
+                  PATH.list + "raw_yomotsubi_abdomen", PATH.list + "raw_yomotsubi_abdomen", PATH.list + "raw_yomotsubi_abdomen"
+                ],
+                output: "../items/vanilla/images/block_of_resin.png",
+                outputName: "Block of Resin (2)",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "rooted dirt",
+            label: "Rooted Dirt",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/dirt.png", "../items/vanilla/images/dirt.png", "../items/vanilla/images/dirt.png",
+                  "../items/vanilla/images/dirt.png", "../items/vanilla/images/hanging_roots.png", "../items/vanilla/images/dirt.png",
+                  "../items/vanilla/images/dirt.png", "../items/vanilla/images/dirt.png", "../items/vanilla/images/dirt.png"
+                ],
+                names: [
+                  "Dirt", "Dirt", "Dirt",
+                  "Dirt", "Hanging Roots", "Dirt",
+                  "Dirt", "Dirt", "Dirt"
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/rooted_dirt.png",
+                outputName: "Rooted Dirt (8)",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/vanilla/images/dirt.png", "../items/vanilla/images/dirt.png", "../items/vanilla/images/dirt.png",
+                  "../items/vanilla/images/dirt.png", "../items/mob_drops/images/spittleshrub_root.png", "../items/vanilla/images/dirt.png",
+                  "../items/vanilla/images/dirt.png", "../items/vanilla/images/dirt.png", "../items/vanilla/images/dirt.png"
+                ],
+                names: [
+                  "Dirt", "Dirt", "Dirt",
+                  "Dirt", "Spittleshrub Root", "Dirt",
+                  "Dirt", "Dirt", "Dirt"
+                ],
+                links: [
+                  "","","",
+                  "", PATH.list + "spittleshrub_root","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/rooted_dirt.png",
+                outputName: "Rooted Dirt (8)",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "soul soil",
+            label: "Soul Soil",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/soul_sand.png", "../items/vanilla/images/dirt.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Soul Sand", "Dirt", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/soul_soil.png",
+                outputName: "Soul Soil",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "suspicious gravel",
+            label: "Suspicious Gravel",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/vanilla/images/dirt.png", "",
+                  "../items/vanilla/images/dirt.png", "../items/vanilla/images/decorated_pot.png", "../items/vanilla/images/dirt.png",
+                  "", "../items/vanilla/images/dirt.png", ""
+                ],
+                names: [
+                  "", "Dirt", "",
+                  "Dirt", "Decorated Pot", "Dirt",
+                  "", "Dirt", ""
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/suspicious_gravel.png",
+                outputName: "Suspicious Gravel (4)",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "suspicious sand",
+            label: "Suspicious Sand",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/vanilla/images/sand.png", "",
+                  "../items/vanilla/images/sand.png", "../items/vanilla/images/decorated_pot.png", "../items/vanilla/images/sand.png",
+                  "", "../items/vanilla/images/sand.png", ""
+                ],
+                names: [
+                  "", "Sand", "",
+                  "Sand", "Decorated Pot", "Sand",
+                  "", "Sand", ""
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/suspicious_sand.png",
+                outputName: "Suspicious Sand (4)",
+                outputLink: ""
+              },
+            ],
+          },
+        ],
+      },
     ]
   },
   {
