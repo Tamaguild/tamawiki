@@ -248,16 +248,6 @@ export const DATA = {
       scale: 0.75,
       position: { x: -0.44, y: 1.7, z: 0.5 },
       rotation: { x: 0.1, y: 1.45, z: 0 }
-    },
-    {
-      name: "Zephyr Disk",
-      model: './models/zephyr_disk_cosmetic.glb',
-      gif: '',
-      price: 100,
-
-      scale: 0.5,
-      position: { x: 0, y: 1.5, z: 0 },
-      rotation: { x: 0, y: 0, z: 0 }
     }
   
   ],
