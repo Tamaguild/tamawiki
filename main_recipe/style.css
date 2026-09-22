@@ -251,6 +251,7 @@ body {
 }
 
 .recipe-detail {
+  position: relative;
   width: 100%;
   min-width: 0;
   min-height: 0;
@@ -291,6 +292,84 @@ body {
   background: #f6edd2;
   border: 3px solid #000;
   border-radius: 8px;
+}
+
+.recipe-content-row {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 14px;
+  width: min(100%, 720px);
+  margin-top: 18px;
+}
+
+.recipe-content-row .crafting-panel {
+  margin-top: 0;
+}
+
+.tips-section {
+  position: absolute;
+  left: 24px;
+  bottom: 18px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 3;
+}
+
+.tips-section[hidden] {
+  display: none;
+}
+
+.tips-box {
+  position: relative;
+  width: min(100%, 260px);
+  min-height: 115px;
+  padding: 16px;
+  background: #fff;
+  border: 2px solid #171217;
+  border-radius: 9px;
+  color: #1d1d1d;
+  font: 16px/1.35 Georgia, serif;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  align-self: flex-start;
+}
+
+.tips-box::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  bottom: -17px;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-right: 2px solid #171217;
+  border-bottom: 2px solid #171217;
+  transform: rotate(45deg);
+  z-index: 0;
+}
+
+.tips-box::after {
+  content: "";
+  position: absolute;
+  left: 24px;
+  bottom: -13px;
+  width: 24px;
+  height: 18px;
+  background: #fff;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.tips-character {
+  align-self: flex-start;
+  width: 130px;
+  height: 130px;
+  margin: 18px 0 0 12px;
+  object-fit: contain;
+  image-rendering: pixelated;
 }
 
 .recipe-panels {
@@ -485,5 +564,31 @@ body {
 
   .item-title {
     font-size: 42px;
+  }
+
+  .recipe-content-row {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .tips-section {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    align-self: flex-start;
+    width: min(100%, 260px);
+    margin: 36px 0 0 0;
+  }
+
+  .recipe-content-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .tips-box::before {
+    left: 22px;
+    top: auto;
+    transform: rotate(45deg);
   }
 }

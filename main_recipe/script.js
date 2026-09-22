@@ -6,6 +6,15 @@ const searchPopup = document.getElementById("searchPopup");
 const searchInput = document.getElementById("searchInput");
 const searchResults = document.getElementById("searchResults");
 const searchClose = document.getElementById("searchClose");
+const tipsSection = document.getElementById("tipsSection");
+const tipsBox = document.getElementById("tipsBox");
+const tipsCharacter = document.getElementById("tipsCharacter");
+const defaultTipImage = "../general/textures/icons/orby.png";
+
+tipsCharacter.addEventListener("error", () => {
+  if (tipsCharacter.src.endsWith(defaultTipImage)) return;
+  tipsCharacter.src = defaultTipImage;
+});
 
 function toSlug(value) {
   return String(value ?? "")
@@ -137,10 +146,18 @@ function renderRecipePanel(data) {
   return panelMarkup;
 }
 
-function renderDetail(node) {
+function renderDetail(node, showTips = true) {
   if (!node) return;
 
   itemTitle.textContent = node.title || node.label;
+
+  const tipData = node.tips && typeof node.tips === "object" && !Array.isArray(node.tips)
+    ? node.tips
+    : { text: Array.isArray(node.tips) ? node.tips.join("\n") : String(node.tips || "") };
+  const tips = tipData.text || "";
+  tipsBox.textContent = tips;
+  tipsSection.hidden = !showTips || !tips.trim();
+  tipsCharacter.src = tipData.image;
 
   const recipes = node.recipes || [];
   recipePanels.innerHTML = recipes.map((recipe) => {
@@ -275,7 +292,7 @@ function renderTree() {
   bindTreeInteractions();
 }
 
-function selectRecipe(node) {
+function selectRecipe(node, showTips = true) {
   const path = findPath(recipeTree, node.id) || [];
   recipeTree.forEach((root) => {
     root.active = false;
@@ -286,7 +303,7 @@ function selectRecipe(node) {
   });
   history.replaceState({}, "", `?id=${encodeURIComponent(getNodeIdPath(node))}`);
   renderTree();
-  renderDetail(node);
+  renderDetail(node, showTips);
 }
 
 function openSearch() {
@@ -365,10 +382,10 @@ function initialize() {
   target = target || findNodeById(recipeTree, selectedDefault) || items[0];
 
   if (target) {
-    selectRecipe(target);
+    selectRecipe(target, false);
   } else {
     renderTree();
-    renderDetail({ title: "Recipe", label: "Recipe" });
+    renderDetail({ title: "Recipe", label: "Recipe" }, false);
   }
 }
 

@@ -103,6 +103,10 @@ const recipeTree = [
           {
             id: "brain coral",
             label: "Brain Coral",
+            tips: {
+              text: "La tip",
+              image: "../avatar/erm_pigeon.png"
+            },
             recipes: [
               {
                 grid: [
