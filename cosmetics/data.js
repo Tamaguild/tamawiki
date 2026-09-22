@@ -178,6 +178,86 @@ export const DATA = {
       scale: 1,
       position: { x: -0.45, y: 1.6, z: -0.55 },
       rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Bone Helmet",
+      model: './models/bone_helmet.glb',
+      gif: '',
+      price: 60,
+
+      scale: 0.9,
+      position: { x: 0, y: 1.6, z: 0.05 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Faputa Hat",
+      model: './models/faputa_hat.glb',
+      gif: '',
+      price: "2 Mitty",
+
+      scale: 1.7,
+      position: { x: -0.75, y: 0.8, z: -1 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Ghost Seek",
+      model: './models/ghost_seek_cosmetic.glb',
+      gif: '',
+      price: 1,
+
+      scale: 0.45,
+      position: { x: -0.2, y: 1.55, z: -0.23 },
+      rotation: { x: -1.45, y: 0, z: 0 }
+    },
+    {
+      name: "Lyza Hat",
+      model: './models/lyza_hat.glb',
+      gif: '',
+      price: "1 Mitty",
+
+      scale: 1,
+      position: { x: -0.08, y: 1.5, z: -0.075 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Marulk Hat",
+      model: './models/marulk_hat.glb',
+      gif: '',
+      price: 150,
+
+      scale: 1,
+      position: { x: 0, y: 1.3, z: -0.05 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Ozen Hat",
+      model: './models/ozen_hat.glb',
+      gif: '',
+      price: "1 Mitty",
+
+      scale: 1.2,
+      position: { x: 0, y: 1.4, z: 0 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
+    },
+    {
+      name: "Patchwork Hat",
+      model: './models/patchwork_hat.glb',
+      gif: '',
+      price: 35,
+
+      scale: 0.75,
+      position: { x: -0.44, y: 1.7, z: 0.5 },
+      rotation: { x: 0.1, y: 1.45, z: 0 }
+    },
+    {
+      name: "Zephyr Disk",
+      model: './models/zephyr_disk_cosmetic.glb',
+      gif: '',
+      price: 100,
+
+      scale: 0.5,
+      position: { x: 0, y: 1.5, z: 0 },
+      rotation: { x: 0, y: 0, z: 0 }
     }
   
   ],
@@ -231,6 +311,16 @@ export const DATA = {
       scale: 1.5,
       position: { x: 0.75, y: 0.25, z: 1.05 },
       rotation: { x: 0, y: Math.PI, z: 0 }
+    },
+    {
+      name: "Okibo Backpack",
+      model: './models/okibo_wuv_backpack.glb',
+      gif: './',
+      price: 0,
+
+      scale: 1.2,
+      position: { x: 0, y: 0.5, z: 0.4 },
+      rotation: { x: 0, y: 0, z: 0 }
     }
 
   ]
