@@ -248,6 +248,15 @@ export const DATA = {
       scale: 0.75,
       position: { x: -0.44, y: 1.7, z: 0.5 },
       rotation: { x: 0.1, y: 1.45, z: 0 }
+    },
+    {
+      name: "Prushka Hat",
+      model: './models/prushka_hat.glb',
+      gif: './GIFS/prushka_hat.gif',
+
+      scale: 0.85,
+      position: { x: 0.03, y: 1.7, z: -0.125 },
+      rotation: { x: 0.1, y: -0.1, z: 0 }
     }
   
   ],
