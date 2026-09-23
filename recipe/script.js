@@ -1,5 +1,13 @@
 import { DATA } from "./data.js";
 
+function toSlug(value) {
+  return String(value ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_|_$/g, "");
+}
+
 const pluh = new URLSearchParams(location.search);
 const pageQuery = pluh.get("page");
 let index = 0;
@@ -9,8 +17,10 @@ if (pageQuery) {
   if (!Number.isNaN(pageNum) && pageNum >= 1 && pageNum <= DATA.length) {
     index = pageNum - 1;
   } else {
-    const lowercase = pageQuery.toLowerCase();
-    const nameIndex = DATA.findIndex(item => item.slug === lowercase || item.name.toLowerCase().replace(/\s+/g, "_") === lowercase);
+    const normalizedQuery = toSlug(pageQuery);
+    const nameIndex = DATA.findIndex(item =>
+      toSlug(item.slug) === normalizedQuery || toSlug(item.name) === normalizedQuery
+    );
     if (nameIndex !== -1) {
       index = nameIndex;
     }
@@ -34,8 +44,8 @@ function render() {
   }
 
   const item = filteredData[index];
-  const page = item.slug || item.name.toLowerCase().replace(/\s+/g, "_");
-  history.replaceState({}, "", `?page=${page}`);
+  const page = toSlug(item.slug || item.name);
+  history.replaceState({}, "", `?page=${encodeURIComponent(page)}`);
 
   document.querySelector(".title").innerText = item.name;
   const buh = document.querySelector(".mob");

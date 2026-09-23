@@ -1,3 +1,5 @@
+import { recipeTree, selectedDefault } from "./data.js";
+
 const treeRoot = document.getElementById("treeRoot");
 const itemTitle = document.getElementById("itemTitle");
 const recipePanels = document.getElementById("recipePanels");

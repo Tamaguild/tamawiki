@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAMAWIKI WORDSEARCH</title>
+<link rel="stylesheet" href="wsstyle.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="logo logoBtn" onclick="window.location.href='../index.html';">
+    <img src="../logo.png" alt="TAMAWIKI LOGO">
+  </div>
+
+  <nav class="buttonArea" id="buttonbox" aria-label="Wiki sections">
+    <a class="btn" href="../relics/relic_menu.html">RELICS</a>
+    <a class="btn" href="../bestiary/bestiary_menu.html">BESTIARY</a>
+    <a class="btn" href="../recipe/recipe_list.html">MOB DROPS</a>
+    <a class="btn" href="../guide/guide.html">GUIDES</a>
+    <a class="btn" href="../miscellaneous/miscellaneous.html">MISCELLANEOUS</a>
+  </nav>
+
+  <header class="masthead">
+    <h1>News Abyss Times</h1>
+    <p class="sub">News across the abyss (sometimes its not cus MIA aint even that active). </p>
+  </header>
+
+  <main class="content-layout">
+    <section class="board-area" aria-labelledby="wordsearch-heading">
+      <h2 id="wordsearch-heading">Daily Wordsearch</h2>
+      <div class="grid" id="grid" role="grid" aria-label="Word search grid"></div>
+      <div class="side">
+        <h3>Words to find</h3>
+        <ul class="words" id="wordList"></ul>
+        <div class="status" id="status"></div>
+        <div class="win" id="win">You found everything. Refresh la page if u wanna continue :tuh:</div>
+      </div>
+    </section>
+
+    <section class="news-section" aria-labelledby="news-heading">
+      <h2 id="news-heading">Latest from the Abyss</h2>
+      <div class="news-grid" id="newsGrid"></div>
+    </section>
+
+    <section class="filler-section" aria-labelledby="filler-heading">
+      <h2 id="filler-heading">Abyss Archive</h2>
+      <div class="filler-grid" id="fillerGrid"></div>
+    </section>
+  </main>
+</div>
+
+<div class="info">
+  <p><b data-i18n="disclaimer">DISCLAIMER:</b><br>
+    <span id="disclaimerText"></span>
+  </p>
+</div>
+<script src="wsgenerator.js"></script>
+<script type="module" src="wsdisclaimer.js"></script>
+<script type="module" src="news.js"></script>
+</body>
+</html>

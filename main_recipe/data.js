@@ -91,7 +91,7 @@ const recipeTree = [ #wtfamilookingat
 ];
 */
 
-const recipeTree = [
+export const recipeTree = [
   {
     id: "blocks",
     label: "Blocks",
@@ -3788,4 +3788,4 @@ const recipeTree = [
   },
 ];
 
-const selectedDefault = "black_wool";
+export const selectedDefault = "black_wool";
