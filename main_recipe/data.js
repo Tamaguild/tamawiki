@@ -1915,6 +1915,32 @@ export const recipeTree = [
               },
             ],
           },
+          {
+            id: "tuff",
+            label: "Tuff",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/bone_meal.png", "../items/vanilla/images/cobblestone.png", "",
+                  "../items/vanilla/images/cobbled_deepslate.png", "../items/vanilla/images/raw_iron.png", "../items/vanilla/images/cobbled_deepslate.png",
+                  "", "../items/vanilla/images/cobblestone.png", "../items/vanilla/images/bone_meal.png"
+                ],
+                names: [
+                  "Bone Meal", "Cobblestone", "",
+                  "Cobbled Deepslate", "Raw Iron", "Cobbled Deepslate",
+                  "", "Cobblestone", "Bone Meal"
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/tuff.png",
+                outputName: "Tuff (6)",
+                outputLink: ""
+              },
+            ],
+          },
         ],
       },
     ]
