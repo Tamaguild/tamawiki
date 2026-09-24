@@ -165,7 +165,7 @@ body {
 }
 
 .intermediate {
-  background-image: ./banner/tamawikiBanner2.png;
+  background-image: url("./banner/tamawikiBanner2.png");
 }
 
 .expert {
