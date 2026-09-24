@@ -3786,6 +3786,642 @@ export const recipeTree = [
       },
     ],
   },
+  {
+    id: "other",
+    label: "Other",
+    children: [
+      {
+        id: "other buh",
+        label: "Other",
+        children: [
+          {
+            id: "bell",
+            label: "Bell",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/slab.png", "../items/vanilla/images/slab.png", "../items/vanilla/images/slab.png",
+                  "../items/vanilla/images/fence.png", "../items/vanilla/images/block_of_gold.png", "../items/vanilla/images/fence.png",
+                  "../items/vanilla/images/fence.png", "../items/vanilla/images/iron_nugget.png", "../items/vanilla/images/fence.png"
+                ],
+                names: [
+                  "Wooden Slab", "Wooden Slab", "Wooden Slab",
+                  "Wooden Fence", "Block of Gold", "Wooden Fence",
+                  "Wooden Fence", "Iron Nugget", "Wooden Fence"
+                ],
+                links: [
+                  "","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/bell.png",
+                outputName: "Bell",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "blaze powder",
+            label: "Blaze Powder",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/rohana_tail.png", "", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Rohana Tail", "", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "rohana_tail","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/blaze_powder.png",
+                outputName: "Blaze Powder (2)",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/virinsipede_antlers.png", "", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Virinsipede Antlers", "", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "virinsipede_antlers","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/blaze_powder.png",
+                outputName: "Blaze Powder (2)",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "book",
+            label: "Book",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/silkfang_silk.png", "../items/vanilla/images/paper.png", "",
+                  "../items/mob_drops/images/silkfang_silk.png", "../items/vanilla/images/paper.png", "",
+                  "../items/mob_drops/images/silkfang_silk.png", "../items/vanilla/images/paper.png", ""
+                ],
+                names: [
+                  "Silkfang Silk", "Paper", "",
+                  "Silkfang Silk", "Paper", "",
+                  "Silkfang Silk", "Paper", ""
+                ],
+                links: [
+                  PATH.list + "silkfang_silk","","",
+                  PATH.list + "silkfang_silk","","",
+                  PATH.list + "silkfang_silk","",""
+                ],
+                output: "../items/vanilla/images/book.png",
+                outputName: "Book",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/kuongatari_silk.png", "../items/vanilla/images/paper.png", "",
+                  "../items/mob_drops/images/kuongatari_silk.png", "../items/vanilla/images/paper.png", "",
+                  "../items/mob_drops/images/kuongatari_silk.png", "../items/vanilla/images/paper.png", ""
+                ],
+                names: [
+                  "Kuongatari Silk", "Paper", "",
+                  "Kuongatari Silk", "Paper", "",
+                  "Kuongatari Silk", "Paper", ""
+                ],
+                links: [
+                  PATH.list + "kuongatari_silk","","",
+                  PATH.list + "kuongatari_silk","","",
+                  PATH.list + "kuongatari_silk","",""
+                ],
+                output: "../items/vanilla/images/book.png",
+                outputName: "Book",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/stinger_wing.png", "../items/vanilla/images/paper.png", "",
+                  "../items/mob_drops/images/stinger_wing.png", "../items/vanilla/images/paper.png", "",
+                  "../items/mob_drops/images/stinger_wing.png", "../items/vanilla/images/paper.png", ""
+                ],
+                names: [
+                  "Stinger Wing", "Paper", "",
+                  "Stinger Wing", "Paper", "",
+                  "Stinger Wing", "Paper", ""
+                ],
+                links: [
+                  PATH.list + "stinger_wing","","",
+                  PATH.list + "stinger_wing","","",
+                  PATH.list + "stinger_wing","",""
+                ],
+                output: "../items/vanilla/images/book.png",
+                outputName: "Book",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "bundle",
+            label: "Bundle",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/fuwagi_hide.png", "../items/mob_drops/images/plant_matter.png", "../items/mob_drops/images/silkfang_silk.png",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Fuwagi Hide", "Plant Matter", "Silkfang Silk",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "fuwagi_hide", PATH.list + "plant_matter", PATH.list + "silkfang_silk",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/bundle.png",
+                outputName: "Bundle",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "glow ink sac",
+            label: "Glow Ink Sac",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/rohana_powder.png", "../items/mob_drops/images/kazura_squid_ink_sac.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Rohana Powder", "Kazura Squid Ink Sac", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "rohana_powder", PATH.list + "kazura_squid_ink_sac","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/glow_ink_sac.png",
+                outputName: "Glow Ink Sac",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/rohana_powder.png", "../items/mob_drops/images/makihige_ink_sac.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Rohana Powder", "Makihige Ink Sac", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "rohana_powder", PATH.list + "makihige_ink_sac","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/glow_ink_sac.png",
+                outputName: "Glow Ink Sac",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "glow item frame",
+            label: "Glow Item Frame",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/item_frame.png", "../items/mob_drops/images/kakatsumuri_glowing_tip.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Item Frame", "Kakatsumuri Glowing Tip", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  "", PATH.list + "kakatsumuri_glowing_tip","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/glow_item_frame.png",
+                outputName: "Glow Item Frame",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "lead",
+            label: "Lead",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/abyssal_snail_gunk.png", "../items/mob_drops/images/abyssal_snail_gunk.png", "",
+                  "../items/mob_drops/images/abyssal_snail_gunk.png", "../items/mob_drops/images/silkfang_silk.png", "",
+                  "", "", "../items/mob_drops/images/abyssal_snail_gunk.png"
+                ],
+                names: [
+                  "Abyssal Snail Gunk", "Abyssal Snail Gunk", "",
+                  "Abyssal Snail Gunk", "Silkfang Silk", "",
+                  "", "", "Abyssal Snail Gunk"
+                ],
+                links: [
+                  PATH.list + "abyssal_snail_gunk", PATH.list + "abyssal_snail_gunk","",
+                  PATH.list + "abyssal_snail_gunk", PATH.list + "silkfang_silk","",
+                  "","", PATH.list + "abyssal_snail_gunk"
+                ],
+                output: "../items/vanilla/images/lead.png",
+                outputName: "Lead (2)",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/splitjaw_gunk.png", "../items/mob_drops/images/splitjaw_gunk.png", "",
+                  "../items/mob_drops/images/splitjaw_gunk.png", "../items/mob_drops/images/silkfang_silk.png", "",
+                  "", "", "../items/mob_drops/images/splitjaw_gunk.png"
+                ],
+                names: [
+                  "Splitjaw Gunk", "Splitjaw Gunk", "",
+                  "Splitjaw Gunk", "Silkfang Silk", "",
+                  "", "", "Splitjaw Gunk"
+                ],
+                links: [
+                  PATH.list + "splitjaw_gunk", PATH.list + "splitjaw_gunk","",
+                  PATH.list + "splitjaw_gunk", PATH.list + "silkfang_silk","",
+                  "","", PATH.list + "splitjaw_gunk"
+                ],
+                output: "../items/vanilla/images/lead.png",
+                outputName: "Lead (2)",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/abyssal_snail_gunk.png", "../items/mob_drops/images/abyssal_snail_gunk.png", "",
+                  "../items/mob_drops/images/abyssal_snail_gunk.png", "../items/mob_drops/images/kuongatari_silk.png", "",
+                  "", "", "../items/mob_drops/images/abyssal_snail_gunk.png"
+                ],
+                names: [
+                  "Abyssal Snail Gunk", "Abyssal Snail Gunk", "",
+                  "Abyssal Snail Gunk", "Kuongatari Silk", "",
+                  "", "", "Abyssal Snail Gunk"
+                ],
+                links: [
+                  PATH.list + "abyssal_snail_gunk", PATH.list + "abyssal_snail_gunk","",
+                  PATH.list + "abyssal_snail_gunk", PATH.list + "kuongatari_silk","",
+                  "","", PATH.list + "abyssal_snail_gunk"
+                ],
+                output: "../items/vanilla/images/lead.png",
+                outputName: "Lead (2)",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/splitjaw_gunk.png", "../items/mob_drops/images/splitjaw_gunk.png", "",
+                  "../items/mob_drops/images/splitjaw_gunk.png", "../items/mob_drops/images/kuongatari_silk.png", "",
+                  "", "", "../items/mob_drops/images/splitjaw_gunk.png"
+                ],
+                names: [
+                  "Splitjaw Gunk", "Splitjaw Gunk", "",
+                  "Splitjaw Gunk", "Kuongatari Silk", "",
+                  "", "", "Splitjaw Gunk"
+                ],
+                links: [
+                  PATH.list + "splitjaw_gunk", PATH.list + "splitjaw_gunk","",
+                  PATH.list + "splitjaw_gunk", PATH.list + "kuongatari_silk","",
+                  "","", PATH.list + "splitjaw_gunk"
+                ],
+                output: "../items/vanilla/images/lead.png",
+                outputName: "Lead (2)",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "magma cream",
+            label: "Magma Cream",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/splitjaw_gunk.png", "../items/mob_drops/images/swarmshocker_charged_powder.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Splitjaw Gunk", "Swarmshocker Charged Powder", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "splitjaw_gunk", PATH.list + "swarmshocker_charged_powder","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/magma_cream.png",
+                outputName: "Magma Cream",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/abyssal_snail_gunk.png", "../items/mob_drops/images/swarmshocker_charged_powder.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Abyssal Snail Gunk", "Swarmshocker Charged Powder", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "abyssal_snail_gunk", PATH.list + "swarmshocker_charged_powder","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/magma_cream.png",
+                outputName: "Magma Cream",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/splitjaw_gunk.png", "../items/mob_drops/images/swarmshocker_jelly.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Splitjaw Gunk", "Swarmshocker Jelly", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "splitjaw_gunk", PATH.list + "swarmhoarder_jelly","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/magma_cream.png",
+                outputName: "Magma Cream",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "name tag",
+            label: "Name Tag",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/mob_drops/images/silkfang_silk.png", "../items/mob_drops/images/silkfang_silk.png",
+                  "../items/vanilla/images/paper.png", "../items/mob_drops/images/makihige_ink_sac.png", "../items/vanilla/images/paper.png",
+                  "../items/vanilla/images/paper.png", "../items/vanilla/images/paper.png", "../items/vanilla/images/paper.png"
+                ],
+                names: [
+                  "", "Silkfang Silk", "Silkfang Silk",
+                  "Paper", "Makihige Ink Sac", "Paper",
+                  "Paper", "Paper", "Paper"
+                ],
+                links: [
+                  "", PATH.list + "silkfang_silk", PATH.list + "silkfang_silk",
+                  "", PATH.list + "makihige_ink_sac","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/name_tag.png",
+                outputName: "Name Tag",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "", "../items/mob_drops/images/silkfang_silk.png", "../items/mob_drops/images/silkfang_silk.png",
+                  "../items/vanilla/images/paper.png", "../items/mob_drops/images/kazura_squid_ink_sac.png", "../items/vanilla/images/paper.png",
+                  "../items/vanilla/images/paper.png", "../items/vanilla/images/paper.png", "../items/vanilla/images/paper.png"
+                ],
+                names: [
+                  "", "Silkfang Silk", "Silkfang Silk",
+                  "Paper", "Kazura Squid Ink Sac", "Paper",
+                  "Paper", "Paper", "Paper"
+                ],
+                links: [
+                  "", PATH.list + "silkfang_silk", PATH.list + "silkfang_silk",
+                  "", PATH.list + "kazura_squid_ink_sac","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/name_tag.png",
+                outputName: "Name Tag",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "", "../items/mob_drops/images/kuongatari_silk.png", "../items/mob_drops/images/kuongatari_silk.png",
+                  "../items/vanilla/images/paper.png", "../items/mob_drops/images/makihige_ink_sac.png", "../items/vanilla/images/paper.png",
+                  "../items/vanilla/images/paper.png", "../items/vanilla/images/paper.png", "../items/vanilla/images/paper.png"
+                ],
+                names: [
+                  "", "Kuongatari Silk", "Kuongatari Silk",
+                  "Paper", "Makihige Ink Sac", "Paper",
+                  "Paper", "Paper", "Paper"
+                ],
+                links: [
+                  "", PATH.list + "kuongatari_silk", PATH.list + "kuongatari_silk",
+                  "", PATH.list + "makihige_ink_sac","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/name_tag.png",
+                outputName: "Name Tag",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "", "../items/mob_drops/images/kuongatari_silk.png", "../items/mob_drops/images/kuongatari_silk.png",
+                  "../items/vanilla/images/paper.png", "../items/mob_drops/images/kazura_squid_ink_sac.png", "../items/vanilla/images/paper.png",
+                  "../items/vanilla/images/paper.png", "../items/vanilla/images/paper.png", "../items/vanilla/images/paper.png"
+                ],
+                names: [
+                  "", "Kuongatari Silk", "Kuongatari Silk",
+                  "Paper", "Kazura Squid Ink Sac", "Paper",
+                  "Paper", "Paper", "Paper"
+                ],
+                links: [
+                  "", PATH.list + "kuongatari_silk", PATH.list + "kuongatari_silk",
+                  "", PATH.list + "kazura_squid_ink_sac","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/name_tag.png",
+                outputName: "Name Tag",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "netherite upgrade smithing template",
+            label: "Netherite Upgrade Smithing Template",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/mob_drops/images/silkfang_eye.png", "",
+                  "../items/mob_drops/images/hashofu_eye.png", "../items/custom_items/blank_template_rune.png", "../items/mob_drops/images/tachikatana_claw.png",
+                  "", "../items/mob_drops/images/stingerhead_eye.png", ""
+                ],
+                names: [
+                  "", "Silkfang Eye", "",
+                  "Hashofu Eye", "Blank Template Rune", "Tachikatana Claw",
+                  "", "Stingerhead Eye", ""
+                ],
+                links: [
+                  "", PATH.list + "silkfang_eye","",
+                  PATH.list + "hashofu_eye","", PATH.list + "tachikatana_claw",
+                  "", PATH.list + "stingerhead_eye",""
+                ],
+                output: "../items/vanilla/images/netherite_upgrade_smithing_template.png",
+                outputName: "Netherite Upgrade Smithing Template",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "nether wart",
+            label: "Nether Wart",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/splitjaw_scales.png", "", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Splitjaw Scales", "", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "splitjaw_scales","","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/nether_wart.png",
+                outputName: "Nether Wart",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "paper",
+            label: "Paper",
+            recipes: [
+              {
+                grid: [
+                  "../items/mob_drops/images/daikonchu_wing.png", "../items/mob_drops/images/daikonchu_wing.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Daikonchu Wing", "Daikonchu Wing", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "daikonchu_wing", PATH.list + "daikonchu_wing","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/paper.png",
+                outputName: "Paper",
+                outputLink: ""
+              },
+              {
+                grid: [
+                  "../items/mob_drops/images/stinger_wing.png", "../items/mob_drops/images/stinger_wing.png", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                names: [
+                  "Stinger Wing", "Stinger Wing", "",
+                  "", "", "",
+                  "", "", ""
+                ],
+                links: [
+                  PATH.list + "stinger_wing", PATH.list + "stinger_wing","",
+                  "","","",
+                  "","",""
+                ],
+                output: "../items/vanilla/images/paper.png",
+                outputName: "Paper",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "powder snow bucket",
+            label: "Powder Snow Bucket",
+            recipes: [
+              {
+                grid: [
+                  "../items/vanilla/images/snowball.png", "../items/mob_drops/images/octoliar_tentacle.png", "../items/vanilla/images/snowball.png",
+                  "../items/mob_drops/images/octoliar_tentacle.png", "../items/vanilla/images/bucket.png", "../items/mob_drops/images/octoliar_tentacle.png",
+                  "../items/vanilla/images/snowball.png", "../items/mob_drops/images/octoliar_tentacle.png", "../items/vanilla/images/snowball.png"
+                ],
+                names: [
+                  "Snowball", "Octoliar Tentacle", "Snowball",
+                  "Octoliar Tentacle", "Bucket", "Octoliar Tentacle",
+                  "Snowball", "Octoliar Tentacle", "Snowball"
+                ],
+                links: [
+                  "", PATH.list + "octoliar_tentacle","",
+                  PATH.list + "octoliar_tentacle","", PATH.list + "octoliar_tentacle",
+                  "", PATH.list + "octoliar_tentacle",""
+                ],
+                output: "../items/vanilla/images/powder_snow_bucket.png",
+                outputName: "Powder Snow Bucket",
+                outputLink: ""
+              },
+            ],
+          },
+          {
+            id: "snowball",
+            label: "Snowball",
+            recipes: [
+              {
+                grid: [
+                  "", "../items/mob_drops/images/octoliar_tentacle.png", "",
+                  "../items/mob_drops/images/octoliar_tentacle.png", "", "../items/mob_drops/images/octoliar_tentacle.png",
+                  "", "../items/mob_drops/images/octoliar_tentacle.png", ""
+                ],
+                names: [
+                  "", "Octoliar Tentacle", "",
+                  "Octoliar Tentacle", "", "Octoliar Tentacle",
+                  "", "Octoliar Tentacle", ""
+                ],
+                links: [
+                  "", PATH.list + "octoliar_tentacle","",
+                  PATH.list + "octoliar_tentacle","", PATH.list + "octoliar_tentacle",
+                  "", PATH.list + "octoliar_tentacle",""
+                ],
+                output: "../items/vanilla/images/snowball.png",
+                outputName: "Snowball (16)",
+                outputLink: ""
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export const selectedDefault = "black_wool";
