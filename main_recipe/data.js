@@ -121,8 +121,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "ashimite_antlers","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/brain_coral.png",
                 outputName: "Brain Coral",
@@ -146,9 +146,9 @@ export const recipeTree = [
                   "", "Ashimite Antlers", ""
                 ],
                 links: [
-                  PATH.list + "","ashimite_antlers","",
-                  PATH.list + "ashimite_antlers","","ashimite_antlers",
-                  PATH.list + "","ashimite_antlers",""
+                  "", PATH.list + "ashimite_antlers","",
+                  PATH.list + "ashimite_antlers","", PATH.list + "ashimite_antlers",
+                  "", PATH.list + "ashimite_antlers",""
                 ],
                 output: "../items/vanilla/images/brain_coral_block.png",
                 outputName: "Brain Coral Block",
@@ -172,9 +172,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/brain_coral_fan.png",
                 outputName: "Brain Coral Fan (4)",
@@ -199,8 +199,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "ashimite_antlers","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/bubble_coral.png",
                 outputName: "Bubble Coral",
@@ -219,8 +219,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "ashimite_antlers","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/bubble_coral.png",
                 outputName: "Bubble Coral",
@@ -244,9 +244,9 @@ export const recipeTree = [
                   "", "Ashimite Antlers", ""
                 ],
                 links: [
-                  PATH.list + "","ashimite_antlers","",
-                  PATH.list + "ashimite_antlers","","ashimite_antlers",
-                  PATH.list + "","ashimite_antlers",""
+                  "", PATH.list + "ashimite_antlers","",
+                  PATH.list + "ashimite_antlers","", PATH.list + "ashimite_antlers",
+                  "", PATH.list + "ashimite_antlers",""
                 ],
                 output: "../items/vanilla/images/bubble_coral_block.png",
                 outputName: "Bubble Coral Block",
@@ -264,9 +264,9 @@ export const recipeTree = [
                   "", "Ashimite Antlers", ""
                 ],
                 links: [
-                  PATH.list + "","ashimite_antlers","",
-                  PATH.list + "ashimite_antlers","","ashimite_antlers",
-                  PATH.list + "","ashimite_antlers",""
+                  "", PATH.list + "ashimite_antlers","",
+                  PATH.list + "ashimite_antlers","", PATH.list + "ashimite_antlers",
+                  "", PATH.list + "ashimite_antlers",""
                 ],
                 output: "../items/vanilla/images/bubble_coral_block.png",
                 outputName: "Bubble Coral Block",
@@ -316,9 +316,9 @@ export const recipeTree = [
                   "Brain Coral", "Brain Coral", "Brain Coral"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_brain_coral.png",
                 outputName: "Dead Brain Coral (8)",
@@ -342,9 +342,9 @@ export const recipeTree = [
                   "Brain Coral Block", "Brain Coral Block", "Brain Coral Block"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_brain_coral_block.png",
                 outputName: "Dead Brain Coral Block (8)",
@@ -368,9 +368,9 @@ export const recipeTree = [
                   "Brain Coral Fan", "Brain Coral Fan", "Brain Coral Fan"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_brain_coral_fan.png",
                 outputName: "Dead Brain Coral Fan (8)",
@@ -394,9 +394,9 @@ export const recipeTree = [
                   "Bubble Coral", "Bubble Coral", "Bubble Coral"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_bubble_coral.png",
                 outputName: "Dead Bubble Coral (8)",
@@ -420,9 +420,9 @@ export const recipeTree = [
                   "Bubble Coral Block", "Bubble Coral Block", "Bubble Coral Block"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_bubble_coral_block.png",
                 outputName: "Dead Bubble Coral Block (8)",
@@ -446,9 +446,9 @@ export const recipeTree = [
                   "Bubble Coral Fan", "Bubble Coral Fan", "Bubble Coral Fan"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_bubble_coral_fan.png",
                 outputName: "Dead Bubble Coral Fan (8)",
@@ -472,9 +472,9 @@ export const recipeTree = [
                   "Fire Coral", "Fire Coral", "Fire Coral"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_fire_coral.png",
                 outputName: "Dead Fire Coral (8)",
@@ -498,9 +498,9 @@ export const recipeTree = [
                   "Fire Coral Block", "Fire Coral Block", "Fire Coral Block"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_fire_coral_block.png",
                 outputName: "Dead Fire Coral Block (8)",
@@ -524,9 +524,9 @@ export const recipeTree = [
                   "Fire Coral Fan", "Fire Coral Fan", "Fire Coral Fan"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_fire_coral_fan.png",
                 outputName: "Dead Fire Coral Fan (8)",
@@ -550,9 +550,9 @@ export const recipeTree = [
                   "Horn Coral", "Horn Coral", "Horn Coral"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_horn_coral.png",
                 outputName: "Dead Horn Coral (8)",
@@ -576,9 +576,9 @@ export const recipeTree = [
                   "Horn Coral Block", "Horn Coral Block", "Horn Coral Block"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_horn_coral_block.png",
                 outputName: "Dead Horn Coral Block (8)",
@@ -602,9 +602,9 @@ export const recipeTree = [
                   "Horn Coral Fan", "Horn Coral Fan", "Horn Coral Fan"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_horn_coral_fan.png",
                 outputName: "Dead Horn Coral Fan (8)",
@@ -628,9 +628,9 @@ export const recipeTree = [
                   "Tube Coral", "Tube Coral", "Tube Coral"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_tube_coral.png",
                 outputName: "Dead Tube Coral (8)",
@@ -654,9 +654,9 @@ export const recipeTree = [
                   "Tube Coral Block", "Tube Coral Block", "Tube Coral Block"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_tube_coral_block.png",
                 outputName: "Dead Tube Coral Block (8)",
@@ -680,9 +680,9 @@ export const recipeTree = [
                   "Tube Coral Fan", "Tube Coral Fan", "Tube Coral Fan"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_tube_coral_fan.png",
                 outputName: "Dead Tube Coral Fan (8)",
@@ -707,8 +707,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "ashimite_antlers","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/fire_coral.png",
                 outputName: "Fire Coral",
@@ -732,9 +732,9 @@ export const recipeTree = [
                   "", "Ashimite Antlers", ""
                 ],
                 links: [
-                  PATH.list + "","ashimite_antlers","",
-                  PATH.list + "ashimite_antlers","","ashimite_antlers",
-                  PATH.list + "","ashimite_antlers",""
+                  "", PATH.list + "ashimite_antlers","",
+                  PATH.list + "ashimite_antlers","", PATH.list + "ashimite_antlers",
+                  "", PATH.list + "ashimite_antlers",""
                 ],
                 output: "../items/vanilla/images/fire_coral_block.png",
                 outputName: "Fire Coral Block",
@@ -758,9 +758,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/fire_coral_fan.png",
                 outputName: "Fire Coral Fan (4)",
@@ -785,8 +785,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "ashimite_antlers","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/horn_coral.png",
                 outputName: "Horn Coral",
@@ -810,9 +810,9 @@ export const recipeTree = [
                   "", "Ashimite Antlers", ""
                 ],
                 links: [
-                  PATH.list + "","ashimite_antlers","",
-                  PATH.list + "ashimite_antlers","","ashimite_antlers",
-                  PATH.list + "","ashimite_antlers",""
+                  "", PATH.list + "ashimite_antlers","",
+                  PATH.list + "ashimite_antlers","", PATH.list + "ashimite_antlers",
+                  "", PATH.list + "ashimite_antlers",""
                 ],
                 output: "../items/vanilla/images/horn_coral_block.png",
                 outputName: "Horn Coral Block",
@@ -837,8 +837,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "ashimite_antlers","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/tube_coral.png",
                 outputName: "Tube Coral",
@@ -857,8 +857,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "ashimite_antlers","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/tube_coral.png",
                 outputName: "Tube Coral",
@@ -882,9 +882,9 @@ export const recipeTree = [
                   "", "Ashimite Antlers", ""
                 ],
                 links: [
-                  PATH.list + "","ashimite_antlers","",
-                  PATH.list + "ashimite_antlers","","ashimite_antlers",
-                  PATH.list + "","ashimite_antlers",""
+                  "", PATH.list + "ashimite_antlers","",
+                  PATH.list + "ashimite_antlers","", PATH.list + "ashimite_antlers",
+                  "", PATH.list + "ashimite_antlers",""
                 ],
                 output: "../items/vanilla/images/tube_coral_block.png",
                 outputName: "Tube Coral Block",
@@ -902,9 +902,9 @@ export const recipeTree = [
                   "", "Ashimite Antlers", ""
                 ],
                 links: [
-                  PATH.list + "","ashimite_antlers","",
-                  PATH.list + "ashimite_antlers","","ashimite_antlers",
-                  PATH.list + "","ashimite_antlers",""
+                  "", PATH.list + "ashimite_antlers","",
+                  PATH.list + "ashimite_antlers","", PATH.list + "ashimite_antlers",
+                  "", PATH.list + "ashimite_antlers",""
                 ],
                 output: "../items/vanilla/images/tube_coral_block.png",
                 outputName: "Tube Coral Block",
@@ -928,9 +928,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/tube_coral_fan.png",
                 outputName: "Tube Coral Fan (4)",
@@ -961,8 +961,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "silkfang_silk","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/string.png",
                 outputName: "String",
@@ -981,8 +981,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "stinger_wing","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/string.png",
                 outputName: "String",
@@ -1001,8 +1001,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "kuongatari_silk","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/string.png",
                 outputName: "String",
@@ -1032,9 +1032,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/black_terracotta.png",
                 outputName: "Black Terracotta (8)",
@@ -1058,9 +1058,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/blue_terracotta.png",
                 outputName: "Blue Terracotta (8)",
@@ -1084,9 +1084,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/brown_terracotta.png",
                 outputName: "Brown Terracotta (8)",
@@ -1110,9 +1110,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/cyan_terracotta.png",
                 outputName: "Cyan Terracotta (8)",
@@ -1136,9 +1136,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/gray_terracotta.png",
                 outputName: "Gray Terracotta (8)",
@@ -1162,9 +1162,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/green_terracotta.png",
                 outputName: "Green Terracotta (8)",
@@ -1188,9 +1188,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/light_blue_terracotta.png",
                 outputName: "Light Blue Terracotta (8)",
@@ -1214,9 +1214,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/light_gray_terracotta.png",
                 outputName: "Light Gray Terracotta (8)",
@@ -1240,9 +1240,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/lime_terracotta.png",
                 outputName: "Lime Terracotta (8)",
@@ -1260,9 +1260,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","kuongatari_juice","",
-                  PATH.list + "","",""
+                  "","","",
+                  "", PATH.list + "kuongatari_juice","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/lime_terracotta.png",
                 outputName: "Lime Terracotta (8)",
@@ -1286,9 +1286,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/magenta_terracotta.png",
                 outputName: "Magenta Terracotta (8)",
@@ -1312,9 +1312,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/orange_terracotta.png",
                 outputName: "Orange Terracotta (8)",
@@ -1338,9 +1338,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/pink_terracotta.png",
                 outputName: "Pink Terracotta (8)",
@@ -1364,9 +1364,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/purple_terracotta.png",
                 outputName: "Purple Terracotta (8)",
@@ -1390,9 +1390,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/red_terracotta.png",
                 outputName: "Red Terracotta (8)",
@@ -1416,9 +1416,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/white_terracotta.png",
                 outputName: "White Terracotta (8)",
@@ -1442,9 +1442,9 @@ export const recipeTree = [
                   "Terracotta", "Terracotta", "Terracotta"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/yellow_terracotta.png",
                 outputName: "Yellow Terracotta (8)",
@@ -1475,8 +1475,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "beniguma_fur","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/black_wool.png",
                 outputName: "Black Wool",
@@ -1495,8 +1495,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "inbyo_fur","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/black_wool.png",
                 outputName: "Black Wool",
@@ -1521,8 +1521,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "man-toyer_fur","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/brown_wool.png",
                 outputName: "Brown Wool",
@@ -1547,8 +1547,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "chimokami_tail","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/red_wool.png",
                 outputName: "Red Wool",
@@ -1970,8 +1970,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "makihige_ink_sac","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/black_dye.png",
                 outputName: "Black Dye",
@@ -1990,8 +1990,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "inbyo_fur","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/black_dye.png",
                 outputName: "Black Dye",
@@ -2009,9 +2009,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/black_dye.png",
                 outputName: "Black Dye",
@@ -2029,9 +2029,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/black_dye.png",
                 outputName: "Black Dye",
@@ -2062,8 +2062,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "splitjaw_gunk","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/green_dye.png",
                 outputName: "Green Dye",
@@ -2094,8 +2094,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "rohana_powder","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/magenta_dye.png",
                 outputName: "Magenta Dye",
@@ -2126,8 +2126,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "chimokami_tail","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/red_dye.png",
                 outputName: "Red Dye",
@@ -2146,8 +2146,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "stingerhead_flesh","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/red_dye.png",
                 outputName: "Red Dye",
@@ -2166,8 +2166,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "virinsipede_segments","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/red_dye.png",
                 outputName: "Red Dye",
@@ -2198,8 +2198,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "kazura_squid_ink_sac","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/white_dye.png",
                 outputName: "White Dye",
@@ -2235,9 +2235,9 @@ export const recipeTree = [
                   "Wheat", "Wheat", "Wheat"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/cake.png",
                 outputName: "Cake",
@@ -2267,9 +2267,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","ashimite_meat_cooked","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "ashimite_meat_cooked","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2287,9 +2287,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_corpse_weeper_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_corpse_weeper_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2307,9 +2307,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_dosetori_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_dosetori_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2327,9 +2327,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_fuwagi_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_fuwagi_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2347,9 +2347,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_inbyo_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_inbyo_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2367,9 +2367,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_neritantan_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_neritantan_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2387,9 +2387,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_okibo_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_okibo_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2407,9 +2407,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_ottobas_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_ottobas_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2427,9 +2427,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_shroombear_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_shroombear_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2447,9 +2447,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_uibuta_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_uibuta_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2467,9 +2467,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_hammerbeak_wing","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_hammerbeak_wing","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2487,9 +2487,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_onitsuchi_wing","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_onitsuchi_wing","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2507,9 +2507,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","cooked_cyatoria_drumstick","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "cooked_cyatoria_drumstick","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_cooked.png",
                 outputName: "Cooked Cut Meat",
@@ -2539,9 +2539,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_ashimite_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_ashimite_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2559,9 +2559,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_corpse_weeper_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_corpse_weeper_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2579,9 +2579,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_dosetori_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_dosetori_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2599,9 +2599,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_fuwagi_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_fuwagi_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2619,9 +2619,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_inbyo_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_inbyo_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2639,9 +2639,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_neritantan_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_neritantan_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2659,9 +2659,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_okibo_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_okibo_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2679,9 +2679,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_ottobas_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_ottobas_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2699,9 +2699,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_shroombear_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_shroombear_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2719,9 +2719,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_uibuta_meat","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_uibuta_meat","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2739,9 +2739,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_hammerbeak_wing","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_hammerbeak_wing","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2759,9 +2759,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_onitsuchi_wing","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_onitsuchi_wing","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2779,9 +2779,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","raw_cyatoria_drumstick","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "", PATH.list + "raw_cyatoria_drumstick","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/food/cut_meat_raw.png",
                 outputName: "Raw Cut Meat",
@@ -2817,9 +2817,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/beetroot_seeds.png",
                 outputName: "Beetroot Seeds",
@@ -2843,7 +2843,7 @@ export const recipeTree = [
                   "Spittleshrub Root", "", ""
                 ],
                 links: [
-                  PATH.list + "plant_matter","plant_matter","plant_matter",
+                  PATH.list + "plant_matter", PATH.list + "plant_matter", PATH.list + "plant_matter",
                   PATH.list + "plant_matter","","",
                   PATH.list + "spittleshrub_root","",""
                 ],
@@ -2870,8 +2870,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "plant_matter","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/brown_mushroom.png",
                 outputName: "Brown Mushroom (2)",
@@ -2895,9 +2895,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "plant_matter","madokajack_poop","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  PATH.list + "plant_matter", PATH.list + "madokajack_poop","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/bush.png",
                 outputName: "Bush (2)",
@@ -2921,9 +2921,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "parasitic_watershrooms","cooked_yomotsubi_abdomen","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  PATH.list + "parasitic_watershrooms", PATH.list + "cooked_yomotsubi_abdomen","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/crimson_fungus.png",
                 outputName: "Crimson Fungus",
@@ -2941,9 +2941,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "parasitic_watershrooms","raw_yomotsubi_abdomen","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  PATH.list + "parasitic_watershrooms", PATH.list + "raw_yomotsubi_abdomen","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/crimson_fungus.png",
                 outputName: "Crimson Fungus",
@@ -2967,9 +2967,9 @@ export const recipeTree = [
                   "", "Sand", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","plant_matter","",
-                  PATH.list + "","",""
+                  "","","",
+                  "", PATH.list + "plant_matter","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/dead_bush.png",
                 outputName: "Dead Bush (6)",
@@ -2993,9 +2993,9 @@ export const recipeTree = [
                   "Plant Matter", "Spittleshrub Root", "Plant Matter"
                 ],
                 links: [
-                  PATH.list + "","sporemanta_powder","",
-                  PATH.list + "sporemanta_powder","plant_matter","sporemanta_powder",
-                  PATH.list + "plant_matter","spittleshrub_root","plant_matter"
+                  "", PATH.list + "sporemanta_powder","",
+                  PATH.list + "sporemanta_powder", PATH.list + "plant_matter", PATH.list + "sporemanta_powder",
+                  PATH.list + "plant_matter", PATH.list + "spittleshrub_root", PATH.list + "plant_matter"
                 ],
                 output: "../items/vanilla/images/firefly_bush.png",
                 outputName: "Firefly Bush (3)",
@@ -3020,8 +3020,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "kakatsumuri_glowing_tip","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/glow_lichen.png",
                 outputName: "Glow Lichen (2)",
@@ -3045,9 +3045,9 @@ export const recipeTree = [
                   "Wheat Seeds", "Wheat Seeds", "Wheat Seeds"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","plant_matter","",
-                  PATH.list + "","",""
+                  "","","",
+                  "", PATH.list + "plant_matter","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/melon.png",
                 outputName: "Melon",
@@ -3071,9 +3071,9 @@ export const recipeTree = [
                   "", "Spittleshrub Root", ""
                 ],
                 links: [
-                  PATH.list + "","stingerhead_eye","",
-                  PATH.list + "stingerhead_eye","plant_matter","stingerhead_eye",
-                  PATH.list + "","spittleshrub_root",""
+                  "", PATH.list + "stingerhead_eye","",
+                  PATH.list + "stingerhead_eye", PATH.list + "plant_matter", PATH.list + "stingerhead_eye",
+                  "", PATH.list + "spittleshrub_root",""
                 ],
                 output: "../items/vanilla/images/open_eyeblossom.png",
                 outputName: "Open Eyeblossom (2)",
@@ -3097,9 +3097,9 @@ export const recipeTree = [
                   "Octoliar Tentacle", "Octoliar Tentacle", "Octoliar Tentacle"
                 ],
                 links: [
-                  PATH.list + "octoliar_tentacle","octoliar_tentacle","octoliar_tentacle",
-                  PATH.list + "octoliar_tentacle","plant_matter","octoliar_tentacle",
-                  PATH.list + "octoliar_tentacle","octoliar_tentacle","octoliar_tentacle"
+                  PATH.list + "octoliar_tentacle", PATH.list + "octoliar_tentacle", PATH.list + "octoliar_tentacle",
+                  PATH.list + "octoliar_tentacle", PATH.list + "plant_matter", PATH.list + "octoliar_tentacle",
+                  PATH.list + "octoliar_tentacle", PATH.list + "octoliar_tentacle", PATH.list + "octoliar_tentacle"
                 ],
                 output: "../items/vanilla/images/pale_oak_sapling.png",
                 outputName: "Pale Oak Sapling",
@@ -3123,9 +3123,9 @@ export const recipeTree = [
                   "", "Spittleshrub Root", ""
                 ],
                 links: [
-                  PATH.list + "","tachikatana_claw","",
-                  PATH.list + "","plant_matter","",
-                  PATH.list + "","spittleshrub_root",""
+                  "", PATH.list + "tachikatana_claw","",
+                  "", PATH.list + "plant_matter","",
+                  "", PATH.list + "spittleshrub_root",""
                 ],
                 output: "../items/vanilla/images/pitcher_plant.png",
                 outputName: "Pitcher Plant",
@@ -3150,8 +3150,8 @@ export const recipeTree = [
                 ],
                 links: [
                   PATH.list + "plant_matter","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/red_mushroom.png",
                 outputName: "Red Mushroom (2)",
@@ -3175,8 +3175,8 @@ export const recipeTree = [
                   "Spittleshrub Root", "", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "plant_matter","plant_matter","plant_matter",
+                  "","","",
+                  PATH.list + "plant_matter", PATH.list + "plant_matter", PATH.list + "plant_matter",
                   PATH.list + "spittleshrub_root","",""
                 ],
                 output: "../items/vanilla/images/small_dripleaf.png",
@@ -3201,9 +3201,9 @@ export const recipeTree = [
                   "", "Plant Matter", ""
                 ],
                 links: [
-                  PATH.list + "","swarmshocker_charged_powder","",
-                  PATH.list + "","plant_matter","",
-                  PATH.list + "","plant_matter",""
+                  "", PATH.list + "swarmshocker_charged_powder","",
+                  "", PATH.list + "plant_matter","",
+                  "", PATH.list + "plant_matter",""
                 ],
                 output: "../items/vanilla/images/sunflower.png",
                 outputName: "Sunflower (2)",
@@ -3227,9 +3227,9 @@ export const recipeTree = [
                   "Short Grass", "Short Grass", "Short Grass"
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","kuongatari_juice","",
-                  PATH.list + "","",""
+                  "","","",
+                  "", PATH.list + "kuongatari_juice","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/tall_dry_grass.png",
                 outputName: "Tall Dry Grass (8)",
@@ -3253,9 +3253,9 @@ export const recipeTree = [
                   "Plant Matter", "", "Plant Matter"
                 ],
                 links: [
-                  PATH.list + "plant_matter","","plant_matter",
-                  PATH.list + "plant_matter","spittleshrub_root","plant_matter",
-                  PATH.list + "plant_matter","","plant_matter"
+                  PATH.list + "plant_matter","", PATH.list + "plant_matter",
+                  PATH.list + "plant_matter", PATH.list + "spittleshrub_root", PATH.list + "plant_matter",
+                  PATH.list + "plant_matter","", PATH.list + "plant_matter"
                 ],
                 output: "../items/vanilla/images/vine.png",
                 outputName: "Vine (21)",
@@ -3279,9 +3279,9 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 links: [
-                  PATH.list + "","","",
-                  PATH.list + "","","",
-                  PATH.list + "","",""
+                  "","","",
+                  "","","",
+                  "","",""
                 ],
                 output: "../items/vanilla/images/wheat_seeds.png",
                 outputName: "Wheat Seeds",
@@ -3433,7 +3433,7 @@ export const recipeTree = [
                   "Iron Ingot", "", "Iron Ingot"
                 ],
                 links: [
-                  PATH.list + "buroguro_lantern", PATH.list + "swarmshoarder_jelly", PATH.list + "buroguro_lantern",
+                  PATH.list + "buroguro_lantern", PATH.list + "swarmhoarder_jelly", PATH.list + "buroguro_lantern",
                   "","","",
                   "","",""
                 ],
@@ -4193,7 +4193,7 @@ export const recipeTree = [
                   "", "", ""
                 ],
                 names: [
-                  "Splitjaw Gunk", "Swarmshocker Jelly", "",
+                  "Splitjaw Gunk", "Swarmhoarder Jelly", "",
                   "", "", "",
                   "", "", ""
                 ],
