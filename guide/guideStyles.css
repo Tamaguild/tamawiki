@@ -177,7 +177,7 @@ body {
 }
 
 .ore {
-  background-image: none;
+  background-image: url("./banner/ore.png");
 }
 
 /* glow */
