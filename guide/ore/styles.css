@@ -36,9 +36,14 @@ body {
 
 /* HEADER */
 .guide-header {
+  width: min(1000px, calc(100% - 32px));
+  box-sizing: border-box;
+  margin: 0 auto 30px;
+  padding: 24px 28px;
   text-align: center;
-  margin-bottom: 30px;
   color: #ffe596;
+  background: #3a2b1a;
+  border: 3px solid #8b6a3e;
 }
 
 .guide-header h1 {
