@@ -1,60 +1,28 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="icon" type="image/x-icon" href="../../../general/textures/icons/orby.png">
-    <meta charset="UTF-8">
-    <title>Layer 5</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Handlee&display=swap" rel="stylesheet">
-    <style>
-        body { margin: 0; padding: 20px; }
-        .collapsible { min-height: 100px; padding: 10px; border: 1px solid #ccc; margin-bottom: 10px; }
-    </style>
-</head>
-
-<body class="layer5-bg">
-
-<div class="note">
-
-    <h1 class="mainTitle">LAYER 5</h1>
-    <div class="divider"></div>
-
-    <h2 id="basicHeader" class="sectionTitle">Basic</h2>
-    <div id="basicContent" class="collapsible"></div>
-
-    <div class="divider"></div>
-
-    <h2 id="tipHeader" class="sectionTitle">Tips</h2>
-    <div id="tipContent" class="collapsible"></div>
-
-    <div class="divider"></div>
-
-    <h2 id="placeHeader" class="sectionTitle">Must Visit Place</h2>
-    <div id="placeContent" class="collapsible"></div>
-
-</div>
-
-<script type="module" src="script.js"></script>
-</body>
-
-</html>
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Layer5</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layer 5</title>
 <link rel="icon" type="image/x-icon" href="../../../general/textures/icons/orby.png">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div>
-    <h1>LAYER5</h1>
-    <h3>Comming Soon...</h3>
+<a class="map-back-button" href="../../map.html">Back to map</a>
+<a class="home-logo" href="../../../index.html" aria-label="Return to TamaWiki home">
+    <img src="../../main_img/logo.png" alt="home">
+</a>
+<main class="page-shell">
+    <section class="map-panel" aria-label="Layer 1 map">
+        <div class="map-stage" id="mapStage"></div>
+    </section>
+</main>
+<div class="image-viewer" id="imageViewer" hidden>
+    <div class="image-viewer-frame">
+        <button class="image-viewer-close" id="imageViewerClose" type="button" aria-label="Close image">X</button>
+        <img id="imageViewerImage" alt="">
+    </div>
 </div>
-
-
+<script type="module" src="script.js"></script>
 </body>
 </html>

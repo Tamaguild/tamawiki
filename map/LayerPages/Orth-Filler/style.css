@@ -1,4 +1,6 @@
 body {
+	display: flex;
+	flex-direction: column;
 	min-height: 100vh;
 	background-image: url("../../../general/textures/backgrounds/orphanage.png");
 	background-size: cover;
@@ -7,10 +9,9 @@ body {
 }
 
 .wrapper {
-	min-height: 0;
+	flex: 1 0 auto;
 	height: auto;
 	width: min(1500px, calc(100% - 32px));
-	padding-bottom: 48px;
 }
 
 .trade-page {
@@ -89,6 +90,13 @@ body {
 	font-size: 13px;
 }
 
+.instruction {
+	margin: 0;
+	padding: 9px 16px;
+	border-bottom: 1px solid #d9dfeb;
+	font-size: 13px;
+}
+
 .trade-table {
 	width: 100%;
 	border-collapse: collapse;
@@ -104,9 +112,43 @@ body {
 	vertical-align: top;
 }
 
+.trade-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.trade-item-image {
+	display: grid;
+	flex: 0 0 36px;
+	width: 36px;
+	height: 36px;
+	place-items: center;
+	box-sizing: border-box;
+	border: 1px solid #c8ced9;
+	border-radius: 4px;
+	background: #727272;
+}
+
+.trade-item-image img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}
+
 .trade-table th {
 	color: #172642;
 	font-weight: bold;
+}
+
+.trade-table a {
+	color: #2557a0;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.trade-table a:hover {
+	color: #162946;
 }
 
 .trade-table tr:last-child td {
@@ -120,6 +162,7 @@ body {
 
 .info {
 	margin-top: 0;
+	flex-shrink: 0;
 }
 
 @media (max-width: 700px) {

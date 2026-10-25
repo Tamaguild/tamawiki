@@ -1,112 +1,53 @@
 import { DATA } from "./data.js";
-import { emote } from "/emoji.js";
 
-/* ===== DEV MODE ===== */
-const DEV_MODE = true; 
-// khi deploy web thật -> đổi thành false
+const mapStage = document.getElementById("mapStage");
+const imageViewer = document.getElementById("imageViewer");
+const imageViewerImage = document.getElementById("imageViewerImage");
+const imageViewerClose = document.getElementById("imageViewerClose");
 
-const DATA_VERSION = 3;
-
-const basicHeader = document.getElementById("basicHeader");
-const basicContent = document.getElementById("basicContent");
-
-const placeHeader = document.getElementById("placeHeader");
-const placeContent = document.getElementById("placeContent");
-
-const tipHeader = document.getElementById("tipHeader");
-const tipContent = document.getElementById("tipContent");
-
-let mustVisit;
-let tips;
-
-/* ===== LOAD DATA ===== */
-
-if (DEV_MODE) {
-    // luôn dùng data.js mới
-    mustVisit = DATA.mustVisit;
-    tips = DATA.tips;
-
-} else {
-    // dùng cache production
-    const savedVersion = localStorage.getItem("data_version");
-
-    if (savedVersion != DATA_VERSION) {
-        mustVisit = DATA.mustVisit;
-        tips = DATA.tips;
-
-        localStorage.setItem("must_visit", JSON.stringify(mustVisit));
-        localStorage.setItem("tips", JSON.stringify(tips));
-        localStorage.setItem("data_version", DATA_VERSION);
-    } else {
-        mustVisit =
-            JSON.parse(localStorage.getItem("must_visit")) || DATA.mustVisit;
-        tips =
-            JSON.parse(localStorage.getItem("tips")) || DATA.tips;
-    }
+function closeImageViewer() {
+    imageViewer.hidden = true;
+    imageViewerImage.removeAttribute("src");
 }
 
-/* ===== TOGGLE ===== */
-function toggle(section) {
-    section.style.display =
-        section.style.display === "none" ? "block" : "none";
+function openImageViewer(place) {
+    if (!place.image) return;
+    imageViewerImage.src = place.image;
+    imageViewerImage.alt = place.name;
+    imageViewer.hidden = false;
 }
 
-/* ===== BASIC ===== */
-basicContent.innerHTML = `
-    <p>${emote(DATA.basic.content)}</p>
-`;
+function createWaypoint(place) {
+    const waypoint = document.createElement("div");
+    waypoint.className = "waypoint";
+    waypoint.style.left = `${Math.max(0, Math.min(100, place.x))}%`;
+    waypoint.style.top = `${Math.max(0, Math.min(100, place.y))}%`;
+    waypoint.setAttribute("tabindex", "0");
+    waypoint.setAttribute("aria-label", place.name);
+    waypoint.addEventListener("click", () => openImageViewer(place));
 
-/* ===== MUST VISIT ===== */
-function renderPlaces() {
-    placeContent.innerHTML = "";
+    const popup = document.createElement("div");
+    popup.className = "waypoint-popup";
+    popup.innerHTML = `
+        ${place.image ? `<img src="${place.image}" alt="${place.name}">` : ""}
+        <strong>${place.name}</strong>
+        <span>Layer: ${place.layer}</span>
+        <span>Section: ${place.section}</span>
+        <span>Coordinate: ${place.coordinate.x}, ${place.coordinate.y}, ${place.coordinate.z}</span>
+        <p>${place.description}</p>
+    `;
 
-    mustVisit.forEach(place => {
-        const div = document.createElement("div");
-        div.classList.add("place");
-
-        div.innerHTML = `
-            <h3>${emote(place.name)}</h3>
-            <p><strong>Location:</strong> ${emote(place.location)}</p>
-            <p><strong>Danger Level:</strong> ${emote(place.danger)}</p>
-            <p>${emote(place.note)}</p>
-            <div class="divider"></div>
-        `;
-
-        placeContent.appendChild(div);
-    });
-
-    if (!DEV_MODE) {
-        localStorage.setItem("must_visit", JSON.stringify(mustVisit));
-    }
+    waypoint.appendChild(document.createElement("span"));
+    waypoint.appendChild(popup);
+    mapStage.appendChild(waypoint);
 }
 
-/* ===== TIPS ===== */
-function renderTips() {
-    tipContent.innerHTML = "";
+DATA.waypoints.forEach(createWaypoint);
 
-    tips.forEach(tip => {
-        const div = document.createElement("div");
-        div.classList.add("tip");
-
-        div.innerHTML = `
-            <h3>${emote(tip.title)}</h3>
-            <p>${emote(tip.content)}</p>
-            <div class="divider"></div>
-        `;
-
-        tipContent.appendChild(div);
-    });
-
-    if (!DEV_MODE) {
-        localStorage.setItem("tips", JSON.stringify(tips));
-    }
-}
-
-/* ===== EVENTS ===== */
-basicHeader.addEventListener("click", () => toggle(basicContent));
-placeHeader.addEventListener("click", () => toggle(placeContent));
-tipHeader.addEventListener("click", () => toggle(tipContent));
-
-/* ===== RENDER ===== */
-renderPlaces();
-renderTips();
+imageViewerClose.addEventListener("click", closeImageViewer);
+imageViewer.addEventListener("click", event => {
+    if (event.target === imageViewer) closeImageViewer();
+});
+document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeImageViewer();
+});

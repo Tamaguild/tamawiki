@@ -7,8 +7,8 @@ import { DATA as mainRecipes } from "../main_recipe/news-data.js";
 
 const newsGrid = document.getElementById("newsGrid");
 const fillerGrid = document.getElementById("fillerGrid");
+const featureImage = "./img/newslogo.png";
 const cardCount = 14;
-const realNewsCount = 6;
 
 function clean(value = "") {
   return String(value)
@@ -40,7 +40,7 @@ function sourceRecord(record, fallbackName, getHref) {
   };
 }
 
-function buildFillerCards() {
+function buildFillerCards(count) {
   const sources = [
     {
       type: "recipe",
@@ -82,7 +82,7 @@ function buildFillerCards() {
     }
   ].filter((source) => source.records.length);
 
-  return Array.from({ length: cardCount - realNewsCount }, (_, index) => {
+  return Array.from({ length: count }, (_, index) => {
     const source = sources[index % sources.length];
     const record = pickRandom(source.records);
     return {
@@ -96,6 +96,19 @@ function buildFillerCards() {
         .replace("{grade}", record.grade)
     };
   });
+}
+
+function renderFeatureCard() {
+  const article = document.createElement("article");
+  article.className = "news-card feature-image";
+
+  const image = document.createElement("img");
+  image.src = featureImage;
+  image.alt = "Latest news feature";
+  image.loading = "eager";
+
+  article.appendChild(image);
+  return article;
 }
 
 function renderCard(card) {
@@ -146,8 +159,9 @@ function renderCard(card) {
 
 const prioritizedNews = [...news]
   .sort((a, b) => new Date(b.time) - new Date(a.time))
-  .slice(0, realNewsCount)
   .map((item) => ({ ...item, type: "news" }));
 
-newsGrid.replaceChildren(...prioritizedNews.map(renderCard));
-fillerGrid.replaceChildren(...buildFillerCards().map(renderCard));
+const latestNewsCards = [renderFeatureCard(), ...prioritizedNews.map(renderCard)];
+const fillerCount = Math.max(0, cardCount - latestNewsCards.length);
+newsGrid.replaceChildren(...latestNewsCards);
+fillerGrid.replaceChildren(...buildFillerCards(fillerCount).map(renderCard));

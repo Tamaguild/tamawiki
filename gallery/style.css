@@ -28,21 +28,25 @@
 }
 
 .gallery-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	gap: 28px;
-	margin-top: 28px;
+	width: min(1100px, 100%);
+	margin: 28px auto 0;
+	column-count: 1;
+	column-gap: 28px;
 }
 
 .gallery-card {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 28px;
 	overflow: hidden;
 	background: var(--box-bg);
 	border: 3px solid var(--border-brown);
 	box-shadow: 0 5px 14px rgba(58, 43, 26, 0.25);
+	break-inside: avoid;
 }
 
 .gallery-image-wrap {
-	aspect-ratio: 4 / 3;
+	aspect-ratio: 3 / 2;
 	background: #211a15;
 	border-bottom: 3px solid var(--border-brown);
 }
@@ -89,5 +93,11 @@
 
 	.btn {
 		flex: 0 0 180px;
+	}
+}
+
+@media (max-width: 600px) {
+	.gallery-grid {
+		column-count: 1;
 	}
 }

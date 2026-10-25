@@ -15,6 +15,25 @@ body {
   z-index: 1000;
 }
 
+.image-link-button {
+  position: fixed;
+  bottom: 15px;
+  left: 1600px;
+  z-index: 1000;
+  width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.image-link-button:hover {
+  transform: scale(1.1);
+}
+
+.image-link-button img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .search-button {
   width: 44px;
   height: 44px;

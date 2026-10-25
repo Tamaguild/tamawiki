@@ -3,6 +3,7 @@ export const TRADE_GROUPS = [
 		location: "Golden Bridge",
 		trader: "Boy, Lord of Currency",
 		coordinates: "x:-558 y:128 z:-20",
+		instruction: "The shop owner is 2 little villager near the Golden Bridge or Grand Pier on okibo map",
 		rows: [
 			["7 x Orb Piercer Spike", "1 x Orth Coin"],
 			["4 x Orb Piercer Face Fragments", "1 x Orth Coin"],
@@ -16,6 +17,34 @@ export const TRADE_GROUPS = [
 			["14 x Rohana Powder", "1 x Orth Coin"],
 			["12 x Dosetori Wing", "1 x Orth Coin"],
 			["10 x Dosetori Bone", "1 x Orth Coin"]
-		]
-	}
+		],
+		links: [
+			["./../../../recipe/recipe_menu.html?page=orb_piercer_spike", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""]
+		],
+		images: [
+			["../../../items/mob_drops/images/orb_piercer_spike.png", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""],
+			["", ""]
+		],
+	},
 ];

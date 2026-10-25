@@ -11,6 +11,11 @@ function toSlug(value) {
 const pluh = new URLSearchParams(location.search);
 const pageQuery = pluh.get("page");
 let index = 0;
+const searchBtn = document.getElementById("searchBtn");
+const searchPopup = document.getElementById("searchPopup");
+const searchInput = document.getElementById("searchInput");
+const searchResults = document.getElementById("searchResults");
+const searchClose = document.getElementById("searchClose");
 
 if (pageQuery) {
   const pageNum = Number(pageQuery);
@@ -182,6 +187,98 @@ function render() {
   updatePagination();
 }
 
+function openSearch() {
+  searchPopup.setAttribute("aria-hidden", "false");
+  searchBtn.setAttribute("aria-expanded", "true");
+  searchInput.focus();
+  searchInput.select();
+}
+
+function closeSearch() {
+  searchPopup.setAttribute("aria-hidden", "true");
+  searchBtn.setAttribute("aria-expanded", "false");
+  searchResults.replaceChildren();
+  searchInput.value = "";
+  searchBtn.focus();
+}
+
+function levenshtein(a, b) {
+  if (a === b) return 0;
+  if (!a.length) return b.length;
+  if (!b.length) return a.length;
+
+  const row = Array.from({ length: b.length + 1 }, (_, index) => index);
+  for (let i = 1; i <= a.length; i++) {
+    let previous = row[0];
+    row[0] = i;
+    for (let j = 1; j <= b.length; j++) {
+      const old = row[j];
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      row[j] = Math.min(row[j] + 1, row[j - 1] + 1, previous + cost);
+      previous = old;
+    }
+  }
+  return row[b.length];
+}
+
+function showSearchResults(query) {
+  const normalizedQuery = query.trim().toLowerCase();
+  searchResults.replaceChildren();
+  if (!normalizedQuery) return;
+
+  const matches = DATA.map((item, itemIndex) => {
+    const name = (item.name || "").toLowerCase();
+    const containsQuery = name.includes(normalizedQuery);
+    return {
+      item,
+      itemIndex,
+      containsQuery,
+      score: containsQuery ? 0 : levenshtein(name, normalizedQuery)
+    };
+  })
+    .filter(result => result.containsQuery || result.score <= Math.max(2, Math.floor(normalizedQuery.length / 3)))
+    .sort((a, b) => a.score - b.score || a.item.name.localeCompare(b.item.name))
+    .slice(0, 10);
+
+  if (!matches.length) {
+    const empty = document.createElement("li");
+    empty.textContent = "No matches";
+    searchResults.appendChild(empty);
+    return;
+  }
+
+  matches.forEach(({ item, itemIndex, score }) => {
+    const result = document.createElement("li");
+    result.textContent = item.name + (score > 0 ? ` — ${score}` : "");
+    result.tabIndex = 0;
+    result.setAttribute("role", "option");
+    result.addEventListener("click", () => {
+      filteredData = [...DATA];
+      index = itemIndex;
+      render();
+      closeSearch();
+    });
+    result.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        result.click();
+      }
+    });
+    searchResults.appendChild(result);
+  });
+}
+
+if (searchBtn && searchPopup && searchInput && searchResults && searchClose) {
+  searchBtn.addEventListener("click", openSearch);
+  searchClose.addEventListener("click", closeSearch);
+  searchInput.addEventListener("input", event => showSearchResults(event.target.value));
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape" && searchPopup.getAttribute("aria-hidden") === "false") {
+      closeSearch();
+    }
+  });
+}
+
 function updatePagination() {
   const pageInput = document.getElementById("pageInput");
   if (pageInput) {
@@ -221,18 +318,6 @@ pageInput.addEventListener("blur", () => {
   updatePagination();
 });
 
-function filterData(term) {
-  const query = term.toLowerCase().trim();
-  filteredData = query === "" ? [...DATA] : DATA.filter(item =>
-    item.name.toLowerCase().includes(query) ||
-    item.mob.toLowerCase().includes(query) ||
-    item.description.toLowerCase().includes(query)
-  );
-  index = 0;
-  updateSearchResults();
-  render();
-}
-
 function nextItem() {
   if (index < filteredData.length - 1) {
     index++;
@@ -256,4 +341,3 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   render();
 });
-

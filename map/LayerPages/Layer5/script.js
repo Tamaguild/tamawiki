@@ -1,31 +1,53 @@
-import { DATA } from './data.js';
+import { DATA } from "./data.js";
 
-// BASIC
-const basicDiv = document.getElementById("basicContent");
-basicDiv.innerHTML = `<p>${DATA.basic.content}</p>`;
+const mapStage = document.getElementById("mapStage");
+const imageViewer = document.getElementById("imageViewer");
+const imageViewerImage = document.getElementById("imageViewerImage");
+const imageViewerClose = document.getElementById("imageViewerClose");
 
-// TIPS
-const tipDiv = document.getElementById("tipContent");
+function closeImageViewer() {
+    imageViewer.hidden = true;
+    imageViewerImage.removeAttribute("src");
+}
 
-DATA.tips.forEach(tip => {
-    const tipElement = document.createElement("div");
-    tipElement.innerHTML = `
-        <h3>${tip.title}</h3>
-        <p>${tip.content}</p>
+function openImageViewer(place) {
+    if (!place.image) return;
+    imageViewerImage.src = place.image;
+    imageViewerImage.alt = place.name;
+    imageViewer.hidden = false;
+}
+
+function createWaypoint(place) {
+    const waypoint = document.createElement("div");
+    waypoint.className = "waypoint";
+    waypoint.style.left = `${Math.max(0, Math.min(100, place.x))}%`;
+    waypoint.style.top = `${Math.max(0, Math.min(100, place.y))}%`;
+    waypoint.setAttribute("tabindex", "0");
+    waypoint.setAttribute("aria-label", place.name);
+    waypoint.addEventListener("click", () => openImageViewer(place));
+
+    const popup = document.createElement("div");
+    popup.className = "waypoint-popup";
+    popup.innerHTML = `
+        ${place.image ? `<img src="${place.image}" alt="${place.name}">` : ""}
+        <strong>${place.name}</strong>
+        <span>Layer: ${place.layer}</span>
+        <span>Section: ${place.section}</span>
+        <span>Coordinate: ${place.coordinate.x}, ${place.coordinate.y}, ${place.coordinate.z}</span>
+        <p>${place.description}</p>
     `;
-    tipDiv.appendChild(tipElement);
+
+    waypoint.appendChild(document.createElement("span"));
+    waypoint.appendChild(popup);
+    mapStage.appendChild(waypoint);
+}
+
+DATA.waypoints.forEach(createWaypoint);
+
+imageViewerClose.addEventListener("click", closeImageViewer);
+imageViewer.addEventListener("click", event => {
+    if (event.target === imageViewer) closeImageViewer();
 });
-
-// MUST VISIT
-const placeDiv = document.getElementById("placeContent");
-
-DATA.mustVisit.forEach(place => {
-    const placeElement = document.createElement("div");
-    placeElement.innerHTML = `
-        <h3>${place.name}</h3>
-        <p><strong>Location:</strong> ${place.location}</p>
-        <p><strong>Danger:</strong> ${place.danger}</p>
-        <p>${place.note}</p>
-    `;
-    placeDiv.appendChild(placeElement);
+document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeImageViewer();
 });

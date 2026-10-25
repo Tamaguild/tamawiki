@@ -102,6 +102,13 @@ body{
   text-align: center;
 }
 
+.masthead-image {
+  display: block;
+  width: min(100%, 600px);
+  height: auto;
+  margin: 0 auto 14px;
+}
+
 h1 {
   color: #ffe596;
   font-weight: 700;
@@ -181,6 +188,22 @@ h1 {
   border: 1px solid #6b4e2d;
   border-radius: 10px;
   color: #fffaf0;
+}
+
+.news-card.feature-image {
+  min-height: 230px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #6b4e2d;
+  background: #efe5d3;
+}
+
+.news-card.feature-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 230px;
+  object-fit: cover;
 }
 
 .news-card.filler {

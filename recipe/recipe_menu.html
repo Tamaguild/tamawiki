@@ -21,6 +21,17 @@
 
 <body>
 
+<div class="recipe-search">
+  <button id="searchBtn" class="search-btn" type="button" title="Search mob drops" aria-label="Search mob drops" aria-controls="searchPopup" aria-expanded="false">🔍</button>
+  <div id="searchPopup" class="search-popup" aria-hidden="true">
+    <div class="search-header">
+      <input id="searchInput" class="search-input" type="search" placeholder="Type a mob drop name..." aria-label="Search mob drops by name" autocomplete="off">
+      <button id="searchClose" class="search-close" type="button" title="Close search" aria-label="Close search">✖</button>
+    </div>
+    <ul id="searchResults" class="search-results" role="listbox" aria-label="Mob drop search results"></ul>
+  </div>
+</div>
+
 <div class="page">
 
   <!-- LEFT -->

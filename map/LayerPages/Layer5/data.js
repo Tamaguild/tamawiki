@@ -1,39 +1,94 @@
 export const DATA = {
-  basic: {
-    title: "Basic",
-    content: "Layer 5 is the fifth layer you will encounter in the game. The layer itself is not very safe, but there still are some interesting places to explore and mobs that will kill even people with good armour."
-  },
-
-  mustVisit: [
+  waypoints: [
     {
-      id: 1,
-      name: "Big circle",
-      location: "X: Y: Z:",
-      danger: "Low",
-      note: "I considered this is the best place to hunt skelly. The terrain is hard af to navigate and spot those skelly :mogicrazy:"
+      name: "Ido Front",
+      layer: "Layer 5",
+      section: "Section 3",
+      // x and y are percentages used only to place the marker on the map.
+      x: 49,
+      y: 70,
+      coordinate: {
+        x: 229790  ,
+        y: 94 ,
+        z: -408,
+      },
+      image: "",
+      description: "An ancient fortress that used for some kind of ritual. This is the only 'legal' way to reach L6.",
+    },
+    {
+      name: "Lost Delver Landing",
+      layer: "Layer 5",
+      section: "Section 1",
+      // x and y are percentages used only to place the marker on the map.
+      x: 70,
+      y: 25,
+      coordinate: {
+        x: 196732,
+        y: 78  ,
+        z: -1150,
+      },
+      image: "",
+      description: "A mystery town that built for lost delvers ( I guess? ). This place also held the 4th Auction House.",
+    },
+    {
+      name: "Epsilon",
+      layer: "Layer 5",
+      section: "Section 2",
+      // x and y are percentages used only to place the marker on the map.
+      x: 75,
+      y: 48,
+      coordinate: {
+        x: 213105,
+        y: -49  ,
+        z: -1688,
+      },
+      image: "",
+      description: "Ghost town built by a group of delvers. Dont really have much information about it",
+    },
+    {
+      name: "Zodiac",
+      layer: "Layer 5",
+      section: "Section 2",
+      // x and y are percentages used only to place the marker on the map.
+      x: 60,
+      y: 47,
+      coordinate: {
+        x: 215093,
+        y: -20,
+        z:  -128,
+      },
+      image: "",
+      description: "Ghost town built by a group of delvers. Dont really have much information about it",
+    },
+    {
+      name: "The Pleiades",
+      layer: "Layer 5",
+      section: "Section 2",
+      // x and y are percentages used only to place the marker on the map.
+      x: 43,
+      y: 45,
+      coordinate: {
+        x: 196762,
+        y: 203,
+        z: 12,
+      },
+      image: "",
+      description: "Town built by a group of delvers. I heard it is just built recently.",
+    },
+    {
+      name: "Nazarick",
+      layer: "Layer 5",
+      section: "Section 2",
+      // x and y are percentages used only to place the marker on the map.
+      x: 63,
+      y: 48,
+      coordinate: {
+        x: 214291,
+        y: -96,
+        z: -259,
+      },
+      image: "",
+      description: "Town built by a group of delvers. I heard it is just built recently.",
     },
   ],
-
-  tips: [
-    {
-      id: 1,
-      title: "Tip 1: Running :tuh:",
-      content: "Always try to avoid any fight at first, you can easily be one tap by weird bug looking things :mogicrazy:"
-    },
-    {
-      id: 2,
-      title: "Tip 2: Dont jump down:tuh:",
-      content: "Dont try to jump far heights as fast as you might die very quickly and avoid the void obviously."
-    },
-    {
-      id: 3,
-      title: "Tip 3 last stop before the starry city",
-      content: "pack stuff if your going to stary city place a bonfire maybe or set up camp."
-    },
-    {
-      id: 2,
-      title: "Tip 4 always remeber to bring food if you plan to use a water elevator"
-      content: "alwasys bring extra food to elavatours to insure that you dont die on the assent as you can easily die from the curse of the abyss and bring campfires to set a spawn if you dont want to spend nearly an hour waiting for the curse to go away on its own :mogicrazy:"
-    }
-  ]
 };
