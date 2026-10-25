@@ -5,7 +5,7 @@ export const CHANGE_LOG = [
     { date: "", text: "Added Map Section ( heavily W.I.P ) and Gallery Section ( havent had any functional mechanism yet )" },
     { date: "2026-10-25", text: "Second Grand Update" },
     { date: "", text: "Finished Gallery."},
-    { date: "", text: "Added Recipe Page " },
-    { date: "", text: "Added Wardrobe ( now you can access to it through Miscellaneous )" },
-    { date: "", text: "Almost Finsihed Map Section, Orth Section still in work in progess" },
+    { date: "", text: "Added Recipe Page." },
+    { date: "", text: "Added Wardrobe ( now you can access to it through Miscellaneous )." },
+    { date: "", text: "Almost Finsihed Map Section, Orth Section still in work in progess." },
 ];
