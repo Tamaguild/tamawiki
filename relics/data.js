@@ -32,6 +32,13 @@ export const DATA = [
           I'm so scared when using this, what if it pinches my dih, oh my gawd.
         </div>
       </div>
+
+      <div class="tip">
+        <img class="tip-avatar" src="../../avatar/pocky.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Where are my dinos?
+        </div>
+      </div>
     `
     /*change the Avatar in the avatar box, to add more tips, copy the prompt from line 9 to line 14*/
   },
@@ -733,11 +740,12 @@ export const DATA = [
         </div>
       </div>
       <div class="tip">
-        <img class="tip-avatar" src="../../avatar/doodlenator.png" alt="Tip avatar"> 
+        <img class="tip-avatar" src="../../avatar/pocky.png" alt="Tip avatar"> 
         <div class="tip-box">
-          This is the BEST relic I tell you, the BEST! It can do anything! Stabbing, knitting, sucking BLOOD... It can even prevent you from mining blocks! Ah Capillary, truly a marvelous relic to behold!
+          No idea which capillary is growing, arteries or veins.
         </div>
       </div>
+      
     `
   },
   {

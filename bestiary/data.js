@@ -910,6 +910,12 @@ drops: [
           Creepy parrots.
         </div>
       </div>
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/pocky.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          Favorite food
+        </div>
+      </div>
     `
   },
   {
@@ -3223,7 +3229,14 @@ drops: [
      xp: "35-50",
      hp: 80,
     },
-    extra: "Tip1"
+    extra:`
+      <div class="tip">
+        <img class="tip-avatar" src="../avatar/pocky.png" alt="Tip avatar"> 
+        <div class="tip-box">
+          This is a shrimp if you look in the right angle
+        </div>
+      </div>
+    `
   },
   {
     name: "Hagamizukin",
