@@ -12,6 +12,31 @@ const selectedCosmetics = {
 
 init();
 createUI();
+setupHelpBoard();
+
+function setupHelpBoard() {
+  const helpButton = document.getElementById('helpButton');
+  const helpBoard = document.getElementById('helpBoard');
+  const helpClose = document.getElementById('helpClose');
+
+  function closeHelpBoard() {
+    helpBoard.hidden = true;
+    helpButton.setAttribute('aria-expanded', 'false');
+    helpButton.focus();
+  }
+
+  helpButton.addEventListener('click', () => {
+    helpBoard.hidden = false;
+    helpButton.setAttribute('aria-expanded', 'true');
+    helpClose.focus();
+  });
+  helpClose.addEventListener('click', closeHelpBoard);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !helpBoard.hidden) {
+      closeHelpBoard();
+    }
+  });
+}
 
 function init() {
   const viewer = document.getElementById('viewer');
@@ -212,11 +237,17 @@ function setActive(clicked, type) {
 
 function updatePriceDisplay() {
   const priceTotal = document.getElementById('priceTotal');
+  const mittyCoinTotal = document.getElementById('mittyCoinTotal');
   const priceList = document.getElementById('priceList');
   const selectedItems = Object.values(selectedCosmetics).filter(Boolean);
-  const total = selectedItems.reduce((sum, item) => sum + (Number(item.price) || 0), 0);
+  const coinTotal = selectedItems.reduce((sum, item) => sum + (Number(item.price) || 0), 0);
+  const mittyTotal = selectedItems.reduce((sum, item) => sum + (Number(item.mittyCoin) || 0), 0);
 
-  priceTotal.textContent = total.toLocaleString();
+  priceTotal.textContent = selectedItems.length > 0 && coinTotal === 0 && mittyTotal === 0
+    ? 'Exclusive'
+    : `${coinTotal.toLocaleString()} coins`;
+  mittyCoinTotal.textContent = `${mittyTotal.toLocaleString()} Mitty coins`;
+  mittyCoinTotal.hidden = mittyTotal <= 0;
   priceList.replaceChildren();
 
   if (selectedItems.length < 2) return;
@@ -224,7 +255,19 @@ function updatePriceDisplay() {
   selectedItems.forEach(item => {
     const priceItem = document.createElement('div');
     priceItem.className = 'price-item';
-    priceItem.textContent = `${item.name}: ${(Number(item.price) || 0).toLocaleString()} coins`;
+    const itemCoinPrice = Number(item.price) || 0;
+    const itemMittyPrice = Number(item.mittyCoin) || 0;
+    if (itemCoinPrice === 0 && itemMittyPrice === 0) {
+      priceItem.textContent = `${item.name}: Exclusive`;
+      priceList.appendChild(priceItem);
+      return;
+    }
+
+    const itemPrices = [`${itemCoinPrice.toLocaleString()} coins`];
+    if (itemMittyPrice > 0) {
+      itemPrices.push(`${itemMittyPrice.toLocaleString()} Mitty coins`);
+    }
+    priceItem.textContent = `${item.name}: ${itemPrices.join(' and ')}`;
     priceList.appendChild(priceItem);
   });
 }

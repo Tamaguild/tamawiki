@@ -7,7 +7,7 @@ export const DATA = {
       name: "Tama Hat",
       model: './models/tama_hat.glb',
       gif: './GIFS/tama_hat.gif',
-      price: 250,
+      price: 0,
 
       scale: 1.5,
       position: { x: -0.66, y: 1.3, z: -1 },
@@ -56,7 +56,8 @@ export const DATA = {
       name: "Bondrewd Helmet",
       model: './models/bondrewd_helmet.glb',
       gif: './GIFS/bondrewd_helmet.gif',
-      price: "2 Mitty",
+      price: 0,
+      mittyCoin: 2,
 
       scale: 1.4,
       position: { x: -0.61, y: 1.15, z: -0.94 },
@@ -86,7 +87,8 @@ export const DATA = {
       name: "Dooby Helmet",
       model: './models/dooby_helmet.glb',
       gif: './GIFS/dooby_helmet.gif',
-      price: "2 Mitty",
+      price: 0,
+      mittyCoin: 2,
 
       scale: 1,
       position: { x: -0.45, y: 1.8, z: -0.55 },
@@ -97,6 +99,7 @@ export const DATA = {
       model: './models/feahter_hat_blue.glb',
       gif: './GIFS/feather_hat_blue.gif',
       price: 100,
+      
       scale: 1,
       position: { x: -0.45, y: 1.9, z: -0.5 },
       rotation: { x: 0.1, y: -0.1, z: 0 }
@@ -124,7 +127,8 @@ export const DATA = {
       name: "Henya Helmet",
       model: './models/henya_helmet.glb',
       gif: './GIFS/henya_helmet.gif',
-      price: "3 Mitty",
+      price: 0,
+      mittyCoin: 3,
 
       scale: 1,
       position: { x: -0.45, y: 1.8, z: -0.5 },
@@ -193,7 +197,8 @@ export const DATA = {
       name: "Faputa Hat",
       model: './models/faputa_hat.glb',
       gif: './GIFS/faputa_hat.gif',
-      price: "2 Mitty",
+      price: 0,
+      mittyCoin: 2,
 
       scale: 1.7,
       position: { x: -0.75, y: 0.8, z: -1 },
@@ -213,7 +218,8 @@ export const DATA = {
       name: "Lyza Hat",
       model: './models/lyza_hat.glb',
       gif: './GIFS/lyza_hat.gif',
-      price: "1 Mitty",
+      price: 0,
+      mittyCoin: 1,
 
       scale: 1,
       position: { x: -0.08, y: 1.5, z: -0.075 },
@@ -233,7 +239,8 @@ export const DATA = {
       name: "Ozen Hat",
       model: './models/ozen_hat.glb',
       gif: './GIFS/ozen_hat.gif',
-      price: "1 Mitty",
+      price: 0,
+      mittyCoin: 1,
 
       scale: 1.2,
       position: { x: 0, y: 1.4, z: 0 },
@@ -286,7 +293,8 @@ export const DATA = {
       name: "Bondrewd Backpack",
       model: './models/bondrewd_backpack.glb',
       gif: './GIFS/bondrewd_backpack.gif',
-      price: "2 Mitty",
+      price: 0,
+      mittyCoin: 2,
 
       scale: 1.3,
       position: { x: 0.65, y: 2.1, z: 0.95 },
@@ -306,7 +314,8 @@ export const DATA = {
       name: "Nerhtantan Backpack",
       model: './models/neritantan_backpack.glb',
       gif: './GIFS/neritantan_backpack.gif',
-      price: "2 Mitty",
+      price: 0,
+      mittyCoin: 2,
       scale: 1.5,
       position: { x: 0.75, y: 0.25, z: 1.05 },
       rotation: { x: 0, y: Math.PI, z: 0 }

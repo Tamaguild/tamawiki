@@ -37,16 +37,20 @@ function findNodeById(nodes, id) {
   return null;
 }
 
+function isRecipeNode(node) {
+  return ["recipes", "brewings", "furnaces", "blasts"].some((key) => Array.isArray(node[key]));
+}
+
 function getFlattenedData(nodes) {
   const items = [];
 
   function walk(list) {
     list.forEach((node) => {
+      if (isRecipeNode(node)) {
+        items.push(node);
+      }
       if (node.children && node.children.length) {
         walk(node.children);
-      }
-      if (node.title) {
-        items.push(node);
       }
     });
   }
@@ -57,26 +61,30 @@ function getFlattenedData(nodes) {
 
 function getRecipeItems(nodes, result = []) {
   nodes.forEach((node) => {
-    if (node.title) result.push(node);
+    if (isRecipeNode(node)) result.push(node);
     if (node.children && node.children.length) getRecipeItems(node.children, result);
   });
   return result;
 }
 
-function findPath(nodes, id, path = []) {
+function findPath(nodes, target, path = []) {
   for (const node of nodes) {
     const nextPath = [...path, node];
-    if (node.id === id) return nextPath;
+    if (node === target) return nextPath;
     if (node.children && node.children.length) {
-      const match = findPath(node.children, id, nextPath);
+      const match = findPath(node.children, target, nextPath);
       if (match) return match;
     }
   }
   return null;
 }
 
-function getNodeIdPath(node) {
-  return (findPath(recipeTree, node.id) || []).map((part) => part.id).join("/");
+function getNodeSlug(node) {
+  return toSlug(node.slug || node.label || node.title || node.id).replace(/_buh$/, "");
+}
+
+function getNodeSlugPath(node) {
+  return (findPath(recipeTree, node) || []).map(getNodeSlug).join("/");
 }
 
 function findNodeByIdPath(pathValue) {
@@ -93,9 +101,23 @@ function findNodeByIdPath(pathValue) {
   return current;
 }
 
+function findNodeBySlugPath(pathValue) {
+  const slugs = pathValue.split("/").map((part) => part.trim()).filter(Boolean);
+  let nodes = recipeTree;
+  let current = null;
+
+  for (const slug of slugs) {
+    current = nodes.find((node) => getNodeSlug(node) === slug);
+    if (!current) return null;
+    nodes = current.children || [];
+  }
+
+  return current;
+}
+
 function getFirstRecipeItem(node) {
   if (!node) return null;
-  if (node.title) return node;
+  if (isRecipeNode(node)) return node;
   for (const child of node.children || []) {
     const item = getFirstRecipeItem(child);
     if (item) return item;
@@ -103,7 +125,7 @@ function getFirstRecipeItem(node) {
   return null;
 }
 
-function renderTreeBranch(nodes, depth = 0) {
+function renderTreeBranch(nodes, depth = 0, parentSlugPath = []) {
   if (!nodes || !nodes.length) return "";
 
   return nodes
@@ -111,15 +133,17 @@ function renderTreeBranch(nodes, depth = 0) {
       const hasChildren = node.children && node.children.length > 0;
       const isExpanded = Boolean(node.expanded);
       const isSelected = node.active || node.id === selectedDefault;
+      const nodeSlugPath = [...parentSlugPath, getNodeSlug(node)];
+      const nodePath = nodeSlugPath.join("/");
 
       const label = `
-        <div class="tree-node ${hasChildren ? "has-children" : "leaf"} ${isSelected ? "selected" : ""}" data-id="${node.id}" style="--depth:${depth};">
+        <div class="tree-node ${hasChildren ? "has-children" : "leaf"} ${isSelected ? "selected" : ""}" data-id="${node.id}" data-node-path="${nodePath}" style="--depth:${depth};">
           ${hasChildren ? `<button class="tree-toggle ${isExpanded ? "open" : "closed"}" type="button" aria-label="Toggle ${node.label}">▾</button>` : `<span class="tree-spacer"></span>`}
-          <button class="tree-link" type="button">${node.label}</button>
+          <button class="tree-link" type="button" data-slug="${nodePath}">${node.label}</button>
         </div>
       `;
 
-      const childMarkup = hasChildren ? `<div class="tree-children ${isExpanded ? "visible" : "hidden"}">${renderTreeBranch(node.children, depth + 1)}</div>` : "";
+      const childMarkup = hasChildren ? `<div class="tree-children ${isExpanded ? "visible" : "hidden"}">${renderTreeBranch(node.children, depth + 1, nodeSlugPath)}</div>` : "";
       return `${label}${childMarkup}`;
     })
     .join("");
@@ -258,8 +282,7 @@ function bindTreeInteractions() {
     button.addEventListener("click", (event) => {
       event.stopPropagation();
       const nodeEl = button.closest(".tree-node");
-      const id = nodeEl.dataset.id;
-      const node = findNodeById(recipeTree, id);
+      const node = findNodeBySlugPath(nodeEl.dataset.nodePath);
 
       if (!node || !node.children || !node.children.length) return;
 
@@ -273,8 +296,7 @@ function bindTreeInteractions() {
     button.addEventListener("click", (event) => {
       event.stopPropagation();
       const nodeEl = button.closest(".tree-node");
-      const id = nodeEl.dataset.id;
-      const matched = findNodeById(recipeTree, id);
+      const matched = findNodeBySlugPath(button.dataset.slug);
 
       if (!matched) return;
 
@@ -295,15 +317,15 @@ function renderTree() {
 }
 
 function selectRecipe(node, showTips = true) {
-  const path = findPath(recipeTree, node.id) || [];
+  const path = findPath(recipeTree, node) || [];
   recipeTree.forEach((root) => {
     root.active = false;
   });
   path.forEach((part) => {
-    part.active = part.id === node.id;
+    part.active = part === node;
     if (part.children && part.children.length) part.expanded = true;
   });
-  history.replaceState({}, "", `?id=${encodeURIComponent(getNodeIdPath(node))}`);
+  history.replaceState({}, "", `?id=${encodeURIComponent(getNodeSlugPath(node))}`);
   renderTree();
   renderDetail(node, showTips);
 }
@@ -362,13 +384,16 @@ document.addEventListener("keydown", (event) => {
 function initialize() {
   const items = getFlattenedData(recipeTree);
   const params = new URLSearchParams(location.search);
+  const slugParam = params.get("slug");
   const idParam = params.get("id");
   const nameParam = params.get("name");
   const pageParam = params.get("page");
   let target = null;
 
   if (idParam) {
-    target = getFirstRecipeItem(findNodeByIdPath(idParam));
+    target = getFirstRecipeItem(findNodeBySlugPath(idParam) || findNodeByIdPath(idParam));
+  } else if (slugParam) {
+    target = getFirstRecipeItem(findNodeBySlugPath(slugParam));
   } else if (nameParam) {
     const targetSlug = toSlug(nameParam);
     target = items.find((item) =>

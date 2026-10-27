@@ -15,6 +15,85 @@ body {
   height: 100vh;
 }
 
+.help-button,
+.help-close {
+  font: inherit;
+  cursor: pointer;
+}
+
+.help-button {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 3;
+  padding: 8px 12px;
+  border: 2px solid #8b6a3e;
+  border-radius: 8px;
+  background: #fff3d6;
+  color: #5a3e1b;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.help-board {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 4;
+  width: min(440px, calc(100vw - 48px));
+  box-sizing: border-box;
+  padding: 24px;
+  transform: translate(-50%, -50%);
+  border: 4px solid #8b6a3e;
+  border-radius: 12px;
+  background: #fff3d6;
+  color: #5a3e1b;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+  line-height: 1.5;
+}
+
+.help-board[hidden] {
+  display: none;
+}
+
+.help-board h2 {
+  margin: 0 32px 16px 0;
+  text-align: center;
+}
+
+.help-board p:last-child {
+  margin-bottom: 0;
+}
+
+.help-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  border: 0;
+  background: transparent;
+  color: #5a3e1b;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.quit-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 3;
+  transition: transform 0.2s ease;
+}
+
+.quit-button:hover {
+  transform: scale(1.08);
+}
+
+.quit-button img {
+  display: block;
+  width: 73px;
+}
+
 /* ===== KHUNG CHÍNH ===== */
 .container {
   display: flex;

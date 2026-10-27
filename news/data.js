@@ -11,8 +11,13 @@ export const news = [
 	},
 	{
 		title: "Big Reset Is Coming",
-		news: "Abyss gonna witness the 5th Cycle happening soon, pack your stuff, fullfill your wish before everything vanish into the thin air (still can view from archive tho ) !!!!",
+		news: "Abyss gonna witness the 5th Cycle happening soon, pack your stuff, fullfill your wish before everything vanish into the thin air (still can view from archive tho)!!!",
 		time: "2026-10-09"
+	},
+	{
+		title: "Last Auction",
+		news: "The final auction of this cycle is coming at Town of Epsilon ( coordinate: 213190 -49 -1720). Pack your stuff, take all your belonging and bet all your property. Boy the admin also gonna show up with some funni thing ( we heard that )!!! Future annoucement and details are in 'One Last Auction - Town of Epsilon' in survival forum in dsicord.",
+		time: "2026-10-10"
 	},
 ];
 

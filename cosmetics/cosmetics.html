@@ -28,10 +28,28 @@
 </head>
 
 <body>
+<button class="help-button" id="helpButton" type="button" aria-label="Show wardrobe help" aria-expanded="false" aria-controls="helpBoard">[?]</button>
+
+<section class="help-board" id="helpBoard" role="dialog" aria-modal="true" aria-labelledby="helpTitle" hidden>
+  <button class="help-close" id="helpClose" type="button" aria-label="Close help">×</button>
+  <h2 id="helpTitle">Cosmetic Wardrobe</h2>
+  <p>Select a hat or backpack to equip it. Select the same item again to remove it. You can wear one hat and one backpack at a time.</p>
+  <p>You can freely interact with the 3d model by left click to rotate it, scroll to zoom and right click to moving around</p>
+  <p>The price counter shows the combined price of your selected items in coins and Mitty coins. Items with no coin or Mitty coin price are marked Exclusive in the item list.</p>
+  <p>The cosmestics that aint available are likely still got locked behind copyright, we are working on how to post it here without violating anything so dont worry.</p>
+</section>
+
+<a class="quit-button" href="../index.html" aria-label="Quit to home">
+  <img src="../relics/miscellaneous/red_cross.png" alt="Exit">
+</a>
+
 <div class="container">
   <div class="viewer" id="viewer">
     <div class="price-counter" id="priceCounter" aria-live="polite">
-      <div class="price-total"><span id="priceTotal">0</span> coins</div>
+      <div class="price-total">
+        <div id="priceTotal">0 coins</div>
+        <div id="mittyCoinTotal" hidden></div>
+      </div>
       <div class="price-list" id="priceList"></div>
     </div>
   </div>

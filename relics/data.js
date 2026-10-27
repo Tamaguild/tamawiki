@@ -927,7 +927,7 @@ export const DATA = [
     imgb: "Placeholder4.1",
     description: "Discovered and named by a foreign Cave Raider, this scythe carries a long history of ruin. Will you carry on its legacy?<br><br>Layer 5",
     grade: "Grade 1",
-    details: "Each swing with its jagged blade rends not just flesh—but the soul itself. When right-clicked and crouching, unleashes stored souls in a violent burst of spectral energy",
+    details: "Each swing with its jagged blade rends not just flesh—but the soul itself. When right-clicked and crouching, unleashes stored souls in a violent burst of spectral energy.",
     extra: `
       <div class="tip">
         <img class="tip-avatar" src="../../avatar/erm_pigeon.png" alt="Tip avatar"> 
