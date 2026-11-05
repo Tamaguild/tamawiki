@@ -1,6 +1,6 @@
 //Word bank here 
 const BANKS = {
-  "MIA_WORDS": ["SKELLY","RELIC","REG","DUMTICK","RIKO","WHISTLE","PLUH","ONITSUCHI","PICKAXE","LAYER","GOBLETS","FAULT","FOREST","TAMA","ABYSS","NANACHI","MITTY","DELVER","ABYSS",]
+  "MIA_WORDS": ["ABYSS","DELVER","DUMTICK","FAULT","FOREST","GOBLETS","LAYER","MITTY","NANACHI","ONITSUCHI","PICKAXE","PLUH","REG","RELIC","RIKO","SKELLY","TAMA","WHISTLE",]
 };
 //Settings: Bank to pull from; Number of words to hide; grid dimensions
 const CATEGORY = "MIA_WORDS";
